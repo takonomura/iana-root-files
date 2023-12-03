@@ -1,0 +1,22 @@
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 23 * * *'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./update.sh
+      - run: |
+          git add 'data/'
+          git diff --cached --quiet && exit 0 || : # Exit if no changes
+
+          git config user.name 'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+
+          git commit -m "Update data ($(date +%Y-%m-%d))"
+          git push
