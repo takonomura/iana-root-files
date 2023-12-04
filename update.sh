@@ -16,3 +16,6 @@ for f in 'checksums-sha256.txt' 'icannbundle.pem' 'root-anchors.p7s' 'root-ancho
 done
 
 $CURL -o 'data/tlds-alpha-by-domain.txt' 'https://data.iana.org/TLD/tlds-alpha-by-domain.txt'
+
+# Create file "root-without-generated.zone" excluded SOA serial number and generated records (RRSIG, NSEC, ZONEMD)
+awk '$4 == "SOA" { print gensub (/\S+/, "1", 7); next } $4 != "NSEC" && $4 != "ZONEMD" && $4 != "RRSIG"' 'data/root.zone' > 'data/root-without-generated.zone'
