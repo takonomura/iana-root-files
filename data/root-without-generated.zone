@@ -8829,11 +8829,11 @@ ns5.dns.nic.ipiranga.	172800	IN	A	156.154.157.83
 ns5.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:53
 ns6.dns.nic.ipiranga.	172800	IN	A	156.154.158.83
 ns6.dns.nic.ipiranga.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:53
-iq.			172800	IN	NS	ns1.cmc.iq.
+iq.			172800	IN	NS	ns.cmc.iq.
 iq.			172800	IN	NS	ns01.trs-dns.com.
 iq.			172800	IN	NS	ns01.trs-dns.net.
 iq.			172800	IN	NS	nsp-anycast.cmc.iq.
-ns1.cmc.iq.		172800	IN	A	194.117.57.100
+ns.cmc.iq.		172800	IN	A	194.117.57.105
 nsp-anycast.cmc.iq.	172800	IN	A	194.117.58.42
 nsp-anycast.cmc.iq.	172800	IN	AAAA	2001:500:14:8001:ad:0:0:42
 ir.			172800	IN	NS	a.nic.ir.
@@ -19972,6 +19972,7 @@ a.ns.nic.xn--mgbt3dhd.	172800	IN	A	72.0.49.9
 a.ns.nic.xn--mgbt3dhd.	172800	IN	AAAA	2620:171:a01:ad:0:0:0:9
 b.ns.nic.xn--mgbt3dhd.	172800	IN	A	72.42.113.9
 b.ns.nic.xn--mgbt3dhd.	172800	IN	AAAA	2620:171:d01:dc:0:0:0:9
+xn--mgbtx2b.		172800	IN	NS	ns.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	ns01.trs-dns.com.
 xn--mgbtx2b.		172800	IN	NS	ns01.trs-dns.net.
 xn--mgbtx2b.		172800	IN	NS	nsp-anycast.cmc.iq.
