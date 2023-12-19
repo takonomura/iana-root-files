@@ -17156,7 +17156,7 @@ ns1.ati.tn.		172800	IN	AAAA	2c0f:fab0:ffff:4:41:228:62:63
 ns2.ati.tn.		172800	IN	A	41.228.63.62
 ns2.ati.tn.		172800	IN	AAAA	2c0f:fab0:ffff:5:41:228:63:62
 pch.ati.tn.		172800	IN	A	204.61.216.94
-pch.ati.tn.		172800	IN	AAAA	2001:500:14:6004:ad:0:0:1
+pch.ati.tn.		172800	IN	AAAA	2001:500:14:6094:ad:0:0:1
 to.			172800	IN	NS	cd5.tonic.to.
 to.			172800	IN	NS	cd6.tonic.to.
 to.			172800	IN	NS	cd7.tonic.to.
