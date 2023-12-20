@@ -13,6 +13,7 @@
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
 .			172800	IN	DNSKEY	256 3 8 AwEAAddS95RV5uUtkUCN7vyvpb0kDZgmtXwN5Sj/d08+X7ND2sgWBabKnFhftrOsSx9DUhKR3gpMPIxac84Nou8Wzkiu2A/sTzP1F6KpCL8epgemdlZVd1ATHEjpB0KHIQmDjSEO/frGgi8ijQ2vDF3AMSrUwH7qntL1E5ufPHGKRM+agGghcAYfJHJN1dw7Ki3Fo22RDB3VZBxU9yJ3vl/T4hngeL7zK84vgl62tlJJw1rK5S/3U4p/bZarjtMFOHDfh0DEj1ywtRpkpPnge03gmINoa2tz+Kff67kbQb0NhHJYzPRpViaMEWZI9pgGH9ZyuFdNrNRx68XSiO7sya7/i+c=
+.			172800	IN	DNSKEY	256 3 8 AwEAAentCcIEndLh2QSK+pHFq/PkKCwioxt75d7qNOUuTPMo0Fcte/NbwDPbocvbZ/eNb5RV/xQdapaJASQ/oDLsqzD0H1+JkHNuuKc2JLtpMxg4glSE4CnRXT2CnFTW5IwOREL+zeqZHy68OXy5ngW5KALbevRYRg/q2qFezRtCSQ0knmyPwgFsghVYLKwi116oxwEU5yZ6W7npWMxt5Z+Qs8diPNWrS5aXLgJtrWUGIIuFfuZwXYziGRP/z3o1EfMo9zZU19KLopkoLXX7Ls/diCXdSEdJXTtFA8w0/OKQviuJebfKscoElCTswukVZ1VX5gbaFEo2xWhHJ9Uo63wYaTk=
 .			172800	IN	DNSKEY	257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=
 aaa.			172800	IN	NS	a.nic.aaa.
 aaa.			172800	IN	NS	b.nic.aaa.
@@ -11797,8 +11798,6 @@ ns.cernet.net.		172800	IN	A	202.112.0.44
 e.ci-servers.net.	172800	IN	A	204.61.216.74
 e.ci-servers.net.	172800	IN	AAAA	2001:500:14:6074:ad:0:0:1
 lk.communitydns.net.	172800	IN	A	194.0.1.27
-ph.communitydns.net.	172800	IN	A	194.0.1.23
-ph.communitydns.net.	172800	IN	AAAA	2001:678:4:0:0:0:0:17
 l.de.net.		172800	IN	A	77.67.63.105
 l.de.net.		172800	IN	AAAA	2001:668:1f:11:0:0:0:105
 n.de.net.		172800	IN	A	194.146.107.6
@@ -13133,10 +13132,11 @@ pg.			172800	IN	NS	munnari.oz.au.
 ns1.unitech.ac.pg.	172800	IN	A	202.1.32.49
 ns1.tiare.net.pg.	172800	IN	A	202.165.192.23
 ns2.tiare.net.pg.	172800	IN	A	202.165.192.24
-ph.			172800	IN	NS	ph.communitydns.net.
-ph.			172800	IN	NS	ns2.cuhk.edu.hk.
+ph.			172800	IN	NS	1.ns.ph.
 ph.			172800	IN	NS	ns4.apnic.net.
 ph.			86400	IN	DS	29122 13 2 0ED5C93074522F903DBB7FBAD2866CBE7CB67F15F0E5B54013340B57C1BCD509
+1.ns.ph.		172800	IN	A	206.51.255.1
+1.ns.ph.		172800	IN	AAAA	2620:171:805:ad2:7068:0:0:1
 pharmacy.		172800	IN	NS	dns1.nic.pharmacy.
 pharmacy.		172800	IN	NS	dns2.nic.pharmacy.
 pharmacy.		172800	IN	NS	dns3.nic.pharmacy.
