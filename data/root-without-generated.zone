@@ -7863,10 +7863,8 @@ c.hkirc.net.hk.		172800	IN	A	203.119.2.218
 c.hkirc.net.hk.		172800	IN	AAAA	2001:dca:4000:0:0:0:cb77:2da
 d.hkirc.net.hk.		172800	IN	A	203.119.87.218
 d.hkirc.net.hk.		172800	IN	AAAA	2001:dca:2000:0:0:0:cb77:57da
-m.hkirc.net.hk.		172800	IN	A	125.208.41.10
-m.hkirc.net.hk.		172800	IN	A	125.208.42.10
-m.hkirc.net.hk.		172800	IN	A	125.208.44.10
-m.hkirc.net.hk.		172800	IN	AAAA	2001:dc7:ffc1:0:0:0:0:10
+m.hkirc.net.hk.		172800	IN	A	125.208.49.10
+m.hkirc.net.hk.		172800	IN	AAAA	2001:dc7:feff:0:0:0:0:10
 t.hkirc.net.hk.		172800	IN	A	202.12.31.53
 t.hkirc.net.hk.		172800	IN	AAAA	2001:dd8:12:0:0:0:0:53
 u.hkirc.net.hk.		172800	IN	A	210.201.138.58
