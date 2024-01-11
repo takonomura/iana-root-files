@@ -12,7 +12,6 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
-.			172800	IN	DNSKEY	256 3 8 AwEAAddS95RV5uUtkUCN7vyvpb0kDZgmtXwN5Sj/d08+X7ND2sgWBabKnFhftrOsSx9DUhKR3gpMPIxac84Nou8Wzkiu2A/sTzP1F6KpCL8epgemdlZVd1ATHEjpB0KHIQmDjSEO/frGgi8ijQ2vDF3AMSrUwH7qntL1E5ufPHGKRM+agGghcAYfJHJN1dw7Ki3Fo22RDB3VZBxU9yJ3vl/T4hngeL7zK84vgl62tlJJw1rK5S/3U4p/bZarjtMFOHDfh0DEj1ywtRpkpPnge03gmINoa2tz+Kff67kbQb0NhHJYzPRpViaMEWZI9pgGH9ZyuFdNrNRx68XSiO7sya7/i+c=
 .			172800	IN	DNSKEY	256 3 8 AwEAAentCcIEndLh2QSK+pHFq/PkKCwioxt75d7qNOUuTPMo0Fcte/NbwDPbocvbZ/eNb5RV/xQdapaJASQ/oDLsqzD0H1+JkHNuuKc2JLtpMxg4glSE4CnRXT2CnFTW5IwOREL+zeqZHy68OXy5ngW5KALbevRYRg/q2qFezRtCSQ0knmyPwgFsghVYLKwi116oxwEU5yZ6W7npWMxt5Z+Qs8diPNWrS5aXLgJtrWUGIIuFfuZwXYziGRP/z3o1EfMo9zZU19KLopkoLXX7Ls/diCXdSEdJXTtFA8w0/OKQviuJebfKscoElCTswukVZ1VX5gbaFEo2xWhHJ9Uo63wYaTk=
 .			172800	IN	DNSKEY	257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=
 aaa.			172800	IN	NS	a.nic.aaa.
@@ -16788,10 +16787,9 @@ tel.			172800	IN	NS	ns1.dns.nic.tel.
 tel.			172800	IN	NS	ns2.dns.nic.tel.
 tel.			172800	IN	NS	ns3.dns.nic.tel.
 tel.			172800	IN	NS	ns4.dns.nic.tel.
-tel.			172800	IN	NS	ns5.dns.nic.tel.
-tel.			172800	IN	NS	ns6.dns.nic.tel.
-tel.			172800	IN	NS	ns7.dns.nic.tel.
-tel.			172800	IN	NS	ns8.dns.nic.tel.
+tel.			172800	IN	NS	anycast9.irondns.net.
+tel.			172800	IN	NS	anycast10.irondns.net.
+tel.			86400	IN	DS	31166 8 2 1D7B6AADA1A03510077F789A75184CA61A6FE3176A263D1BE52BCE89355CAA8D
 tel.			86400	IN	DS	48802 8 2 4A00B3F46AD973780B87F241360DA0B79481B257410BB68A923FE887087BE139
 ns1.dns.nic.tel.	172800	IN	A	156.154.169.10
 ns1.dns.nic.tel.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:a
@@ -16801,14 +16799,6 @@ ns3.dns.nic.tel.	172800	IN	A	156.154.171.10
 ns3.dns.nic.tel.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:a
 ns4.dns.nic.tel.	172800	IN	A	156.154.172.10
 ns4.dns.nic.tel.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:a
-ns5.dns.nic.tel.	172800	IN	A	156.154.173.10
-ns5.dns.nic.tel.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:a
-ns6.dns.nic.tel.	172800	IN	A	156.154.174.10
-ns6.dns.nic.tel.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:a
-ns7.dns.nic.tel.	172800	IN	A	194.146.106.38
-ns7.dns.nic.tel.	172800	IN	AAAA	2001:67c:1010:9:0:0:0:53
-ns8.dns.nic.tel.	172800	IN	A	192.36.144.116
-ns8.dns.nic.tel.	172800	IN	AAAA	2a01:3f0:0:300:0:0:0:53
 temasek.		172800	IN	NS	a0.nic.temasek.
 temasek.		172800	IN	NS	a2.nic.temasek.
 temasek.		172800	IN	NS	b0.nic.temasek.
