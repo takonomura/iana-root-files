@@ -12377,20 +12377,20 @@ not.norid.no.		172800	IN	A	156.154.100.12
 not.norid.no.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:12
 nn.uninett.no.		172800	IN	A	158.38.0.181
 nn.uninett.no.		172800	IN	AAAA	2001:700:0:503:0:0:aa:5302
-nokia.			172800	IN	NS	a0.nic.nokia.
-nokia.			172800	IN	NS	a2.nic.nokia.
-nokia.			172800	IN	NS	b0.nic.nokia.
-nokia.			172800	IN	NS	c0.nic.nokia.
+nokia.			172800	IN	NS	a.nic.nokia.
+nokia.			172800	IN	NS	b.nic.nokia.
+nokia.			172800	IN	NS	c.nic.nokia.
+nokia.			172800	IN	NS	d.nic.nokia.
 nokia.			86400	IN	DS	38794 8 2 5D3C0F0B92084EB734E6E06364681B3BB051087A15EBE6F468B2974C5F197AB1
 nokia.			86400	IN	DS	43790 8 2 7D7D3EBAE05F84C911EE972EC6D72F1CC88368297B5FDC6A52DB62EB27B76C99
-a0.nic.nokia.		172800	IN	A	65.22.148.17
-a0.nic.nokia.		172800	IN	AAAA	2a01:8840:92:0:0:0:0:17
-a2.nic.nokia.		172800	IN	A	65.22.151.17
-a2.nic.nokia.		172800	IN	AAAA	2a01:8840:95:0:0:0:0:17
-b0.nic.nokia.		172800	IN	A	65.22.149.17
-b0.nic.nokia.		172800	IN	AAAA	2a01:8840:93:0:0:0:0:17
-c0.nic.nokia.		172800	IN	A	65.22.150.17
-c0.nic.nokia.		172800	IN	AAAA	2a01:8840:94:0:0:0:0:17
+a.nic.nokia.		172800	IN	A	194.169.218.159
+a.nic.nokia.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:159
+b.nic.nokia.		172800	IN	A	185.24.64.159
+b.nic.nokia.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:159
+c.nic.nokia.		172800	IN	A	212.18.248.159
+c.nic.nokia.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:159
+d.nic.nokia.		172800	IN	A	212.18.249.159
+d.nic.nokia.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:159
 norton.			172800	IN	NS	ac1.nstld.com.
 norton.			172800	IN	NS	ac2.nstld.com.
 norton.			172800	IN	NS	ac3.nstld.com.
@@ -14662,7 +14662,7 @@ ru.			172800	IN	NS	b.dns.ripn.net.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
-ru.			86400	IN	DS	18274 8 2 AB35D17D3F39EB42CEE14C6273247938D33EEEAA9F5CAA70B3858DBF4BD3E87B
+ru.			86400	IN	DS	43786 8 2 3C59747544090BC74419D5F69E32D8C9B18EA48CBDAA33C09435619120CED431
 a.dns.flexireg.ru.	172800	IN	A	31.177.70.1
 a.dns.flexireg.ru.	172800	IN	AAAA	2a02:2090:6800:0:0:0:0:1
 rugby.			172800	IN	NS	a.nic.rugby.
@@ -16628,7 +16628,7 @@ tatar.			172800	IN	NS	b.dns.ripn.net.
 tatar.			172800	IN	NS	d.dns.ripn.net.
 tatar.			172800	IN	NS	e.dns.ripn.net.
 tatar.			172800	IN	NS	f.dns.ripn.net.
-tatar.			86400	IN	DS	27077 8 2 CCED6D290E870530527ADFDA81F3277C9F64B8DC2724DC9D90640946D176A01F
+tatar.			86400	IN	DS	51080 8 2 174D84D055DD351387AE559673DEB48B0AA5F767E0C946C9C7AFCF8D30230A7F
 tattoo.			172800	IN	NS	a.nic.tattoo.
 tattoo.			172800	IN	NS	b.nic.tattoo.
 tattoo.			172800	IN	NS	c.nic.tattoo.
@@ -20122,7 +20122,7 @@ xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
-xn--p1ai.		86400	IN	DS	7900 8 2 383545B7CC236FF2FF20FB9A035A650EF9F2EC31C8E8BB765292AD5F62A27FF1
+xn--p1ai.		86400	IN	DS	59497 8 2 3DE6C0350E9D16583AEACA8FBFB5148C25CFAF3A81D5083C1AA90D8399720AE3
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
