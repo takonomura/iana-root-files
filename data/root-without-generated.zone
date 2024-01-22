@@ -1376,25 +1376,6 @@ ns2.dns.nic.banamex.	172800	IN	A	156.154.145.21
 ns2.dns.nic.banamex.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:15
 ns3.dns.nic.banamex.	172800	IN	A	156.154.159.21
 ns3.dns.nic.banamex.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:15
-bananarepublic.		172800	IN	NS	a.nic.bananarepublic.
-bananarepublic.		172800	IN	NS	b.nic.bananarepublic.
-bananarepublic.		172800	IN	NS	c.nic.bananarepublic.
-bananarepublic.		172800	IN	NS	ns1.dns.nic.bananarepublic.
-bananarepublic.		172800	IN	NS	ns2.dns.nic.bananarepublic.
-bananarepublic.		172800	IN	NS	ns3.dns.nic.bananarepublic.
-bananarepublic.		86400	IN	DS	42796 8 2 28BB727EE05F747A4EB0FC5E0D807542FA005A2A571C039FD34BE55F3378BB5B
-a.nic.bananarepublic.	172800	IN	A	37.209.192.9
-a.nic.bananarepublic.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
-b.nic.bananarepublic.	172800	IN	A	37.209.194.9
-b.nic.bananarepublic.	172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
-c.nic.bananarepublic.	172800	IN	A	37.209.196.9
-c.nic.bananarepublic.	172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-ns1.dns.nic.bananarepublic.	172800	IN	A	156.154.144.22
-ns1.dns.nic.bananarepublic.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:16
-ns2.dns.nic.bananarepublic.	172800	IN	A	156.154.145.22
-ns2.dns.nic.bananarepublic.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:16
-ns3.dns.nic.bananarepublic.	172800	IN	A	156.154.159.22
-ns3.dns.nic.bananarepublic.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:16
 band.			172800	IN	NS	v0n0.nic.band.
 band.			172800	IN	NS	v0n1.nic.band.
 band.			172800	IN	NS	v0n2.nic.band.
@@ -7326,10 +7307,10 @@ dns1.nic.gop.		172800	IN	A	213.248.219.39
 dns1.nic.gop.		172800	IN	AAAA	2a01:618:403:0:0:0:0:39
 dns2.nic.gop.		172800	IN	A	103.49.83.39
 dns2.nic.gop.		172800	IN	AAAA	2401:fd80:403:0:0:0:0:39
-dns3.nic.gop.		172800	IN	A	213.248.221.39
-dns3.nic.gop.		172800	IN	AAAA	2a01:618:405:0:0:0:0:39
-dns4.nic.gop.		172800	IN	A	43.230.49.39
-dns4.nic.gop.		172800	IN	AAAA	2401:fd80:405:0:0:0:0:39
+dns3.nic.gop.		172800	IN	A	213.248.223.39
+dns3.nic.gop.		172800	IN	AAAA	2a01:618:407:0:0:0:0:39
+dns4.nic.gop.		172800	IN	A	43.230.51.39
+dns4.nic.gop.		172800	IN	AAAA	2401:fd80:407:0:0:0:0:39
 dnsa.nic.gop.		172800	IN	A	156.154.100.3
 dnsa.nic.gop.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.gop.		172800	IN	A	156.154.101.3
@@ -10300,6 +10281,8 @@ locker.			172800	IN	NS	a0.nic.locker.
 locker.			172800	IN	NS	a2.nic.locker.
 locker.			172800	IN	NS	b0.nic.locker.
 locker.			172800	IN	NS	c0.nic.locker.
+locker.			172800	IN	NS	ns01.trs-dns.com.
+locker.			172800	IN	NS	ns01.trs-dns.net.
 locker.			86400	IN	DS	6301 8 2 2A62E4284AD1157A9994BE5022A76CF66C2C233CEEDE058C673D065FEE63B90E
 locker.			86400	IN	DS	12691 8 2 DB488867DE794AE457267A654FE9266D4D03DDE9031DA92DD58A14E551B6DA01
 a0.nic.locker.		172800	IN	A	65.22.96.33
@@ -12574,6 +12557,8 @@ b0.nic.obi.		172800	IN	A	65.22.113.17
 b0.nic.obi.		172800	IN	AAAA	2a01:8840:6f:0:0:0:0:17
 c0.nic.obi.		172800	IN	A	65.22.114.17
 c0.nic.obi.		172800	IN	AAAA	2a01:8840:70:0:0:0:0:17
+observer.		172800	IN	NS	ns01.trs-dns.com.
+observer.		172800	IN	NS	ns01.trs-dns.net.
 observer.		172800	IN	NS	v0n0.nic.observer.
 observer.		172800	IN	NS	v0n1.nic.observer.
 observer.		172800	IN	NS	v0n2.nic.observer.
@@ -12656,25 +12641,6 @@ y.nic.olayangroup.	172800	IN	A	156.154.173.82
 y.nic.olayangroup.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.olayangroup.	172800	IN	A	156.154.174.82
 z.nic.olayangroup.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-oldnavy.		172800	IN	NS	a.nic.oldnavy.
-oldnavy.		172800	IN	NS	b.nic.oldnavy.
-oldnavy.		172800	IN	NS	c.nic.oldnavy.
-oldnavy.		172800	IN	NS	ns1.dns.nic.oldnavy.
-oldnavy.		172800	IN	NS	ns2.dns.nic.oldnavy.
-oldnavy.		172800	IN	NS	ns3.dns.nic.oldnavy.
-oldnavy.		86400	IN	DS	43291 8 2 C1B93F6A8AC42F2F15DBB3C74AF29E6F32E5A59D330F84E761A895ECA3371914
-a.nic.oldnavy.		172800	IN	A	37.209.192.9
-a.nic.oldnavy.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
-b.nic.oldnavy.		172800	IN	A	37.209.194.9
-b.nic.oldnavy.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
-c.nic.oldnavy.		172800	IN	A	37.209.196.9
-c.nic.oldnavy.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-ns1.dns.nic.oldnavy.	172800	IN	A	156.154.144.127
-ns1.dns.nic.oldnavy.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:7f
-ns2.dns.nic.oldnavy.	172800	IN	A	156.154.145.127
-ns2.dns.nic.oldnavy.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:7f
-ns3.dns.nic.oldnavy.	172800	IN	A	156.154.159.127
-ns3.dns.nic.oldnavy.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:7f
 ollo.			172800	IN	NS	a0.nic.ollo.
 ollo.			172800	IN	NS	a2.nic.ollo.
 ollo.			172800	IN	NS	b0.nic.ollo.
@@ -14132,6 +14098,8 @@ dnsc.nic.realtor.	172800	IN	A	156.154.102.3
 dnsc.nic.realtor.	172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
 dnsd.nic.realtor.	172800	IN	A	156.154.103.3
 dnsd.nic.realtor.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
+realty.			172800	IN	NS	ns01.trs-dns.com.
+realty.			172800	IN	NS	ns01.trs-dns.net.
 realty.			172800	IN	NS	v0n0.nic.realty.
 realty.			172800	IN	NS	v0n1.nic.realty.
 realty.			172800	IN	NS	v0n2.nic.realty.
