@@ -3646,13 +3646,14 @@ clubmed.		172800	IN	NS	ac3.nstld.com.
 clubmed.		172800	IN	NS	ac4.nstld.com.
 clubmed.		86400	IN	DS	2823 8 2 49AFA8257AEF277EADCE81A3B3712BE90AEC8A22363B302884ACF373EADADF0C
 cm.			172800	IN	NS	ns.itu.ch.
-cm.			172800	IN	NS	kim.camnet.cm.
-cm.			172800	IN	NS	lom.camnet.cm.
+cm.			172800	IN	NS	ns1.nic.cm.
+cm.			172800	IN	NS	ns2.nic.cm.
+cm.			172800	IN	NS	ns-cm.nic.fr.
+cm.			172800	IN	NS	ns-cm.afrinic.net.
 cm.			172800	IN	NS	auth02.ns.uu.net.
-cm.			172800	IN	NS	sanaga.camnet.cm.
-kim.camnet.cm.		172800	IN	A	195.24.192.35
-lom.camnet.cm.		172800	IN	A	195.24.192.34
-sanaga.camnet.cm.	172800	IN	A	195.24.192.17
+cm.			172800	IN	NS	phloem.uoregon.edu.
+ns1.nic.cm.		172800	IN	A	195.24.205.60
+ns2.nic.cm.		172800	IN	A	195.24.205.61
 cn.			172800	IN	NS	a.dns.cn.
 cn.			172800	IN	NS	b.dns.cn.
 cn.			172800	IN	NS	c.dns.cn.
@@ -6567,6 +6568,7 @@ ns-bf.nic.fr.		172800	IN	A	194.0.9.1
 ns-bf.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
 ns-bj.nic.fr.		172800	IN	A	194.0.9.1
 ns-bj.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
+ns-cm.nic.fr.		172800	IN	A	194.0.9.1
 ns-gp.nic.fr.		172800	IN	A	194.0.9.1
 ns-gp.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
 ns-ht.nic.fr.		172800	IN	A	194.0.9.1
@@ -11711,6 +11713,7 @@ ns-bw.afrinic.net.	172800	IN	A	196.216.168.72
 ns-bw.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:72
 ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
 ns-ci.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:30
+ns-cm.afrinic.net.	172800	IN	A	196.216.168.67
 ns-dz.afrinic.net.	172800	IN	A	196.216.168.36
 ns-dz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:36
 ns-gm.afrinic.net.	172800	IN	A	196.216.168.29
