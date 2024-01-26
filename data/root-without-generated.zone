@@ -10964,6 +10964,7 @@ merckmsd.		172800	IN	NS	ac1.nstld.com.
 merckmsd.		172800	IN	NS	ac2.nstld.com.
 merckmsd.		172800	IN	NS	ac3.nstld.com.
 merckmsd.		172800	IN	NS	ac4.nstld.com.
+merckmsd.		86400	IN	DS	5134 8 2 F4C8E4AC4A227663517FB28FEAA416635CC013CCAB079ECEDA756A89541BAABA
 merckmsd.		86400	IN	DS	23340 8 2 F6643D8AE9760F8033A5A14B231851CEDFF97429EF22514CFCB1BA625EAC86A4
 mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
@@ -11459,6 +11460,7 @@ msd.			172800	IN	NS	ac1.nstld.com.
 msd.			172800	IN	NS	ac2.nstld.com.
 msd.			172800	IN	NS	ac3.nstld.com.
 msd.			172800	IN	NS	ac4.nstld.com.
+msd.			86400	IN	DS	23659 8 2 81DE1BCC17AE524CEEABD94382FF3AA6BFD61804332E511B44EA5AB06EC6F52A
 msd.			86400	IN	DS	30849 8 2 8560961FD5E191D49B2461180F7EDC509E10689F85ED595AD111956BC81FF9A2
 mt.			172800	IN	NS	a.ns.mt.
 mt.			172800	IN	NS	b.ns.mt.
@@ -12562,26 +12564,10 @@ c0.nic.obi.		172800	IN	A	65.22.114.17
 c0.nic.obi.		172800	IN	AAAA	2a01:8840:70:0:0:0:0:17
 observer.		172800	IN	NS	ns01.trs-dns.com.
 observer.		172800	IN	NS	ns01.trs-dns.net.
-observer.		172800	IN	NS	v0n0.nic.observer.
-observer.		172800	IN	NS	v0n1.nic.observer.
-observer.		172800	IN	NS	v0n2.nic.observer.
-observer.		172800	IN	NS	v0n3.nic.observer.
-observer.		172800	IN	NS	v2n0.nic.observer.
-observer.		172800	IN	NS	v2n1.nic.observer.
+observer.		172800	IN	NS	ns01.trs-dns.org.
+observer.		172800	IN	NS	ns01.trs-dns.info.
 observer.		86400	IN	DS	46084 8 2 366C4C042DBBAA5636C254A7AB2331102545DCA6F2C81C8CE6B42C6DD0CADEB4
 observer.		86400	IN	DS	61001 8 2 73AD12C51E27B349F25A52045C94B7E62EE76EA3061C1ADDDA4CED8FC3038C94
-v0n0.nic.observer.	172800	IN	A	65.22.24.63
-v0n0.nic.observer.	172800	IN	AAAA	2a01:8840:1a:0:0:0:0:63
-v0n1.nic.observer.	172800	IN	A	65.22.25.63
-v0n1.nic.observer.	172800	IN	AAAA	2a01:8840:1b:0:0:0:0:63
-v0n2.nic.observer.	172800	IN	A	65.22.26.63
-v0n2.nic.observer.	172800	IN	AAAA	2a01:8840:1c:0:0:0:0:63
-v0n3.nic.observer.	172800	IN	A	161.232.12.63
-v0n3.nic.observer.	172800	IN	AAAA	2a01:8840:f6:0:0:0:0:63
-v2n0.nic.observer.	172800	IN	A	65.22.27.63
-v2n0.nic.observer.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:63
-v2n1.nic.observer.	172800	IN	A	161.232.13.63
-v2n1.nic.observer.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:63
 office.			172800	IN	NS	a.nic.office.
 office.			172800	IN	NS	b.nic.office.
 office.			172800	IN	NS	c.nic.office.
@@ -14103,26 +14089,10 @@ dnsd.nic.realtor.	172800	IN	A	156.154.103.3
 dnsd.nic.realtor.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 realty.			172800	IN	NS	ns01.trs-dns.com.
 realty.			172800	IN	NS	ns01.trs-dns.net.
-realty.			172800	IN	NS	v0n0.nic.realty.
-realty.			172800	IN	NS	v0n1.nic.realty.
-realty.			172800	IN	NS	v0n2.nic.realty.
-realty.			172800	IN	NS	v0n3.nic.realty.
-realty.			172800	IN	NS	v2n0.nic.realty.
-realty.			172800	IN	NS	v2n1.nic.realty.
+realty.			172800	IN	NS	ns01.trs-dns.org.
+realty.			172800	IN	NS	ns01.trs-dns.info.
 realty.			86400	IN	DS	5506 8 2 20E276179F6EF711CD63C5E4851C2C3B4917FCFF813C708AA902C305B8960484
 realty.			86400	IN	DS	21334 8 2 613E789594BC8FCE2381F7B1C2F4232093B017F5EEF5444EB0F1D8EF5C2F65E2
-v0n0.nic.realty.	172800	IN	A	65.22.24.42
-v0n0.nic.realty.	172800	IN	AAAA	2a01:8840:1a:0:0:0:0:42
-v0n1.nic.realty.	172800	IN	A	65.22.25.42
-v0n1.nic.realty.	172800	IN	AAAA	2a01:8840:1b:0:0:0:0:42
-v0n2.nic.realty.	172800	IN	A	65.22.26.42
-v0n2.nic.realty.	172800	IN	AAAA	2a01:8840:1c:0:0:0:0:42
-v0n3.nic.realty.	172800	IN	A	161.232.12.42
-v0n3.nic.realty.	172800	IN	AAAA	2a01:8840:f6:0:0:0:0:42
-v2n0.nic.realty.	172800	IN	A	65.22.27.42
-v2n0.nic.realty.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:42
-v2n1.nic.realty.	172800	IN	A	161.232.13.42
-v2n1.nic.realty.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:42
 recipes.		172800	IN	NS	v0n0.nic.recipes.
 recipes.		172800	IN	NS	v0n1.nic.recipes.
 recipes.		172800	IN	NS	v0n2.nic.recipes.
@@ -16766,22 +16736,12 @@ v2n0.nic.technology.	172800	IN	A	65.22.31.37
 v2n0.nic.technology.	172800	IN	AAAA	2a01:8840:21:0:0:0:0:37
 v2n1.nic.technology.	172800	IN	A	161.232.15.37
 v2n1.nic.technology.	172800	IN	AAAA	2a01:8840:f9:0:0:0:0:37
-tel.			172800	IN	NS	ns1.dns.nic.tel.
-tel.			172800	IN	NS	ns2.dns.nic.tel.
-tel.			172800	IN	NS	ns3.dns.nic.tel.
-tel.			172800	IN	NS	ns4.dns.nic.tel.
 tel.			172800	IN	NS	anycast9.irondns.net.
 tel.			172800	IN	NS	anycast10.irondns.net.
+tel.			172800	IN	NS	anycast23.irondns.net.
+tel.			172800	IN	NS	anycast24.irondns.net.
 tel.			86400	IN	DS	31166 8 2 1D7B6AADA1A03510077F789A75184CA61A6FE3176A263D1BE52BCE89355CAA8D
 tel.			86400	IN	DS	48802 8 2 4A00B3F46AD973780B87F241360DA0B79481B257410BB68A923FE887087BE139
-ns1.dns.nic.tel.	172800	IN	A	156.154.169.10
-ns1.dns.nic.tel.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:a
-ns2.dns.nic.tel.	172800	IN	A	156.154.170.10
-ns2.dns.nic.tel.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:a
-ns3.dns.nic.tel.	172800	IN	A	156.154.171.10
-ns3.dns.nic.tel.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:a
-ns4.dns.nic.tel.	172800	IN	A	156.154.172.10
-ns4.dns.nic.tel.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:a
 temasek.		172800	IN	NS	a0.nic.temasek.
 temasek.		172800	IN	NS	a2.nic.temasek.
 temasek.		172800	IN	NS	b0.nic.temasek.
