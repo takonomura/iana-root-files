@@ -10279,22 +10279,12 @@ v2n0.nic.loans.		172800	IN	A	65.22.27.55
 v2n0.nic.loans.		172800	IN	AAAA	2a01:8840:1d:0:0:0:0:55
 v2n1.nic.loans.		172800	IN	A	161.232.13.55
 v2n1.nic.loans.		172800	IN	AAAA	2a01:8840:f7:0:0:0:0:55
-locker.			172800	IN	NS	a0.nic.locker.
-locker.			172800	IN	NS	a2.nic.locker.
-locker.			172800	IN	NS	b0.nic.locker.
-locker.			172800	IN	NS	c0.nic.locker.
 locker.			172800	IN	NS	ns01.trs-dns.com.
 locker.			172800	IN	NS	ns01.trs-dns.net.
+locker.			172800	IN	NS	ns01.trs-dns.org.
+locker.			172800	IN	NS	ns01.trs-dns.info.
 locker.			86400	IN	DS	6301 8 2 2A62E4284AD1157A9994BE5022A76CF66C2C233CEEDE058C673D065FEE63B90E
 locker.			86400	IN	DS	12691 8 2 DB488867DE794AE457267A654FE9266D4D03DDE9031DA92DD58A14E551B6DA01
-a0.nic.locker.		172800	IN	A	65.22.96.33
-a0.nic.locker.		172800	IN	AAAA	2a01:8840:5e:0:0:0:0:33
-a2.nic.locker.		172800	IN	A	65.22.99.33
-a2.nic.locker.		172800	IN	AAAA	2a01:8840:61:0:0:0:0:33
-b0.nic.locker.		172800	IN	A	65.22.97.33
-b0.nic.locker.		172800	IN	AAAA	2a01:8840:5f:0:0:0:0:33
-c0.nic.locker.		172800	IN	A	65.22.98.33
-c0.nic.locker.		172800	IN	AAAA	2a01:8840:60:0:0:0:0:33
 locus.			172800	IN	NS	dns1.nic.locus.
 locus.			172800	IN	NS	dns2.nic.locus.
 locus.			172800	IN	NS	dns3.nic.locus.
@@ -11790,6 +11780,8 @@ ns.cernet.net.		172800	IN	A	202.112.0.44
 e.ci-servers.net.	172800	IN	A	204.61.216.74
 e.ci-servers.net.	172800	IN	AAAA	2001:500:14:6074:ad:0:0:1
 lk.communitydns.net.	172800	IN	A	194.0.1.27
+ph.communitydns.net.	172800	IN	A	194.0.1.23
+ph.communitydns.net.	172800	IN	AAAA	2001:678:4:0:0:0:0:17
 l.de.net.		172800	IN	A	77.67.63.105
 l.de.net.		172800	IN	AAAA	2001:668:1f:11:0:0:0:105
 n.de.net.		172800	IN	A	194.146.107.6
@@ -13094,6 +13086,8 @@ ns1.unitech.ac.pg.	172800	IN	A	202.1.32.49
 ns1.tiare.net.pg.	172800	IN	A	202.165.192.23
 ns2.tiare.net.pg.	172800	IN	A	202.165.192.24
 ph.			172800	IN	NS	1.ns.ph.
+ph.			172800	IN	NS	ph.communitydns.net.
+ph.			172800	IN	NS	ns2.cuhk.edu.hk.
 ph.			172800	IN	NS	ns4.apnic.net.
 ph.			86400	IN	DS	29122 13 2 0ED5C93074522F903DBB7FBAD2866CBE7CB67F15F0E5B54013340B57C1BCD509
 1.ns.ph.		172800	IN	A	206.51.255.1
@@ -14129,6 +14123,7 @@ redstone.		172800	IN	NS	a0.nic.redstone.
 redstone.		172800	IN	NS	a2.nic.redstone.
 redstone.		172800	IN	NS	b0.nic.redstone.
 redstone.		172800	IN	NS	c0.nic.redstone.
+redstone.		86400	IN	DS	49835 8 2 51A6A70D9A7C0F010D09FFAACA9CB6BBBE7FAD76FB48FDE6F940B606C8CDE048
 redstone.		86400	IN	DS	55555 8 2 425CC5BC7ADD435160D3C70CBA9D545BE2FF5466ECC27FB46E520BE2EC1F9D0D
 a0.nic.redstone.	172800	IN	A	65.22.132.17
 a0.nic.redstone.	172800	IN	AAAA	2a01:8840:82:0:0:0:0:17
@@ -17774,12 +17769,14 @@ ns7.uz.			172800	IN	A	104.238.81.247
 ns8.uz.			172800	IN	A	91.212.89.233
 va.			172800	IN	NS	a.nic.va.
 va.			172800	IN	NS	b.nic.va.
+va.			172800	IN	NS	c.nic.va.
 va.			172800	IN	NS	va.cctld.authdns.ripe.net.
 va.			172800	IN	NS	dns.nic.it.
 va.			172800	IN	NS	seth.namex.it.
 va.			172800	IN	NS	osiris.namex.it.
 a.nic.va.		172800	IN	A	212.77.0.110
 b.nic.va.		172800	IN	A	212.77.0.2
+c.nic.va.		172800	IN	A	212.77.2.58
 vacations.		172800	IN	NS	v0n0.nic.vacations.
 vacations.		172800	IN	NS	v0n1.nic.vacations.
 vacations.		172800	IN	NS	v0n2.nic.vacations.
