@@ -8399,7 +8399,6 @@ il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
 il.			86400	IN	DS	16654 13 2 8EAE70E9A2B930ED77E52C80B924ADD6925166081C8AABCD7023311D769BCEBB
-il.			86400	IN	DS	61239 13 2 728D9059778C0FADFF197F462ED5539DB1CF1F541E2AC7B0EF18735C8555645D
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6:0:0:808b:22f0
 ilns.ilan.net.il.	172800	IN	A	128.139.35.5
@@ -13806,8 +13805,8 @@ ps.			172800	IN	NS	dns1.gov.ps.
 ps.			172800	IN	NS	fork.sth.dnsnode.net.
 ps.			172800	IN	NS	ps-ns.anycast.pch.net.
 dns1.gov.ps.		172800	IN	A	213.244.82.147
-dns3.gov.ps.		172800	IN	A	212.14.253.242
-idn.pnina.ps.		172800	IN	A	208.64.68.4
+dns3.gov.ps.		172800	IN	A	185.153.163.3
+idn.pnina.ps.		172800	IN	A	208.64.68.60
 ns1.pnina.ps.		172800	IN	A	194.6.225.20
 pt.			172800	IN	NS	a.dns.pt.
 pt.			172800	IN	NS	b.dns.pt.
@@ -20280,10 +20279,13 @@ xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany2.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany3.sgnic.sg.
 xn--yfro4i67o.		86400	IN	DS	52561 8 2 8C1B2380F8EF57DAA14B40AB3F447A62838CA148D2D778E048AEE2D6FF374755
+xn--ygbi2ammx.		172800	IN	NS	ps.cctld.authdns.ripe.net.
 xn--ygbi2ammx.		172800	IN	NS	idn.pnina.ps.
 xn--ygbi2ammx.		172800	IN	NS	ns1.pnina.ps.
 xn--ygbi2ammx.		172800	IN	NS	dns1.gov.ps.
 xn--ygbi2ammx.		172800	IN	NS	dns3.gov.ps.
+xn--ygbi2ammx.		172800	IN	NS	fork.sth.dnsnode.net.
+xn--ygbi2ammx.		172800	IN	NS	ps-ns.anycast.pch.net.
 xn--zfr164b.		172800	IN	NS	ns1.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns2.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns3.conac.cn.
