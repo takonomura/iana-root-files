@@ -6541,8 +6541,6 @@ fr.			172800	IN	NS	e.ext.nic.fr.
 fr.			172800	IN	NS	f.ext.nic.fr.
 fr.			172800	IN	NS	g.ext.nic.fr.
 fr.			86400	IN	DS	29133 13 2 1303E8DA8FB60DB500D5BEA1EE5DC9A2BCC93DFE2FC43D346576658FECCF5749
-ns.cocca.fr.		172800	IN	A	185.17.236.93
-ns.cocca.fr.		172800	IN	AAAA	2a03:dd40:3:0:0:0:0:93
 dns.inria.fr.		172800	IN	A	193.51.208.13
 dns-tld.ird.fr.		172800	IN	A	13.39.116.127
 d.nic.fr.		172800	IN	A	194.0.9.1
@@ -9385,9 +9383,13 @@ kh.			172800	IN	NS	dns1.online.com.kh.
 ns.camnet.com.kh.	172800	IN	A	203.223.32.3
 dns1.online.com.kh.	172800	IN	A	203.189.128.1
 ns1.dns.net.kh.		172800	IN	A	203.223.32.21
-ki.			172800	IN	NS	ns.cocca.fr.
 ki.			172800	IN	NS	pch.nic.ki.
+ki.			172800	IN	NS	anycastdns1.nic.ki.
+ki.			172800	IN	NS	anycastdns2.nic.ki.
 ki.			86400	IN	DS	59540 8 2 FD3B27E5C171B883FE2815DDE7FBBE7F2E5AF826BFF47C33B5970F53E2A855DE
+anycastdns1.nic.ki.	172800	IN	A	185.38.108.108
+anycastdns1.nic.ki.	172800	IN	AAAA	2a00:fea0:dead:0:0:0:0:beef
+anycastdns2.nic.ki.	172800	IN	A	185.28.194.194
 pch.nic.ki.		172800	IN	A	204.61.216.26
 pch.nic.ki.		172800	IN	AAAA	2001:500:14:6026:ad:0:0:1
 kia.			172800	IN	NS	a.gmoregistry.net.
@@ -9834,14 +9836,16 @@ v2n0.nic.lawyer.	172800	IN	A	65.22.27.14
 v2n0.nic.lawyer.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:14
 v2n1.nic.lawyer.	172800	IN	A	161.232.13.14
 v2n1.nic.lawyer.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:14
+lb.			172800	IN	NS	b.ns.lb.
 lb.			172800	IN	NS	nn.uninett.no.
 lb.			172800	IN	NS	ns3.seacomnet.com.
 lb.			172800	IN	NS	ns4.seacomnet.com.
-lb.			172800	IN	NS	rip.psg.com.
 lb.			172800	IN	NS	fork.sth.dnsnode.net.
 lb.			172800	IN	NS	nabil.beirutix.net.
 lb.			172800	IN	NS	ns-jp.lbdr.org.lb.
 lb.			86400	IN	DS	3842 8 2 C838938C2127E3E10E15F92106EC565EF273B2EF7E3AEEBE5A2162862FD3B469
+b.ns.lb.		172800	IN	A	147.28.0.39
+b.ns.lb.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
 ns-jp.lbdr.org.lb.	172800	IN	A	203.178.141.64
 ns-jp.lbdr.org.lb.	172800	IN	AAAA	2001:200:0:2:0:0:53:1
 lc.			172800	IN	NS	a0.cctld.afilias-nst.info.
