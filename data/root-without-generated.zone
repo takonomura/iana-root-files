@@ -9819,11 +9819,13 @@ lb.			172800	IN	NS	nn.uninett.no.
 lb.			172800	IN	NS	ns3.seacomnet.com.
 lb.			172800	IN	NS	ns4.seacomnet.com.
 lb.			172800	IN	NS	fork.sth.dnsnode.net.
-lb.			172800	IN	NS	nabil.beirutix.net.
+lb.			172800	IN	NS	nabil.ns.lb.
 lb.			172800	IN	NS	ns-jp.lbdr.org.lb.
 lb.			86400	IN	DS	3842 8 2 C838938C2127E3E10E15F92106EC565EF273B2EF7E3AEEBE5A2162862FD3B469
 b.ns.lb.		172800	IN	A	147.28.0.39
 b.ns.lb.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
+nabil.ns.lb.		172800	IN	A	185.91.97.18
+nabil.ns.lb.		172800	IN	AAAA	2a05:e380:2:4:0:0:0:2
 ns-jp.lbdr.org.lb.	172800	IN	A	203.178.141.64
 ns-jp.lbdr.org.lb.	172800	IN	AAAA	2001:200:0:2:0:0:53:1
 lc.			172800	IN	NS	a0.cctld.afilias-nst.info.
@@ -10920,12 +10922,26 @@ y.nic.menu.		172800	IN	A	156.154.173.82
 y.nic.menu.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.menu.		172800	IN	A	156.154.174.82
 z.nic.menu.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-merckmsd.		172800	IN	NS	ac1.nstld.com.
-merckmsd.		172800	IN	NS	ac2.nstld.com.
-merckmsd.		172800	IN	NS	ac3.nstld.com.
-merckmsd.		172800	IN	NS	ac4.nstld.com.
+merckmsd.		172800	IN	NS	a.nic.merckmsd.
+merckmsd.		172800	IN	NS	b.nic.merckmsd.
+merckmsd.		172800	IN	NS	c.nic.merckmsd.
+merckmsd.		172800	IN	NS	x.nic.merckmsd.
+merckmsd.		172800	IN	NS	y.nic.merckmsd.
+merckmsd.		172800	IN	NS	z.nic.merckmsd.
 merckmsd.		86400	IN	DS	5134 8 2 F4C8E4AC4A227663517FB28FEAA416635CC013CCAB079ECEDA756A89541BAABA
 merckmsd.		86400	IN	DS	23340 8 2 F6643D8AE9760F8033A5A14B231851CEDFF97429EF22514CFCB1BA625EAC86A4
+a.nic.merckmsd.		172800	IN	A	37.209.192.9
+a.nic.merckmsd.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+b.nic.merckmsd.		172800	IN	A	37.209.194.9
+b.nic.merckmsd.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+c.nic.merckmsd.		172800	IN	A	37.209.196.9
+c.nic.merckmsd.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
+x.nic.merckmsd.		172800	IN	A	156.154.172.82
+x.nic.merckmsd.		172800	IN	AAAA	2610:a1:1074:0:0:0:1:82
+y.nic.merckmsd.		172800	IN	A	156.154.173.82
+y.nic.merckmsd.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
+z.nic.merckmsd.		172800	IN	A	156.154.174.82
+z.nic.merckmsd.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
 mg.			172800	IN	NS	pch.nic.mg.
@@ -11414,12 +11430,26 @@ ms.			172800	IN	NS	a.lactld.org.
 ms.			172800	IN	NS	ns1.anycastdns.cz.
 ms.			172800	IN	NS	ns2.anycastdns.cz.
 ms.			172800	IN	NS	ms-ns.anycast.pch.net.
-msd.			172800	IN	NS	ac1.nstld.com.
-msd.			172800	IN	NS	ac2.nstld.com.
-msd.			172800	IN	NS	ac3.nstld.com.
-msd.			172800	IN	NS	ac4.nstld.com.
+msd.			172800	IN	NS	a.nic.msd.
+msd.			172800	IN	NS	b.nic.msd.
+msd.			172800	IN	NS	c.nic.msd.
+msd.			172800	IN	NS	x.nic.msd.
+msd.			172800	IN	NS	y.nic.msd.
+msd.			172800	IN	NS	z.nic.msd.
 msd.			86400	IN	DS	23659 8 2 81DE1BCC17AE524CEEABD94382FF3AA6BFD61804332E511B44EA5AB06EC6F52A
 msd.			86400	IN	DS	30849 8 2 8560961FD5E191D49B2461180F7EDC509E10689F85ED595AD111956BC81FF9A2
+a.nic.msd.		172800	IN	A	37.209.192.9
+a.nic.msd.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+b.nic.msd.		172800	IN	A	37.209.194.9
+b.nic.msd.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+c.nic.msd.		172800	IN	A	37.209.196.9
+c.nic.msd.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
+x.nic.msd.		172800	IN	A	156.154.172.82
+x.nic.msd.		172800	IN	AAAA	2610:a1:1074:0:0:0:1:82
+y.nic.msd.		172800	IN	A	156.154.173.82
+y.nic.msd.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
+z.nic.msd.		172800	IN	A	156.154.174.82
+z.nic.msd.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 mt.			172800	IN	NS	a.ns.mt.
 mt.			172800	IN	NS	b.ns.mt.
 mt.			172800	IN	NS	f.ns.mt.
@@ -11519,6 +11549,7 @@ mx.			172800	IN	NS	m.mx-ns.mx.
 mx.			172800	IN	NS	o.mx-ns.mx.
 mx.			172800	IN	NS	x.mx-ns.mx.
 mx.			86400	IN	DS	5714 8 2 F98C2F8FD23EE07AE29137FA6B2AC6BD44BE32D684FD06BB894EE307C56700E5
+mx.			86400	IN	DS	62752 8 2 1B2F55DBF6CFB9EB66B0963DAA6BBE2CBBDCB851598FEC25EC2CCDC9A3785A12
 c.mx-ns.mx.		172800	IN	A	192.100.224.1
 c.mx-ns.mx.		172800	IN	AAAA	2001:1258:0:0:0:0:0:1
 e.mx-ns.mx.		172800	IN	A	189.201.244.1
@@ -11736,8 +11767,6 @@ dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
 dns-st.bahnhof.net.	172800	IN	AAAA	2001:9b0:1:601:250:56ff:feb7:46
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
 ns1.bahnhof.net.	172800	IN	AAAA	2001:9b0:1:104:250:56ff:feb7:5c51
-nabil.beirutix.net.	172800	IN	A	185.91.97.18
-nabil.beirutix.net.	172800	IN	AAAA	2a05:e380:2:4:0:0:0:2
 ns17.cdns.net.		172800	IN	A	194.0.1.17
 ns17.cdns.net.		172800	IN	AAAA	2001:678:4:0:0:0:0:11
 ns34.cdns.net.		172800	IN	A	194.0.1.34
@@ -14084,20 +14113,16 @@ b0.nic.red.		172800	IN	A	65.22.37.25
 b0.nic.red.		172800	IN	AAAA	2a01:8840:27:0:0:0:0:25
 c0.nic.red.		172800	IN	A	65.22.38.25
 c0.nic.red.		172800	IN	AAAA	2a01:8840:28:0:0:0:0:25
-redstone.		172800	IN	NS	a0.nic.redstone.
-redstone.		172800	IN	NS	a2.nic.redstone.
-redstone.		172800	IN	NS	b0.nic.redstone.
-redstone.		172800	IN	NS	c0.nic.redstone.
+redstone.		172800	IN	NS	a.zdnscloud.com.
+redstone.		172800	IN	NS	b.zdnscloud.com.
+redstone.		172800	IN	NS	c.zdnscloud.com.
+redstone.		172800	IN	NS	d.zdnscloud.com.
+redstone.		172800	IN	NS	f.zdnscloud.com.
+redstone.		172800	IN	NS	g.zdnscloud.com.
+redstone.		172800	IN	NS	i.zdnscloud.com.
+redstone.		172800	IN	NS	j.zdnscloud.com.
 redstone.		86400	IN	DS	49835 8 2 51A6A70D9A7C0F010D09FFAACA9CB6BBBE7FAD76FB48FDE6F940B606C8CDE048
 redstone.		86400	IN	DS	55555 8 2 425CC5BC7ADD435160D3C70CBA9D545BE2FF5466ECC27FB46E520BE2EC1F9D0D
-a0.nic.redstone.	172800	IN	A	65.22.132.17
-a0.nic.redstone.	172800	IN	AAAA	2a01:8840:82:0:0:0:0:17
-a2.nic.redstone.	172800	IN	A	65.22.135.17
-a2.nic.redstone.	172800	IN	AAAA	2a01:8840:85:0:0:0:0:17
-b0.nic.redstone.	172800	IN	A	65.22.133.17
-b0.nic.redstone.	172800	IN	AAAA	2a01:8840:83:0:0:0:0:17
-c0.nic.redstone.	172800	IN	A	65.22.134.17
-c0.nic.redstone.	172800	IN	AAAA	2a01:8840:84:0:0:0:0:17
 redumbrella.		172800	IN	NS	a0.nic.redumbrella.
 redumbrella.		172800	IN	NS	a2.nic.redumbrella.
 redumbrella.		172800	IN	NS	b0.nic.redumbrella.
