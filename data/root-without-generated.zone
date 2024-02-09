@@ -3889,10 +3889,6 @@ dns.ryce-rsp.com.	172800	IN	A	194.0.11.114
 dns.ryce-rsp.com.	172800	IN	AAAA	2001:678:e:114:0:0:0:53
 ns1.ryce-rsp.com.	172800	IN	A	193.56.204.153
 ns1.ryce-rsp.com.	172800	IN	AAAA	2a0c:8f40:0:701:0:0:0:153
-ns3.seacomnet.com.	172800	IN	A	41.87.126.253
-ns3.seacomnet.com.	172800	IN	AAAA	2c0f:feb0:0:0:0:0:0:3
-ns4.seacomnet.com.	172800	IN	A	41.87.127.253
-ns4.seacomnet.com.	172800	IN	AAAA	2c0f:feb0:0:0:0:0:0:4
 ns2.teleinfoo.com.	172800	IN	A	103.61.61.1
 ns2.teleinfoo.com.	172800	IN	AAAA	2402:7d80:8888:0:0:0:0:1
 ns4.teleinfoo.com.	172800	IN	A	103.61.63.1
@@ -5325,11 +5321,14 @@ n2.nic.ec.		172800	IN	A	200.12.199.1
 n2.nic.ec.		172800	IN	AAAA	2801:0:60:0:0:0:0:1
 eco.			172800	IN	NS	a.ns.nic.eco.
 eco.			172800	IN	NS	b.ns.nic.eco.
+eco.			172800	IN	NS	c.ns.nic.eco.
 eco.			86400	IN	DS	34597 8 2 BCE820D516CFE81DF04C38FBCB7CF80C2ECCC473B57A295948FA50AC1AFF9800
 a.ns.nic.eco.		172800	IN	A	185.159.197.4
 a.ns.nic.eco.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:4
 b.ns.nic.eco.		172800	IN	A	185.159.198.4
 b.ns.nic.eco.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:4
+c.ns.nic.eco.		172800	IN	A	45.142.220.101
+c.ns.nic.eco.		172800	IN	AAAA	2a0e:dbc0:0:0:0:0:0:101
 edeka.			172800	IN	NS	a0.nic.edeka.
 edeka.			172800	IN	NS	a2.nic.edeka.
 edeka.			172800	IN	NS	b0.nic.edeka.
@@ -9815,17 +9814,23 @@ v2n0.nic.lawyer.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:14
 v2n1.nic.lawyer.	172800	IN	A	161.232.13.14
 v2n1.nic.lawyer.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:14
 lb.			172800	IN	NS	b.ns.lb.
+lb.			172800	IN	NS	i.ns.lb.
+lb.			172800	IN	NS	r.ns.lb.
+lb.			172800	IN	NS	s.ns.lb.
 lb.			172800	IN	NS	nn.uninett.no.
-lb.			172800	IN	NS	ns3.seacomnet.com.
-lb.			172800	IN	NS	ns4.seacomnet.com.
-lb.			172800	IN	NS	fork.sth.dnsnode.net.
 lb.			172800	IN	NS	nabil.ns.lb.
 lb.			172800	IN	NS	ns-jp.lbdr.org.lb.
 lb.			86400	IN	DS	3842 8 2 C838938C2127E3E10E15F92106EC565EF273B2EF7E3AEEBE5A2162862FD3B469
 b.ns.lb.		172800	IN	A	147.28.0.39
 b.ns.lb.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
+i.ns.lb.		172800	IN	A	77.72.229.254
+i.ns.lb.		172800	IN	AAAA	2a01:3f0:0:306:0:0:0:53
 nabil.ns.lb.		172800	IN	A	185.91.97.18
 nabil.ns.lb.		172800	IN	AAAA	2a05:e380:2:4:0:0:0:2
+r.ns.lb.		172800	IN	A	105.16.170.1
+r.ns.lb.		172800	IN	AAAA	2c0f:feb0:c:1:0:0:1:1
+s.ns.lb.		172800	IN	A	105.16.115.1
+s.ns.lb.		172800	IN	AAAA	2c0f:feb0:2:1:0:0:1:8001
 ns-jp.lbdr.org.lb.	172800	IN	A	203.178.141.64
 ns-jp.lbdr.org.lb.	172800	IN	AAAA	2001:200:0:2:0:0:53:1
 lc.			172800	IN	NS	a0.cctld.afilias-nst.info.
@@ -19775,6 +19780,7 @@ xn--mgbayh7gpa.		172800	IN	NS	amra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	petra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	cloudns.nic.net.jo.
 xn--mgbayh7gpa.		172800	IN	NS	jordan1st.nic.gov.jo.
+xn--mgbayh7gpa.		86400	IN	DS	58951 7 2 8C351C0A4CA0030B6F43D94050A814C1357E29DC50E98DFFC18B25C2921A05A6
 xn--mgbbh1a.		172800	IN	NS	ns1.registry.in.
 xn--mgbbh1a.		172800	IN	NS	ns2.registry.in.
 xn--mgbbh1a.		172800	IN	NS	ns3.registry.in.
