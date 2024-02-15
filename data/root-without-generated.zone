@@ -4233,8 +4233,6 @@ cr.			172800	IN	NS	de.nic.cr.
 cr.			172800	IN	NS	ca1.nic.cr.
 cr.			172800	IN	NS	ca2.nic.cr.
 cr.			172800	IN	NS	dns.nic.cr.
-cr.			86400	IN	DS	10517 13 2 268FB03099E07547620F19A62F101DAEA146DCEE6FAAA18263E0B3DA4E997D6C
-cr.			86400	IN	DS	10517 13 4 11D20D7C408A1F289F6ECE30F241CA4BEB6ABE9D6376E8C6BE2FEE6400038989EE5C447340A5F2E7676454BBBEABFC95
 cr.			86400	IN	DS	41813 13 2 BE11BCE314A4B75BF0531A7FF312C750813B59A61A868407949CA8D35508FBAB
 cr.			86400	IN	DS	41813 13 4 2C21E3B22825E9949A37D1201AE64370747765D7F68EEF304BE8CA8F45C59FD1E9FB4EE788B4D507106B8E1B74B1213B
 ca1.nic.cr.		172800	IN	A	185.159.197.100
@@ -4487,6 +4485,8 @@ d.ns.nic.cz.		172800	IN	A	193.29.206.1
 d.ns.nic.cz.		172800	IN	AAAA	2001:678:1:0:0:0:0:1
 gt-e.ns.nic.cz.		172800	IN	A	185.43.134.14
 gt-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:14
+mk-e.ns.nic.cz.		172800	IN	A	185.43.134.12
+mk-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:12
 mw-e.ns.nic.cz.		172800	IN	A	185.43.134.10
 mw-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:10
 tz-e.ns.nic.cz.		172800	IN	A	185.43.134.11
@@ -11085,8 +11085,8 @@ mitsubishi.		172800	IN	NS	b.gmoregistry.net.
 mitsubishi.		172800	IN	NS	k.gmoregistry.net.
 mitsubishi.		172800	IN	NS	l.gmoregistry.net.
 mitsubishi.		86400	IN	DS	45959 8 2 1E5BC196FD959FBEFB2CBD681475BE0FF1DE7FBD074B2CE338894EC2B011C0DC
-mk.			172800	IN	NS	d.ext.nic.cz.
-mk.			172800	IN	NS	ns2.arnes.si.
+mk.			172800	IN	NS	b.dns.si.
+mk.			172800	IN	NS	mk-e.ns.nic.cz.
 mk.			172800	IN	NS	tld1.marnet.mk.
 mk.			172800	IN	NS	dns-mk.univie.ac.at.
 tld1.marnet.mk.		172800	IN	A	194.149.137.168
@@ -11563,7 +11563,6 @@ mx.			172800	IN	NS	i.mx-ns.mx.
 mx.			172800	IN	NS	m.mx-ns.mx.
 mx.			172800	IN	NS	o.mx-ns.mx.
 mx.			172800	IN	NS	x.mx-ns.mx.
-mx.			86400	IN	DS	5714 8 2 F98C2F8FD23EE07AE29137FA6B2AC6BD44BE32D684FD06BB894EE307C56700E5
 mx.			86400	IN	DS	62752 8 2 1B2F55DBF6CFB9EB66B0963DAA6BBE2CBBDCB851598FEC25EC2CCDC9A3785A12
 c.mx-ns.mx.		172800	IN	A	192.100.224.1
 c.mx-ns.mx.		172800	IN	AAAA	2001:1258:0:0:0:0:0:1
@@ -13514,14 +13513,30 @@ pm.			172800	IN	NS	e.ext.nic.fr.
 pm.			172800	IN	NS	f.ext.nic.fr.
 pm.			172800	IN	NS	g.ext.nic.fr.
 pm.			86400	IN	DS	17970 13 2 7D82CCD8DD0674CA01CCF836C21240A504C85597EED5E511131C3E17C323B503
-pn.			172800	IN	NS	dns1.nominetdns.uk.
-pn.			172800	IN	NS	dns2.nominetdns.uk.
-pn.			172800	IN	NS	dns3.nominetdns.uk.
-pn.			172800	IN	NS	dns4.nominetdns.uk.
-pn.			172800	IN	NS	dnsa.nominetdns.uk.
-pn.			172800	IN	NS	dnsb.nominetdns.uk.
-pn.			172800	IN	NS	dnsc.nominetdns.uk.
-pn.			172800	IN	NS	dnsd.nominetdns.uk.
+pn.			172800	IN	NS	dns1.nic.pn.
+pn.			172800	IN	NS	dns2.nic.pn.
+pn.			172800	IN	NS	dns3.nic.pn.
+pn.			172800	IN	NS	dns4.nic.pn.
+pn.			172800	IN	NS	dnsa.nic.pn.
+pn.			172800	IN	NS	dnsb.nic.pn.
+pn.			172800	IN	NS	dnsc.nic.pn.
+pn.			172800	IN	NS	dnsd.nic.pn.
+dns1.nic.pn.		172800	IN	A	213.248.219.128
+dns1.nic.pn.		172800	IN	AAAA	2a01:618:403:0:0:0:0:128
+dns2.nic.pn.		172800	IN	A	103.49.83.128
+dns2.nic.pn.		172800	IN	AAAA	2401:fd80:403:0:0:0:0:128
+dns3.nic.pn.		172800	IN	A	213.248.223.128
+dns3.nic.pn.		172800	IN	AAAA	2a01:618:407:0:0:0:0:128
+dns4.nic.pn.		172800	IN	A	43.230.51.128
+dns4.nic.pn.		172800	IN	AAAA	2401:fd80:407:0:0:0:0:128
+dnsa.nic.pn.		172800	IN	A	156.154.100.3
+dnsa.nic.pn.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
+dnsb.nic.pn.		172800	IN	A	156.154.101.3
+dnsb.nic.pn.		172800	IN	AAAA	2001:502:2eda:0:0:0:0:3
+dnsc.nic.pn.		172800	IN	A	156.154.102.3
+dnsc.nic.pn.		172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
+dnsd.nic.pn.		172800	IN	A	156.154.103.3
+dnsd.nic.pn.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 pnc.			172800	IN	NS	a0.nic.pnc.
 pnc.			172800	IN	NS	a2.nic.pnc.
 pnc.			172800	IN	NS	b0.nic.pnc.
@@ -15024,14 +15039,14 @@ sc.			172800	IN	NS	d0.cctld.afilias-nst.org.
 sc.			172800	IN	NS	ns1.nic.sc.
 sc.			86400	IN	DS	2539 8 2 8293FA3AC08BE770A400DDE4F250DC6BF1046F34430BE12E65C15BF2F482B26C
 ns1.nic.sc.		172800	IN	A	41.86.57.54
-scb.			172800	IN	NS	a.nic.scb.
 scb.			172800	IN	NS	c.nic.scb.
 scb.			172800	IN	NS	rz.nic.scb.
+scb.			172800	IN	NS	nn1.nic.scb.
 scb.			86400	IN	DS	20801 8 2 16BFF89DD2FAF9AC06221F6DE0E206ED57FEC2E29316779E30789D7E00A5BD2F
-a.nic.scb.		172800	IN	A	122.155.23.51
-a.nic.scb.		172800	IN	AAAA	2001:c38:2000:183:0:0:0:17
 c.nic.scb.		172800	IN	A	194.0.1.35
 c.nic.scb.		172800	IN	AAAA	2001:678:4:0:0:0:0:23
+nn1.nic.scb.		172800	IN	A	194.58.198.136
+nn1.nic.scb.		172800	IN	AAAA	2a01:3f1:3032:8001:0:0:0:136
 rz.nic.scb.		172800	IN	A	194.0.25.42
 rz.nic.scb.		172800	IN	AAAA	2001:678:20:0:0:0:0:42
 schaeffler.		172800	IN	NS	a.dns.nic.schaeffler.
@@ -17642,14 +17657,6 @@ dns3.nominetdns.uk.	172800	IN	A	213.248.223.254
 dns3.nominetdns.uk.	172800	IN	AAAA	2a01:618:407:0:0:0:0:254
 dns4.nominetdns.uk.	172800	IN	A	43.230.51.254
 dns4.nominetdns.uk.	172800	IN	AAAA	2401:fd80:407:0:0:0:0:254
-dnsa.nominetdns.uk.	172800	IN	A	156.154.100.3
-dnsa.nominetdns.uk.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
-dnsb.nominetdns.uk.	172800	IN	A	156.154.101.3
-dnsb.nominetdns.uk.	172800	IN	AAAA	2001:502:2eda:0:0:0:0:3
-dnsc.nominetdns.uk.	172800	IN	A	156.154.102.3
-dnsc.nominetdns.uk.	172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
-dnsd.nominetdns.uk.	172800	IN	A	156.154.103.3
-dnsd.nominetdns.uk.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 unicom.			172800	IN	NS	a.zdnscloud.com.
 unicom.			172800	IN	NS	b.zdnscloud.com.
 unicom.			172800	IN	NS	c.zdnscloud.com.
