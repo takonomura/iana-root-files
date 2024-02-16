@@ -4396,9 +4396,11 @@ cv.			172800	IN	NS	cv01.dns.pt.
 ns.dns.cv.		172800	IN	A	41.221.192.220
 cw.			172800	IN	NS	cw.cctld.authdns.ripe.net.
 cw.			172800	IN	NS	ns0.ja.net.
+cw.			172800	IN	NS	ns1.bna.cw.
 cw.			172800	IN	NS	ns1.dns.cw.
 cw.			172800	IN	NS	kadushi.curinfo.cw.
 cw.			172800	IN	NS	ns01-server.curinfo.cw.
+ns1.bna.cw.		172800	IN	A	216.122.189.85
 kadushi.curinfo.cw.	172800	IN	A	65.208.122.63
 ns01-server.curinfo.cw.	172800	IN	A	65.208.122.36
 ns1.dns.cw.		172800	IN	A	194.0.28.6
