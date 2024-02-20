@@ -1962,6 +1962,8 @@ c0.nic.bio.		172800	IN	AAAA	2a01:8840:54:0:0:0:0:9
 biz.			172800	IN	NS	a.gtld.biz.
 biz.			172800	IN	NS	b.gtld.biz.
 biz.			172800	IN	NS	c.gtld.biz.
+biz.			172800	IN	NS	m.gtld.biz.
+biz.			172800	IN	NS	n.gtld.biz.
 biz.			172800	IN	NS	w.gtld.biz.
 biz.			172800	IN	NS	x.gtld.biz.
 biz.			172800	IN	NS	y.gtld.biz.
@@ -1972,6 +1974,10 @@ a.gtld.biz.		172800	IN	A	156.154.124.65
 a.gtld.biz.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:30
 b.gtld.biz.		172800	IN	A	156.154.125.65
 c.gtld.biz.		172800	IN	A	156.154.127.65
+m.gtld.biz.		172800	IN	A	204.74.105.1
+m.gtld.biz.		172800	IN	AAAA	2610:a1:3180:0:0:0:0:53
+n.gtld.biz.		172800	IN	A	204.74.107.1
+n.gtld.biz.		172800	IN	AAAA	2610:a1:3280:0:0:0:0:53
 w.gtld.biz.		172800	IN	A	37.209.192.13
 w.gtld.biz.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:13
 x.gtld.biz.		172800	IN	A	37.209.194.13
@@ -8388,9 +8394,9 @@ ns3.ns.il.		172800	IN	AAAA	2001:678:e:103:0:0:0:53
 ns4.ns.il.		172800	IN	A	204.61.216.134
 ns4.ns.il.		172800	IN	AAAA	2001:500:14:6134:ad:0:0:1
 nsa.ns.il.		172800	IN	A	192.115.7.53
-nsa.ns.il.		172800	IN	AAAA	2a01:4280:2:70:0:0:0:53
+nsa.ns.il.		172800	IN	AAAA	2a01:4280:7:0:0:0:0:53
 nsb.ns.il.		172800	IN	A	192.115.7.60
-nsb.ns.il.		172800	IN	AAAA	2a01:4280:2:70:0:0:0:60
+nsb.ns.il.		172800	IN	AAAA	2a01:4280:7:0:0:0:0:60
 nse.ns.il.		172800	IN	A	192.115.4.235
 im.			172800	IN	NS	ns4.ja.net.
 im.			172800	IN	NS	hoppy.iom.com.
