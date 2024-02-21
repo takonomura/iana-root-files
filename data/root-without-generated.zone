@@ -4481,8 +4481,6 @@ ns1.anycastdns.cz.	172800	IN	AAAA	2a00:fea0:dead:0:0:0:0:beef
 ns2.anycastdns.cz.	172800	IN	A	185.28.194.194
 ssnic.anycastdns.cz.	172800	IN	A	185.28.194.194
 ssnic.anycastdns.cz.	172800	IN	A	185.38.108.108
-d.ext.nic.cz.		172800	IN	A	193.29.206.2
-d.ext.nic.cz.		172800	IN	AAAA	2001:678:1:0:0:0:0:2
 a.ns.nic.cz.		172800	IN	A	194.0.12.1
 a.ns.nic.cz.		172800	IN	AAAA	2001:678:f:0:0:0:0:1
 b.ns.nic.cz.		172800	IN	A	194.0.13.1
@@ -15563,8 +15561,6 @@ si.			172800	IN	NS	i.dns.si.
 si.			172800	IN	NS	k.dns.si.
 si.			172800	IN	NS	l.dns.si.
 si.			86400	IN	DS	53074 8 2 D3BBE46AF529561A317922DF27D89686E06B87343F22BAC2569D38A549D996EB
-ns2.arnes.si.		172800	IN	A	194.249.4.44
-ns2.arnes.si.		172800	IN	AAAA	2001:1470:8000:53:0:0:0:44
 b.dns.si.		172800	IN	A	153.5.81.140
 b.dns.si.		172800	IN	AAAA	2001:1470:8000:53:0:0:0:44
 f.dns.si.		172800	IN	A	194.146.106.62
@@ -19362,8 +19358,8 @@ xn--d1acj3b.		172800	IN	NS	d.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	e.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	f.dns.ripn.net.
 xn--d1acj3b.		86400	IN	DS	62719 8 2 78004BA803C2F5F251F3227C072DF8C545D30F3A018288142692AA4D20BA3F24
-xn--d1alf.		172800	IN	NS	d.ext.nic.cz.
-xn--d1alf.		172800	IN	NS	ns2.arnes.si.
+xn--d1alf.		172800	IN	NS	b.dns.si.
+xn--d1alf.		172800	IN	NS	mk-e.ns.nic.cz.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
 xn--e1a4c.		172800	IN	NS	w.dns.eu.
