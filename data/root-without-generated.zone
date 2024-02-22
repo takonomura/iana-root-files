@@ -4404,9 +4404,11 @@ cw.			172800	IN	NS	cw.cctld.authdns.ripe.net.
 cw.			172800	IN	NS	ns0.ja.net.
 cw.			172800	IN	NS	ns1.bna.cw.
 cw.			172800	IN	NS	ns1.dns.cw.
+cw.			172800	IN	NS	ns2.bna.cw.
 cw.			172800	IN	NS	kadushi.curinfo.cw.
 cw.			172800	IN	NS	ns01-server.curinfo.cw.
 ns1.bna.cw.		172800	IN	A	216.122.189.85
+ns2.bna.cw.		172800	IN	A	216.122.189.86
 kadushi.curinfo.cw.	172800	IN	A	65.208.122.63
 ns01-server.curinfo.cw.	172800	IN	A	65.208.122.36
 ns1.dns.cw.		172800	IN	A	194.0.28.6
@@ -12056,8 +12058,6 @@ ns1.sr.net.		172800	IN	A	200.1.159.148
 ns2.sr.net.		172800	IN	A	200.2.162.30
 ns.thnic.net.		172800	IN	A	202.28.0.1
 ns01.trs-dns.net.	172800	IN	A	64.96.2.1
-ns.twnic.net.		172800	IN	A	192.83.166.11
-ns.twnic.net.		172800	IN	AAAA	2001:288:1:1006:0:0:0:11
 dns2.u-registry.net.	172800	IN	A	195.123.1.7
 ns1.uniregistry.net.	172800	IN	A	64.96.1.1
 ns1.uniregistry.net.	172800	IN	AAAA	2620:57:4000:1:0:0:0:1
@@ -14266,6 +14266,7 @@ ren.			172800	IN	NS	g.zdnscloud.com.
 ren.			172800	IN	NS	i.zdnscloud.com.
 ren.			172800	IN	NS	j.zdnscloud.com.
 ren.			86400	IN	DS	770 8 2 897EA15932FA4407809D32CA7C7DA4B0C0E455316A897970F152109F18CE6CD9
+ren.			86400	IN	DS	6712 8 2 06090FB53AE539CE051D9236A0C6B5FD58361167BC0D7F5E8E9EAB4F62D4FFFB
 rent.			172800	IN	NS	a.nic.rent.
 rent.			172800	IN	NS	b.nic.rent.
 rent.			172800	IN	NS	c.nic.rent.
@@ -17518,7 +17519,6 @@ tw.			172800	IN	NS	e.dns.tw.
 tw.			172800	IN	NS	f.dns.tw.
 tw.			172800	IN	NS	g.dns.tw.
 tw.			172800	IN	NS	h.dns.tw.
-tw.			172800	IN	NS	ns.twnic.net.
 tw.			172800	IN	NS	anytld.apnic.net.
 tw.			86400	IN	DS	51277 8 2 462DA9AF501D2B1EEF6725522DB5972F8CD2490B51D92088FF1E3D2DE0EC7BCD
 a.dns.tw.		172800	IN	A	203.73.24.25
