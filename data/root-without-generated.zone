@@ -7504,11 +7504,6 @@ gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
 gu.			172800	IN	NS	gold.uog.edu.
 gu.			172800	IN	NS	green.uog.edu.
 gu.			172800	IN	NS	phloem.uoregon.edu.
-guardian.		172800	IN	NS	ac1.nstld.com.
-guardian.		172800	IN	NS	ac2.nstld.com.
-guardian.		172800	IN	NS	ac3.nstld.com.
-guardian.		172800	IN	NS	ac4.nstld.com.
-guardian.		86400	IN	DS	5751 8 2 11ECDF54B3E2E3E14CE6B189827EB40D28D743708B8D461D00074046BC4B552F
 gucci.			172800	IN	NS	dns1.nic.gucci.
 gucci.			172800	IN	NS	dns2.nic.gucci.
 gucci.			172800	IN	NS	dns3.nic.gucci.
