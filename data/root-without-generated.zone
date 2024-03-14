@@ -5952,6 +5952,10 @@ feedback.		172800	IN	NS	a.nic.feedback.
 feedback.		172800	IN	NS	b.nic.feedback.
 feedback.		172800	IN	NS	c.nic.feedback.
 feedback.		172800	IN	NS	d.nic.feedback.
+feedback.		172800	IN	NS	ns01.trs-dns.com.
+feedback.		172800	IN	NS	ns01.trs-dns.net.
+feedback.		172800	IN	NS	ns01.trs-dns.org.
+feedback.		172800	IN	NS	ns01.trs-dns.info.
 feedback.		86400	IN	DS	16786 8 2 00F7F4B6DF67DC7B828C14829884908EE92E57FE312ED483C43DA299FA5DDAE5
 feedback.		86400	IN	DS	37115 8 2 234EE176851A803E7CB19FAFC25C1F2DC1090E119FCEE44FA63140BD014C64F2
 a.nic.feedback.		172800	IN	A	194.169.218.50
@@ -6472,6 +6476,10 @@ forum.			172800	IN	NS	a.nic.forum.
 forum.			172800	IN	NS	b.nic.forum.
 forum.			172800	IN	NS	c.nic.forum.
 forum.			172800	IN	NS	d.nic.forum.
+forum.			172800	IN	NS	ns01.trs-dns.com.
+forum.			172800	IN	NS	ns01.trs-dns.net.
+forum.			172800	IN	NS	ns01.trs-dns.org.
+forum.			172800	IN	NS	ns01.trs-dns.info.
 forum.			86400	IN	DS	9475 8 2 A53A95D8AB4105B83918A104F8828B1E0DDDB48C290A8EFF1960918E01EAFAE6
 forum.			86400	IN	DS	12827 8 2 07AD0E47C13B5699EFCBDF1A3717B66E2601748B09256173FF713B4D1346512C
 a.nic.forum.		172800	IN	A	194.169.218.65
@@ -9449,11 +9457,17 @@ v2n1.nic.kitchen.	172800	IN	A	161.232.17.17
 v2n1.nic.kitchen.	172800	IN	AAAA	2a01:8840:fb:0:0:0:0:17
 kiwi.			172800	IN	NS	a.ns.nic.kiwi.
 kiwi.			172800	IN	NS	b.ns.nic.kiwi.
+kiwi.			172800	IN	NS	c.ns.nic.kiwi.
+kiwi.			172800	IN	NS	d.ns.nic.kiwi.
 kiwi.			86400	IN	DS	28462 8 2 A1C28EF63FE4B2CA5DE823951A0A0EDF27F73601ECA4371DA74B600190846F7D
 a.ns.nic.kiwi.		172800	IN	A	185.159.197.1
 a.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:1
 b.ns.nic.kiwi.		172800	IN	A	185.159.198.1
 b.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:1
+c.ns.nic.kiwi.		172800	IN	A	45.142.220.101
+c.ns.nic.kiwi.		172800	IN	AAAA	2a0e:dbc0:0:0:0:0:0:101
+d.ns.nic.kiwi.		172800	IN	A	185.159.199.1
+d.ns.nic.kiwi.		172800	IN	AAAA	2620:10a:80ac:0:0:0:0:1
 km.			172800	IN	NS	dns1.nic.km.
 km.			172800	IN	NS	dns2.nic.km.
 km.			172800	IN	NS	ns-km.afrinic.net.
@@ -16811,7 +16825,6 @@ tf.			172800	IN	NS	d.nic.fr.
 tf.			172800	IN	NS	e.ext.nic.fr.
 tf.			172800	IN	NS	f.ext.nic.fr.
 tf.			172800	IN	NS	g.ext.nic.fr.
-tf.			86400	IN	DS	12095 13 2 4110ABE221396D1A9493C5DD67140890E14C73D7AC0FCD67F4B60979E9881283
 tf.			86400	IN	DS	61832 13 2 9B5C9089B84D2138E6C30163D9B169E6E793236827CE2A0EEDAB7CB96C644D83
 tg.			172800	IN	NS	ns1.nic.tg.
 tg.			172800	IN	NS	ns1.admin.net.
