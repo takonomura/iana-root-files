@@ -1253,19 +1253,6 @@ c.nic.autos.		172800	IN	A	212.18.248.136
 c.nic.autos.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:136
 d.nic.autos.		172800	IN	A	212.18.249.136
 d.nic.autos.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:136
-avianca.		172800	IN	NS	a0.nic.avianca.
-avianca.		172800	IN	NS	a2.nic.avianca.
-avianca.		172800	IN	NS	b0.nic.avianca.
-avianca.		172800	IN	NS	c0.nic.avianca.
-avianca.		86400	IN	DS	16027 8 2 A87EC8292B65CD932F5B29C32773DABFFF897E71B9921FA4F000F826542F65CC
-a0.nic.avianca.		172800	IN	A	65.22.80.17
-a0.nic.avianca.		172800	IN	AAAA	2a01:8840:4e:0:0:0:0:17
-a2.nic.avianca.		172800	IN	A	65.22.83.17
-a2.nic.avianca.		172800	IN	AAAA	2a01:8840:51:0:0:0:0:17
-b0.nic.avianca.		172800	IN	A	65.22.81.17
-b0.nic.avianca.		172800	IN	AAAA	2a01:8840:4f:0:0:0:0:17
-c0.nic.avianca.		172800	IN	A	65.22.82.17
-c0.nic.avianca.		172800	IN	AAAA	2a01:8840:50:0:0:0:0:17
 aw.			172800	IN	NS	ns1.dns.aw.
 aw.			172800	IN	NS	ns3.dns.aw.
 aw.			172800	IN	NS	ns4.dns.aw.
@@ -2632,10 +2619,7 @@ bw.			172800	IN	NS	dns1.nic.net.bw.
 bw.			172800	IN	NS	ns-bw.afrinic.net.
 bw.			172800	IN	NS	master.btc.net.bw.
 master.btc.net.bw.	172800	IN	A	168.167.168.37
-master.btc.net.bw.	172800	IN	AAAA	2c0f:ff00:0:6:0:0:0:3
-master.btc.net.bw.	172800	IN	AAAA	2c0f:ff00:0:6:0:0:0:5
 dns1.nic.net.bw.	172800	IN	A	168.167.98.226
-dns1.nic.net.bw.	172800	IN	AAAA	2c0f:ff00:1:3:0:0:0:226
 pch.nic.net.bw.		172800	IN	A	204.61.216.70
 pch.nic.net.bw.		172800	IN	AAAA	2001:500:14:6070:ad:0:0:1
 by.			172800	IN	NS	dns1.tld.becloudby.com.
@@ -5846,10 +5830,12 @@ v2n0.nic.fail.		172800	IN	A	65.22.23.56
 v2n0.nic.fail.		172800	IN	AAAA	2a01:8840:19:0:0:0:0:56
 v2n1.nic.fail.		172800	IN	A	161.232.11.56
 v2n1.nic.fail.		172800	IN	AAAA	2a01:8840:f5:0:0:0:0:56
-fairwinds.		172800	IN	NS	ac1.nstld.com.
-fairwinds.		172800	IN	NS	ac2.nstld.com.
 fairwinds.		172800	IN	NS	ac3.nstld.com.
 fairwinds.		172800	IN	NS	ac4.nstld.com.
+fairwinds.		172800	IN	NS	ns1.nominetdns.uk.
+fairwinds.		172800	IN	NS	ns2.nominetdns.uk.
+fairwinds.		172800	IN	NS	ns3.nominetdns.uk.
+fairwinds.		172800	IN	NS	ns4.nominetdns.uk.
 fairwinds.		86400	IN	DS	8913 8 2 4B1C638C7FC58D11BF54B976CE4FBA1CDB935F993F6B50194093B2479BFF8504
 fairwinds.		86400	IN	DS	48074 8 2 4375DA09C7286DCDE9ACC036596D3F2B9F1347E1A83F13A1E98C7E9821D2EAD9
 faith.			172800	IN	NS	a.nic.faith.
@@ -15091,7 +15077,6 @@ saxo.			172800	IN	NS	v0n2.nic.saxo.
 saxo.			172800	IN	NS	v0n3.nic.saxo.
 saxo.			172800	IN	NS	v2n0.nic.saxo.
 saxo.			172800	IN	NS	v2n1.nic.saxo.
-saxo.			86400	IN	DS	8887 8 2 117F2B38851F01FD3B94FF49ED5A41B04425F8926AA9D569C301CF46F05202C3
 saxo.			86400	IN	DS	60076 8 2 596E280E257BCE8DA04E98FFB42A2D9DF28C1736D00A08A665FC92506D32F2A9
 v0n0.nic.saxo.		172800	IN	A	65.22.108.27
 v0n0.nic.saxo.		172800	IN	AAAA	2a01:8840:6a:0:0:0:0:27
@@ -16525,11 +16510,17 @@ u.nic.swiss.		172800	IN	A	195.253.65.9
 u.nic.swiss.		172800	IN	AAAA	2a01:5b0:5:0:0:0:0:9
 sx.			172800	IN	NS	ns1.ns.sx.
 sx.			172800	IN	NS	ns2.ns.sx.
+sx.			172800	IN	NS	ns3.ns.sx.
+sx.			172800	IN	NS	ns4.ns.sx.
 sx.			86400	IN	DS	34036 8 2 8FBC9761B3375B5A00AD9A7C0E1D22F7574C87EFBBCDD5249845A9778F876CE6
 ns1.ns.sx.		172800	IN	A	185.159.197.10
 ns1.ns.sx.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:10
 ns2.ns.sx.		172800	IN	A	185.159.198.10
 ns2.ns.sx.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:10
+ns3.ns.sx.		172800	IN	A	185.159.199.10
+ns3.ns.sx.		172800	IN	AAAA	2620:10a:80ac:0:0:0:0:10
+ns4.ns.sx.		172800	IN	A	45.142.220.101
+ns4.ns.sx.		172800	IN	AAAA	2a0e:dbc0:0:0:0:0:0:101
 sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
 sy.			172800	IN	NS	pch.anycast.tld.sy.
@@ -17763,6 +17754,14 @@ dns3.nominetdns.uk.	172800	IN	A	213.248.223.254
 dns3.nominetdns.uk.	172800	IN	AAAA	2a01:618:407:0:0:0:0:254
 dns4.nominetdns.uk.	172800	IN	A	43.230.51.254
 dns4.nominetdns.uk.	172800	IN	AAAA	2401:fd80:407:0:0:0:0:254
+ns1.nominetdns.uk.	172800	IN	A	213.248.219.135
+ns1.nominetdns.uk.	172800	IN	AAAA	2a01:618:403:0:0:0:0:135
+ns2.nominetdns.uk.	172800	IN	A	103.49.83.135
+ns2.nominetdns.uk.	172800	IN	AAAA	2401:fd80:403:0:0:0:0:135
+ns3.nominetdns.uk.	172800	IN	A	213.248.223.135
+ns3.nominetdns.uk.	172800	IN	AAAA	2a01:618:407:0:0:0:0:135
+ns4.nominetdns.uk.	172800	IN	A	43.230.51.135
+ns4.nominetdns.uk.	172800	IN	AAAA	2401:fd80:407:0:0:0:0:135
 unicom.			172800	IN	NS	a.zdnscloud.com.
 unicom.			172800	IN	NS	b.zdnscloud.com.
 unicom.			172800	IN	NS	c.zdnscloud.com.
@@ -18457,7 +18456,6 @@ wang.			172800	IN	NS	g.zdnscloud.com.
 wang.			172800	IN	NS	i.zdnscloud.com.
 wang.			172800	IN	NS	j.zdnscloud.com.
 wang.			86400	IN	DS	19549 8 2 328B02976180A88840E22A052B3D03C8CE7B67609B7CC1840E0E0FE71A3E8E8E
-wang.			86400	IN	DS	20969 8 2 E686EB5367B243E5DFD5C5FAADB23B0A52172B9CF5C72B28836BE2AF9402DADD
 wanggou.		172800	IN	NS	dns1.nic.wanggou.
 wanggou.		172800	IN	NS	dns2.nic.wanggou.
 wanggou.		172800	IN	NS	dns3.nic.wanggou.
@@ -19131,7 +19129,6 @@ xn--45q11c.		172800	IN	NS	g.zdnscloud.com.
 xn--45q11c.		172800	IN	NS	i.zdnscloud.com.
 xn--45q11c.		172800	IN	NS	j.zdnscloud.com.
 xn--45q11c.		86400	IN	DS	21806 8 2 622CFB958A0EE383C82CE227DFED29B054B4DB76B914CCF5D65703B41DA6D536
-xn--45q11c.		86400	IN	DS	46399 8 2 65907E5274D504536003BC4C24AC8D4907D0A7018996FFDA5B7F46E8BD9825BA
 xn--4dbrk0ce.		172800	IN	NS	ns1.ns.il.
 xn--4dbrk0ce.		172800	IN	NS	ns3.ns.il.
 xn--4dbrk0ce.		172800	IN	NS	ns4.ns.il.
@@ -19454,7 +19451,6 @@ xn--czru2d.		172800	IN	NS	f.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	g.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	i.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	j.zdnscloud.com.
-xn--czru2d.		86400	IN	DS	995 8 2 C37DB96801455F34FC09B824107A81B4DF13F273E00D1EF24B73986DF0EDA81C
 xn--czru2d.		86400	IN	DS	62552 8 2 A9400022E8AC90989AA6A0ECD9003DADC0902982336BAFBA4CE68E0FB15A8391
 xn--d1acj3b.		172800	IN	NS	a.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	b.dns.ripn.net.
@@ -19697,7 +19693,6 @@ xn--hxt814e.		172800	IN	NS	f.zdnscloud.com.
 xn--hxt814e.		172800	IN	NS	g.zdnscloud.com.
 xn--hxt814e.		172800	IN	NS	i.zdnscloud.com.
 xn--hxt814e.		172800	IN	NS	j.zdnscloud.com.
-xn--hxt814e.		86400	IN	DS	36091 8 2 D5BC5CF399DEADCE2782F1D21051A13787822441EA5850F69189960974C9EB95
 xn--hxt814e.		86400	IN	DS	59966 8 2 307E3F825424A5378D0069150E670E339C5BEB63052166013CC43C72EF79F489
 xn--i1b6b1a6a2e.	172800	IN	NS	a0.nic.xn--i1b6b1a6a2e.
 xn--i1b6b1a6a2e.	172800	IN	NS	a2.nic.xn--i1b6b1a6a2e.
