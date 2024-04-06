@@ -19899,7 +19899,6 @@ xn--mgbai9azgqp6j.	172800	IN	NS	ns2.ntc.net.pk.
 xn--mgbai9azgqp6j.	86400	IN	DS	21720 7 1 9FC6318AA15A43B4CF11D3F64CD678935E40402F
 xn--mgbai9azgqp6j.	86400	IN	DS	21720 7 2 BB7D853DFDFD7A39574CE1B5D3009E5C813264E614430C1B29C894C090393DD1
 xn--mgbayh7gpa.		172800	IN	NS	jo.cctld.authdns.ripe.net.
-xn--mgbayh7gpa.		172800	IN	NS	rip.psg.com.
 xn--mgbayh7gpa.		172800	IN	NS	amra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	petra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	cloudns.nic.net.jo.
