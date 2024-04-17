@@ -11516,6 +11516,7 @@ ms.			172800	IN	NS	a.lactld.org.
 ms.			172800	IN	NS	ns1.anycastdns.cz.
 ms.			172800	IN	NS	ns2.anycastdns.cz.
 ms.			172800	IN	NS	ms-ns.anycast.pch.net.
+ms.			86400	IN	DS	50317 8 2 A32757D135853B428CC7825F0BB88FA79F73A2FE497FB4E9F69611CC1687572A
 msd.			172800	IN	NS	a.nic.msd.
 msd.			172800	IN	NS	b.nic.msd.
 msd.			172800	IN	NS	c.nic.msd.
