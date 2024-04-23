@@ -3633,6 +3633,10 @@ cloud.			172800	IN	NS	ns1.uniregistry.net.
 cloud.			172800	IN	NS	ns2.uniregistry.info.
 cloud.			172800	IN	NS	ns3.uniregistry.net.
 cloud.			172800	IN	NS	ns4.uniregistry.info.
+cloud.			172800	IN	NS	ns01.trs-dns.com.
+cloud.			172800	IN	NS	ns01.trs-dns.net.
+cloud.			172800	IN	NS	ns01.trs-dns.org.
+cloud.			172800	IN	NS	ns01.trs-dns.info.
 cloud.			86400	IN	DS	48499 8 2 655C17351152D0B6A959B7AC2C674CA37BB3513F612CF803EAE16F572C648AB4
 club.			172800	IN	NS	a.nic.club.
 club.			172800	IN	NS	b.nic.club.
@@ -4173,6 +4177,10 @@ coop.			172800	IN	NS	ns1.uniregistry.net.
 coop.			172800	IN	NS	ns2.uniregistry.info.
 coop.			172800	IN	NS	ns3.uniregistry.net.
 coop.			172800	IN	NS	ns4.uniregistry.info.
+coop.			172800	IN	NS	ns01.trs-dns.com.
+coop.			172800	IN	NS	ns01.trs-dns.net.
+coop.			172800	IN	NS	ns01.trs-dns.org.
+coop.			172800	IN	NS	ns01.trs-dns.info.
 coop.			86400	IN	DS	39183 13 2 FD71E26868BF7F277DFA0800AA6F51E12E00C8B61841B35DAAE12CD86A34606F
 corsica.		172800	IN	NS	d.nic.fr.
 corsica.		172800	IN	NS	f.ext.nic.fr.
@@ -10393,6 +10401,10 @@ love.			172800	IN	NS	ns1.uniregistry.net.
 love.			172800	IN	NS	ns2.uniregistry.info.
 love.			172800	IN	NS	ns3.uniregistry.net.
 love.			172800	IN	NS	ns4.uniregistry.info.
+love.			172800	IN	NS	ns01.trs-dns.com.
+love.			172800	IN	NS	ns01.trs-dns.net.
+love.			172800	IN	NS	ns01.trs-dns.org.
+love.			172800	IN	NS	ns01.trs-dns.info.
 love.			86400	IN	DS	27205 13 2 099BAACEF86A52379CDC0F6756D1EADAA7963FF5C3A16CFE32340B109580B84B
 lpl.			172800	IN	NS	a.nic.lpl.
 lpl.			172800	IN	NS	b.nic.lpl.
@@ -14181,7 +14193,6 @@ realty.			172800	IN	NS	ns01.trs-dns.com.
 realty.			172800	IN	NS	ns01.trs-dns.net.
 realty.			172800	IN	NS	ns01.trs-dns.org.
 realty.			172800	IN	NS	ns01.trs-dns.info.
-realty.			86400	IN	DS	5506 8 2 20E276179F6EF711CD63C5E4851C2C3B4917FCFF813C708AA902C305B8960484
 realty.			86400	IN	DS	21334 8 2 613E789594BC8FCE2381F7B1C2F4232093B017F5EEF5444EB0F1D8EF5C2F65E2
 recipes.		172800	IN	NS	v0n0.nic.recipes.
 recipes.		172800	IN	NS	v0n1.nic.recipes.
