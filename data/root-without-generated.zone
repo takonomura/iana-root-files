@@ -1004,14 +1004,14 @@ at.			172800	IN	NS	ns2.univie.ac.at.
 at.			172800	IN	NS	ns9.univie.ac.at.
 at.			86400	IN	DS	1253 13 2 BA17C1BACB3FB49F7760AD1F7E71E17AB39EE0DF3E9D3BF23FD3D70D6CF1719E
 at.			86400	IN	DS	18942 13 2 AE5F0BD73C8F48F3D55CDC4070F9407873176C364DE4BC92BF96887685E6E55F
+dns-eg.univie.ac.at.	172800	IN	A	78.104.145.8
+dns-eg.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb:0:0:0:8
 dns-mk.univie.ac.at.	172800	IN	A	78.104.145.4
 dns-mk.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb:0:0:0:4
 ns1.univie.ac.at.	172800	IN	A	78.104.144.2
 ns1.univie.ac.at.	172800	IN	AAAA	2001:628:2030:4301:0:0:0:2
 ns2.univie.ac.at.	172800	IN	A	192.92.125.2
 ns2.univie.ac.at.	172800	IN	AAAA	2001:678:1c:0:0:0:0:2
-ns5.univie.ac.at.	172800	IN	A	193.171.255.77
-ns5.univie.ac.at.	172800	IN	AAAA	2001:628:453:4305:0:0:0:53
 ns9.univie.ac.at.	172800	IN	A	194.0.10.100
 ns9.univie.ac.at.	172800	IN	AAAA	2001:678:d:0:0:0:0:cafe
 d.ns.at.		172800	IN	A	81.91.161.98
@@ -5072,7 +5072,6 @@ diy.			172800	IN	NS	ns01.trs-dns.com.
 diy.			172800	IN	NS	ns01.trs-dns.net.
 diy.			172800	IN	NS	ns01.trs-dns.org.
 diy.			172800	IN	NS	ns01.trs-dns.info.
-diy.			86400	IN	DS	25674 8 2 06C661D544490AAF9C0EFA121F0FD66AE957CB1900309FDAE4A670AC4AF1D37D
 diy.			86400	IN	DS	41150 8 2 D206FA304919C1B109784EFE3704271919A8DA8AB5DFE8637C22E1AE7C8C46AB
 dj.			172800	IN	NS	bow1.intnet.dj.
 dj.			172800	IN	NS	bow5.intnet.dj.
@@ -5445,9 +5444,9 @@ b.tld.ee.		172800	IN	AAAA	2001:67c:1010:28:0:0:0:53
 e.tld.ee.		172800	IN	A	204.61.216.36
 e.tld.ee.		172800	IN	AAAA	2001:678:94:53:0:0:0:53
 ns.tld.ee.		172800	IN	A	195.43.87.10
-eg.			172800	IN	NS	ns5.univie.ac.at.
 eg.			172800	IN	NS	rip.psg.com.
 eg.			172800	IN	NS	frcu.eun.eg.
+eg.			172800	IN	NS	dns-eg.univie.ac.at.
 ns1.dotmasr.eg.		172800	IN	A	81.21.97.155
 ns2.dotmasr.eg.		172800	IN	A	81.21.99.11
 ns3.dotmasr.eg.		172800	IN	A	81.10.38.11
@@ -6433,7 +6432,6 @@ food.			172800	IN	NS	ns01.trs-dns.net.
 food.			172800	IN	NS	ns01.trs-dns.org.
 food.			172800	IN	NS	ns01.trs-dns.info.
 food.			86400	IN	DS	3415 8 2 CA071E56345C271F2097DEA2FD030A761869D20ACAF34540F56C26EB484A4EEA
-food.			86400	IN	DS	42180 8 2 4AA1F08B292B3835FD27B5692D0CD0C1CD0119BF1455A69506E50CDC6C47D761
 football.		172800	IN	NS	v0n0.nic.football.
 football.		172800	IN	NS	v0n1.nic.football.
 football.		172800	IN	NS	v0n2.nic.football.
@@ -7828,6 +7826,10 @@ hiphop.			172800	IN	NS	ns1.uniregistry.net.
 hiphop.			172800	IN	NS	ns2.uniregistry.info.
 hiphop.			172800	IN	NS	ns3.uniregistry.net.
 hiphop.			172800	IN	NS	ns4.uniregistry.info.
+hiphop.			172800	IN	NS	ns01.trs-dns.com.
+hiphop.			172800	IN	NS	ns01.trs-dns.net.
+hiphop.			172800	IN	NS	ns01.trs-dns.org.
+hiphop.			172800	IN	NS	ns01.trs-dns.info.
 hiphop.			86400	IN	DS	7668 13 2 DE0BDE4365798B5080D31D7A5A8E7182D4924938761BFD506AF371EA5CB36AB0
 hisamitsu.		172800	IN	NS	a.gmoregistry.net.
 hisamitsu.		172800	IN	NS	b.gmoregistry.net.
@@ -10067,7 +10069,6 @@ lifestyle.		172800	IN	NS	ns01.trs-dns.net.
 lifestyle.		172800	IN	NS	ns01.trs-dns.org.
 lifestyle.		172800	IN	NS	ns01.trs-dns.info.
 lifestyle.		86400	IN	DS	19435 8 2 4FAE9DA930DA43CA7D112ABEEB973FC22DE2A72B39F7570DBD1D7CF825AAE708
-lifestyle.		86400	IN	DS	43470 8 2 BC977BF20BAF75A4593E81D3E773F044543DE7C3DB7C8B0A7059E6F370A5C86C
 lighting.		172800	IN	NS	v0n0.nic.lighting.
 lighting.		172800	IN	NS	v0n1.nic.lighting.
 lighting.		172800	IN	NS	v0n2.nic.lighting.
@@ -10229,7 +10230,6 @@ living.			172800	IN	NS	ns01.trs-dns.com.
 living.			172800	IN	NS	ns01.trs-dns.net.
 living.			172800	IN	NS	ns01.trs-dns.org.
 living.			172800	IN	NS	ns01.trs-dns.info.
-living.			86400	IN	DS	9429 8 2 341CE294DED797DD426A6B6AFEAA0C85BA65BBC8EC3D5A7895D77DEE88435DF4
 living.			86400	IN	DS	59309 8 2 276C77D08EFE6388824F1726E7C6D754189F9EA1747718D4960C5EE66AE2837A
 lk.			172800	IN	NS	c.nic.lk.
 lk.			172800	IN	NS	d.nic.lk.
@@ -12637,7 +12637,6 @@ observer.		172800	IN	NS	ns01.trs-dns.com.
 observer.		172800	IN	NS	ns01.trs-dns.net.
 observer.		172800	IN	NS	ns01.trs-dns.org.
 observer.		172800	IN	NS	ns01.trs-dns.info.
-observer.		86400	IN	DS	46084 8 2 366C4C042DBBAA5636C254A7AB2331102545DCA6F2C81C8CE6B42C6DD0CADEB4
 observer.		86400	IN	DS	61001 8 2 73AD12C51E27B349F25A52045C94B7E62EE76EA3061C1ADDDA4CED8FC3038C94
 office.			172800	IN	NS	a.nic.office.
 office.			172800	IN	NS	b.nic.office.
@@ -17911,7 +17910,6 @@ vana.			172800	IN	NS	ns01.trs-dns.net.
 vana.			172800	IN	NS	ns01.trs-dns.org.
 vana.			172800	IN	NS	ns01.trs-dns.info.
 vana.			86400	IN	DS	16105 8 2 F270CC6904F1292FBE949FC33C20CF64887D06CC82D2243413ECCAEB98E7221C
-vana.			86400	IN	DS	51813 8 2 93BAEC1BC806C42034F1BA91345D8AA439242EA114157951BF6B7E9F79FC9E0C
 vanguard.		172800	IN	NS	a0.nic.vanguard.
 vanguard.		172800	IN	NS	a2.nic.vanguard.
 vanguard.		172800	IN	NS	b0.nic.vanguard.
