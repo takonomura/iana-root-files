@@ -3577,6 +3577,10 @@ click.			172800	IN	NS	ns1.uniregistry.net.
 click.			172800	IN	NS	ns2.uniregistry.info.
 click.			172800	IN	NS	ns3.uniregistry.net.
 click.			172800	IN	NS	ns4.uniregistry.info.
+click.			172800	IN	NS	ns01.trs-dns.com.
+click.			172800	IN	NS	ns01.trs-dns.net.
+click.			172800	IN	NS	ns01.trs-dns.org.
+click.			172800	IN	NS	ns01.trs-dns.info.
 click.			86400	IN	DS	65517 13 2 D09A2C14C4382634EDCCF9634FB32E91511E1E642F3C38468BA2407F1D1BAD24
 clinic.			172800	IN	NS	v0n0.nic.clinic.
 clinic.			172800	IN	NS	v0n1.nic.clinic.
@@ -3629,10 +3633,6 @@ v2n0.nic.clothing.	172800	IN	A	65.22.27.13
 v2n0.nic.clothing.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:13
 v2n1.nic.clothing.	172800	IN	A	161.232.13.13
 v2n1.nic.clothing.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:13
-cloud.			172800	IN	NS	ns1.uniregistry.net.
-cloud.			172800	IN	NS	ns2.uniregistry.info.
-cloud.			172800	IN	NS	ns3.uniregistry.net.
-cloud.			172800	IN	NS	ns4.uniregistry.info.
 cloud.			172800	IN	NS	ns01.trs-dns.com.
 cloud.			172800	IN	NS	ns01.trs-dns.net.
 cloud.			172800	IN	NS	ns01.trs-dns.org.
@@ -4173,10 +4173,6 @@ v2n0.nic.cool.		172800	IN	A	65.22.27.38
 v2n0.nic.cool.		172800	IN	AAAA	2a01:8840:1d:0:0:0:0:38
 v2n1.nic.cool.		172800	IN	A	161.232.13.38
 v2n1.nic.cool.		172800	IN	AAAA	2a01:8840:f7:0:0:0:0:38
-coop.			172800	IN	NS	ns1.uniregistry.net.
-coop.			172800	IN	NS	ns2.uniregistry.info.
-coop.			172800	IN	NS	ns3.uniregistry.net.
-coop.			172800	IN	NS	ns4.uniregistry.info.
 coop.			172800	IN	NS	ns01.trs-dns.com.
 coop.			172800	IN	NS	ns01.trs-dns.net.
 coop.			172800	IN	NS	ns01.trs-dns.org.
@@ -4190,6 +4186,10 @@ country.		172800	IN	NS	ns1.uniregistry.net.
 country.		172800	IN	NS	ns2.uniregistry.info.
 country.		172800	IN	NS	ns3.uniregistry.net.
 country.		172800	IN	NS	ns4.uniregistry.info.
+country.		172800	IN	NS	ns01.trs-dns.com.
+country.		172800	IN	NS	ns01.trs-dns.net.
+country.		172800	IN	NS	ns01.trs-dns.org.
+country.		172800	IN	NS	ns01.trs-dns.info.
 country.		86400	IN	DS	28436 13 2 94DD44E372B69204CB1FE63DDD1D7A831642D96D00E9DDA589DDAA02E0922CDD
 coupon.			172800	IN	NS	a.nic.coupon.
 coupon.			172800	IN	NS	b.nic.coupon.
@@ -7845,6 +7845,10 @@ hiv.			172800	IN	NS	ns1.uniregistry.net.
 hiv.			172800	IN	NS	ns2.uniregistry.info.
 hiv.			172800	IN	NS	ns3.uniregistry.net.
 hiv.			172800	IN	NS	ns4.uniregistry.info.
+hiv.			172800	IN	NS	ns01.trs-dns.com.
+hiv.			172800	IN	NS	ns01.trs-dns.net.
+hiv.			172800	IN	NS	ns01.trs-dns.org.
+hiv.			172800	IN	NS	ns01.trs-dns.info.
 hiv.			86400	IN	DS	50937 13 2 139053A1DD36C05B171D5ADB695CEDCD3DB6EEA7B7A2B0700AADC4C8712B1344
 hk.			172800	IN	NS	c.hkirc.net.hk.
 hk.			172800	IN	NS	d.hkirc.net.hk.
@@ -10325,7 +10329,6 @@ locker.			172800	IN	NS	ns01.trs-dns.com.
 locker.			172800	IN	NS	ns01.trs-dns.net.
 locker.			172800	IN	NS	ns01.trs-dns.org.
 locker.			172800	IN	NS	ns01.trs-dns.info.
-locker.			86400	IN	DS	6301 8 2 2A62E4284AD1157A9994BE5022A76CF66C2C233CEEDE058C673D065FEE63B90E
 locker.			86400	IN	DS	12691 8 2 DB488867DE794AE457267A654FE9266D4D03DDE9031DA92DD58A14E551B6DA01
 locus.			172800	IN	NS	dns1.nic.locus.
 locus.			172800	IN	NS	dns2.nic.locus.
@@ -10397,10 +10400,6 @@ b0.nic.lotto.		172800	IN	A	65.22.29.25
 b0.nic.lotto.		172800	IN	AAAA	2a01:8840:1f:0:0:0:0:25
 c0.nic.lotto.		172800	IN	A	65.22.30.25
 c0.nic.lotto.		172800	IN	AAAA	2a01:8840:20:0:0:0:0:25
-love.			172800	IN	NS	ns1.uniregistry.net.
-love.			172800	IN	NS	ns2.uniregistry.info.
-love.			172800	IN	NS	ns3.uniregistry.net.
-love.			172800	IN	NS	ns4.uniregistry.info.
 love.			172800	IN	NS	ns01.trs-dns.com.
 love.			172800	IN	NS	ns01.trs-dns.net.
 love.			172800	IN	NS	ns01.trs-dns.org.
@@ -13869,6 +13868,10 @@ property.		172800	IN	NS	ns1.uniregistry.net.
 property.		172800	IN	NS	ns2.uniregistry.info.
 property.		172800	IN	NS	ns3.uniregistry.net.
 property.		172800	IN	NS	ns4.uniregistry.info.
+property.		172800	IN	NS	ns01.trs-dns.com.
+property.		172800	IN	NS	ns01.trs-dns.net.
+property.		172800	IN	NS	ns01.trs-dns.org.
+property.		172800	IN	NS	ns01.trs-dns.info.
 property.		86400	IN	DS	33049 13 2 6DFF521D658293FD458E615DEBB6CA0C76341775F72F340BCD3960851B4C536F
 protection.		172800	IN	NS	a.nic.protection.
 protection.		172800	IN	NS	b.nic.protection.
