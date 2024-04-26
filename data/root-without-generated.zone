@@ -3573,10 +3573,6 @@ v2n0.nic.cleaning.	172800	IN	A	65.22.23.27
 v2n0.nic.cleaning.	172800	IN	AAAA	2a01:8840:19:0:0:0:0:27
 v2n1.nic.cleaning.	172800	IN	A	161.232.11.27
 v2n1.nic.cleaning.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:27
-click.			172800	IN	NS	ns1.uniregistry.net.
-click.			172800	IN	NS	ns2.uniregistry.info.
-click.			172800	IN	NS	ns3.uniregistry.net.
-click.			172800	IN	NS	ns4.uniregistry.info.
 click.			172800	IN	NS	ns01.trs-dns.com.
 click.			172800	IN	NS	ns01.trs-dns.net.
 click.			172800	IN	NS	ns01.trs-dns.org.
@@ -4182,10 +4178,6 @@ corsica.		172800	IN	NS	d.nic.fr.
 corsica.		172800	IN	NS	f.ext.nic.fr.
 corsica.		172800	IN	NS	g.ext.nic.fr.
 corsica.		86400	IN	DS	16766 13 2 FB25F2D69835BF52CD5389473CD4B0C58D581385EE40B1D1A357135A8CE26997
-country.		172800	IN	NS	ns1.uniregistry.net.
-country.		172800	IN	NS	ns2.uniregistry.info.
-country.		172800	IN	NS	ns3.uniregistry.net.
-country.		172800	IN	NS	ns4.uniregistry.info.
 country.		172800	IN	NS	ns01.trs-dns.com.
 country.		172800	IN	NS	ns01.trs-dns.net.
 country.		172800	IN	NS	ns01.trs-dns.org.
@@ -7841,10 +7833,6 @@ hitachi.		172800	IN	NS	b.gmoregistry.net.
 hitachi.		172800	IN	NS	k.gmoregistry.net.
 hitachi.		172800	IN	NS	l.gmoregistry.net.
 hitachi.		86400	IN	DS	14525 8 2 03EA91AC19AEB9FFA37874A5F0F27F2A04C6EEAE162FD7D9C87F083447D31E5F
-hiv.			172800	IN	NS	ns1.uniregistry.net.
-hiv.			172800	IN	NS	ns2.uniregistry.info.
-hiv.			172800	IN	NS	ns3.uniregistry.net.
-hiv.			172800	IN	NS	ns4.uniregistry.info.
 hiv.			172800	IN	NS	ns01.trs-dns.com.
 hiv.			172800	IN	NS	ns01.trs-dns.net.
 hiv.			172800	IN	NS	ns01.trs-dns.org.
@@ -13864,10 +13852,6 @@ v2n0.nic.properties.	172800	IN	A	65.22.23.46
 v2n0.nic.properties.	172800	IN	AAAA	2a01:8840:19:0:0:0:0:46
 v2n1.nic.properties.	172800	IN	A	161.232.11.46
 v2n1.nic.properties.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:46
-property.		172800	IN	NS	ns1.uniregistry.net.
-property.		172800	IN	NS	ns2.uniregistry.info.
-property.		172800	IN	NS	ns3.uniregistry.net.
-property.		172800	IN	NS	ns4.uniregistry.info.
 property.		172800	IN	NS	ns01.trs-dns.com.
 property.		172800	IN	NS	ns01.trs-dns.net.
 property.		172800	IN	NS	ns01.trs-dns.org.
@@ -14114,7 +14098,6 @@ re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	e.ext.nic.fr.
 re.			172800	IN	NS	f.ext.nic.fr.
 re.			172800	IN	NS	g.ext.nic.fr.
-re.			86400	IN	DS	49754 13 2 CE6C40407ED006C7A2D34B04F01EA0D825A64FA2418D6E994192AD05AD24FF68
 re.			86400	IN	DS	61047 13 2 6A6546F44C8680C705612F9722A591DBBB88BF0D40E89E1CB45FAD18EEE3D4EA
 read.			172800	IN	NS	dns1.nic.read.
 read.			172800	IN	NS	dns2.nic.read.
@@ -14343,7 +14326,6 @@ ren.			172800	IN	NS	f.zdnscloud.com.
 ren.			172800	IN	NS	g.zdnscloud.com.
 ren.			172800	IN	NS	i.zdnscloud.com.
 ren.			172800	IN	NS	j.zdnscloud.com.
-ren.			86400	IN	DS	770 8 2 897EA15932FA4407809D32CA7C7DA4B0C0E455316A897970F152109F18CE6CD9
 ren.			86400	IN	DS	6712 8 2 06090FB53AE539CE051D9236A0C6B5FD58361167BC0D7F5E8E9EAB4F62D4FFFB
 rent.			172800	IN	NS	a.nic.rent.
 rent.			172800	IN	NS	b.nic.rent.
