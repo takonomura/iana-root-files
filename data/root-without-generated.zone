@@ -7814,10 +7814,6 @@ b0.nic.hermes.		172800	IN	A	65.22.233.25
 b0.nic.hermes.		172800	IN	AAAA	2a01:8840:e3:0:0:0:0:25
 c0.nic.hermes.		172800	IN	A	65.22.234.25
 c0.nic.hermes.		172800	IN	AAAA	2a01:8840:e4:0:0:0:0:25
-hiphop.			172800	IN	NS	ns1.uniregistry.net.
-hiphop.			172800	IN	NS	ns2.uniregistry.info.
-hiphop.			172800	IN	NS	ns3.uniregistry.net.
-hiphop.			172800	IN	NS	ns4.uniregistry.info.
 hiphop.			172800	IN	NS	ns01.trs-dns.com.
 hiphop.			172800	IN	NS	ns01.trs-dns.net.
 hiphop.			172800	IN	NS	ns01.trs-dns.org.
