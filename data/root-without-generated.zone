@@ -916,6 +916,7 @@ art.			172800	IN	NS	b.nic.art.
 art.			172800	IN	NS	c.nic.art.
 art.			172800	IN	NS	d.nic.art.
 art.			86400	IN	DS	29485 8 2 BF041A7EC6CA857F5D85151C66F561DEB9C863B98E05670C345C9CF9ED199AEE
+art.			86400	IN	DS	32002 8 2 FB2AE28A30B90D8B273B88EDF84D3EDC704C6AA6DD08C1F51C8E96992441BB17
 a.nic.art.		172800	IN	A	194.169.218.49
 a.nic.art.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:49
 b.nic.art.		172800	IN	A	185.24.64.49
@@ -2735,7 +2736,7 @@ cam.			172800	IN	NS	b.nic.cam.
 cam.			172800	IN	NS	c.nic.cam.
 cam.			172800	IN	NS	d.nic.cam.
 cam.			86400	IN	DS	5089 8 2 A17021ADA565F6B13749741DC51A25B0F524BAE6B753343155CFE8426CD29462
-cam.			86400	IN	DS	27179 8 2 F8C48547453F63FCC5BF62884A1F885FE50D467079E7B17DA3C8D0A2DC92474D
+cam.			86400	IN	DS	63412 8 2 574852572A5D0FA1B6C9D1B008851E74A34298E5DCBB0979C347753EEC1A23D4
 a.nic.cam.		172800	IN	A	194.169.218.77
 a.nic.cam.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:77
 b.nic.cam.		172800	IN	A	185.24.64.77
@@ -9281,6 +9282,10 @@ juegos.			172800	IN	NS	ns1.uniregistry.net.
 juegos.			172800	IN	NS	ns2.uniregistry.info.
 juegos.			172800	IN	NS	ns3.uniregistry.net.
 juegos.			172800	IN	NS	ns4.uniregistry.info.
+juegos.			172800	IN	NS	ns01.trs-dns.com.
+juegos.			172800	IN	NS	ns01.trs-dns.net.
+juegos.			172800	IN	NS	ns01.trs-dns.org.
+juegos.			172800	IN	NS	ns01.trs-dns.info.
 juegos.			86400	IN	DS	29108 13 2 A05CE9AC7DD78B8C400AEE67A0F85D3AA82B99C07745748021A53BC35E9FC0F3
 juniper.		172800	IN	NS	a0.nic.juniper.
 juniper.		172800	IN	NS	a2.nic.juniper.
@@ -11638,6 +11643,8 @@ my.			172800	IN	NS	b.mynic.centralnic-dns.com.
 my.			172800	IN	NS	c.mynic.centralnic-dns.com.
 my.			172800	IN	NS	d.mynic.centralnic-dns.com.
 my.			172800	IN	NS	a1.nic.my.
+my.			172800	IN	NS	ns01.trs-dns.com.
+my.			172800	IN	NS	ns01.trs-dns.net.
 my.			86400	IN	DS	174 8 2 FB9E2F10F50A09E3614A9E6A2C76C1AE7554711E5242B7F516A8078D86ED87B9
 my.			86400	IN	DS	35481 8 2 AE555A40F6BDB488EB025822A71C91C94E1F339FDD71E0386561C3C4B7D2B198
 a.nic.my.		172800	IN	A	103.44.108.53
@@ -13362,6 +13369,7 @@ pid.			172800	IN	NS	b.nic.pid.
 pid.			172800	IN	NS	c.nic.pid.
 pid.			172800	IN	NS	d.nic.pid.
 pid.			86400	IN	DS	35396 8 2 E8653B5C02C27CC66FD56D529656C23DA9DC0231F060D527E231659F9EF27964
+pid.			86400	IN	DS	40310 8 2 2415BF6A21E16AA37DB85091772FD176CA35AC24CA8AB1C95B81DF13F7FA0754
 a.nic.pid.		172800	IN	A	194.169.218.47
 a.nic.pid.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:47
 b.nic.pid.		172800	IN	A	185.24.64.47
@@ -15443,6 +15451,10 @@ sexy.			172800	IN	NS	ns1.uniregistry.net.
 sexy.			172800	IN	NS	ns2.uniregistry.info.
 sexy.			172800	IN	NS	ns3.uniregistry.net.
 sexy.			172800	IN	NS	ns4.uniregistry.info.
+sexy.			172800	IN	NS	ns01.trs-dns.com.
+sexy.			172800	IN	NS	ns01.trs-dns.net.
+sexy.			172800	IN	NS	ns01.trs-dns.org.
+sexy.			172800	IN	NS	ns01.trs-dns.info.
 sexy.			86400	IN	DS	42010 13 2 A0E135AC7E6FFB2CAD1574C08C837BB5D5A4E34C60356498389E69B55943D58C
 sfr.			172800	IN	NS	a.nic.sfr.
 sfr.			172800	IN	NS	b.nic.sfr.
@@ -17439,6 +17451,10 @@ trust.			172800	IN	NS	ns1.uniregistry.net.
 trust.			172800	IN	NS	ns2.uniregistry.info.
 trust.			172800	IN	NS	ns3.uniregistry.net.
 trust.			172800	IN	NS	ns4.uniregistry.info.
+trust.			172800	IN	NS	ns01.trs-dns.com.
+trust.			172800	IN	NS	ns01.trs-dns.net.
+trust.			172800	IN	NS	ns01.trs-dns.org.
+trust.			172800	IN	NS	ns01.trs-dns.info.
 trust.			86400	IN	DS	33872 13 2 D324A81281464251E04686F4E75D2978B119496FE596012A89647FF6AF0EEFC3
 trv.			172800	IN	NS	a0.nic.trv.
 trv.			172800	IN	NS	a2.nic.trv.
