@@ -7052,6 +7052,10 @@ gift.			172800	IN	NS	ns1.uniregistry.net.
 gift.			172800	IN	NS	ns2.uniregistry.info.
 gift.			172800	IN	NS	ns3.uniregistry.net.
 gift.			172800	IN	NS	ns4.uniregistry.info.
+gift.			172800	IN	NS	ns01.trs-dns.com.
+gift.			172800	IN	NS	ns01.trs-dns.net.
+gift.			172800	IN	NS	ns01.trs-dns.org.
+gift.			172800	IN	NS	ns01.trs-dns.info.
 gift.			86400	IN	DS	45508 13 2 EEA1DC9AE9E1BD91256962BFB0D639C8DF881E8C56981B667FFFC27DAF293A6B
 gifts.			172800	IN	NS	v0n0.nic.gifts.
 gifts.			172800	IN	NS	v0n1.nic.gifts.
@@ -9278,10 +9282,6 @@ tld4.nic.jprs.		172800	IN	A	103.198.210.1
 tld4.nic.jprs.		172800	IN	AAAA	2403:2880:0:0:0:0:0:1
 tld5.nic.jprs.		172800	IN	A	65.22.40.129
 tld5.nic.jprs.		172800	IN	AAAA	2a01:8840:1ba:0:0:0:0:129
-juegos.			172800	IN	NS	ns1.uniregistry.net.
-juegos.			172800	IN	NS	ns2.uniregistry.info.
-juegos.			172800	IN	NS	ns3.uniregistry.net.
-juegos.			172800	IN	NS	ns4.uniregistry.info.
 juegos.			172800	IN	NS	ns01.trs-dns.com.
 juegos.			172800	IN	NS	ns01.trs-dns.net.
 juegos.			172800	IN	NS	ns01.trs-dns.org.
@@ -15447,10 +15447,6 @@ y.nic.sex.		172800	IN	A	156.154.173.82
 y.nic.sex.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.sex.		172800	IN	A	156.154.174.82
 z.nic.sex.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-sexy.			172800	IN	NS	ns1.uniregistry.net.
-sexy.			172800	IN	NS	ns2.uniregistry.info.
-sexy.			172800	IN	NS	ns3.uniregistry.net.
-sexy.			172800	IN	NS	ns4.uniregistry.info.
 sexy.			172800	IN	NS	ns01.trs-dns.com.
 sexy.			172800	IN	NS	ns01.trs-dns.net.
 sexy.			172800	IN	NS	ns01.trs-dns.org.
@@ -17447,10 +17443,6 @@ b0.nic.travelersinsurance.	172800	IN	A	65.22.201.17
 b0.nic.travelersinsurance.	172800	IN	AAAA	2a01:8840:c3:0:0:0:0:17
 c0.nic.travelersinsurance.	172800	IN	A	65.22.202.17
 c0.nic.travelersinsurance.	172800	IN	AAAA	2a01:8840:c4:0:0:0:0:17
-trust.			172800	IN	NS	ns1.uniregistry.net.
-trust.			172800	IN	NS	ns2.uniregistry.info.
-trust.			172800	IN	NS	ns3.uniregistry.net.
-trust.			172800	IN	NS	ns4.uniregistry.info.
 trust.			172800	IN	NS	ns01.trs-dns.com.
 trust.			172800	IN	NS	ns01.trs-dns.net.
 trust.			172800	IN	NS	ns01.trs-dns.org.
