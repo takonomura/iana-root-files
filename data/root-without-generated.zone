@@ -5994,7 +5994,6 @@ feedback.		172800	IN	NS	ns01.trs-dns.com.
 feedback.		172800	IN	NS	ns01.trs-dns.net.
 feedback.		172800	IN	NS	ns01.trs-dns.org.
 feedback.		172800	IN	NS	ns01.trs-dns.info.
-feedback.		86400	IN	DS	16786 8 2 00F7F4B6DF67DC7B828C14829884908EE92E57FE312ED483C43DA299FA5DDAE5
 feedback.		86400	IN	DS	37115 8 2 234EE176851A803E7CB19FAFC25C1F2DC1090E119FCEE44FA63140BD014C64F2
 ferrari.		172800	IN	NS	a0.nic.ferrari.
 ferrari.		172800	IN	NS	a2.nic.ferrari.
@@ -6505,7 +6504,6 @@ forum.			172800	IN	NS	ns01.trs-dns.com.
 forum.			172800	IN	NS	ns01.trs-dns.net.
 forum.			172800	IN	NS	ns01.trs-dns.org.
 forum.			172800	IN	NS	ns01.trs-dns.info.
-forum.			86400	IN	DS	9475 8 2 A53A95D8AB4105B83918A104F8828B1E0DDDB48C290A8EFF1960918E01EAFAE6
 forum.			86400	IN	DS	12827 8 2 07AD0E47C13B5699EFCBDF1A3717B66E2601748B09256173FF713B4D1346512C
 foundation.		172800	IN	NS	v0n0.nic.foundation.
 foundation.		172800	IN	NS	v0n1.nic.foundation.
@@ -7048,10 +7046,6 @@ gi.			172800	IN	NS	b2.cctld.afilias-nst.org.
 gi.			172800	IN	NS	c0.cctld.afilias-nst.info.
 gi.			172800	IN	NS	d0.cctld.afilias-nst.org.
 gi.			86400	IN	DS	33934 8 2 3DB5809DE2E1052B00E010F54B404BD59CB5CBA0C8306E1799623BDA45A1CFB7
-gift.			172800	IN	NS	ns1.uniregistry.net.
-gift.			172800	IN	NS	ns2.uniregistry.info.
-gift.			172800	IN	NS	ns3.uniregistry.net.
-gift.			172800	IN	NS	ns4.uniregistry.info.
 gift.			172800	IN	NS	ns01.trs-dns.com.
 gift.			172800	IN	NS	ns01.trs-dns.net.
 gift.			172800	IN	NS	ns01.trs-dns.org.
@@ -9650,6 +9644,10 @@ ky.			172800	IN	NS	ns1.uniregistry.net.
 ky.			172800	IN	NS	ns2.uniregistry.info.
 ky.			172800	IN	NS	ns3.uniregistry.net.
 ky.			172800	IN	NS	ns4.uniregistry.info.
+ky.			172800	IN	NS	ns01.trs-dns.com.
+ky.			172800	IN	NS	ns01.trs-dns.net.
+ky.			172800	IN	NS	ns01.trs-dns.org.
+ky.			172800	IN	NS	ns01.trs-dns.info.
 ky.			86400	IN	DS	38821 13 2 7FC55D2CABBA85A2CA6831ACA0565A64D7AD91E4861B114F317392B680DC6CBC
 kyoto.			172800	IN	NS	a.gmoregistry.net.
 kyoto.			172800	IN	NS	b.gmoregistry.net.
@@ -10186,6 +10184,10 @@ link.			172800	IN	NS	ns1.uniregistry.net.
 link.			172800	IN	NS	ns2.uniregistry.info.
 link.			172800	IN	NS	ns3.uniregistry.net.
 link.			172800	IN	NS	ns4.uniregistry.info.
+link.			172800	IN	NS	ns01.trs-dns.com.
+link.			172800	IN	NS	ns01.trs-dns.net.
+link.			172800	IN	NS	ns01.trs-dns.org.
+link.			172800	IN	NS	ns01.trs-dns.info.
 link.			86400	IN	DS	16766 13 2 40F1045035D7BA48D27A66442B2C71CA159D219756D3AD4D35CF1E80419228B5
 lipsy.			172800	IN	NS	a0.nic.lipsy.
 lipsy.			172800	IN	NS	a2.nic.lipsy.
@@ -12589,7 +12591,6 @@ nz.			172800	IN	NS	ns4.dns.net.nz.
 nz.			172800	IN	NS	ns5.dns.net.nz.
 nz.			172800	IN	NS	ns6.dns.net.nz.
 nz.			172800	IN	NS	ns7.dns.net.nz.
-nz.			86400	IN	DS	13646 8 2 569B1BAE369FD18F03D088FBA91BD58A830E4E21D2C96155CED267544CAC14B1
 nz.			86400	IN	DS	49157 8 2 44628E9BF710B40D5A5B19087A119EAF2C0B5CED7E7BA4268F4FC35BEF14B1C0
 nz.			86400	IN	DS	63529 8 2 65C9663EACC1AD314058A5A7B127D409D144BBA9A58EC0B6A7F4F028574DF47B
 circa.mcs.vuw.ac.nz.	172800	IN	A	130.195.5.12
@@ -14573,6 +14574,7 @@ ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
 ro.			86400	IN	DS	9784 8 2 0A8ED773F6BBF8C5D2F687C26A9A904C76DE41DB74F329501E23F206C9C3B078
+ro.			86400	IN	DS	61039 8 2 7C53F10E86835711C3CC6BA9632E4295A077E6A0A148059195371C3E5D07E10F
 dns-at.rotld.ro.	172800	IN	A	78.104.145.6
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:bb:0:0:0:6
 dns-c.rotld.ro.		172800	IN	A	194.0.11.113
