@@ -9640,10 +9640,6 @@ d.nic.kw.		172800	IN	A	185.42.137.135
 d.nic.kw.		172800	IN	AAAA	2a01:3f0:400:8001:0:0:0:135
 pch.nic.kw.		172800	IN	A	204.61.216.118
 pch.nic.kw.		172800	IN	AAAA	2001:500:14:6118:ad:0:0:1
-ky.			172800	IN	NS	ns1.uniregistry.net.
-ky.			172800	IN	NS	ns2.uniregistry.info.
-ky.			172800	IN	NS	ns3.uniregistry.net.
-ky.			172800	IN	NS	ns4.uniregistry.info.
 ky.			172800	IN	NS	ns01.trs-dns.com.
 ky.			172800	IN	NS	ns01.trs-dns.net.
 ky.			172800	IN	NS	ns01.trs-dns.org.
@@ -10180,10 +10176,6 @@ ns2.dns.nic.lincoln.	172800	IN	A	156.154.145.105
 ns2.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:69
 ns3.dns.nic.lincoln.	172800	IN	A	156.154.159.105
 ns3.dns.nic.lincoln.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:69
-link.			172800	IN	NS	ns1.uniregistry.net.
-link.			172800	IN	NS	ns2.uniregistry.info.
-link.			172800	IN	NS	ns3.uniregistry.net.
-link.			172800	IN	NS	ns4.uniregistry.info.
 link.			172800	IN	NS	ns01.trs-dns.com.
 link.			172800	IN	NS	ns01.trs-dns.net.
 link.			172800	IN	NS	ns01.trs-dns.org.
