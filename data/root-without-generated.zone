@@ -6950,7 +6950,7 @@ gdn.			172800	IN	NS	ns1.nic.gdn.
 gdn.			172800	IN	NS	ns3.nic.gdn.
 gdn.			172800	IN	NS	ns4.nic.gdn.
 gdn.			86400	IN	DS	28906 8 1 157427E9D56B06DE066A0BEE607C2F3314B85FEA
-gdn.			86400	IN	DS	30307 8 1 7A16BF5938B9FE7CF2AC5BE9C472E81443944686
+gdn.			86400	IN	DS	31405 8 1 00275A5FEEC994177D0C012B7239CA8AD41EC030
 ns1.nic.gdn.		172800	IN	A	194.0.25.18
 ns1.nic.gdn.		172800	IN	AAAA	2001:678:20:0:0:0:0:18
 ns3.nic.gdn.		172800	IN	A	194.0.26.11
@@ -7163,7 +7163,8 @@ gm.			172800	IN	NS	ns1.nic.gm.
 gm.			172800	IN	NS	ns2.nic.gm.
 gm.			172800	IN	NS	ns-gm.afrinic.net.
 ns1.nic.gm.		172800	IN	A	194.63.250.217
-ns2.nic.gm.		172800	IN	A	20.102.113.6
+ns2.nic.gm.		172800	IN	A	209.250.227.199
+ns2.nic.gm.		172800	IN	AAAA	2a05:f480:1000:235:5400:4ff:fee5:2f89
 gmail.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 gmail.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 gmail.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -14565,7 +14566,6 @@ ro.			172800	IN	NS	dns-ro.denic.de.
 ro.			172800	IN	NS	primary.rotld.ro.
 ro.			172800	IN	NS	sec-dns-a.rotld.ro.
 ro.			172800	IN	NS	sec-dns-b.rotld.ro.
-ro.			86400	IN	DS	9784 8 2 0A8ED773F6BBF8C5D2F687C26A9A904C76DE41DB74F329501E23F206C9C3B078
 ro.			86400	IN	DS	61039 8 2 7C53F10E86835711C3CC6BA9632E4295A077E6A0A148059195371C3E5D07E10F
 dns-at.rotld.ro.	172800	IN	A	78.104.145.6
 dns-at.rotld.ro.	172800	IN	AAAA	2001:628:453:bb:0:0:0:6
