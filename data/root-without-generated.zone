@@ -260,8 +260,6 @@ ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ns3.nic.fr.
 ad.			172800	IN	NS	anycast9.irondns.net.
 ad.			172800	IN	NS	anycast23.irondns.net.
-ad.			86400	IN	DS	10624 8 2 732AC3921E40EAC6C01B0C467BEDA420F42BF38B7C462E86D01D1D2C4EB9DA37
-ad.			86400	IN	DS	50617 8 2 12432422B23EA8F82751D15041DF27F6E2C8C408C3D7A18DCAC511652E5E263D
 ads.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
