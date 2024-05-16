@@ -260,6 +260,7 @@ ad.			172800	IN	NS	ad.ns.nic.es.
 ad.			172800	IN	NS	ns3.nic.fr.
 ad.			172800	IN	NS	anycast9.irondns.net.
 ad.			172800	IN	NS	anycast23.irondns.net.
+ad.			86400	IN	DS	6062 8 2 3C07A798097F38D173D98194F436A2ED29443ECC1DA0D9F8DA8ABFA29348D6CE
 ads.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -3216,6 +3217,7 @@ d.nic.cfd.		172800	IN	A	212.18.249.122
 d.nic.cfd.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:122
 cg.			172800	IN	NS	sunic.sunet.se.
 cg.			172800	IN	NS	dns-fr.dnsafrica.net.
+cg.			172800	IN	NS	dns-sg.dnsafrica.net.
 cg.			172800	IN	NS	dns-za.dnsafrica.net.
 ch.			172800	IN	NS	a.nic.ch.
 ch.			172800	IN	NS	b.nic.ch.
@@ -10320,6 +10322,7 @@ locker.			172800	IN	NS	ns01.trs-dns.net.
 locker.			172800	IN	NS	ns01.trs-dns.org.
 locker.			172800	IN	NS	ns01.trs-dns.info.
 locker.			86400	IN	DS	12691 8 2 DB488867DE794AE457267A654FE9266D4D03DDE9031DA92DD58A14E551B6DA01
+locker.			86400	IN	DS	13510 13 2 2D3BE42CC855B6935E8611FB8190CAB72B60F2BCEB8B16906DB2BAE3DA0A1912
 locus.			172800	IN	NS	dns1.nic.locus.
 locus.			172800	IN	NS	dns2.nic.locus.
 locus.			172800	IN	NS	dns3.nic.locus.
@@ -11595,7 +11598,7 @@ music.			172800	IN	NS	a.nic.music.
 music.			172800	IN	NS	b.nic.music.
 music.			172800	IN	NS	c.nic.music.
 music.			172800	IN	NS	d.nic.music.
-music.			86400	IN	DS	60004 8 1 EE80F198DA75C68C32A632E895502F3F2A32940E
+music.			86400	IN	DS	11216 8 2 D45430B83157049BEBD9590CF68625C5161B1902E6C0A708C34C6C71461D1F6F
 music.			86400	IN	DS	60004 8 2 F4025F7B5C848808861BD35868BAE0CFCF7A0FE3AA1F79BB222093687462F3FB
 a.nic.music.		172800	IN	A	194.169.218.142
 a.nic.music.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:142
@@ -11868,6 +11871,8 @@ n.de.net.		172800	IN	AAAA	2001:67c:1011:1:0:0:0:53
 s.de.net.		172800	IN	A	195.243.137.26
 s.de.net.		172800	IN	AAAA	2003:8:14:0:0:0:0:53
 dns-fr.dnsafrica.net.	172800	IN	A	151.80.35.161
+dns-sg.dnsafrica.net.	172800	IN	A	51.79.160.242
+dns-sg.dnsafrica.net.	172800	IN	AAAA	2402:1f00:8000:800:0:0:0:25ed
 dns-za.dnsafrica.net.	172800	IN	A	41.185.30.170
 anyc.dnsnode.net.	172800	IN	A	194.58.198.135
 anyc.dnsnode.net.	172800	IN	AAAA	2a01:3f1:3032:8001:0:0:0:135
