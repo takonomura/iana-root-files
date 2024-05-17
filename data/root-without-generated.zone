@@ -3216,6 +3216,7 @@ c.nic.cfd.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:122
 d.nic.cfd.		172800	IN	A	212.18.249.122
 d.nic.cfd.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:122
 cg.			172800	IN	NS	sunic.sunet.se.
+cg.			172800	IN	NS	dns-ca.dnsafrica.net.
 cg.			172800	IN	NS	dns-fr.dnsafrica.net.
 cg.			172800	IN	NS	dns-sg.dnsafrica.net.
 cg.			172800	IN	NS	dns-za.dnsafrica.net.
@@ -11870,6 +11871,8 @@ n.de.net.		172800	IN	A	194.146.107.6
 n.de.net.		172800	IN	AAAA	2001:67c:1011:1:0:0:0:53
 s.de.net.		172800	IN	A	195.243.137.26
 s.de.net.		172800	IN	AAAA	2003:8:14:0:0:0:0:53
+dns-ca.dnsafrica.net.	172800	IN	A	54.39.22.36
+dns-ca.dnsafrica.net.	172800	IN	AAAA	2607:5300:201:3100:0:0:0:2b7c
 dns-fr.dnsafrica.net.	172800	IN	A	151.80.35.161
 dns-sg.dnsafrica.net.	172800	IN	A	51.79.160.242
 dns-sg.dnsafrica.net.	172800	IN	AAAA	2402:1f00:8000:800:0:0:0:25ed
