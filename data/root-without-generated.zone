@@ -12112,8 +12112,6 @@ m.root-servers.net.	518400	IN	AAAA	2001:dc3:0:0:0:0:0:35
 ns-root-21.scpt-network.net.	172800	IN	A	102.68.62.15
 ns-root-22.scpt-network.net.	172800	IN	A	102.68.60.15
 ns-root-23.scpt-network.net.	172800	IN	A	161.97.87.130
-ns1.sr.net.		172800	IN	A	200.1.159.148
-ns2.sr.net.		172800	IN	A	200.2.162.30
 ns.thnic.net.		172800	IN	A	202.28.0.1
 ns01.trs-dns.net.	172800	IN	A	64.96.2.1
 ns1.uniregistry.net.	172800	IN	A	64.96.1.1
@@ -16084,8 +16082,11 @@ dnsc.nic.spot.		172800	IN	A	156.154.102.3
 dnsc.nic.spot.		172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
 dnsd.nic.spot.		172800	IN	A	156.154.103.3
 dnsd.nic.spot.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
-sr.			172800	IN	NS	ns1.sr.net.
-sr.			172800	IN	NS	ns2.sr.net.
+sr.			172800	IN	NS	ns1.nic.sr.
+sr.			172800	IN	NS	ns2.nic.sr.
+ns1.nic.sr.		172800	IN	A	168.195.219.210
+ns1.nic.sr.		172800	IN	AAAA	2803:ff40:a251:0:168:195:219:2
+ns2.nic.sr.		172800	IN	A	168.195.216.214
 srl.			172800	IN	NS	a0.nic.srl.
 srl.			172800	IN	NS	a2.nic.srl.
 srl.			172800	IN	NS	b0.nic.srl.
