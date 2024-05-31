@@ -15106,7 +15106,7 @@ ns1.nic.sc.		172800	IN	A	41.86.57.54
 scb.			172800	IN	NS	c.nic.scb.
 scb.			172800	IN	NS	rz.nic.scb.
 scb.			172800	IN	NS	nn1.nic.scb.
-scb.			86400	IN	DS	20801 8 2 16BFF89DD2FAF9AC06221F6DE0E206ED57FEC2E29316779E30789D7E00A5BD2F
+scb.			86400	IN	DS	3706 8 2 4468BA63991268D9C1916A569DC1608B39413749679313161165C84B24016160
 c.nic.scb.		172800	IN	A	194.0.1.35
 c.nic.scb.		172800	IN	AAAA	2001:678:4:0:0:0:0:23
 nn1.nic.scb.		172800	IN	A	194.58.198.136
@@ -20469,6 +20469,10 @@ yandex.			172800	IN	NS	ns1.uniregistry.net.
 yandex.			172800	IN	NS	ns2.uniregistry.info.
 yandex.			172800	IN	NS	ns3.uniregistry.net.
 yandex.			172800	IN	NS	ns4.uniregistry.info.
+yandex.			172800	IN	NS	ns01.trs-dns.com.
+yandex.			172800	IN	NS	ns01.trs-dns.net.
+yandex.			172800	IN	NS	ns01.trs-dns.org.
+yandex.			172800	IN	NS	ns01.trs-dns.info.
 yandex.			86400	IN	DS	50324 13 2 3F25B6EAF2B08861672673779CB294CE5154337B250DA78FB9ED949A997C38DF
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
