@@ -12984,7 +12984,9 @@ pa.			172800	IN	NS	a.lactld.org.
 pa.			172800	IN	NS	ns.pa.
 pa.			172800	IN	NS	ns.dns.br.
 pa.			172800	IN	NS	ns.nic.pa.
+pa.			172800	IN	NS	ns1.anycastdns.cz.
 pa.			172800	IN	NS	ns2.pa.
+pa.			172800	IN	NS	ns2.anycastdns.cz.
 pa.			172800	IN	NS	dns-ext.nic.cr.
 pa.			172800	IN	NS	ssdns-tld.nic.cl.
 ns.nic.pa.		172800	IN	A	168.77.8.4
@@ -16899,6 +16901,7 @@ th.			172800	IN	NS	b.thains.co.th.
 th.			172800	IN	NS	c.thains.co.th.
 th.			172800	IN	NS	p.thains.co.th.
 th.			172800	IN	NS	ns.thnic.net.
+th.			172800	IN	NS	nn1.thains.co.th.
 th.			86400	IN	DS	19117 8 2 E26BF35F73234AC50C600632FC717AE491F4A8B4F662FB29234F5499ACFEBF64
 a.thains.co.th.		172800	IN	A	122.155.23.64
 a.thains.co.th.		172800	IN	AAAA	2001:c38:2000:183:0:0:0:30
@@ -16906,6 +16909,8 @@ b.thains.co.th.		172800	IN	A	203.159.64.64
 b.thains.co.th.		172800	IN	AAAA	2405:3340:e011:3000:0:0:0:30
 c.thains.co.th.		172800	IN	A	194.0.1.28
 c.thains.co.th.		172800	IN	AAAA	2001:678:4:0:0:0:0:1c
+nn1.thains.co.th.	172800	IN	A	194.146.106.154
+nn1.thains.co.th.	172800	IN	AAAA	2001:67c:1010:39:0:0:0:53
 p.thains.co.th.		172800	IN	A	204.61.216.126
 p.thains.co.th.		172800	IN	AAAA	2001:500:14:6126:ad:0:0:1
 thd.			172800	IN	NS	a0.nic.thd.
@@ -20097,6 +20102,7 @@ xn--o3cw4h.		172800	IN	NS	a.thains.co.th.
 xn--o3cw4h.		172800	IN	NS	b.thains.co.th.
 xn--o3cw4h.		172800	IN	NS	p.thains.co.th.
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
+xn--o3cw4h.		172800	IN	NS	nn1.thains.co.th.
 xn--o3cw4h.		86400	IN	DS	27061 8 2 53856679AC45EA6562EF4ECD2DE7AEA57D786870979F09C4BC1D5244C2E2A9C9
 xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
