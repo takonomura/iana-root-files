@@ -16081,6 +16081,7 @@ sr.			172800	IN	NS	ns2.nic.sr.
 ns1.nic.sr.		172800	IN	A	168.195.219.210
 ns1.nic.sr.		172800	IN	AAAA	2803:ff40:a251:0:168:195:219:2
 ns2.nic.sr.		172800	IN	A	168.195.216.214
+ns2.nic.sr.		172800	IN	AAAA	2803:ff40:a000:2501:168:195:216:2
 srl.			172800	IN	NS	a0.nic.srl.
 srl.			172800	IN	NS	a2.nic.srl.
 srl.			172800	IN	NS	b0.nic.srl.
