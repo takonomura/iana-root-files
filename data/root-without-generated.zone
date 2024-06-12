@@ -11680,13 +11680,6 @@ name.			172800	IN	NS	ac2.nstld.com.
 name.			172800	IN	NS	ac3.nstld.com.
 name.			172800	IN	NS	ac4.nstld.com.
 name.			86400	IN	DS	52563 8 2 4E2671F0DBC3927D842053044C6A0CBF8B21E1E657DE8BBA99A4835031A85A41
-natura.			172800	IN	NS	a.dns.br.
-natura.			172800	IN	NS	b.dns.br.
-natura.			172800	IN	NS	c.dns.br.
-natura.			172800	IN	NS	d.dns.br.
-natura.			172800	IN	NS	e.dns.br.
-natura.			172800	IN	NS	f.dns.br.
-natura.			86400	IN	DS	50876 13 2 406B80A131F692452922A7E2448F78EBB85D60E28F766FB9F869C2636D441766
 navy.			172800	IN	NS	v0n0.nic.navy.
 navy.			172800	IN	NS	v0n1.nic.navy.
 navy.			172800	IN	NS	v0n2.nic.navy.
