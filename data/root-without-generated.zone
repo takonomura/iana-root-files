@@ -737,9 +737,12 @@ y.nic.anz.		172800	IN	A	156.154.173.82
 y.nic.anz.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.anz.		172800	IN	A	156.154.174.82
 z.nic.anz.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-ao.			172800	IN	NS	h.dns.pt.
-ao.			172800	IN	NS	ao01.dns.pt.
-ao.			172800	IN	NS	ao03.dns.pt.
+ao.			172800	IN	NS	a.ns.ao.
+ao.			172800	IN	NS	ao-e.ns.nic.cz.
+ao.			172800	IN	NS	ao02.dns.pt.
+ao.			172800	IN	NS	etld-1.anycast.net.
+a.ns.ao.		172800	IN	A	206.51.254.4
+a.ns.ao.		172800	IN	AAAA	2620:171:804:ad2:0:0:0:4
 aol.			172800	IN	NS	a0.nic.aol.
 aol.			172800	IN	NS	a2.nic.aol.
 aol.			172800	IN	NS	b0.nic.aol.
@@ -4525,6 +4528,8 @@ ssnic.anycastdns.cz.	172800	IN	A	185.28.194.194
 ssnic.anycastdns.cz.	172800	IN	A	185.38.108.108
 a.ns.nic.cz.		172800	IN	A	194.0.12.1
 a.ns.nic.cz.		172800	IN	AAAA	2001:678:f:0:0:0:0:1
+ao-e.ns.nic.cz.		172800	IN	A	185.43.134.13
+ao-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:13
 b.ns.nic.cz.		172800	IN	A	194.0.13.1
 b.ns.nic.cz.		172800	IN	AAAA	2001:678:10:0:0:0:0:1
 c.ns.nic.cz.		172800	IN	A	194.0.14.1
@@ -8784,6 +8789,8 @@ io.			172800	IN	NS	a2.nic.io.
 io.			172800	IN	NS	b0.nic.io.
 io.			172800	IN	NS	c0.nic.io.
 io.			86400	IN	DS	57355 8 2 95A57C3BAB7849DBCDDF7C72ADA71A88146B141110318CA5BE672057E865C3E2
+xn--node.ns.cloudhosted.io.	172800	IN	A	188.93.94.2
+xn--node.ns.cloudhosted.io.	172800	IN	AAAA	2a0a:5000:0:4:0:0:0:2
 a0.nic.io.		172800	IN	A	65.22.160.17
 a0.nic.io.		172800	IN	AAAA	2a01:8840:9e:0:0:0:0:17
 a2.nic.io.		172800	IN	A	65.22.163.17
@@ -11901,14 +11908,6 @@ m.edu-servers.net.	172800	IN	A	192.55.83.30
 m.edu-servers.net.	172800	IN	AAAA	2001:501:b1f9:0:0:0:0:30
 b.dns.flexireg.net.	172800	IN	A	195.253.64.6
 b.dns.flexireg.net.	172800	IN	AAAA	2a01:5b0:4:0:0:0:0:6
-a.xn--node.globalanycastcloud.freenom.net.	172800	IN	A	185.21.168.36
-a.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:8:0:0:0:0:4
-b.xn--node.globalanycastcloud.freenom.net.	172800	IN	A	185.21.169.36
-b.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:9:0:0:0:0:4
-c.xn--node.globalanycastcloud.freenom.net.	172800	IN	A	185.21.170.36
-c.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:a:0:0:0:0:4
-d.xn--node.globalanycastcloud.freenom.net.	172800	IN	A	185.21.171.36
-d.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:b:0:0:0:0:4
 ns2.gip.net.		172800	IN	A	204.59.1.222
 a.gmoregistry.net.	172800	IN	A	37.209.192.4
 a.gmoregistry.net.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:4
@@ -12417,7 +12416,7 @@ nokia.			172800	IN	NS	a.nic.nokia.
 nokia.			172800	IN	NS	b.nic.nokia.
 nokia.			172800	IN	NS	c.nic.nokia.
 nokia.			172800	IN	NS	d.nic.nokia.
-nokia.			86400	IN	DS	38794 8 2 5D3C0F0B92084EB734E6E06364681B3BB051087A15EBE6F468B2974C5F197AB1
+nokia.			86400	IN	DS	5506 8 2 4030A14335A594B8AB850594BA0E85A0ECD1DC145AA7E097341169F70F0F4292
 nokia.			86400	IN	DS	43790 8 2 7D7D3EBAE05F84C911EE972EC6D72F1CC88368297B5FDC6A52DB62EB27B76C99
 a.nic.nokia.		172800	IN	A	194.169.218.159
 a.nic.nokia.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:159
@@ -13923,10 +13922,8 @@ pt.			172800	IN	NS	ns2.nic.fr.
 pt.			86400	IN	DS	40155 13 2 B0ED28B7255E9880E7CE4665B75AE7271F7837899057F0D4B897ECE2EB1EB494
 a.dns.pt.		172800	IN	A	185.39.208.1
 a.dns.pt.		172800	IN	AAAA	2a04:6d80:0:0:0:0:0:1
-ao01.dns.pt.		172800	IN	A	185.39.208.17
-ao01.dns.pt.		172800	IN	AAAA	2a04:6d80:0:0:0:0:0:17
-ao03.dns.pt.		172800	IN	A	204.61.216.113
-ao03.dns.pt.		172800	IN	AAAA	2001:500:14:6113:ad:0:0:1
+ao02.dns.pt.		172800	IN	A	185.39.208.29
+ao02.dns.pt.		172800	IN	AAAA	2a04:6d80:0:0:0:0:0:29
 b.dns.pt.		172800	IN	A	194.0.25.23
 b.dns.pt.		172800	IN	AAAA	2001:678:20:0:0:0:0:23
 c.dns.pt.		172800	IN	A	204.61.216.105
@@ -20052,11 +20049,8 @@ xn--ngbrx.		172800	IN	NS	gtld.delta.aridns.net.au.
 xn--ngbrx.		172800	IN	NS	gtld.gamma.aridns.net.au.
 xn--ngbrx.		86400	IN	DS	37096 8 1 71BD52E2A76BEEF79D624F5294C98588F940402C
 xn--ngbrx.		86400	IN	DS	37096 8 2 DD05B598B64707491E63A742D3E61EDBB57091B5B93C8E0D65422595AD255AD4
-xn--node.		172800	IN	NS	a.xn--node.globalanycastcloud.freenom.net.
-xn--node.		172800	IN	NS	b.xn--node.globalanycastcloud.freenom.net.
-xn--node.		172800	IN	NS	c.xn--node.globalanycastcloud.freenom.net.
-xn--node.		172800	IN	NS	d.xn--node.globalanycastcloud.freenom.net.
 xn--node.		172800	IN	NS	xn--node.ns.anycast.pch.net.
+xn--node.		172800	IN	NS	xn--node.ns.cloudhosted.io.
 xn--nqv7f.		172800	IN	NS	a0.nic.xn--nqv7f.
 xn--nqv7f.		172800	IN	NS	a2.nic.xn--nqv7f.
 xn--nqv7f.		172800	IN	NS	b0.nic.xn--nqv7f.
