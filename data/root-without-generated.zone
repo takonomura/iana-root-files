@@ -12,7 +12,6 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
-.			172800	IN	DNSKEY	256 3 8 AwEAAZBALoOFImwcJJg9Iu7Vy7ZyLjhtXfvO1c9k4vHjOpf9i7U1kKtrBvhnwsOni1sb50gkUayRtMDTUQqvljMMf4bpkyEtcE5evCzhHbFLq1coL5QOix3mfJm++FvIMaAt52nOvAdqR/luuI11bA1AmSCIJKAUx147DcfOHYKg3as+dznn3Iah4cWBMVzDe7PPsFS1AO6gU8EpmiRJ9VMNA09fOyDuq9+d6sw8UUnJRMAFAuPLhUFjUAOuWOw74BC9lOtMQpbLMz8pX0CDKdOXDHjyj61nxSSWxPdUjeoxI17lQTpSPRtqRHFn5Fgj2e+9BVwhhWGDQN8kUVSJHZtQiI0=
 .			172800	IN	DNSKEY	256 3 8 AwEAAdSiy6sslYrcZSGcuMEK4DtE8DZZY1A08kAsviAD49tocYO5m37AvIOyzeiKBWuPuJ4m9u5HonCM/ntxklZKYFyMftv8XoRwbiXdpSjfdpNHiMYTTV2oDUNMjdLFnF6HYSY48xrPbevQOYbAFGHpxqcXAQT0+BaBiAx3Ls6lXBQ3/hSVOprvDWJCQiI2OT+9+saKLddSIX6DwTVy0S5T4YY4EGg5R3c/eKUb2/8XgKWUzlOIZsVAZZUSTKW0tX54ccAALO7Grvsx/NW62jc1xv6wWAXocOEVgB7+4Lzb7q9p5o30+sYoGpOsKgFvMSy4oCZTQMQx2Sjd/NG2bMMw6nM=
 .			172800	IN	DNSKEY	257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=
 aaa.			172800	IN	NS	a.nic.aaa.
@@ -9991,12 +9990,26 @@ v2n0.nic.legal.		172800	IN	A	65.22.23.12
 v2n0.nic.legal.		172800	IN	AAAA	2a01:8840:19:0:0:0:0:12
 v2n1.nic.legal.		172800	IN	A	161.232.11.12
 v2n1.nic.legal.		172800	IN	AAAA	2a01:8840:f5:0:0:0:0:12
-lego.			172800	IN	NS	ac1.nstld.com.
-lego.			172800	IN	NS	ac2.nstld.com.
-lego.			172800	IN	NS	ac3.nstld.com.
-lego.			172800	IN	NS	ac4.nstld.com.
+lego.			172800	IN	NS	v0n0.nic.lego.
+lego.			172800	IN	NS	v0n1.nic.lego.
+lego.			172800	IN	NS	v0n2.nic.lego.
+lego.			172800	IN	NS	v0n3.nic.lego.
+lego.			172800	IN	NS	v2n0.nic.lego.
+lego.			172800	IN	NS	v2n1.nic.lego.
 lego.			86400	IN	DS	5752 8 2 AF9076E3B4365D770B2827A4A9F6EA142D12AF52887D9EA685E34AA0ACDEEA40
 lego.			86400	IN	DS	28536 8 2 FDCDBD92D8A27F3A19BA30EF37E04FF21188973EE8648975E5B9A77DB48478D6
+v0n0.nic.lego.		172800	IN	A	65.22.108.14
+v0n0.nic.lego.		172800	IN	AAAA	2a01:8840:6a:0:0:0:0:14
+v0n1.nic.lego.		172800	IN	A	65.22.109.14
+v0n1.nic.lego.		172800	IN	AAAA	2a01:8840:6b:0:0:0:0:14
+v0n2.nic.lego.		172800	IN	A	65.22.110.14
+v0n2.nic.lego.		172800	IN	AAAA	2a01:8840:6c:0:0:0:0:14
+v0n3.nic.lego.		172800	IN	A	161.232.32.14
+v0n3.nic.lego.		172800	IN	AAAA	2a01:8840:108:0:0:0:0:14
+v2n0.nic.lego.		172800	IN	A	65.22.111.14
+v2n0.nic.lego.		172800	IN	AAAA	2a01:8840:6d:0:0:0:0:14
+v2n1.nic.lego.		172800	IN	A	161.232.33.14
+v2n1.nic.lego.		172800	IN	AAAA	2a01:8840:109:0:0:0:0:14
 lexus.			172800	IN	NS	a.gmoregistry.net.
 lexus.			172800	IN	NS	b.gmoregistry.net.
 lexus.			172800	IN	NS	k.gmoregistry.net.
@@ -12487,8 +12500,6 @@ nowruz.			172800	IN	NS	dnsb.emdns.uk.
 nowruz.			172800	IN	NS	dnsc.emdns.uk.
 nowruz.			172800	IN	NS	dnsd.emdns.uk.
 nowruz.			86400	IN	DS	32206 8 2 1ABEE4364FCAD18301F22226A9B13521E809A4ABBBDB96D4C9B875DDF50EB03D
-nowruz.			86400	IN	DS	34462 8 2 181F18DC171F0A918A8BA05ED8F1C8E00828068D7D1006167C15AFE5DEF4D7D5
-nowruz.			86400	IN	DS	50845 8 2 F7691BFC344455BEE7376FCF659FCF623AD2FD081900F4FB32DB07C7BC6BDF57
 nowtv.			172800	IN	NS	a0.nic.nowtv.
 nowtv.			172800	IN	NS	a2.nic.nowtv.
 nowtv.			172800	IN	NS	b0.nic.nowtv.
@@ -14765,12 +14776,26 @@ ns2.ricta.org.rw.	172800	IN	A	196.49.7.186
 ns3.ricta.org.rw.	172800	IN	A	41.138.85.98
 pch.ricta.org.rw.	172800	IN	A	204.61.216.91
 pch.ricta.org.rw.	172800	IN	AAAA	2001:500:14:6091:ad:0:0:1
-rwe.			172800	IN	NS	ac1.nstld.com.
-rwe.			172800	IN	NS	ac2.nstld.com.
-rwe.			172800	IN	NS	ac3.nstld.com.
-rwe.			172800	IN	NS	ac4.nstld.com.
+rwe.			172800	IN	NS	v0n0.nic.rwe.
+rwe.			172800	IN	NS	v0n1.nic.rwe.
+rwe.			172800	IN	NS	v0n2.nic.rwe.
+rwe.			172800	IN	NS	v0n3.nic.rwe.
+rwe.			172800	IN	NS	v2n0.nic.rwe.
+rwe.			172800	IN	NS	v2n1.nic.rwe.
 rwe.			86400	IN	DS	3075 8 2 542F19DF30F2C69F686E697CFBAFD7DA2AFA039CB9D6620169895888188AC174
 rwe.			86400	IN	DS	23797 8 2 619690E3DA5905B5EBF372E40C035832805AA26C0643E0F217556EF62D5D166A
+v0n0.nic.rwe.		172800	IN	A	65.22.108.18
+v0n0.nic.rwe.		172800	IN	AAAA	2a01:8840:6a:0:0:0:0:18
+v0n1.nic.rwe.		172800	IN	A	65.22.109.18
+v0n1.nic.rwe.		172800	IN	AAAA	2a01:8840:6b:0:0:0:0:18
+v0n2.nic.rwe.		172800	IN	A	65.22.110.18
+v0n2.nic.rwe.		172800	IN	AAAA	2a01:8840:6c:0:0:0:0:18
+v0n3.nic.rwe.		172800	IN	A	161.232.32.18
+v0n3.nic.rwe.		172800	IN	AAAA	2a01:8840:108:0:0:0:0:18
+v2n0.nic.rwe.		172800	IN	A	65.22.111.18
+v2n0.nic.rwe.		172800	IN	AAAA	2a01:8840:6d:0:0:0:0:18
+v2n1.nic.rwe.		172800	IN	A	161.232.33.18
+v2n1.nic.rwe.		172800	IN	AAAA	2a01:8840:109:0:0:0:0:18
 ryukyu.			172800	IN	NS	a.gmoregistry.net.
 ryukyu.			172800	IN	NS	b.gmoregistry.net.
 ryukyu.			172800	IN	NS	k.gmoregistry.net.
@@ -15382,12 +15407,26 @@ y.nic.select.		172800	IN	A	156.154.173.82
 y.nic.select.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.select.		172800	IN	A	156.154.174.82
 z.nic.select.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-sener.			172800	IN	NS	ac1.nstld.com.
-sener.			172800	IN	NS	ac2.nstld.com.
-sener.			172800	IN	NS	ac3.nstld.com.
-sener.			172800	IN	NS	ac4.nstld.com.
+sener.			172800	IN	NS	v0n0.nic.sener.
+sener.			172800	IN	NS	v0n1.nic.sener.
+sener.			172800	IN	NS	v0n2.nic.sener.
+sener.			172800	IN	NS	v0n3.nic.sener.
+sener.			172800	IN	NS	v2n0.nic.sener.
+sener.			172800	IN	NS	v2n1.nic.sener.
 sener.			86400	IN	DS	724 8 2 F499BBDB5E9D28391EF6C0D2DE9EA020632E6A2D521EEBC7A1AE884D693C95B6
 sener.			86400	IN	DS	40020 8 2 F580B1E1F989E14EB37DA8CD7201254150E4C28F95CA0D1DB7822A78C93EAF17
+v0n0.nic.sener.		172800	IN	A	65.22.108.19
+v0n0.nic.sener.		172800	IN	AAAA	2a01:8840:6a:0:0:0:0:19
+v0n1.nic.sener.		172800	IN	A	65.22.109.19
+v0n1.nic.sener.		172800	IN	AAAA	2a01:8840:6b:0:0:0:0:19
+v0n2.nic.sener.		172800	IN	A	65.22.110.19
+v0n2.nic.sener.		172800	IN	AAAA	2a01:8840:6c:0:0:0:0:19
+v0n3.nic.sener.		172800	IN	A	161.232.32.19
+v0n3.nic.sener.		172800	IN	AAAA	2a01:8840:108:0:0:0:0:19
+v2n0.nic.sener.		172800	IN	A	65.22.111.19
+v2n0.nic.sener.		172800	IN	AAAA	2a01:8840:6d:0:0:0:0:19
+v2n1.nic.sener.		172800	IN	A	161.232.33.19
+v2n1.nic.sener.		172800	IN	AAAA	2a01:8840:109:0:0:0:0:19
 services.		172800	IN	NS	v0n0.nic.services.
 services.		172800	IN	NS	v0n1.nic.services.
 services.		172800	IN	NS	v0n2.nic.services.
@@ -20425,12 +20464,26 @@ c.nic.yachts.		172800	IN	A	212.18.248.133
 c.nic.yachts.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:133
 d.nic.yachts.		172800	IN	A	212.18.249.133
 d.nic.yachts.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:133
-yahoo.			172800	IN	NS	ac1.nstld.com.
-yahoo.			172800	IN	NS	ac2.nstld.com.
-yahoo.			172800	IN	NS	ac3.nstld.com.
-yahoo.			172800	IN	NS	ac4.nstld.com.
+yahoo.			172800	IN	NS	v0n0.nic.yahoo.
+yahoo.			172800	IN	NS	v0n1.nic.yahoo.
+yahoo.			172800	IN	NS	v0n2.nic.yahoo.
+yahoo.			172800	IN	NS	v0n3.nic.yahoo.
+yahoo.			172800	IN	NS	v2n0.nic.yahoo.
+yahoo.			172800	IN	NS	v2n1.nic.yahoo.
 yahoo.			86400	IN	DS	52260 8 2 99DA5ED59CA94FC8C28C5C7A4A817E7FC0C52688B115DCF743FB914BE65BA447
 yahoo.			86400	IN	DS	64675 8 2 674C472960577338B3372085BB0A35E23308226578F018401A20914D4C928AD4
+v0n0.nic.yahoo.		172800	IN	A	65.22.108.26
+v0n0.nic.yahoo.		172800	IN	AAAA	2a01:8840:6a:0:0:0:0:26
+v0n1.nic.yahoo.		172800	IN	A	65.22.109.26
+v0n1.nic.yahoo.		172800	IN	AAAA	2a01:8840:6b:0:0:0:0:26
+v0n2.nic.yahoo.		172800	IN	A	65.22.110.26
+v0n2.nic.yahoo.		172800	IN	AAAA	2a01:8840:6c:0:0:0:0:26
+v0n3.nic.yahoo.		172800	IN	A	161.232.32.26
+v0n3.nic.yahoo.		172800	IN	AAAA	2a01:8840:108:0:0:0:0:26
+v2n0.nic.yahoo.		172800	IN	A	65.22.111.26
+v2n0.nic.yahoo.		172800	IN	AAAA	2a01:8840:6d:0:0:0:0:26
+v2n1.nic.yahoo.		172800	IN	A	161.232.33.26
+v2n1.nic.yahoo.		172800	IN	AAAA	2a01:8840:109:0:0:0:0:26
 yamaxun.		172800	IN	NS	dns1.nic.yamaxun.
 yamaxun.		172800	IN	NS	dns2.nic.yamaxun.
 yamaxun.		172800	IN	NS	dns3.nic.yamaxun.
