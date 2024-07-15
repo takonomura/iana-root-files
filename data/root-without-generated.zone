@@ -19476,7 +19476,7 @@ xn--d1acj3b.		172800	IN	NS	b.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	d.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	e.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	f.dns.ripn.net.
-xn--d1acj3b.		86400	IN	DS	62719 8 2 78004BA803C2F5F251F3227C072DF8C545D30F3A018288142692AA4D20BA3F24
+xn--d1acj3b.		86400	IN	DS	7826 8 2 60026BABE0BFA28C5BDDCCAFFAECFEE3FCE23E8FFCF6B03E5CDCA6A620B75A0A
 xn--d1alf.		172800	IN	NS	b.dns.si.
 xn--d1alf.		172800	IN	NS	mk-e.ns.nic.cz.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
@@ -20528,6 +20528,7 @@ ye.			172800	IN	NS	sah1.ye.
 ye.			172800	IN	NS	sah2.ye.
 ye.			172800	IN	NS	tld1.ye.
 ye.			172800	IN	NS	tld2.ye.
+ye.			172800	IN	NS	tld3.ye.
 ns1.yemen.net.ye.	172800	IN	A	65.162.184.33
 ns1.yemen.net.ye.	172800	IN	AAAA	2a02:2718:4:0:0:0:0:33
 ns2.yemen.net.ye.	172800	IN	A	65.162.184.34
@@ -20540,6 +20541,8 @@ tld1.ye.		172800	IN	A	195.94.10.22
 tld1.ye.		172800	IN	AAAA	2a02:e280:8:1000:0:0:0:1
 tld2.ye.		172800	IN	A	195.94.13.22
 tld2.ye.		172800	IN	AAAA	2a02:e280:8:2000:0:0:0:1
+tld3.ye.		172800	IN	A	82.114.164.244
+tld3.ye.		172800	IN	AAAA	2a02:2718:8:d3:0:0:0:244
 yodobashi.		172800	IN	NS	a.gmoregistry.net.
 yodobashi.		172800	IN	NS	b.gmoregistry.net.
 yodobashi.		172800	IN	NS	k.gmoregistry.net.
