@@ -11645,8 +11645,11 @@ music.			172800	IN	NS	a.nic.music.
 music.			172800	IN	NS	b.nic.music.
 music.			172800	IN	NS	c.nic.music.
 music.			172800	IN	NS	d.nic.music.
+music.			172800	IN	NS	ns01.trs-dns.com.
+music.			172800	IN	NS	ns01.trs-dns.net.
+music.			172800	IN	NS	ns01.trs-dns.org.
+music.			172800	IN	NS	ns01.trs-dns.info.
 music.			86400	IN	DS	11216 8 2 D45430B83157049BEBD9590CF68625C5161B1902E6C0A708C34C6C71461D1F6F
-music.			86400	IN	DS	60004 8 2 F4025F7B5C848808861BD35868BAE0CFCF7A0FE3AA1F79BB222093687462F3FB
 a.nic.music.		172800	IN	A	194.169.218.142
 a.nic.music.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:142
 b.nic.music.		172800	IN	A	185.24.64.142
