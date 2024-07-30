@@ -33,12 +33,26 @@ ns2.dns.nic.aaa.	172800	IN	A	156.154.145.2
 ns2.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:2
 ns3.dns.nic.aaa.	172800	IN	A	156.154.159.2
 ns3.dns.nic.aaa.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:2
-aarp.			172800	IN	NS	ac1.nstld.com.
-aarp.			172800	IN	NS	ac2.nstld.com.
-aarp.			172800	IN	NS	ac3.nstld.com.
-aarp.			172800	IN	NS	ac4.nstld.com.
+aarp.			172800	IN	NS	a.nic.aarp.
+aarp.			172800	IN	NS	b.nic.aarp.
+aarp.			172800	IN	NS	c.nic.aarp.
+aarp.			172800	IN	NS	x.nic.aarp.
+aarp.			172800	IN	NS	y.nic.aarp.
+aarp.			172800	IN	NS	z.nic.aarp.
 aarp.			86400	IN	DS	5751 8 2 7E8A14AB8F85009B9F19859815FA695954233FD9DAA6AB359044D12621A77E9F
 aarp.			86400	IN	DS	26254 8 2 BFF5BD7C3F7A468CDCC7CAF66E978A5D9B5211F39241039A5218B82AA62FB6C6
+a.nic.aarp.		172800	IN	A	37.209.192.9
+a.nic.aarp.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+b.nic.aarp.		172800	IN	A	37.209.194.9
+b.nic.aarp.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+c.nic.aarp.		172800	IN	A	37.209.196.9
+c.nic.aarp.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
+x.nic.aarp.		172800	IN	A	156.154.172.82
+x.nic.aarp.		172800	IN	AAAA	2610:a1:1074:0:0:0:1:82
+y.nic.aarp.		172800	IN	A	156.154.173.82
+y.nic.aarp.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
+z.nic.aarp.		172800	IN	A	156.154.174.82
+z.nic.aarp.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 abb.			172800	IN	NS	a0.nic.abb.
 abb.			172800	IN	NS	a2.nic.abb.
 abb.			172800	IN	NS	b0.nic.abb.
@@ -643,12 +657,26 @@ ns2.dns.nic.americanexpress.	172800	IN	A	156.154.145.9
 ns2.dns.nic.americanexpress.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:9
 ns3.dns.nic.americanexpress.	172800	IN	A	156.154.159.9
 ns3.dns.nic.americanexpress.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:9
-americanfamily.		172800	IN	NS	ac1.nstld.com.
-americanfamily.		172800	IN	NS	ac2.nstld.com.
-americanfamily.		172800	IN	NS	ac3.nstld.com.
-americanfamily.		172800	IN	NS	ac4.nstld.com.
+americanfamily.		172800	IN	NS	a.nic.americanfamily.
+americanfamily.		172800	IN	NS	b.nic.americanfamily.
+americanfamily.		172800	IN	NS	c.nic.americanfamily.
+americanfamily.		172800	IN	NS	x.nic.americanfamily.
+americanfamily.		172800	IN	NS	y.nic.americanfamily.
+americanfamily.		172800	IN	NS	z.nic.americanfamily.
 americanfamily.		86400	IN	DS	16975 8 2 50D98DC6D7A2BC4CE8121A409EF96E22EA6FF8B0334F0629151093AC247BD80F
 americanfamily.		86400	IN	DS	61398 8 2 F6890DE22C9B4261C9FCFAC53FE0849FAA9B573EE95E027E070ABA270CD966AF
+a.nic.americanfamily.	172800	IN	A	37.209.192.9
+a.nic.americanfamily.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+b.nic.americanfamily.	172800	IN	A	37.209.194.9
+b.nic.americanfamily.	172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+c.nic.americanfamily.	172800	IN	A	37.209.196.9
+c.nic.americanfamily.	172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
+x.nic.americanfamily.	172800	IN	A	156.154.172.82
+x.nic.americanfamily.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:82
+y.nic.americanfamily.	172800	IN	A	156.154.173.82
+y.nic.americanfamily.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
+z.nic.americanfamily.	172800	IN	A	156.154.174.82
+z.nic.americanfamily.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 amex.			172800	IN	NS	a.nic.amex.
 amex.			172800	IN	NS	b.nic.amex.
 amex.			172800	IN	NS	c.nic.amex.
@@ -668,12 +696,26 @@ ns2.dns.nic.amex.	172800	IN	A	156.154.145.10
 ns2.dns.nic.amex.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:a
 ns3.dns.nic.amex.	172800	IN	A	156.154.159.10
 ns3.dns.nic.amex.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:a
-amfam.			172800	IN	NS	ac1.nstld.com.
-amfam.			172800	IN	NS	ac2.nstld.com.
-amfam.			172800	IN	NS	ac3.nstld.com.
-amfam.			172800	IN	NS	ac4.nstld.com.
+amfam.			172800	IN	NS	a.nic.amfam.
+amfam.			172800	IN	NS	b.nic.amfam.
+amfam.			172800	IN	NS	c.nic.amfam.
+amfam.			172800	IN	NS	x.nic.amfam.
+amfam.			172800	IN	NS	y.nic.amfam.
+amfam.			172800	IN	NS	z.nic.amfam.
 amfam.			86400	IN	DS	4101 8 2 D2C0246802AA5B615CFC8B700A5245ADFCA49477B37F870499A44AB272989A7D
 amfam.			86400	IN	DS	56680 8 2 18AFBE180BF3DDDE328E5F7E0D2BB7869DB47AB073A3D4F29A7BE3E65BDCA003
+a.nic.amfam.		172800	IN	A	37.209.192.9
+a.nic.amfam.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+b.nic.amfam.		172800	IN	A	37.209.194.9
+b.nic.amfam.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+c.nic.amfam.		172800	IN	A	37.209.196.9
+c.nic.amfam.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
+x.nic.amfam.		172800	IN	A	156.154.172.82
+x.nic.amfam.		172800	IN	AAAA	2610:a1:1074:0:0:0:1:82
+y.nic.amfam.		172800	IN	A	156.154.173.82
+y.nic.amfam.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
+z.nic.amfam.		172800	IN	A	156.154.174.82
+z.nic.amfam.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 amica.			172800	IN	NS	a.nic.amica.
 amica.			172800	IN	NS	b.nic.amica.
 amica.			172800	IN	NS	c.nic.amica.
@@ -12627,6 +12669,7 @@ nz.			172800	IN	NS	ns4.dns.net.nz.
 nz.			172800	IN	NS	ns5.dns.net.nz.
 nz.			172800	IN	NS	ns6.dns.net.nz.
 nz.			172800	IN	NS	ns7.dns.net.nz.
+nz.			86400	IN	DS	934 8 2 9D58F1627C135043F2CB12DF20545C53F02F1BB78E7ED562C802084DFB672E2E
 nz.			86400	IN	DS	49157 8 2 44628E9BF710B40D5A5B19087A119EAF2C0B5CED7E7BA4268F4FC35BEF14B1C0
 nz.			86400	IN	DS	63529 8 2 65C9663EACC1AD314058A5A7B127D409D144BBA9A58EC0B6A7F4F028574DF47B
 circa.mcs.vuw.ac.nz.	172800	IN	A	130.195.5.12
