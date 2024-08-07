@@ -6472,6 +6472,7 @@ fm.			172800	IN	NS	d.nic.fm.
 fm.			172800	IN	NS	e.nic.fm.
 fm.			172800	IN	NS	f.nic.fm.
 fm.			86400	IN	DS	26186 8 2 DB3703697384A6F8B3A944A21C1A81FFD921000B23AA4241380B4BA3AA28DEA0
+fm.			86400	IN	DS	60226 8 2 FF4191E32B7F636AABAF957BF976BC1D792B5709B73A351FC77F45D0033DFBDE
 a.nic.fm.		172800	IN	A	194.169.218.26
 a.nic.fm.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:26
 b.nic.fm.		172800	IN	A	185.24.64.26
@@ -11683,23 +11684,11 @@ museum.			172800	IN	NS	d.nic.fr.
 museum.			172800	IN	NS	f.ext.nic.fr.
 museum.			172800	IN	NS	g.ext.nic.fr.
 museum.			86400	IN	DS	21969 13 2 BDB65BCA27B34A0C9E296FB79EFC78615678F7CC46EAB5EF86FE59F259CC03C5
-music.			172800	IN	NS	a.nic.music.
-music.			172800	IN	NS	b.nic.music.
-music.			172800	IN	NS	c.nic.music.
-music.			172800	IN	NS	d.nic.music.
 music.			172800	IN	NS	ns01.trs-dns.com.
 music.			172800	IN	NS	ns01.trs-dns.net.
 music.			172800	IN	NS	ns01.trs-dns.org.
 music.			172800	IN	NS	ns01.trs-dns.info.
 music.			86400	IN	DS	11216 8 2 D45430B83157049BEBD9590CF68625C5161B1902E6C0A708C34C6C71461D1F6F
-a.nic.music.		172800	IN	A	194.169.218.142
-a.nic.music.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:142
-b.nic.music.		172800	IN	A	185.24.64.142
-b.nic.music.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:142
-c.nic.music.		172800	IN	A	212.18.248.142
-c.nic.music.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:142
-d.nic.music.		172800	IN	A	212.18.249.142
-d.nic.music.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:142
 mv.			172800	IN	NS	ns.dhivehinet.net.mv.
 mv.			172800	IN	NS	ns2.dhivehinet.net.mv.
 mv.			172800	IN	NS	mv-ns.anycast.pch.net.
