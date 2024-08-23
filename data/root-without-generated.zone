@@ -39,7 +39,6 @@ aarp.			172800	IN	NS	c.nic.aarp.
 aarp.			172800	IN	NS	x.nic.aarp.
 aarp.			172800	IN	NS	y.nic.aarp.
 aarp.			172800	IN	NS	z.nic.aarp.
-aarp.			86400	IN	DS	5751 8 2 7E8A14AB8F85009B9F19859815FA695954233FD9DAA6AB359044D12621A77E9F
 aarp.			86400	IN	DS	26254 8 2 BFF5BD7C3F7A468CDCC7CAF66E978A5D9B5211F39241039A5218B82AA62FB6C6
 a.nic.aarp.		172800	IN	A	37.209.192.9
 a.nic.aarp.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
@@ -664,7 +663,6 @@ americanfamily.		172800	IN	NS	x.nic.americanfamily.
 americanfamily.		172800	IN	NS	y.nic.americanfamily.
 americanfamily.		172800	IN	NS	z.nic.americanfamily.
 americanfamily.		86400	IN	DS	16975 8 2 50D98DC6D7A2BC4CE8121A409EF96E22EA6FF8B0334F0629151093AC247BD80F
-americanfamily.		86400	IN	DS	61398 8 2 F6890DE22C9B4261C9FCFAC53FE0849FAA9B573EE95E027E070ABA270CD966AF
 a.nic.americanfamily.	172800	IN	A	37.209.192.9
 a.nic.americanfamily.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
 b.nic.americanfamily.	172800	IN	A	37.209.194.9
@@ -702,7 +700,6 @@ amfam.			172800	IN	NS	c.nic.amfam.
 amfam.			172800	IN	NS	x.nic.amfam.
 amfam.			172800	IN	NS	y.nic.amfam.
 amfam.			172800	IN	NS	z.nic.amfam.
-amfam.			86400	IN	DS	4101 8 2 D2C0246802AA5B615CFC8B700A5245ADFCA49477B37F870499A44AB272989A7D
 amfam.			86400	IN	DS	56680 8 2 18AFBE180BF3DDDE328E5F7E0D2BB7869DB47AB073A3D4F29A7BE3E65BDCA003
 a.nic.amfam.		172800	IN	A	37.209.192.9
 a.nic.amfam.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
@@ -859,10 +856,20 @@ aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
 ns1.anycast.dns.aq.	172800	IN	A	204.61.216.132
 ns1.anycast.dns.aq.	172800	IN	AAAA	2001:500:14:6132:ad:0:0:1
-aquarelle.		172800	IN	NS	d.nic.fr.
-aquarelle.		172800	IN	NS	f.ext.nic.fr.
-aquarelle.		172800	IN	NS	g.ext.nic.fr.
+aquarelle.		172800	IN	NS	a.nic.aquarelle.
+aquarelle.		172800	IN	NS	b.nic.aquarelle.
+aquarelle.		172800	IN	NS	c.nic.aquarelle.
+aquarelle.		172800	IN	NS	d.nic.aquarelle.
 aquarelle.		86400	IN	DS	22061 13 2 65A423EC214071521668ED047D2E74BA781E6495E0252CB8E08A7A633A89297D
+aquarelle.		86400	IN	DS	23208 13 2 3CE81B2D9619BD2E5BA77BA9005E79C77728F75983B7EF37D1944C0746AD4310
+a.nic.aquarelle.	172800	IN	A	194.169.218.160
+a.nic.aquarelle.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:160
+b.nic.aquarelle.	172800	IN	A	185.24.64.160
+b.nic.aquarelle.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:160
+c.nic.aquarelle.	172800	IN	A	212.18.248.160
+c.nic.aquarelle.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:160
+d.nic.aquarelle.	172800	IN	A	212.18.249.160
+d.nic.aquarelle.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:160
 ar.			172800	IN	NS	a.lactld.org.
 ar.			172800	IN	NS	c.dns.ar.
 ar.			172800	IN	NS	d.dns.ar.
