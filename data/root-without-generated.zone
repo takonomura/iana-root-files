@@ -4007,8 +4007,8 @@ a.zdnscloud.com.	172800	IN	A	203.99.24.1
 b.zdnscloud.com.	172800	IN	A	203.99.25.1
 c.zdnscloud.com.	172800	IN	A	203.99.26.1
 d.zdnscloud.com.	172800	IN	A	203.99.27.1
-f.zdnscloud.com.	172800	IN	A	114.67.16.204
-g.zdnscloud.com.	172800	IN	A	42.62.2.16
+f.zdnscloud.com.	172800	IN	A	116.169.54.111
+g.zdnscloud.com.	172800	IN	A	223.72.199.37
 i.zdnscloud.com.	172800	IN	AAAA	2401:8d00:1:0:0:0:0:1
 j.zdnscloud.com.	172800	IN	AAAA	2401:8d00:2:0:0:0:0:1
 commbank.		172800	IN	NS	a.nic.commbank.
@@ -5169,8 +5169,8 @@ l.nic.dk.		172800	IN	A	130.226.213.138
 l.nic.dk.		172800	IN	AAAA	2001:878:0:e000:82:e2:d5:8a
 p.nic.dk.		172800	IN	A	194.0.47.42
 p.nic.dk.		172800	IN	AAAA	2001:678:78:42:ad:0:0:53
-s.nic.dk.		172800	IN	A	193.176.144.15
-s.nic.dk.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:15
+s.nic.dk.		172800	IN	A	194.0.28.7
+s.nic.dk.		172800	IN	AAAA	2001:678:2c:0:194:0:28:7
 dm.			172800	IN	NS	ns.blacknightsolutions.com.
 dm.			172800	IN	NS	ns2.nic.dm.
 dm.			172800	IN	NS	ns2.blacknightsolutions.com.
