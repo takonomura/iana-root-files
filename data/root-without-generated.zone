@@ -14864,6 +14864,7 @@ sa.			172800	IN	NS	m1.dns.sa.
 sa.			172800	IN	NS	m2.dns.sa.
 sa.			172800	IN	NS	n1.dns.sa.
 sa.			172800	IN	NS	p1.dns.sa.
+sa.			172800	IN	NS	s1.dns.sa.
 sa.			172800	IN	NS	s2.dns.sa.
 sa.			172800	IN	NS	sh1.dns.sa.
 sa.			86400	IN	DS	62932 8 2 2E80B1231D370F4933A26F19487946EACA1DB9D41A53831C2A9E73368BBBAAB5
@@ -14881,6 +14882,8 @@ n1.dns.sa.		172800	IN	A	194.146.106.102
 n1.dns.sa.		172800	IN	AAAA	2001:67c:1010:26:0:0:0:53
 p1.dns.sa.		172800	IN	A	204.61.216.41
 p1.dns.sa.		172800	IN	AAAA	2001:500:14:6041:ad:0:0:1
+s1.dns.sa.		172800	IN	A	37.107.223.170
+s1.dns.sa.		172800	IN	AAAA	2001:16a0:1:3002:0:0:0:2
 s2.dns.sa.		172800	IN	A	37.107.255.170
 s2.dns.sa.		172800	IN	AAAA	2001:16a0:2:3002:0:0:0:2
 sh1.dns.sa.		172800	IN	A	213.236.36.92
@@ -20021,6 +20024,7 @@ xn--mgberp4a5d4ar.	172800	IN	NS	m1.dns.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	m2.dns.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	n1.dns.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	p1.dns.sa.
+xn--mgberp4a5d4ar.	172800	IN	NS	s1.dns.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	s2.dns.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	sh1.dns.sa.
 xn--mgberp4a5d4ar.	86400	IN	DS	51067 8 2 71A90D5298B157332CF6DC7BC2105982054A8D5F5C74C67DEBBBEE3AFBE114D3
