@@ -4,7 +4,7 @@ set -exuo pipefail
 cd "$(dirname "$0")"
 mkdir -p 'data/'
 
-CURL="curl --no-progress-meter --location --fail"
+CURL="curl --no-progress-meter --location --fail --retry 5 --retry-all-errors --retry-connrefused"
 
 for f in 'named.root' 'root.zone'; do
   $CURL -o "data/${f}" "https://www.internic.net/domain/${f}"
