@@ -10338,6 +10338,7 @@ lk.			172800	IN	NS	d.nic.lk.
 lk.			172800	IN	NS	m.nic.lk.
 lk.			172800	IN	NS	p.nic.lk.
 lk.			172800	IN	NS	t.nic.lk.
+lk.			172800	IN	NS	z.nic.lk.
 lk.			172800	IN	NS	ns1.ac.lk.
 lk.			172800	IN	NS	pendragon.cs.purdue.edu.
 lk.			86400	IN	DS	181 5 1 A1907F85D49081239389C216912B8937D0ECEB3D
@@ -10359,6 +10360,8 @@ p.nic.lk.		172800	IN	A	204.61.216.27
 p.nic.lk.		172800	IN	AAAA	2001:500:14:6027:ad:0:0:1
 t.nic.lk.		172800	IN	A	203.94.66.129
 t.nic.lk.		172800	IN	AAAA	2402:d000:100c:0:0:0:0:129
+z.nic.lk.		172800	IN	A	185.38.108.108
+z.nic.lk.		172800	IN	AAAA	2a00:fea0:dead:0:0:0:0:beef
 llc.			172800	IN	NS	a0.nic.llc.
 llc.			172800	IN	NS	a2.nic.llc.
 llc.			172800	IN	NS	b0.nic.llc.
