@@ -4613,19 +4613,6 @@ mw-e.ns.nic.cz.		172800	IN	A	185.43.134.10
 mw-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:10
 tz-e.ns.nic.cz.		172800	IN	A	185.43.134.11
 tz-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:11
-dabur.			172800	IN	NS	a0.nic.dabur.
-dabur.			172800	IN	NS	a2.nic.dabur.
-dabur.			172800	IN	NS	b0.nic.dabur.
-dabur.			172800	IN	NS	c0.nic.dabur.
-dabur.			86400	IN	DS	12355 8 2 BC18991E60B16ED8791D94EA935D83E9D40E2CBA9AC8B824A40191E5F5F50AE4
-a0.nic.dabur.		172800	IN	A	65.22.180.25
-a0.nic.dabur.		172800	IN	AAAA	2a01:8840:ae:0:0:0:0:25
-a2.nic.dabur.		172800	IN	A	65.22.183.25
-a2.nic.dabur.		172800	IN	AAAA	2a01:8840:b1:0:0:0:0:25
-b0.nic.dabur.		172800	IN	A	65.22.181.25
-b0.nic.dabur.		172800	IN	AAAA	2a01:8840:af:0:0:0:0:25
-c0.nic.dabur.		172800	IN	A	65.22.182.25
-c0.nic.dabur.		172800	IN	AAAA	2a01:8840:b0:0:0:0:0:25
 dad.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 dad.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 dad.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
