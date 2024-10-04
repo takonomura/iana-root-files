@@ -10640,6 +10640,7 @@ d.nic.luxury.		172800	IN	A	212.18.249.98
 d.nic.luxury.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:98
 lv.			172800	IN	NS	a.nic.lv.
 lv.			172800	IN	NS	b.nic.lv.
+lv.			172800	IN	NS	c.nic.lv.
 lv.			172800	IN	NS	d.nic.lv.
 lv.			172800	IN	NS	n.nic.lv.
 lv.			172800	IN	NS	nu.nic.lv.
@@ -10648,6 +10649,8 @@ lv.			86400	IN	DS	42018 8 2 7E932A4F9CF9B1CD047C277E3CD323A53D42347D47C7BF1DD601
 a.nic.lv.		172800	IN	A	194.0.48.1
 a.nic.lv.		172800	IN	AAAA	2001:678:7c:0:0:0:0:7c
 b.nic.lv.		172800	IN	A	92.240.70.1
+c.nic.lv.		172800	IN	A	185.159.199.140
+c.nic.lv.		172800	IN	AAAA	2620:10a:80ac:0:0:0:0:140
 d.nic.lv.		172800	IN	A	194.0.8.1
 d.nic.lv.		172800	IN	AAAA	2001:678:b:1:0:0:0:1
 n.nic.lv.		172800	IN	A	194.146.106.150
@@ -11903,14 +11906,18 @@ ns-ug.afrinic.net.	172800	IN	A	196.216.168.42
 ns-ug.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:42
 ns-zm.afrinic.net.	172800	IN	A	196.216.168.44
 ns-zm.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:44
-tld01.akam.net.		172800	IN	A	23.201.98.96
-tld01.akam.net.		172800	IN	AAAA	2600:1480:5806:0:0:0:0:a0
-tld02.akam.net.		172800	IN	A	23.201.99.96
-tld02.akam.net.		172800	IN	AAAA	2600:1480:5807:0:0:0:0:a0
-tld03.akam.net.		172800	IN	A	23.201.100.96
-tld03.akam.net.		172800	IN	AAAA	2600:1480:5808:0:0:0:0:a0
-tld04.akam.net.		172800	IN	A	23.201.101.96
-tld04.akam.net.		172800	IN	AAAA	2600:1480:5809:0:0:0:0:a0
+n1-a1.aka-ns.net.	172800	IN	A	23.2.10.1
+n1-a1.aka-ns.net.	172800	IN	AAAA	2600:1405:4800:0:0:0:0:1
+n1-a13.aka-ns.net.	172800	IN	A	184.29.150.1
+n1-a13.aka-ns.net.	172800	IN	AAAA	2600:1405:400:0:0:0:0:1
+n1-a20.aka-ns.net.	172800	IN	A	184.29.154.1
+n1-a20.aka-ns.net.	172800	IN	AAAA	2600:1405:2400:0:0:0:0:1
+n1-a26.aka-ns.net.	172800	IN	A	184.29.157.1
+n1-a26.aka-ns.net.	172800	IN	AAAA	2600:1405:3c00:0:0:0:0:1
+n1-a4.aka-ns.net.	172800	IN	A	23.59.162.1
+n1-a4.aka-ns.net.	172800	IN	AAAA	2600:1405:7800:0:0:0:0:1
+n1-a7.aka-ns.net.	172800	IN	A	96.16.208.1
+n1-a7.aka-ns.net.	172800	IN	AAAA	2600:1405:a800:0:0:0:0:1
 ns1.aland.net.		172800	IN	A	194.112.0.1
 ns2.aland.net.		172800	IN	A	194.112.0.5
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
@@ -12772,12 +12779,22 @@ ns1.registry.om.	172800	IN	A	185.27.88.50
 ns1.registry.om.	172800	IN	AAAA	2a00:9120:1:0:0:0:0:50
 ns2.registry.om.	172800	IN	A	185.27.89.50
 ns2.registry.om.	172800	IN	AAAA	2a00:9120:2:0:0:0:0:50
-omega.			172800	IN	NS	ac1.nstld.com.
-omega.			172800	IN	NS	ac2.nstld.com.
 omega.			172800	IN	NS	ac3.nstld.com.
 omega.			172800	IN	NS	ac4.nstld.com.
+omega.			172800	IN	NS	dns1.nic.omega.
+omega.			172800	IN	NS	dns2.nic.omega.
+omega.			172800	IN	NS	dns3.nic.omega.
+omega.			172800	IN	NS	dns4.nic.omega.
 omega.			86400	IN	DS	4269 8 2 439D91ED221DE512CB04F3A7218DB1B019340B8D6228AB73DEAD0DF30AB5CF7B
 omega.			86400	IN	DS	49055 8 2 7FEB12A48D98DC3497171FA326DC92352F0C755D2CB7247950C3F42FE6F35871
+dns1.nic.omega.		172800	IN	A	213.248.219.140
+dns1.nic.omega.		172800	IN	AAAA	2a01:618:403:0:0:0:0:140
+dns2.nic.omega.		172800	IN	A	103.49.83.140
+dns2.nic.omega.		172800	IN	AAAA	2401:fd80:403:0:0:0:0:140
+dns3.nic.omega.		172800	IN	A	213.248.223.140
+dns3.nic.omega.		172800	IN	AAAA	2a01:618:407:0:0:0:0:140
+dns4.nic.omega.		172800	IN	A	43.230.51.140
+dns4.nic.omega.		172800	IN	AAAA	2401:fd80:407:0:0:0:0:140
 one.			172800	IN	NS	a.nic.one.
 one.			172800	IN	NS	b.nic.one.
 one.			172800	IN	NS	c.nic.one.
@@ -14987,10 +15004,12 @@ samsung.		172800	IN	NS	ns1.samsung.centralnic-dns.com.
 samsung.		172800	IN	NS	ns2.samsung.centralnic-dns.com.
 samsung.		172800	IN	NS	ns3.samsung.centralnic-dns.com.
 samsung.		172800	IN	NS	ns4.samsung.centralnic-dns.com.
-samsung.		172800	IN	NS	tld01.akam.net.
-samsung.		172800	IN	NS	tld02.akam.net.
-samsung.		172800	IN	NS	tld03.akam.net.
-samsung.		172800	IN	NS	tld04.akam.net.
+samsung.		172800	IN	NS	n1-a1.aka-ns.net.
+samsung.		172800	IN	NS	n1-a4.aka-ns.net.
+samsung.		172800	IN	NS	n1-a7.aka-ns.net.
+samsung.		172800	IN	NS	n1-a13.aka-ns.net.
+samsung.		172800	IN	NS	n1-a20.aka-ns.net.
+samsung.		172800	IN	NS	n1-a26.aka-ns.net.
 samsung.		86400	IN	DS	19194 7 2 144B461CB8AD9212307C53173EF72139A418EAB09997FC366484335D0AAE91FE
 sandvik.		172800	IN	NS	a.nic.sandvik.
 sandvik.		172800	IN	NS	b.nic.sandvik.
@@ -15589,12 +15608,22 @@ sharp.			172800	IN	NS	b.gmoregistry.net.
 sharp.			172800	IN	NS	k.gmoregistry.net.
 sharp.			172800	IN	NS	l.gmoregistry.net.
 sharp.			86400	IN	DS	3872 8 2 9FBCF0AFCB45E677CB42680FF35DEFD79F8ACCACAAA47DF92CFD08E73A8AFCB6
-shell.			172800	IN	NS	ac1.nstld.com.
-shell.			172800	IN	NS	ac2.nstld.com.
 shell.			172800	IN	NS	ac3.nstld.com.
 shell.			172800	IN	NS	ac4.nstld.com.
+shell.			172800	IN	NS	dns1.nic.shell.
+shell.			172800	IN	NS	dns2.nic.shell.
+shell.			172800	IN	NS	dns3.nic.shell.
+shell.			172800	IN	NS	dns4.nic.shell.
 shell.			86400	IN	DS	55158 8 2 BE8C4AB62CE5F9AC998C8C1383340F7800A43A6A903F061791B19AF6F6DBB9D5
 shell.			86400	IN	DS	63424 8 2 8429208F879143266AA1EEC685057C5C099912031D27BD1E0BC61732036B4D50
+dns1.nic.shell.		172800	IN	A	213.248.219.137
+dns1.nic.shell.		172800	IN	AAAA	2a01:618:403:0:0:0:0:137
+dns2.nic.shell.		172800	IN	A	103.49.83.137
+dns2.nic.shell.		172800	IN	AAAA	2401:fd80:403:0:0:0:0:137
+dns3.nic.shell.		172800	IN	A	213.248.223.137
+dns3.nic.shell.		172800	IN	AAAA	2a01:618:407:0:0:0:0:137
+dns4.nic.shell.		172800	IN	A	43.230.51.137
+dns4.nic.shell.		172800	IN	AAAA	2401:fd80:407:0:0:0:0:137
 shia.			172800	IN	NS	dns1.emdns.uk.
 shia.			172800	IN	NS	dns2.emdns.uk.
 shia.			172800	IN	NS	dns3.emdns.uk.
@@ -16527,12 +16556,22 @@ sv.			172800	IN	NS	ns.dns.br.
 sv.			172800	IN	NS	sir.red.sv.
 sv.			172800	IN	NS	dns-ext.nic.cr.
 sir.red.sv.		172800	IN	A	131.100.140.162
-swatch.			172800	IN	NS	ac1.nstld.com.
-swatch.			172800	IN	NS	ac2.nstld.com.
 swatch.			172800	IN	NS	ac3.nstld.com.
 swatch.			172800	IN	NS	ac4.nstld.com.
+swatch.			172800	IN	NS	dns1.nic.swatch.
+swatch.			172800	IN	NS	dns2.nic.swatch.
+swatch.			172800	IN	NS	dns3.nic.swatch.
+swatch.			172800	IN	NS	dns4.nic.swatch.
 swatch.			86400	IN	DS	46125 8 2 F8F63257D53D748EAC6844C412A246DB125E330F646D32922FD947E9F6A1FAC2
 swatch.			86400	IN	DS	63214 8 2 2CCA5B625235170EEA1B1151293B5EC127A83984BC6DD2AF8CCE71DD93D2A495
+dns1.nic.swatch.	172800	IN	A	213.248.219.139
+dns1.nic.swatch.	172800	IN	AAAA	2a01:618:403:0:0:0:0:139
+dns2.nic.swatch.	172800	IN	A	103.49.83.139
+dns2.nic.swatch.	172800	IN	AAAA	2401:fd80:403:0:0:0:0:139
+dns3.nic.swatch.	172800	IN	A	213.248.223.139
+dns3.nic.swatch.	172800	IN	AAAA	2a01:618:407:0:0:0:0:139
+dns4.nic.swatch.	172800	IN	A	43.230.51.139
+dns4.nic.swatch.	172800	IN	AAAA	2401:fd80:407:0:0:0:0:139
 swiss.			172800	IN	NS	g.nic.swiss.
 swiss.			172800	IN	NS	u.nic.swiss.
 swiss.			172800	IN	NS	ns15.rcode0.net.
@@ -19440,10 +19479,12 @@ xn--cg4bki.		172800	IN	NS	ns1.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		172800	IN	NS	ns2.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		172800	IN	NS	ns3.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		172800	IN	NS	ns4.xn--cg4bki.centralnic-dns.com.
-xn--cg4bki.		172800	IN	NS	tld01.akam.net.
-xn--cg4bki.		172800	IN	NS	tld02.akam.net.
-xn--cg4bki.		172800	IN	NS	tld03.akam.net.
-xn--cg4bki.		172800	IN	NS	tld04.akam.net.
+xn--cg4bki.		172800	IN	NS	n1-a1.aka-ns.net.
+xn--cg4bki.		172800	IN	NS	n1-a4.aka-ns.net.
+xn--cg4bki.		172800	IN	NS	n1-a7.aka-ns.net.
+xn--cg4bki.		172800	IN	NS	n1-a13.aka-ns.net.
+xn--cg4bki.		172800	IN	NS	n1-a20.aka-ns.net.
+xn--cg4bki.		172800	IN	NS	n1-a26.aka-ns.net.
 xn--cg4bki.		86400	IN	DS	59631 7 2 7A16187809F4725A91F192336F6A9576F246DF35EDF500A1356B8C8DFF2D59F1
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns4.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	pch.sgzones.sg.
