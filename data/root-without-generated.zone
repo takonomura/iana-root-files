@@ -3806,6 +3806,10 @@ te.ngtld.cn.		172800	IN	A	42.83.134.1
 ns1.teleinfo.cn.	172800	IN	A	103.61.60.1
 ns1.teleinfo.cn.	172800	IN	AAAA	2402:7d80:0:0:0:0:0:1
 ns3.teleinfo.cn.	172800	IN	A	103.61.62.1
+a.zdnscloud.cn.		172800	IN	A	203.99.24.1
+b.zdnscloud.cn.		172800	IN	A	203.99.25.1
+f.zdnscloud.cn.		172800	IN	A	116.169.54.111
+i.zdnscloud.cn.		172800	IN	AAAA	2401:8d00:1:0:0:0:0:1
 co.			172800	IN	NS	ns1.cctld.co.
 co.			172800	IN	NS	ns2.cctld.co.
 co.			172800	IN	NS	ns3.cctld.co.
@@ -14396,13 +14400,13 @@ b0.nic.reliance.	172800	IN	A	65.22.109.25
 b0.nic.reliance.	172800	IN	AAAA	2a01:8840:6b:0:0:0:0:25
 c0.nic.reliance.	172800	IN	A	65.22.110.25
 c0.nic.reliance.	172800	IN	AAAA	2a01:8840:6c:0:0:0:0:25
-ren.			172800	IN	NS	a.zdnscloud.com.
-ren.			172800	IN	NS	b.zdnscloud.com.
+ren.			172800	IN	NS	a.zdnscloud.cn.
+ren.			172800	IN	NS	b.zdnscloud.cn.
 ren.			172800	IN	NS	c.zdnscloud.com.
 ren.			172800	IN	NS	d.zdnscloud.com.
-ren.			172800	IN	NS	f.zdnscloud.com.
+ren.			172800	IN	NS	f.zdnscloud.cn.
 ren.			172800	IN	NS	g.zdnscloud.com.
-ren.			172800	IN	NS	i.zdnscloud.com.
+ren.			172800	IN	NS	i.zdnscloud.cn.
 ren.			172800	IN	NS	j.zdnscloud.com.
 ren.			86400	IN	DS	6712 8 2 06090FB53AE539CE051D9236A0C6B5FD58361167BC0D7F5E8E9EAB4F62D4FFFB
 rent.			172800	IN	NS	a.nic.rent.
