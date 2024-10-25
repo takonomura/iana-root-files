@@ -475,12 +475,26 @@ ns2.dns.nic.aig.	172800	IN	A	156.154.145.6
 ns2.dns.nic.aig.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:6
 ns3.dns.nic.aig.	172800	IN	A	156.154.159.6
 ns3.dns.nic.aig.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:6
-airbus.			172800	IN	NS	ac1.nstld.com.
-airbus.			172800	IN	NS	ac2.nstld.com.
-airbus.			172800	IN	NS	ac3.nstld.com.
-airbus.			172800	IN	NS	ac4.nstld.com.
+airbus.			172800	IN	NS	v0n0.nic.airbus.
+airbus.			172800	IN	NS	v0n1.nic.airbus.
+airbus.			172800	IN	NS	v0n2.nic.airbus.
+airbus.			172800	IN	NS	v0n3.nic.airbus.
+airbus.			172800	IN	NS	v2n0.nic.airbus.
+airbus.			172800	IN	NS	v2n1.nic.airbus.
 airbus.			86400	IN	DS	31023 8 2 FAFDD4F89FA42D1396B42A972019BD3DE013BD1708888FD77BD7DADA8A38936D
 airbus.			86400	IN	DS	51547 8 2 982B16E3BAE278AB7146E3BDEDAF3BFC9C8C46D7DB3485321019D10C7F5108EE
+v0n0.nic.airbus.	172800	IN	A	65.22.108.10
+v0n0.nic.airbus.	172800	IN	AAAA	2a01:8840:6a:0:0:0:0:10
+v0n1.nic.airbus.	172800	IN	A	65.22.109.10
+v0n1.nic.airbus.	172800	IN	AAAA	2a01:8840:6b:0:0:0:0:10
+v0n2.nic.airbus.	172800	IN	A	65.22.110.10
+v0n2.nic.airbus.	172800	IN	AAAA	2a01:8840:6c:0:0:0:0:10
+v0n3.nic.airbus.	172800	IN	A	161.232.32.10
+v0n3.nic.airbus.	172800	IN	AAAA	2a01:8840:108:0:0:0:0:10
+v2n0.nic.airbus.	172800	IN	A	65.22.111.10
+v2n0.nic.airbus.	172800	IN	AAAA	2a01:8840:6d:0:0:0:0:10
+v2n1.nic.airbus.	172800	IN	A	161.232.33.10
+v2n1.nic.airbus.	172800	IN	AAAA	2a01:8840:109:0:0:0:0:10
 airforce.		172800	IN	NS	v0n0.nic.airforce.
 airforce.		172800	IN	NS	v0n1.nic.airforce.
 airforce.		172800	IN	NS	v0n2.nic.airforce.
@@ -7096,6 +7110,7 @@ george.			172800	IN	NS	a2.nic.george.
 george.			172800	IN	NS	b0.nic.george.
 george.			172800	IN	NS	c0.nic.george.
 george.			86400	IN	DS	1759 8 2 0CAA1F5AE9C0E736030B351AB71BB351053798CE39B3B662CEEFDB956057D5FE
+george.			86400	IN	DS	52471 8 2 2075B42F79F6AC18BAAA19256564296DC9A53B1A24F2BF84550E005206B4E2D3
 a0.nic.george.		172800	IN	A	65.22.112.49
 a0.nic.george.		172800	IN	AAAA	2a01:8840:6e:0:0:0:0:49
 a2.nic.george.		172800	IN	A	65.22.115.49
@@ -7585,6 +7600,7 @@ grocery.		172800	IN	NS	a0.nic.grocery.
 grocery.		172800	IN	NS	a2.nic.grocery.
 grocery.		172800	IN	NS	b0.nic.grocery.
 grocery.		172800	IN	NS	c0.nic.grocery.
+grocery.		86400	IN	DS	18634 8 2 03D573C990BFB36FCE9A9ECEBF706B50BC42D96772D9C39C76AF617225C02B34
 grocery.		86400	IN	DS	58537 8 2 3306B36E70FE436FC00B50ACD0D7C0DAB84DB02062907F3FF5CECE68F09CB68C
 a0.nic.grocery.		172800	IN	A	65.22.112.50
 a0.nic.grocery.		172800	IN	AAAA	2a01:8840:6e:0:0:0:0:50
@@ -15004,6 +15020,7 @@ samsclub.		172800	IN	NS	a0.nic.samsclub.
 samsclub.		172800	IN	NS	a2.nic.samsclub.
 samsclub.		172800	IN	NS	b0.nic.samsclub.
 samsclub.		172800	IN	NS	c0.nic.samsclub.
+samsclub.		86400	IN	DS	35602 8 2 29E4496BEA5E1CEC89FCB45CBD4D9C45D0A024EB2B3BB1245F67EF66BA89D210
 samsclub.		86400	IN	DS	60532 8 2 3D5123DE8729F24800C0715726142C8317B27134AF028DC67F541DE50903643B
 a0.nic.samsclub.	172800	IN	A	65.22.112.66
 a0.nic.samsclub.	172800	IN	AAAA	2a01:8840:6e:0:0:0:0:66
@@ -18294,12 +18311,26 @@ dnsc.nic.virgin.	172800	IN	A	156.154.102.3
 dnsc.nic.virgin.	172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
 dnsd.nic.virgin.	172800	IN	A	156.154.103.3
 dnsd.nic.virgin.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
-visa.			172800	IN	NS	ac1.nstld.com.
-visa.			172800	IN	NS	ac2.nstld.com.
-visa.			172800	IN	NS	ac3.nstld.com.
-visa.			172800	IN	NS	ac4.nstld.com.
+visa.			172800	IN	NS	v0n0.nic.visa.
+visa.			172800	IN	NS	v0n1.nic.visa.
+visa.			172800	IN	NS	v0n2.nic.visa.
+visa.			172800	IN	NS	v0n3.nic.visa.
+visa.			172800	IN	NS	v2n0.nic.visa.
+visa.			172800	IN	NS	v2n1.nic.visa.
 visa.			86400	IN	DS	55863 8 2 B7D4DD6E17C137C8D9121055EC796100868870D2D31AC0DC5A2CE1972F692CB4
 visa.			86400	IN	DS	61366 8 2 94D6F007F7A3CD81D061701497A7E54F801A495E219370723BAB6F2707B68D6E
+v0n0.nic.visa.		172800	IN	A	65.22.108.20
+v0n0.nic.visa.		172800	IN	AAAA	2a01:8840:6a:0:0:0:0:20
+v0n1.nic.visa.		172800	IN	A	65.22.109.20
+v0n1.nic.visa.		172800	IN	AAAA	2a01:8840:6b:0:0:0:0:20
+v0n2.nic.visa.		172800	IN	A	65.22.110.20
+v0n2.nic.visa.		172800	IN	AAAA	2a01:8840:6c:0:0:0:0:20
+v0n3.nic.visa.		172800	IN	A	161.232.32.20
+v0n3.nic.visa.		172800	IN	AAAA	2a01:8840:108:0:0:0:0:20
+v2n0.nic.visa.		172800	IN	A	65.22.111.20
+v2n0.nic.visa.		172800	IN	AAAA	2a01:8840:6d:0:0:0:0:20
+v2n1.nic.visa.		172800	IN	A	161.232.33.20
+v2n1.nic.visa.		172800	IN	AAAA	2a01:8840:109:0:0:0:0:20
 vision.			172800	IN	NS	v0n0.nic.vision.
 vision.			172800	IN	NS	v0n1.nic.vision.
 vision.			172800	IN	NS	v0n2.nic.vision.
@@ -18535,6 +18566,7 @@ walmart.		172800	IN	NS	a0.nic.walmart.
 walmart.		172800	IN	NS	a2.nic.walmart.
 walmart.		172800	IN	NS	b0.nic.walmart.
 walmart.		172800	IN	NS	c0.nic.walmart.
+walmart.		86400	IN	DS	4411 8 2 CEE1000FC9A5A5C1E205308AC36910953C589174CA5D18516DCB0549EA450886
 walmart.		86400	IN	DS	34531 8 2 E09B4CCFA8A68B1D6A13042FA28A343782D0D1B4BF3E79C6A1415D3B2825B922
 a0.nic.walmart.		172800	IN	A	65.22.112.74
 a0.nic.walmart.		172800	IN	AAAA	2a01:8840:6e:0:0:0:0:74
