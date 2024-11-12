@@ -15618,6 +15618,7 @@ sg.			172800	IN	NS	pch.sgzones.sg.
 sg.			172800	IN	NS	dsany.sgnic.sg.
 sg.			172800	IN	NS	dsany2.sgnic.sg.
 sg.			172800	IN	NS	dsany3.sgnic.sg.
+sg.			172800	IN	NS	dsany4.sgnic.sg.
 sg.			86400	IN	DS	26329 8 2 404A15E6CA2F4CE259D8B2BD13894C7823A9513973103C962FF52BFC57A380AF
 dsany.sgnic.sg.		172800	IN	A	120.29.253.11
 dsany.sgnic.sg.		172800	IN	AAAA	2001:dcd:7:0:0:0:0:11
@@ -15625,6 +15626,8 @@ dsany2.sgnic.sg.	172800	IN	A	185.159.197.170
 dsany2.sgnic.sg.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:170
 dsany3.sgnic.sg.	172800	IN	A	185.159.198.170
 dsany3.sgnic.sg.	172800	IN	AAAA	2620:10a:80ab:0:0:0:0:170
+dsany4.sgnic.sg.	172800	IN	A	45.142.220.65
+dsany4.sgnic.sg.	172800	IN	AAAA	2a0e:dbc0:1:0:0:0:0:65
 pch.sgzones.sg.		172800	IN	A	204.61.216.57
 pch.sgzones.sg.		172800	IN	AAAA	2001:500:14:6057:ad:0:0:1
 sh.			172800	IN	NS	a0.nic.sh.
@@ -17422,7 +17425,6 @@ top.			172800	IN	NS	g.zdnscloud.com.
 top.			172800	IN	NS	i.zdnscloud.com.
 top.			172800	IN	NS	j.zdnscloud.com.
 top.			86400	IN	DS	26780 8 2 5D6E7869EE8E3B536A617DE89482DDD1DCB9DB9DBB1AC33D6ED351E2CA095B1B
-top.			86400	IN	DS	56384 8 2 BA378C5913404EC654DF544F519B0FB287E140D64DAC5D59E349962393C17945
 toray.			172800	IN	NS	a.gmoregistry.net.
 toray.			172800	IN	NS	b.gmoregistry.net.
 toray.			172800	IN	NS	k.gmoregistry.net.
@@ -20400,13 +20402,13 @@ xn--s9brj9c.		172800	IN	NS	ns4.registry.in.
 xn--s9brj9c.		172800	IN	NS	ns5.registry.in.
 xn--s9brj9c.		172800	IN	NS	ns6.registry.in.
 xn--s9brj9c.		86400	IN	DS	47272 8 2 5A0F20A974FED08735863B1A312EF3582290C5A25CA6FA79C32FCC3740CDBC3E
-xn--ses554g.		172800	IN	NS	a.zdnscloud.com.
-xn--ses554g.		172800	IN	NS	b.zdnscloud.com.
+xn--ses554g.		172800	IN	NS	a.zdnscloud.cn.
+xn--ses554g.		172800	IN	NS	b.zdnscloud.cn.
 xn--ses554g.		172800	IN	NS	c.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	d.zdnscloud.com.
-xn--ses554g.		172800	IN	NS	f.zdnscloud.com.
+xn--ses554g.		172800	IN	NS	f.zdnscloud.cn.
 xn--ses554g.		172800	IN	NS	g.zdnscloud.com.
-xn--ses554g.		172800	IN	NS	i.zdnscloud.com.
+xn--ses554g.		172800	IN	NS	i.zdnscloud.cn.
 xn--ses554g.		172800	IN	NS	j.zdnscloud.com.
 xn--ses554g.		86400	IN	DS	34994 8 2 5EF0D396751EDE7D6B87B3DDA8D9ECC7883A45B21C1A8D60FBF0FF92B5C2C445
 xn--t60b56a.		172800	IN	NS	ac1.nstld.com.
