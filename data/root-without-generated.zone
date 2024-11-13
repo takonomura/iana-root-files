@@ -1444,7 +1444,6 @@ baidu.			172800	IN	NS	g.zdnscloud.com.
 baidu.			172800	IN	NS	i.zdnscloud.com.
 baidu.			172800	IN	NS	j.zdnscloud.com.
 baidu.			86400	IN	DS	23825 8 2 7DAEDE4B986A05B32CD3698CE14D0A0866D12A2AB955B8DC3659D25D7AD65CBE
-baidu.			86400	IN	DS	63817 8 2 13605EBD9736B66B1EB3B2DB5865CA66B5EFD2BE720087FE4441039F3AA4CF3D
 banamex.		172800	IN	NS	a.nic.banamex.
 banamex.		172800	IN	NS	b.nic.banamex.
 banamex.		172800	IN	NS	c.nic.banamex.
@@ -8410,7 +8409,6 @@ icbc.			172800	IN	NS	f.zdnscloud.com.
 icbc.			172800	IN	NS	g.zdnscloud.com.
 icbc.			172800	IN	NS	i.zdnscloud.com.
 icbc.			172800	IN	NS	j.zdnscloud.com.
-icbc.			86400	IN	DS	40582 8 2 7B808042C4C053D9AF8F39B7E784A66C00CE1D9EEF0BC1DC6E5D59A4451DA05A
 icbc.			86400	IN	DS	52120 8 2 36FD8ACB79ED5963ABD523BB73B5C9FA39F8D206ED2488436D1795B1228766EE
 ice.			172800	IN	NS	a0.nic.ice.
 ice.			172800	IN	NS	a2.nic.ice.
@@ -14029,11 +14027,12 @@ ns3.dns.nic.prudential.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:8e
 ps.			172800	IN	NS	ps.cctld.authdns.ripe.net.
 ps.			172800	IN	NS	ns1.pnina.ps.
 ps.			172800	IN	NS	rip.psg.com.
-ps.			172800	IN	NS	dns1.gov.ps.
 ps.			172800	IN	NS	fork.sth.dnsnode.net.
+ps.			172800	IN	NS	bilal.pnina.ps.
 ps.			172800	IN	NS	ps-ns.anycast.pch.net.
 dns1.gov.ps.		172800	IN	A	213.244.82.147
 dns3.gov.ps.		172800	IN	A	185.153.163.3
+bilal.pnina.ps.		172800	IN	A	168.119.39.120
 idn.pnina.ps.		172800	IN	A	208.64.68.60
 ns1.pnina.ps.		172800	IN	A	194.6.225.20
 pt.			172800	IN	NS	a.dns.pt.
@@ -14334,7 +14333,6 @@ redstone.		172800	IN	NS	g.zdnscloud.com.
 redstone.		172800	IN	NS	i.zdnscloud.com.
 redstone.		172800	IN	NS	j.zdnscloud.com.
 redstone.		86400	IN	DS	49835 8 2 51A6A70D9A7C0F010D09FFAACA9CB6BBBE7FAD76FB48FDE6F940B606C8CDE048
-redstone.		86400	IN	DS	55555 8 2 425CC5BC7ADD435160D3C70CBA9D545BE2FF5466ECC27FB46E520BE2EC1F9D0D
 redumbrella.		172800	IN	NS	a0.nic.redumbrella.
 redumbrella.		172800	IN	NS	a2.nic.redumbrella.
 redumbrella.		172800	IN	NS	b0.nic.redumbrella.
@@ -17921,7 +17919,6 @@ unicom.			172800	IN	NS	g.zdnscloud.com.
 unicom.			172800	IN	NS	i.zdnscloud.com.
 unicom.			172800	IN	NS	j.zdnscloud.com.
 unicom.			86400	IN	DS	28037 8 2 3B3E219BAB1692507EB991DA755F11EF1920D5F3402B4E9AB28CF86156948967
-unicom.			86400	IN	DS	51527 8 2 79FE987F5EDEF21F8AFC9A56DFE663D4B6AE8E2B046F82EA092571B6B2871D96
 university.		172800	IN	NS	v0n0.nic.university.
 university.		172800	IN	NS	v0n1.nic.university.
 university.		172800	IN	NS	v0n2.nic.university.
@@ -19431,7 +19428,6 @@ xn--8y0a063a.		172800	IN	NS	f.zdnscloud.com.
 xn--8y0a063a.		172800	IN	NS	g.zdnscloud.com.
 xn--8y0a063a.		172800	IN	NS	i.zdnscloud.com.
 xn--8y0a063a.		172800	IN	NS	j.zdnscloud.com.
-xn--8y0a063a.		86400	IN	DS	44995 8 2 75EC90F39171D405CB5D609AB0C62F21B2C53DA70D28D642D226121A4DC9A917
 xn--8y0a063a.		86400	IN	DS	57167 8 2 2596D4A370097AC33133E16B582CE273752F50086F0A9B87645D8CC9AEACA992
 xn--90a3ac.		172800	IN	NS	a.nic.rs.
 xn--90a3ac.		172800	IN	NS	b.nic.rs.
