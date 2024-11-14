@@ -19586,6 +19586,7 @@ xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	pch.sgzones.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany2.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany3.sgnic.sg.
+xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany4.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	86400	IN	DS	47752 8 2 F76B1D7F3857A37138B77BEED55B38160EE01FC53DAE8DEDB41B91B4C443BE71
 xn--czr694b.		172800	IN	NS	a.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	b.zdnscloud.com.
@@ -20563,6 +20564,7 @@ xn--yfro4i67o.		172800	IN	NS	pch.sgzones.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany2.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany3.sgnic.sg.
+xn--yfro4i67o.		172800	IN	NS	dsany4.sgnic.sg.
 xn--yfro4i67o.		86400	IN	DS	42197 8 2 D8001FE0B7A80F256A0EE1789C909F320BBB43964FB8E211274AB22220074C41
 xn--ygbi2ammx.		172800	IN	NS	ps.cctld.authdns.ripe.net.
 xn--ygbi2ammx.		172800	IN	NS	idn.pnina.ps.
