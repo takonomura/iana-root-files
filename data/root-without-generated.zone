@@ -3303,7 +3303,7 @@ ch.			172800	IN	NS	b.nic.ch.
 ch.			172800	IN	NS	d.nic.ch.
 ch.			172800	IN	NS	e.nic.ch.
 ch.			172800	IN	NS	f.nic.ch.
-ch.			86400	IN	DS	450 13 2 4994913D9FF4F0DF95F08ACDF1D66149D873368FF6C1836C64BDFACE62734FA2
+ch.			86400	IN	DS	14051 13 2 ABF0B9C56282F0558D59B5EEF0F881B7DB4F39043972411FDB06E66593A9E8B1
 ns.itu.ch.		172800	IN	A	156.106.192.121
 ns.itu.ch.		172800	IN	AAAA	2a00:7580:60:2141:0:0:0:10
 a.nic.ch.		172800	IN	A	130.59.31.41
@@ -10107,7 +10107,7 @@ li.			172800	IN	NS	b.nic.li.
 li.			172800	IN	NS	d.nic.li.
 li.			172800	IN	NS	e.nic.li.
 li.			172800	IN	NS	f.nic.li.
-li.			86400	IN	DS	33577 13 2 61FE12787198CE1EEBEA6D8B75EEA2E08BA252D8B5F04BFC3ADDB8192CC83C0D
+li.			86400	IN	DS	15542 13 2 5AF55286D332A52D71BE8C3FBE2EC264DB3704BE6BC22B84E2B2D47B53956D88
 a.nic.li.		172800	IN	A	130.59.31.42
 a.nic.li.		172800	IN	AAAA	2001:620:0:ff:0:0:0:57
 b.nic.li.		172800	IN	A	130.59.31.44
@@ -16650,7 +16650,6 @@ sx.			172800	IN	NS	ns2.ns.sx.
 sx.			172800	IN	NS	ns3.ns.sx.
 sx.			172800	IN	NS	ns4.ns.sx.
 sx.			86400	IN	DS	13049 8 2 30D0C7552EEBF0586E848FD4CB7FB02C2CE377042AABE923304FA598BE7082B4
-sx.			86400	IN	DS	34036 8 2 8FBC9761B3375B5A00AD9A7C0E1D22F7574C87EFBBCDD5249845A9778F876CE6
 ns1.ns.sx.		172800	IN	A	185.159.197.10
 ns1.ns.sx.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:10
 ns2.ns.sx.		172800	IN	A	185.159.198.10
@@ -19220,22 +19219,22 @@ xn--2scrj9c.		172800	IN	NS	ns4.registry.in.
 xn--2scrj9c.		172800	IN	NS	ns5.registry.in.
 xn--2scrj9c.		172800	IN	NS	ns6.registry.in.
 xn--2scrj9c.		86400	IN	DS	11140 8 2 4D6066C559009D857402623F36CFEA85B92EEAB23D507F12F28050AC873491C3
-xn--30rr7y.		172800	IN	NS	a.zdnscloud.com.
-xn--30rr7y.		172800	IN	NS	b.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	a.zdnscloud.cn.
+xn--30rr7y.		172800	IN	NS	b.zdnscloud.cn.
 xn--30rr7y.		172800	IN	NS	c.zdnscloud.com.
 xn--30rr7y.		172800	IN	NS	d.zdnscloud.com.
-xn--30rr7y.		172800	IN	NS	f.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	f.zdnscloud.cn.
 xn--30rr7y.		172800	IN	NS	g.zdnscloud.com.
-xn--30rr7y.		172800	IN	NS	i.zdnscloud.com.
+xn--30rr7y.		172800	IN	NS	i.zdnscloud.cn.
 xn--30rr7y.		172800	IN	NS	j.zdnscloud.com.
 xn--30rr7y.		86400	IN	DS	44210 8 2 CA8C1B37378E7EBA858C4FE9BAD7BD6748E70DA47639C3A0E31DB1F71F66F467
-xn--3bst00m.		172800	IN	NS	a.zdnscloud.com.
-xn--3bst00m.		172800	IN	NS	b.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	a.zdnscloud.cn.
+xn--3bst00m.		172800	IN	NS	b.zdnscloud.cn.
 xn--3bst00m.		172800	IN	NS	c.zdnscloud.com.
 xn--3bst00m.		172800	IN	NS	d.zdnscloud.com.
-xn--3bst00m.		172800	IN	NS	f.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	f.zdnscloud.cn.
 xn--3bst00m.		172800	IN	NS	g.zdnscloud.com.
-xn--3bst00m.		172800	IN	NS	i.zdnscloud.com.
+xn--3bst00m.		172800	IN	NS	i.zdnscloud.cn.
 xn--3bst00m.		172800	IN	NS	j.zdnscloud.com.
 xn--3bst00m.		86400	IN	DS	35945 8 2 5A563EDED23044A6C1B623A011123E7AD260B656F89301F500D7FCD04223A801
 xn--3ds443g.		172800	IN	NS	ns1.teleinfo.cn.
@@ -19362,13 +19361,13 @@ b0.nic.xn--6frz82g.	172800	IN	A	65.22.25.9
 b0.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1b:0:0:0:0:9
 c0.nic.xn--6frz82g.	172800	IN	A	65.22.26.9
 c0.nic.xn--6frz82g.	172800	IN	AAAA	2a01:8840:1c:0:0:0:0:9
-xn--6qq986b3xl.		172800	IN	NS	a.zdnscloud.com.
-xn--6qq986b3xl.		172800	IN	NS	b.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	a.zdnscloud.cn.
+xn--6qq986b3xl.		172800	IN	NS	b.zdnscloud.cn.
 xn--6qq986b3xl.		172800	IN	NS	c.zdnscloud.com.
 xn--6qq986b3xl.		172800	IN	NS	d.zdnscloud.com.
-xn--6qq986b3xl.		172800	IN	NS	f.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	f.zdnscloud.cn.
 xn--6qq986b3xl.		172800	IN	NS	g.zdnscloud.com.
-xn--6qq986b3xl.		172800	IN	NS	i.zdnscloud.com.
+xn--6qq986b3xl.		172800	IN	NS	i.zdnscloud.cn.
 xn--6qq986b3xl.		172800	IN	NS	j.zdnscloud.com.
 xn--6qq986b3xl.		86400	IN	DS	54794 8 2 04DB2D2F9CAB81D80FD8F7062B4E2A42A99F9FDF172A90039C30E4A6B9A844DF
 xn--80adxhks.		172800	IN	NS	a.dns.flexireg.ru.
@@ -19657,7 +19656,6 @@ xn--efvy88h.		172800	IN	NS	f.zdnscloud.com.
 xn--efvy88h.		172800	IN	NS	g.zdnscloud.com.
 xn--efvy88h.		172800	IN	NS	i.zdnscloud.com.
 xn--efvy88h.		172800	IN	NS	j.zdnscloud.com.
-xn--efvy88h.		86400	IN	DS	16702 8 2 3DC3633898AEF4CF395E3B558DDDB6B02111ABC6BC31BE55346BB44CB7778E74
 xn--efvy88h.		86400	IN	DS	36754 8 2 D4A3344E3EB4166464489B5A5706ACE8B8AD7CDC2D3C0AEA088E8851B8E24DE2
 xn--fct429k.		172800	IN	NS	a.nic.xn--fct429k.
 xn--fct429k.		172800	IN	NS	b.nic.xn--fct429k.
