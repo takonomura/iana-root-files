@@ -13098,17 +13098,17 @@ ovh.			172800	IN	NS	f.ext.nic.fr.
 ovh.			172800	IN	NS	g.ext.nic.fr.
 ovh.			86400	IN	DS	2779 13 2 E6B3F359C1980DE521369BE4BD61FC91B9E311AA79221705D248925ADD22F1D1
 pa.			172800	IN	NS	a.lactld.org.
-pa.			172800	IN	NS	ns.pa.
 pa.			172800	IN	NS	ns.dns.br.
 pa.			172800	IN	NS	ns.nic.pa.
+pa.			172800	IN	NS	ns1.nic.pa.
 pa.			172800	IN	NS	ns1.anycastdns.cz.
-pa.			172800	IN	NS	ns2.pa.
+pa.			172800	IN	NS	ns2.nic.pa.
 pa.			172800	IN	NS	ns2.anycastdns.cz.
 pa.			172800	IN	NS	dns-ext.nic.cr.
 pa.			172800	IN	NS	ssdns-tld.nic.cl.
-ns.nic.pa.		172800	IN	A	168.77.8.4
-ns.pa.			172800	IN	A	168.77.8.2
-ns2.pa.			172800	IN	A	168.77.8.7
+ns.nic.pa.		172800	IN	A	168.77.9.6
+ns1.nic.pa.		172800	IN	A	168.77.9.7
+ns2.nic.pa.		172800	IN	A	168.77.9.8
 page.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 page.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -20544,7 +20544,7 @@ xn--y9a3aq.		172800	IN	NS	fork.sth.dnsnode.net.
 xn--y9a3aq.		172800	IN	NS	ns-cdn.amnic.net.
 xn--y9a3aq.		172800	IN	NS	ns-pch.amnic.net.
 xn--y9a3aq.		172800	IN	NS	ns-pri.nic.am.
-xn--y9a3aq.		86400	IN	DS	62869 13 2 815A710EBACAF9227C48A8C96DD1199C7822BB3FC6ECE2620975B2A5FA16A0FB
+xn--y9a3aq.		86400	IN	DS	57177 13 2 5A9734CAD6BD5F59959199A36800D02FE5F77AE9CE1E1E65B9F5AEC5785D071D
 xn--yfro4i67o.		172800	IN	NS	ns4.apnic.net.
 xn--yfro4i67o.		172800	IN	NS	pch.sgzones.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany2.sgnic.sg.
