@@ -450,6 +450,7 @@ ai.			172800	IN	NS	a.lactld.org.
 ai.			172800	IN	NS	pch.whois.ai.
 ai.			172800	IN	NS	anycastdns1-cz.nic.ai.
 ai.			172800	IN	NS	anycastdns2-cz.nic.ai.
+ai.			86400	IN	DS	3799 8 2 8A8030D4661AE6FCF417349682AC058648371002E70E717E4CF2F11F83543385
 ai.			86400	IN	DS	44137 8 2 7886BD35ED745DCA983D951A643495B929B3A7676A88C682EF88EB6FEDBDB253
 anycastdns1-cz.nic.ai.	172800	IN	A	185.28.194.194
 anycastdns2-cz.nic.ai.	172800	IN	A	185.38.108.108
@@ -5689,7 +5690,6 @@ es.			172800	IN	NS	a.nic.es.
 es.			172800	IN	NS	c.nic.es.
 es.			172800	IN	NS	g.nic.es.
 es.			172800	IN	NS	h.nic.es.
-es.			86400	IN	DS	44375 8 2 9D9858AE981AA53DD1143D93844E3D69B0FB73A9B4FE5759DA39E036E754D402
 es.			86400	IN	DS	54404 8 2 C130DF280CD8EBB99C8B6C8335B9FD5F1D709641494E044C8085B1AC21833B47
 a.nic.es.		172800	IN	A	194.69.254.1
 a.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000:0:0:64:41
@@ -10556,7 +10556,7 @@ lt.			172800	IN	NS	d.tld.lt.
 lt.			172800	IN	NS	e.tld.lt.
 lt.			172800	IN	NS	f.tld.lt.
 lt.			86400	IN	DS	60305 8 2 2F5E8CF57360378A0325783CBC4AE219B43D7FAB1BCED9E7C51C6104C1690078
-a.tld.lt.		172800	IN	A	195.8.218.131
+a.tld.lt.		172800	IN	A	185.150.40.131
 b.tld.lt.		172800	IN	A	194.0.20.1
 b.tld.lt.		172800	IN	AAAA	2001:678:19:0:0:0:0:1
 c.tld.lt.		172800	IN	A	194.0.1.4
@@ -12174,8 +12174,6 @@ tj.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.117
 tj.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:117
 ug.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.52
 ug.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:52
-va.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.123
-va.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:123
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 sec2.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:4
 a.dns.ripn.net.		172800	IN	A	193.232.128.6
@@ -14789,7 +14787,7 @@ ru.			172800	IN	NS	b.dns.ripn.net.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
-ru.			86400	IN	DS	43786 8 2 3C59747544090BC74419D5F69E32D8C9B18EA48CBDAA33C09435619120CED431
+ru.			86400	IN	DS	18374 8 2 8058D0C088D9B3F7F30080E2B8C9804944301722A2CCE9EE66F6AC74FEB2E200
 a.dns.flexireg.ru.	172800	IN	A	31.177.70.1
 a.dns.flexireg.ru.	172800	IN	AAAA	2a02:2090:6800:0:0:0:0:1
 rugby.			172800	IN	NS	a.nic.rugby.
@@ -16818,7 +16816,7 @@ tatar.			172800	IN	NS	b.dns.ripn.net.
 tatar.			172800	IN	NS	d.dns.ripn.net.
 tatar.			172800	IN	NS	e.dns.ripn.net.
 tatar.			172800	IN	NS	f.dns.ripn.net.
-tatar.			86400	IN	DS	51080 8 2 174D84D055DD351387AE559673DEB48B0AA5F767E0C946C9C7AFCF8D30230A7F
+tatar.			86400	IN	DS	21416 8 2 E33B55B67391B0647FD2F59AEFDD211384B14B32AA2C2DA16B1D8A6311A12396
 tattoo.			172800	IN	NS	a.nic.tattoo.
 tattoo.			172800	IN	NS	b.nic.tattoo.
 tattoo.			172800	IN	NS	c.nic.tattoo.
@@ -18025,13 +18023,14 @@ ns8.uz.			172800	IN	A	91.212.89.233
 va.			172800	IN	NS	a.nic.va.
 va.			172800	IN	NS	b.nic.va.
 va.			172800	IN	NS	c.nic.va.
-va.			172800	IN	NS	va.cctld.authdns.ripe.net.
-va.			172800	IN	NS	dns.nic.it.
 va.			172800	IN	NS	seth.namex.it.
 va.			172800	IN	NS	osiris.namex.it.
 a.nic.va.		172800	IN	A	212.77.0.110
+a.nic.va.		172800	IN	AAAA	2a01:b8:0:1:212:77:0:110
 b.nic.va.		172800	IN	A	212.77.0.2
+b.nic.va.		172800	IN	AAAA	2a01:b8:0:1:212:77:0:2
 c.nic.va.		172800	IN	A	212.77.2.58
+c.nic.va.		172800	IN	AAAA	2a01:b8:0:0:0:0:2:3a
 vacations.		172800	IN	NS	v0n0.nic.vacations.
 vacations.		172800	IN	NS	v0n1.nic.vacations.
 vacations.		172800	IN	NS	v0n2.nic.vacations.
@@ -18608,13 +18607,13 @@ y.nic.walter.		172800	IN	A	156.154.173.82
 y.nic.walter.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.walter.		172800	IN	A	156.154.174.82
 z.nic.walter.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-wang.			172800	IN	NS	a.zdnscloud.com.
-wang.			172800	IN	NS	b.zdnscloud.com.
+wang.			172800	IN	NS	a.zdnscloud.cn.
+wang.			172800	IN	NS	b.zdnscloud.cn.
 wang.			172800	IN	NS	c.zdnscloud.com.
 wang.			172800	IN	NS	d.zdnscloud.com.
-wang.			172800	IN	NS	f.zdnscloud.com.
+wang.			172800	IN	NS	f.zdnscloud.cn.
 wang.			172800	IN	NS	g.zdnscloud.com.
-wang.			172800	IN	NS	i.zdnscloud.com.
+wang.			172800	IN	NS	i.zdnscloud.cn.
 wang.			172800	IN	NS	j.zdnscloud.com.
 wang.			86400	IN	DS	19549 8 2 328B02976180A88840E22A052B3D03C8CE7B67609B7CC1840E0E0FE71A3E8E8E
 wanggou.		172800	IN	NS	dns1.nic.wanggou.
@@ -19280,13 +19279,13 @@ xn--45brj9c.		172800	IN	NS	ns4.registry.in.
 xn--45brj9c.		172800	IN	NS	ns5.registry.in.
 xn--45brj9c.		172800	IN	NS	ns6.registry.in.
 xn--45brj9c.		86400	IN	DS	1777 8 2 9FF53F651D2C12F7C22BD9C301132042D423D7C935935E26376E57E352B6FDF6
-xn--45q11c.		172800	IN	NS	a.zdnscloud.com.
-xn--45q11c.		172800	IN	NS	b.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	a.zdnscloud.cn.
+xn--45q11c.		172800	IN	NS	b.zdnscloud.cn.
 xn--45q11c.		172800	IN	NS	c.zdnscloud.com.
 xn--45q11c.		172800	IN	NS	d.zdnscloud.com.
-xn--45q11c.		172800	IN	NS	f.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	f.zdnscloud.cn.
 xn--45q11c.		172800	IN	NS	g.zdnscloud.com.
-xn--45q11c.		172800	IN	NS	i.zdnscloud.com.
+xn--45q11c.		172800	IN	NS	i.zdnscloud.cn.
 xn--45q11c.		172800	IN	NS	j.zdnscloud.com.
 xn--45q11c.		86400	IN	DS	21806 8 2 622CFB958A0EE383C82CE227DFED29B054B4DB76B914CCF5D65703B41DA6D536
 xn--4dbrk0ce.		172800	IN	NS	ns1.ns.il.
@@ -19603,13 +19602,13 @@ v2n0.nic.xn--czrs0t.	172800	IN	A	65.22.31.64
 v2n0.nic.xn--czrs0t.	172800	IN	AAAA	2a01:8840:21:0:0:0:0:64
 v2n1.nic.xn--czrs0t.	172800	IN	A	161.232.15.64
 v2n1.nic.xn--czrs0t.	172800	IN	AAAA	2a01:8840:f9:0:0:0:0:64
-xn--czru2d.		172800	IN	NS	a.zdnscloud.com.
-xn--czru2d.		172800	IN	NS	b.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	a.zdnscloud.cn.
+xn--czru2d.		172800	IN	NS	b.zdnscloud.cn.
 xn--czru2d.		172800	IN	NS	c.zdnscloud.com.
 xn--czru2d.		172800	IN	NS	d.zdnscloud.com.
-xn--czru2d.		172800	IN	NS	f.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	f.zdnscloud.cn.
 xn--czru2d.		172800	IN	NS	g.zdnscloud.com.
-xn--czru2d.		172800	IN	NS	i.zdnscloud.com.
+xn--czru2d.		172800	IN	NS	i.zdnscloud.cn.
 xn--czru2d.		172800	IN	NS	j.zdnscloud.com.
 xn--czru2d.		86400	IN	DS	62552 8 2 A9400022E8AC90989AA6A0ECD9003DADC0902982336BAFBA4CE68E0FB15A8391
 xn--d1acj3b.		172800	IN	NS	a.dns.ripn.net.
@@ -19845,13 +19844,13 @@ xn--h2brj9c8c.		172800	IN	NS	ns4.registry.in.
 xn--h2brj9c8c.		172800	IN	NS	ns5.registry.in.
 xn--h2brj9c8c.		172800	IN	NS	ns6.registry.in.
 xn--h2brj9c8c.		86400	IN	DS	44590 8 2 C4BE5D9DDC3D522148CE76774856BF13835A34D8FBE8F1228559708B15C39D92
-xn--hxt814e.		172800	IN	NS	a.zdnscloud.com.
-xn--hxt814e.		172800	IN	NS	b.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	a.zdnscloud.cn.
+xn--hxt814e.		172800	IN	NS	b.zdnscloud.cn.
 xn--hxt814e.		172800	IN	NS	c.zdnscloud.com.
 xn--hxt814e.		172800	IN	NS	d.zdnscloud.com.
-xn--hxt814e.		172800	IN	NS	f.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	f.zdnscloud.cn.
 xn--hxt814e.		172800	IN	NS	g.zdnscloud.com.
-xn--hxt814e.		172800	IN	NS	i.zdnscloud.com.
+xn--hxt814e.		172800	IN	NS	i.zdnscloud.cn.
 xn--hxt814e.		172800	IN	NS	j.zdnscloud.com.
 xn--hxt814e.		86400	IN	DS	59966 8 2 307E3F825424A5378D0069150E670E339C5BEB63052166013CC43C72EF79F489
 xn--i1b6b1a6a2e.	172800	IN	NS	a0.nic.xn--i1b6b1a6a2e.
@@ -20284,7 +20283,6 @@ xn--otu796d.		172800	IN	NS	g.zdnscloud.com.
 xn--otu796d.		172800	IN	NS	i.zdnscloud.com.
 xn--otu796d.		172800	IN	NS	j.zdnscloud.com.
 xn--otu796d.		86400	IN	DS	47587 8 2 C25353EF849DCE2B94E77B4A8997A7EA66D3A8614EC62493A18F072DF66DE9A6
-xn--otu796d.		86400	IN	DS	61882 8 2 EF3F494C35F4C2C571A0E5644F6E2760818F2EB7B08E1B05B522D995022B6786
 xn--p1acf.		172800	IN	NS	ns1.nic.xn--p1acf.
 xn--p1acf.		172800	IN	NS	ns1.anycastdns.cz.
 xn--p1acf.		172800	IN	NS	ns2.nic.xn--p1acf.
@@ -20299,7 +20297,7 @@ xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
-xn--p1ai.		86400	IN	DS	59497 8 2 3DE6C0350E9D16583AEACA8FBFB5148C25CFAF3A81D5083C1AA90D8399720AE3
+xn--p1ai.		86400	IN	DS	31990 8 2 16167B01147AFBC571BFE702A4E1BF2E83A44D5EAAA4C818D8B1F62FB1FDEB1A
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
