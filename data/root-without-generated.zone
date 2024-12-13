@@ -14314,13 +14314,13 @@ b0.nic.red.		172800	IN	A	65.22.37.25
 b0.nic.red.		172800	IN	AAAA	2a01:8840:27:0:0:0:0:25
 c0.nic.red.		172800	IN	A	65.22.38.25
 c0.nic.red.		172800	IN	AAAA	2a01:8840:28:0:0:0:0:25
-redstone.		172800	IN	NS	a.zdnscloud.com.
-redstone.		172800	IN	NS	b.zdnscloud.com.
+redstone.		172800	IN	NS	a.zdnscloud.cn.
+redstone.		172800	IN	NS	b.zdnscloud.cn.
 redstone.		172800	IN	NS	c.zdnscloud.com.
 redstone.		172800	IN	NS	d.zdnscloud.com.
-redstone.		172800	IN	NS	f.zdnscloud.com.
+redstone.		172800	IN	NS	f.zdnscloud.cn.
 redstone.		172800	IN	NS	g.zdnscloud.com.
-redstone.		172800	IN	NS	i.zdnscloud.com.
+redstone.		172800	IN	NS	i.zdnscloud.cn.
 redstone.		172800	IN	NS	j.zdnscloud.com.
 redstone.		86400	IN	DS	49835 8 2 51A6A70D9A7C0F010D09FFAACA9CB6BBBE7FAD76FB48FDE6F940B606C8CDE048
 redumbrella.		172800	IN	NS	a0.nic.redumbrella.
