@@ -19573,13 +19573,13 @@ xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany2.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany3.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany4.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	86400	IN	DS	47752 8 2 F76B1D7F3857A37138B77BEED55B38160EE01FC53DAE8DEDB41B91B4C443BE71
-xn--czr694b.		172800	IN	NS	a.zdnscloud.com.
-xn--czr694b.		172800	IN	NS	b.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	a.zdnscloud.cn.
+xn--czr694b.		172800	IN	NS	b.zdnscloud.cn.
 xn--czr694b.		172800	IN	NS	c.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	d.zdnscloud.com.
-xn--czr694b.		172800	IN	NS	f.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	f.zdnscloud.cn.
 xn--czr694b.		172800	IN	NS	g.zdnscloud.com.
-xn--czr694b.		172800	IN	NS	i.zdnscloud.com.
+xn--czr694b.		172800	IN	NS	i.zdnscloud.cn.
 xn--czr694b.		172800	IN	NS	j.zdnscloud.com.
 xn--czr694b.		86400	IN	DS	61001 8 2 B4DEA8C89AB832565A80719C8AF8FB5D7ED535A9C3E2361D8B494D45F6A05D5A
 xn--czrs0t.		172800	IN	NS	v0n0.nic.xn--czrs0t.
@@ -19864,13 +19864,13 @@ b0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.185.1
 b0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b3:0:0:0:0:1
 c0.nic.xn--i1b6b1a6a2e.	172800	IN	A	65.22.186.1
 c0.nic.xn--i1b6b1a6a2e.	172800	IN	AAAA	2a01:8840:b4:0:0:0:0:1
-xn--imr513n.		172800	IN	NS	a.zdnscloud.com.
-xn--imr513n.		172800	IN	NS	b.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	a.zdnscloud.cn.
+xn--imr513n.		172800	IN	NS	b.zdnscloud.cn.
 xn--imr513n.		172800	IN	NS	c.zdnscloud.com.
 xn--imr513n.		172800	IN	NS	d.zdnscloud.com.
-xn--imr513n.		172800	IN	NS	f.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	f.zdnscloud.cn.
 xn--imr513n.		172800	IN	NS	g.zdnscloud.com.
-xn--imr513n.		172800	IN	NS	i.zdnscloud.com.
+xn--imr513n.		172800	IN	NS	i.zdnscloud.cn.
 xn--imr513n.		172800	IN	NS	j.zdnscloud.com.
 xn--imr513n.		86400	IN	DS	12187 8 2 CA358CB59005AC2C0871A1C5D9D954C82A4077BD5507844C8FA7C86E8DCD5A64
 xn--io0a7i.		172800	IN	NS	a.ngtld.cn.
