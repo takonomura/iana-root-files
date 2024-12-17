@@ -446,17 +446,26 @@ v2n0.nic.agency.	172800	IN	A	65.22.27.2
 v2n0.nic.agency.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:2
 v2n1.nic.agency.	172800	IN	A	161.232.13.2
 v2n1.nic.agency.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:2
-ai.			172800	IN	NS	a.lactld.org.
-ai.			172800	IN	NS	pch.whois.ai.
-ai.			172800	IN	NS	anycastdns1-cz.nic.ai.
-ai.			172800	IN	NS	anycastdns2-cz.nic.ai.
+ai.			172800	IN	NS	v0n0.nic.ai.
+ai.			172800	IN	NS	v0n1.nic.ai.
+ai.			172800	IN	NS	v0n2.nic.ai.
+ai.			172800	IN	NS	v0n3.nic.ai.
+ai.			172800	IN	NS	v2n0.nic.ai.
+ai.			172800	IN	NS	v2n1.nic.ai.
 ai.			86400	IN	DS	3799 8 2 8A8030D4661AE6FCF417349682AC058648371002E70E717E4CF2F11F83543385
 ai.			86400	IN	DS	44137 8 2 7886BD35ED745DCA983D951A643495B929B3A7676A88C682EF88EB6FEDBDB253
-anycastdns1-cz.nic.ai.	172800	IN	A	185.28.194.194
-anycastdns2-cz.nic.ai.	172800	IN	A	185.38.108.108
-anycastdns2-cz.nic.ai.	172800	IN	AAAA	2a00:fea0:dead:0:0:0:0:beef
-pch.whois.ai.		172800	IN	A	204.61.216.123
-pch.whois.ai.		172800	IN	AAAA	2001:500:14:6123:ad:0:0:1
+v0n0.nic.ai.		172800	IN	A	199.115.152.1
+v0n0.nic.ai.		172800	IN	AAAA	2001:500:a0:0:0:0:0:1
+v0n1.nic.ai.		172800	IN	A	199.115.153.1
+v0n1.nic.ai.		172800	IN	AAAA	2001:500:a1:0:0:0:0:1
+v0n2.nic.ai.		172800	IN	A	199.115.154.1
+v0n2.nic.ai.		172800	IN	AAAA	2001:500:a2:0:0:0:0:1
+v0n3.nic.ai.		172800	IN	A	199.115.155.1
+v0n3.nic.ai.		172800	IN	AAAA	2001:500:a3:0:0:0:0:1
+v2n0.nic.ai.		172800	IN	A	199.115.156.1
+v2n0.nic.ai.		172800	IN	AAAA	2001:500:a4:0:0:0:0:1
+v2n1.nic.ai.		172800	IN	A	199.115.157.1
+v2n1.nic.ai.		172800	IN	AAAA	2001:500:a5:0:0:0:0:1
 aig.			172800	IN	NS	a.nic.aig.
 aig.			172800	IN	NS	b.nic.aig.
 aig.			172800	IN	NS	c.nic.aig.
@@ -20159,8 +20168,7 @@ xn--mgbx4cd0ab.		172800	IN	NS	b.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	c.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	d.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	a1.nic.my.
-xn--mgbx4cd0ab.		86400	IN	DS	1998 8 2 DE4C45D877C64E9C3EBCBC79BADBC104D7C5292D72BC6CA47090B31BE24212E0
-xn--mgbx4cd0ab.		86400	IN	DS	15654 8 2 E7E6D7D1BBA6E0443EBE51946759FDCB9E370BA14F95B61091B9B989B1A90340
+xn--mgbx4cd0ab.		86400	IN	DS	26416 8 2 B46082890FB952CBA224E57A34D95FB5080DBE06F47A89A040554A06E109116E
 xn--mgbx4cd0ab.		86400	IN	DS	37866 8 2 9818EC191CFCE9EF77E5E458BCF471D5AFCFA30D40F9A62BDD69A1863187247C
 xn--mix891f.		172800	IN	NS	a.monic.mo.
 xn--mix891f.		172800	IN	NS	b.monic.mo.
@@ -20272,13 +20280,13 @@ xn--o3cw4h.		86400	IN	DS	27061 8 2 53856679AC45EA6562EF4ECD2DE7AEA57D786870979F0
 xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
-xn--otu796d.		172800	IN	NS	a.zdnscloud.com.
-xn--otu796d.		172800	IN	NS	b.zdnscloud.com.
+xn--otu796d.		172800	IN	NS	a.zdnscloud.cn.
+xn--otu796d.		172800	IN	NS	b.zdnscloud.cn.
 xn--otu796d.		172800	IN	NS	c.zdnscloud.com.
 xn--otu796d.		172800	IN	NS	d.zdnscloud.com.
-xn--otu796d.		172800	IN	NS	f.zdnscloud.com.
+xn--otu796d.		172800	IN	NS	f.zdnscloud.cn.
 xn--otu796d.		172800	IN	NS	g.zdnscloud.com.
-xn--otu796d.		172800	IN	NS	i.zdnscloud.com.
+xn--otu796d.		172800	IN	NS	i.zdnscloud.cn.
 xn--otu796d.		172800	IN	NS	j.zdnscloud.com.
 xn--otu796d.		86400	IN	DS	47587 8 2 C25353EF849DCE2B94E77B4A8997A7EA66D3A8614EC62493A18F072DF66DE9A6
 xn--p1acf.		172800	IN	NS	ns1.nic.xn--p1acf.
