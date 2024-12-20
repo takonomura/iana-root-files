@@ -12,6 +12,7 @@
 .			518400	IN	NS	k.root-servers.net.
 .			518400	IN	NS	l.root-servers.net.
 .			518400	IN	NS	m.root-servers.net.
+.			172800	IN	DNSKEY	256 3 8 AwEAAZ5A7jOztf62cGqhPhutjnyl7KBjIsjbyTb8il+FsgbMUbO2NQHaSbatHdlOlqANncDwSIKZ9ryqd1+Dy1PoGzeTUv95vOJnVVJHlJu7xdavnUmPs+Mh2NV7hDlTTwPn5uXgFxAaxoO9M/YIAC92GryCLjoJEg9JzeevkktEM/sFpmRv4I5jQtlLyRqVbnCzcWpi04XaVLxRKvURkd/Mdb/2RQS3MYvrkEBXuqtnAVBCf6Fx4sgBYOfYvbUuG2diLnGJW/MXvFpctZgQ76+3FwMqAZfR9k5bohL7AF3+jqz4MUiootYoh5koyt7VEnUULxxy6U5PINTGgOC26f3zZuk=
 .			172800	IN	DNSKEY	256 3 8 AwEAAc0SunbHdS0KFEyZbYII/+tzsrNzIwurKxmJA+0fhAYlTPA/5LrMGkGEqvvufzM0w/CaVtdm5eWkZYQcsoSKT5bycx0C4jxnLEb3ZiZUQSqu1rWcKGF1fj/GyDWLkOu7a5h3el+gPmglj/4l4V31ugNYfqYq84vCB+3D6Sodrd+85KyonnzWJ8cS7aZ57x0d0sGqsAKA+6tRnIXjVNVe7Ro5xJuz8IR7rOxdzfuRLriN+Z00EL3U5E7s9SISU/hDh7Q7N70W1mLMc1o2+tCRGjEWrw4wmCWMzc1kegbLES/dUOWFvPjJz0+AEeWDhd2GqtXk02BzAhdfeIAEIv68FTs=
 .			172800	IN	DNSKEY	257 3 8 AwEAAaz/tAm8yTn4Mfeh5eyI96WSVexTBAvkMgJzkKTOiW1vkIbzxeF3+/4RgWOq7HrxRixHlFlExOLAJr5emLvN7SWXgnLh4+B5xQlNVz8Og8kvArMtNROxVQuCaSnIDdD5LKyWbRd2n9WGe2R8PzgCmr3EgVLrjyBxWezF0jLHwVN8efS3rCj/EWgvIWgb9tarpVUDK/b58Da+sqqls3eNbuv7pr+eoZG+SrDK6nWeL3c6H5Apxz7LjVc1uTIdsIXxuOLYA4/ilBmSVIzuDWfdRUfhHdY6+cn8HFRm+2hM8AnXGXws9555KrUB5qihylGa8subX2Nn6UwNR1AkUTV74bU=
 aaa.			172800	IN	NS	a.nic.aaa.
@@ -2701,7 +2702,7 @@ pch.nic.net.bw.		172800	IN	AAAA	2001:500:14:6070:ad:0:0:1
 by.			172800	IN	NS	dns1.tld.becloudby.com.
 by.			172800	IN	NS	dns2.tld.becloudby.com.
 by.			172800	IN	NS	dns3.tld.becloudby.com.
-by.			172800	IN	NS	dns4.tld.becloudby.com.
+by.			172800	IN	NS	dns4.tld.becloudby.tech.
 by.			172800	IN	NS	dns7.tld.becloudby.com.
 by.			86400	IN	DS	495 13 2 2D14284F8E47B53F839BD8068D438680B4B6C7A645769C9D89B47DF0C5359B7B
 bz.			172800	IN	NS	a0.cctld.afilias-nst.info.
@@ -3951,8 +3952,6 @@ dns2.tld.becloudby.com.	172800	IN	A	93.125.25.73
 dns2.tld.becloudby.com.	172800	IN	AAAA	2a00:c827:a:3:0:0:0:2
 dns3.tld.becloudby.com.	172800	IN	A	185.98.83.4
 dns3.tld.becloudby.com.	172800	IN	AAAA	2a01:ba80:e:c:1:0:0:4c
-dns4.tld.becloudby.com.	172800	IN	A	31.44.1.137
-dns4.tld.becloudby.com.	172800	IN	AAAA	2a0e:b81:8001:1001:0:0:0:2
 dns7.tld.becloudby.com.	172800	IN	A	31.44.5.245
 ns.blacknightsolutions.com.	172800	IN	A	81.17.240.204
 ns.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc1:33:0:0:0:33
@@ -16968,6 +16967,8 @@ tech.			172800	IN	NS	e.nic.tech.
 tech.			172800	IN	NS	f.nic.tech.
 tech.			86400	IN	DS	28487 8 2 EA62FA86A9C863738597A42D28762B1F75D42F7D77AA6767425DE138F8B0E78C
 tech.			86400	IN	DS	50095 8 2 83F40D01141484D8F07305E5D2E44AC5663149054C598D6E9D993C661686C6EE
+dns4.tld.becloudby.tech.	172800	IN	A	31.44.1.137
+dns4.tld.becloudby.tech.	172800	IN	AAAA	2a0e:b81:8001:1001:0:0:0:2
 a.nic.tech.		172800	IN	A	194.169.218.60
 a.nic.tech.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:60
 b.nic.tech.		172800	IN	A	185.24.64.60
@@ -17412,13 +17413,13 @@ v2n0.nic.tools.		172800	IN	A	65.22.31.44
 v2n0.nic.tools.		172800	IN	AAAA	2a01:8840:21:0:0:0:0:44
 v2n1.nic.tools.		172800	IN	A	161.232.15.44
 v2n1.nic.tools.		172800	IN	AAAA	2a01:8840:f9:0:0:0:0:44
-top.			172800	IN	NS	a.zdnscloud.com.
-top.			172800	IN	NS	b.zdnscloud.com.
+top.			172800	IN	NS	a.zdnscloud.cn.
+top.			172800	IN	NS	b.zdnscloud.cn.
 top.			172800	IN	NS	c.zdnscloud.com.
 top.			172800	IN	NS	d.zdnscloud.com.
-top.			172800	IN	NS	f.zdnscloud.com.
+top.			172800	IN	NS	f.zdnscloud.cn.
 top.			172800	IN	NS	g.zdnscloud.com.
-top.			172800	IN	NS	i.zdnscloud.com.
+top.			172800	IN	NS	i.zdnscloud.cn.
 top.			172800	IN	NS	j.zdnscloud.com.
 top.			86400	IN	DS	26780 8 2 5D6E7869EE8E3B536A617DE89482DDD1DCB9DB9DBB1AC33D6ED351E2CA095B1B
 toray.			172800	IN	NS	a.gmoregistry.net.
@@ -19445,7 +19446,7 @@ xn--90ae.		86400	IN	DS	55126 8 2 0669C2EB01C870DAE3EF098917DA83562B431531334A531
 xn--90ais.		172800	IN	NS	dns1.tld.becloudby.com.
 xn--90ais.		172800	IN	NS	dns2.tld.becloudby.com.
 xn--90ais.		172800	IN	NS	dns3.tld.becloudby.com.
-xn--90ais.		172800	IN	NS	dns4.tld.becloudby.com.
+xn--90ais.		172800	IN	NS	dns4.tld.becloudby.tech.
 xn--90ais.		172800	IN	NS	dns7.tld.becloudby.com.
 xn--90ais.		86400	IN	DS	43354 13 2 E3288FD293924279D5C2CDDAAC9875052D0D3CAC2476F03CFD546EA512740699
 xn--9dbq2a.		172800	IN	NS	ac1.nstld.com.
