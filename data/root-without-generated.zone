@@ -2701,7 +2701,7 @@ pch.nic.net.bw.		172800	IN	A	204.61.216.70
 pch.nic.net.bw.		172800	IN	AAAA	2001:500:14:6070:ad:0:0:1
 by.			172800	IN	NS	dns1.tld.becloudby.com.
 by.			172800	IN	NS	dns2.tld.becloudby.com.
-by.			172800	IN	NS	dns3.tld.becloudby.com.
+by.			172800	IN	NS	dns3.tld.becloudby.tech.
 by.			172800	IN	NS	dns4.tld.becloudby.tech.
 by.			172800	IN	NS	dns7.tld.becloudby.com.
 by.			86400	IN	DS	495 13 2 2D14284F8E47B53F839BD8068D438680B4B6C7A645769C9D89B47DF0C5359B7B
@@ -3950,8 +3950,6 @@ dns1.tld.becloudby.com.	172800	IN	A	93.125.25.72
 dns1.tld.becloudby.com.	172800	IN	AAAA	2a00:c827:a:2:0:0:0:2
 dns2.tld.becloudby.com.	172800	IN	A	93.125.25.73
 dns2.tld.becloudby.com.	172800	IN	AAAA	2a00:c827:a:3:0:0:0:2
-dns3.tld.becloudby.com.	172800	IN	A	185.98.83.4
-dns3.tld.becloudby.com.	172800	IN	AAAA	2a01:ba80:e:c:1:0:0:4c
 dns7.tld.becloudby.com.	172800	IN	A	31.44.5.245
 ns.blacknightsolutions.com.	172800	IN	A	81.17.240.204
 ns.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc1:33:0:0:0:33
@@ -11698,7 +11696,7 @@ mtr.			172800	IN	NS	ns1.nic.mtr.
 mtr.			172800	IN	NS	ns2.nic.mtr.
 mtr.			172800	IN	NS	ns3.nic.mtr.
 mtr.			172800	IN	NS	ns4.nic.mtr.
-mtr.			86400	IN	DS	42697 8 2 3A0D21104E33BB379546248EB7FB301FA7383229B8D227F7BB8A53D7E50B194E
+mtr.			86400	IN	DS	21157 8 2 EB3708F1A4590AEDD751BD5CB3A098B5EA78EE5C2EA8DB730EE41BCC53BB3B3E
 ns1.nic.mtr.		172800	IN	A	203.119.2.164
 ns1.nic.mtr.		172800	IN	AAAA	2001:dca:4000:0:0:0:cb77:2a4
 ns2.nic.mtr.		172800	IN	A	203.119.87.164
@@ -16967,6 +16965,8 @@ tech.			172800	IN	NS	e.nic.tech.
 tech.			172800	IN	NS	f.nic.tech.
 tech.			86400	IN	DS	28487 8 2 EA62FA86A9C863738597A42D28762B1F75D42F7D77AA6767425DE138F8B0E78C
 tech.			86400	IN	DS	50095 8 2 83F40D01141484D8F07305E5D2E44AC5663149054C598D6E9D993C661686C6EE
+dns3.tld.becloudby.tech.	172800	IN	A	185.98.83.4
+dns3.tld.becloudby.tech.	172800	IN	AAAA	2a01:ba80:e:c:1:0:0:4c
 dns4.tld.becloudby.tech.	172800	IN	A	31.44.1.137
 dns4.tld.becloudby.tech.	172800	IN	AAAA	2a0e:b81:8001:1001:0:0:0:2
 a.nic.tech.		172800	IN	A	194.169.218.60
@@ -19445,7 +19445,7 @@ xn--90ae.		172800	IN	NS	p.nic.bg.
 xn--90ae.		86400	IN	DS	55126 8 2 0669C2EB01C870DAE3EF098917DA83562B431531334A531E9814F117557509D7
 xn--90ais.		172800	IN	NS	dns1.tld.becloudby.com.
 xn--90ais.		172800	IN	NS	dns2.tld.becloudby.com.
-xn--90ais.		172800	IN	NS	dns3.tld.becloudby.com.
+xn--90ais.		172800	IN	NS	dns3.tld.becloudby.tech.
 xn--90ais.		172800	IN	NS	dns4.tld.becloudby.tech.
 xn--90ais.		172800	IN	NS	dns7.tld.becloudby.com.
 xn--90ais.		86400	IN	DS	43354 13 2 E3288FD293924279D5C2CDDAAC9875052D0D3CAC2476F03CFD546EA512740699
@@ -19659,13 +19659,13 @@ ns2.dns.nic.xn--eckvdtc9d.	172800	IN	A	156.154.170.66
 ns2.dns.nic.xn--eckvdtc9d.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:42
 ns3.dns.nic.xn--eckvdtc9d.	172800	IN	A	156.154.171.66
 ns3.dns.nic.xn--eckvdtc9d.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:42
-xn--efvy88h.		172800	IN	NS	a.zdnscloud.com.
-xn--efvy88h.		172800	IN	NS	b.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	a.zdnscloud.cn.
+xn--efvy88h.		172800	IN	NS	b.zdnscloud.cn.
 xn--efvy88h.		172800	IN	NS	c.zdnscloud.com.
 xn--efvy88h.		172800	IN	NS	d.zdnscloud.com.
-xn--efvy88h.		172800	IN	NS	f.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	f.zdnscloud.cn.
 xn--efvy88h.		172800	IN	NS	g.zdnscloud.com.
-xn--efvy88h.		172800	IN	NS	i.zdnscloud.com.
+xn--efvy88h.		172800	IN	NS	i.zdnscloud.cn.
 xn--efvy88h.		172800	IN	NS	j.zdnscloud.com.
 xn--efvy88h.		86400	IN	DS	36754 8 2 D4A3344E3EB4166464489B5A5706ACE8B8AD7CDC2D3C0AEA088E8851B8E24DE2
 xn--fct429k.		172800	IN	NS	a.nic.xn--fct429k.
