@@ -3577,13 +3577,13 @@ ns2.dns.nic.citi.	172800	IN	A	156.154.145.213
 ns2.dns.nic.citi.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:d5
 ns3.dns.nic.citi.	172800	IN	A	156.154.159.213
 ns3.dns.nic.citi.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:d5
-citic.			172800	IN	NS	a.zdnscloud.com.
-citic.			172800	IN	NS	b.zdnscloud.com.
+citic.			172800	IN	NS	a.zdnscloud.cn.
+citic.			172800	IN	NS	b.zdnscloud.cn.
 citic.			172800	IN	NS	c.zdnscloud.com.
 citic.			172800	IN	NS	d.zdnscloud.com.
-citic.			172800	IN	NS	f.zdnscloud.com.
+citic.			172800	IN	NS	f.zdnscloud.cn.
 citic.			172800	IN	NS	g.zdnscloud.com.
-citic.			172800	IN	NS	i.zdnscloud.com.
+citic.			172800	IN	NS	i.zdnscloud.cn.
 citic.			172800	IN	NS	j.zdnscloud.com.
 citic.			86400	IN	DS	40391 8 2 7CA2FECE772E8398FBF071ECBB433E716F56EA88EDA63EC81384913DD736648D
 city.			172800	IN	NS	v0n0.nic.city.
