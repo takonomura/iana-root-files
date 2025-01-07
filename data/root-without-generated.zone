@@ -8539,6 +8539,7 @@ ns4.ns.il.		172800	IN	AAAA	2001:500:14:6134:ad:0:0:1
 nsa.ns.il.		172800	IN	A	192.115.7.53
 nsa.ns.il.		172800	IN	AAAA	2a01:4280:7:0:0:0:0:53
 nsb.ns.il.		172800	IN	A	192.115.7.60
+nsb.ns.il.		172800	IN	AAAA	2a01:4280:7:0:0:0:0:60
 nse.ns.il.		172800	IN	A	192.115.4.235
 im.			172800	IN	NS	ns4.ja.net.
 im.			172800	IN	NS	hoppy.iom.com.
