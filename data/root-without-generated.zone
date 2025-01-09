@@ -2700,7 +2700,7 @@ dns1.nic.net.bw.	172800	IN	A	168.167.98.226
 pch.nic.net.bw.		172800	IN	A	204.61.216.70
 pch.nic.net.bw.		172800	IN	AAAA	2001:500:14:6070:ad:0:0:1
 by.			172800	IN	NS	dns1.tld.becloudby.com.
-by.			172800	IN	NS	dns2.tld.becloudby.com.
+by.			172800	IN	NS	dns2.tld.becloudby.tech.
 by.			172800	IN	NS	dns3.tld.becloudby.tech.
 by.			172800	IN	NS	dns4.tld.becloudby.tech.
 by.			172800	IN	NS	dns7.tld.becloudby.com.
@@ -3484,6 +3484,7 @@ ci.			172800	IN	NS	ns.nic.ci.
 ci.			172800	IN	NS	any.nic.ci.
 ci.			172800	IN	NS	ns-ci.afrinic.net.
 ci.			172800	IN	NS	phloem.uoregon.edu.
+ci.			86400	IN	DS	37284 13 2 2F58097214BB1938479A8ED69DB3E857E0C4A45A6B1D435639D99301814936EC
 ci.			86400	IN	DS	60224 8 2 0FB751F1B2230B9EF643DDCE8C30ACD1E7CC20FA7D52346CA074A32B8F01C686
 any.nic.ci.		172800	IN	A	204.61.216.120
 any.nic.ci.		172800	IN	AAAA	2001:500:14:6120:ad:0:0:1
@@ -3948,8 +3949,6 @@ com.			86400	IN	DS	19718 13 2 8ACBB0CD28F41250A80A491389424D341522D946B0DA0C0291
 ns.amarshallinc.com.	172800	IN	A	71.163.249.97
 dns1.tld.becloudby.com.	172800	IN	A	93.125.25.72
 dns1.tld.becloudby.com.	172800	IN	AAAA	2a00:c827:a:2:0:0:0:2
-dns2.tld.becloudby.com.	172800	IN	A	93.125.25.73
-dns2.tld.becloudby.com.	172800	IN	AAAA	2a00:c827:a:3:0:0:0:2
 dns7.tld.becloudby.com.	172800	IN	A	31.44.5.245
 ns.blacknightsolutions.com.	172800	IN	A	81.17.240.204
 ns.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc1:33:0:0:0:33
@@ -16959,6 +16958,8 @@ tech.			172800	IN	NS	e.nic.tech.
 tech.			172800	IN	NS	f.nic.tech.
 tech.			86400	IN	DS	28487 8 2 EA62FA86A9C863738597A42D28762B1F75D42F7D77AA6767425DE138F8B0E78C
 tech.			86400	IN	DS	50095 8 2 83F40D01141484D8F07305E5D2E44AC5663149054C598D6E9D993C661686C6EE
+dns2.tld.becloudby.tech.	172800	IN	A	93.125.25.73
+dns2.tld.becloudby.tech.	172800	IN	AAAA	2a00:c827:a:3:0:0:0:2
 dns3.tld.becloudby.tech.	172800	IN	A	185.98.83.4
 dns3.tld.becloudby.tech.	172800	IN	AAAA	2a01:ba80:e:c:1:0:0:4c
 dns4.tld.becloudby.tech.	172800	IN	A	31.44.1.137
@@ -19438,7 +19439,7 @@ xn--90ae.		172800	IN	NS	e.nic.bg.
 xn--90ae.		172800	IN	NS	p.nic.bg.
 xn--90ae.		86400	IN	DS	55126 8 2 0669C2EB01C870DAE3EF098917DA83562B431531334A531E9814F117557509D7
 xn--90ais.		172800	IN	NS	dns1.tld.becloudby.com.
-xn--90ais.		172800	IN	NS	dns2.tld.becloudby.com.
+xn--90ais.		172800	IN	NS	dns2.tld.becloudby.tech.
 xn--90ais.		172800	IN	NS	dns3.tld.becloudby.tech.
 xn--90ais.		172800	IN	NS	dns4.tld.becloudby.tech.
 xn--90ais.		172800	IN	NS	dns7.tld.becloudby.com.
