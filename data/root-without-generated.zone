@@ -3102,8 +3102,8 @@ v2n0.nic.casino.	172800	IN	A	65.22.23.18
 v2n0.nic.casino.	172800	IN	AAAA	2a01:8840:19:0:0:0:0:18
 v2n1.nic.casino.	172800	IN	A	161.232.11.18
 v2n1.nic.casino.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:18
+cat.			172800	IN	NS	cat.ns.nic.es.
 cat.			172800	IN	NS	cat.pch.net.
-cat.			172800	IN	NS	ns1.nic.es.
 cat.			172800	IN	NS	nsc.nic.de.
 cat.			172800	IN	NS	anyc1.irondns.net.
 cat.			172800	IN	NS	switch.nic.cat.
@@ -5702,8 +5702,8 @@ h.nic.es.		172800	IN	A	194.0.33.53
 h.nic.es.		172800	IN	AAAA	2001:678:40:0:0:0:0:53
 ad.ns.nic.es.		172800	IN	A	194.69.254.15
 ad.ns.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000:0:0:64:47
-ns1.nic.es.		172800	IN	A	194.69.254.1
-ns1.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000:0:0:64:41
+cat.ns.nic.es.		172800	IN	A	194.69.254.15
+cat.ns.nic.es.		172800	IN	AAAA	2001:67c:21cc:2000:0:0:64:47
 esq.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 esq.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 esq.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
