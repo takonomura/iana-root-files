@@ -9018,7 +9018,6 @@ b0.nic.istanbul.	172800	IN	AAAA	2a01:8840:8f:0:0:0:0:9
 c0.nic.istanbul.	172800	IN	A	65.22.146.9
 c0.nic.istanbul.	172800	IN	AAAA	2a01:8840:90:0:0:0:0:9
 it.			172800	IN	NS	a.dns.it.
-it.			172800	IN	NS	d.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
 it.			172800	IN	NS	dns.nic.it.
@@ -9028,8 +9027,6 @@ nameserver.cnr.it.	172800	IN	A	194.119.192.34
 nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
 a.dns.it.		172800	IN	A	194.0.16.215
 a.dns.it.		172800	IN	AAAA	2001:678:12:0:194:0:16:215
-d.dns.it.		172800	IN	A	45.142.220.39
-d.dns.it.		172800	IN	AAAA	2a0e:dbc0:0:0:0:0:0:39
 m.dns.it.		172800	IN	A	217.29.76.4
 m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.		172800	IN	A	193.206.141.46
