@@ -9020,6 +9020,7 @@ c0.nic.istanbul.	172800	IN	AAAA	2a01:8840:90:0:0:0:0:9
 it.			172800	IN	NS	a.dns.it.
 it.			172800	IN	NS	m.dns.it.
 it.			172800	IN	NS	r.dns.it.
+it.			172800	IN	NS	v.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
 it.			86400	IN	DS	41901 10 2 47F7F7BA21E48591F6172EED13E35B66B93AD9F2880FC9BADA64F68CE28EBB90
@@ -9031,6 +9032,8 @@ m.dns.it.		172800	IN	A	217.29.76.4
 m.dns.it.		172800	IN	AAAA	2001:1ac0:0:200:0:a5d1:6004:2
 r.dns.it.		172800	IN	A	193.206.141.46
 r.dns.it.		172800	IN	AAAA	2001:760:ffff:ffff:0:0:0:ca
+v.dns.it.		172800	IN	A	194.0.25.44
+v.dns.it.		172800	IN	AAAA	2001:678:20:0:0:0:0:44
 osiris.namex.it.	172800	IN	A	193.201.40.6
 osiris.namex.it.	172800	IN	AAAA	2a0f:80:1:0:0:0:0:6
 seth.namex.it.		172800	IN	A	193.201.40.7
