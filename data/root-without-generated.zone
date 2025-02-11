@@ -3961,22 +3961,6 @@ c.mynic.centralnic-dns.com.	172800	IN	A	212.18.248.114
 c.mynic.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:114
 d.mynic.centralnic-dns.com.	172800	IN	A	212.18.249.114
 d.mynic.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:114
-ns1.samsung.centralnic-dns.com.	172800	IN	A	194.169.218.112
-ns1.samsung.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:112
-ns2.samsung.centralnic-dns.com.	172800	IN	A	185.24.64.112
-ns2.samsung.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:112
-ns3.samsung.centralnic-dns.com.	172800	IN	A	212.18.248.112
-ns3.samsung.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:112
-ns4.samsung.centralnic-dns.com.	172800	IN	A	212.18.249.112
-ns4.samsung.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:112
-ns1.xn--cg4bki.centralnic-dns.com.	172800	IN	A	194.169.218.113
-ns1.xn--cg4bki.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:113
-ns2.xn--cg4bki.centralnic-dns.com.	172800	IN	A	185.24.64.113
-ns2.xn--cg4bki.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:113
-ns3.xn--cg4bki.centralnic-dns.com.	172800	IN	A	212.18.248.113
-ns3.xn--cg4bki.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:113
-ns4.xn--cg4bki.centralnic-dns.com.	172800	IN	A	212.18.249.113
-ns4.xn--cg4bki.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:113
 a.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	194.169.218.17
 a.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:17
 b.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	185.24.64.17
@@ -4363,6 +4347,8 @@ cr.			172800	IN	NS	ca2.nic.cr.
 cr.			172800	IN	NS	dns.nic.cr.
 cr.			86400	IN	DS	41813 13 2 BE11BCE314A4B75BF0531A7FF312C750813B59A61A868407949CA8D35508FBAB
 cr.			86400	IN	DS	41813 13 4 2C21E3B22825E9949A37D1201AE64370747765D7F68EEF304BE8CA8F45C59FD1E9FB4EE788B4D507106B8E1B74B1213B
+cr.			86400	IN	DS	58628 13 2 774366BE4CB919E7A17116BEAC78E6B2AFF1C87CBF0462A17E9B03CEDE12DAAE
+cr.			86400	IN	DS	58628 13 4 E574F2FC644D92A320775C9C5083166C5A6305652762A62F859405FF64FA61DB503221C353D3BE30F082E6E65C9E75C4
 ca1.nic.cr.		172800	IN	A	185.159.197.100
 ca1.nic.cr.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:100
 ca2.nic.cr.		172800	IN	A	185.159.198.100
@@ -8524,7 +8510,6 @@ il.			172800	IN	NS	nsb.ns.il.
 il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
-il.			86400	IN	DS	16654 13 2 8EAE70E9A2B930ED77E52C80B924ADD6925166081C8AABCD7023311D769BCEBB
 il.			86400	IN	DS	40239 13 2 687A4ABEB697C30E24277072E0380161B84A6B0759F4998C32602D464FEB0CA8
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6:0:0:808b:22f0
@@ -15042,10 +15027,7 @@ y.nic.samsclub.		172800	IN	A	156.154.173.82
 y.nic.samsclub.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.samsclub.		172800	IN	A	156.154.174.82
 z.nic.samsclub.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-samsung.		172800	IN	NS	ns1.samsung.centralnic-dns.com.
-samsung.		172800	IN	NS	ns2.samsung.centralnic-dns.com.
-samsung.		172800	IN	NS	ns3.samsung.centralnic-dns.com.
-samsung.		172800	IN	NS	ns4.samsung.centralnic-dns.com.
+samsung.		172800	IN	NS	ns1.dns.samsung.
 samsung.		172800	IN	NS	n1-a1.aka-ns.net.
 samsung.		172800	IN	NS	n1-a4.aka-ns.net.
 samsung.		172800	IN	NS	n1-a7.aka-ns.net.
@@ -15053,6 +15035,8 @@ samsung.		172800	IN	NS	n1-a13.aka-ns.net.
 samsung.		172800	IN	NS	n1-a20.aka-ns.net.
 samsung.		172800	IN	NS	n1-a26.aka-ns.net.
 samsung.		86400	IN	DS	19194 7 2 144B461CB8AD9212307C53173EF72139A418EAB09997FC366484335D0AAE91FE
+ns1.dns.samsung.	172800	IN	A	140.238.4.10
+ns1.dns.samsung.	172800	IN	AAAA	2603:c022:8004:5d05:ca27:7608:ff55:38fe
 sandvik.		172800	IN	NS	a.nic.sandvik.
 sandvik.		172800	IN	NS	b.nic.sandvik.
 sandvik.		172800	IN	NS	c.nic.sandvik.
@@ -18745,6 +18729,7 @@ weber.			172800	IN	NS	ac2.nstld.com.
 weber.			172800	IN	NS	ac3.nstld.com.
 weber.			172800	IN	NS	ac4.nstld.com.
 weber.			86400	IN	DS	32799 8 2 67F60D0F656284C11307FBC8402E280BA0E53D83F601EC4ADF2EB54FCA93AAD9
+weber.			86400	IN	DS	55549 8 2 FDD1F975D9E59017788B52570119039ED3D99EFB0984CD966702A7AF0A1EAEE5
 website.		172800	IN	NS	a.nic.website.
 website.		172800	IN	NS	b.nic.website.
 website.		172800	IN	NS	e.nic.website.
@@ -19567,10 +19552,7 @@ dnsc.nic.xn--cckwcxetd.	172800	IN	A	156.154.102.3
 dnsc.nic.xn--cckwcxetd.	172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
 dnsd.nic.xn--cckwcxetd.	172800	IN	A	156.154.103.3
 dnsd.nic.xn--cckwcxetd.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
-xn--cg4bki.		172800	IN	NS	ns1.xn--cg4bki.centralnic-dns.com.
-xn--cg4bki.		172800	IN	NS	ns2.xn--cg4bki.centralnic-dns.com.
-xn--cg4bki.		172800	IN	NS	ns3.xn--cg4bki.centralnic-dns.com.
-xn--cg4bki.		172800	IN	NS	ns4.xn--cg4bki.centralnic-dns.com.
+xn--cg4bki.		172800	IN	NS	ns1.dns.samsung.
 xn--cg4bki.		172800	IN	NS	n1-a1.aka-ns.net.
 xn--cg4bki.		172800	IN	NS	n1-a4.aka-ns.net.
 xn--cg4bki.		172800	IN	NS	n1-a7.aka-ns.net.
