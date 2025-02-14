@@ -4008,13 +4008,9 @@ ns2.tojikiston.com.	172800	IN	A	193.111.11.4
 ns01.trs-dns.com.	172800	IN	A	64.96.1.1
 ns01.trs-dns.com.	172800	IN	AAAA	2620:57:4001:0:0:0:0:1
 dns1.u-registry.com.	172800	IN	A	51.222.128.197
-a.zdnscloud.com.	172800	IN	A	203.99.24.1
-b.zdnscloud.com.	172800	IN	A	203.99.25.1
 c.zdnscloud.com.	172800	IN	A	203.99.26.1
 d.zdnscloud.com.	172800	IN	A	203.99.27.1
-f.zdnscloud.com.	172800	IN	A	116.169.54.111
 g.zdnscloud.com.	172800	IN	A	223.72.199.37
-i.zdnscloud.com.	172800	IN	AAAA	2401:8d00:1:0:0:0:0:1
 j.zdnscloud.com.	172800	IN	AAAA	2401:8d00:2:0:0:0:0:1
 commbank.		172800	IN	NS	a.nic.commbank.
 commbank.		172800	IN	NS	b.nic.commbank.
@@ -19688,13 +19684,13 @@ xn--fiq228c5hs.		172800	IN	NS	ns2.teleinfoo.com.
 xn--fiq228c5hs.		172800	IN	NS	ns3.teleinfo.cn.
 xn--fiq228c5hs.		172800	IN	NS	ns4.teleinfoo.com.
 xn--fiq228c5hs.		86400	IN	DS	27565 8 2 646412B3004632FD45544EBEC09E1A2F27E3DDA2489814A170DFB2052BA1787C
-xn--fiq64b.		172800	IN	NS	a.zdnscloud.com.
-xn--fiq64b.		172800	IN	NS	b.zdnscloud.com.
+xn--fiq64b.		172800	IN	NS	a.zdnscloud.cn.
+xn--fiq64b.		172800	IN	NS	b.zdnscloud.cn.
 xn--fiq64b.		172800	IN	NS	c.zdnscloud.com.
 xn--fiq64b.		172800	IN	NS	d.zdnscloud.com.
-xn--fiq64b.		172800	IN	NS	f.zdnscloud.com.
+xn--fiq64b.		172800	IN	NS	f.zdnscloud.cn.
 xn--fiq64b.		172800	IN	NS	g.zdnscloud.com.
-xn--fiq64b.		172800	IN	NS	i.zdnscloud.com.
+xn--fiq64b.		172800	IN	NS	i.zdnscloud.cn.
 xn--fiq64b.		172800	IN	NS	j.zdnscloud.com.
 xn--fiq64b.		86400	IN	DS	9361 8 2 68AD16C70C11245F8EFBC2798B069D8983AE1B2F3DD5E0FA65A8F386DA1B9042
 xn--fiqs8s.		172800	IN	NS	h.dns.cn.
