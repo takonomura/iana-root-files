@@ -6352,7 +6352,6 @@ fj.			172800	IN	NS	ns2.fj.
 fj.			172800	IN	NS	ns3.fj.
 fj.			172800	IN	NS	ns4.fj.
 fj.			172800	IN	NS	ns5.fj.
-fj.			86400	IN	DS	49279 8 2 8C0EB5586196AE081E070FC7E8289979CD124DA063DB1193BA8DEE0E9A670420
 ns1.fj.			172800	IN	A	144.120.146.1
 ns1.fj.			172800	IN	AAAA	2402:2940:100:100c:0:0:0:1
 ns2.fj.			172800	IN	A	144.120.146.65
@@ -9434,19 +9433,6 @@ b0.nic.kerryhotels.	172800	IN	A	65.22.113.53
 b0.nic.kerryhotels.	172800	IN	AAAA	2a01:8840:6f:0:0:0:0:53
 c0.nic.kerryhotels.	172800	IN	A	65.22.114.53
 c0.nic.kerryhotels.	172800	IN	AAAA	2a01:8840:70:0:0:0:0:53
-kerrylogistics.		172800	IN	NS	a0.nic.kerrylogistics.
-kerrylogistics.		172800	IN	NS	a2.nic.kerrylogistics.
-kerrylogistics.		172800	IN	NS	b0.nic.kerrylogistics.
-kerrylogistics.		172800	IN	NS	c0.nic.kerrylogistics.
-kerrylogistics.		86400	IN	DS	3604 8 2 2AE824F545E34C607A660D6EEDBD7D2938EE47BCBCC39CF3D269370C533BBA51
-a0.nic.kerrylogistics.	172800	IN	A	65.22.112.54
-a0.nic.kerrylogistics.	172800	IN	AAAA	2a01:8840:6e:0:0:0:0:54
-a2.nic.kerrylogistics.	172800	IN	A	65.22.115.54
-a2.nic.kerrylogistics.	172800	IN	AAAA	2a01:8840:71:0:0:0:0:54
-b0.nic.kerrylogistics.	172800	IN	A	65.22.113.54
-b0.nic.kerrylogistics.	172800	IN	AAAA	2a01:8840:6f:0:0:0:0:54
-c0.nic.kerrylogistics.	172800	IN	A	65.22.114.54
-c0.nic.kerrylogistics.	172800	IN	AAAA	2a01:8840:70:0:0:0:0:54
 kerryproperties.	172800	IN	NS	a0.nic.kerryproperties.
 kerryproperties.	172800	IN	NS	a2.nic.kerryproperties.
 kerryproperties.	172800	IN	NS	b0.nic.kerryproperties.
@@ -10288,19 +10274,6 @@ link.			172800	IN	NS	ns01.trs-dns.net.
 link.			172800	IN	NS	ns01.trs-dns.org.
 link.			172800	IN	NS	ns01.trs-dns.info.
 link.			86400	IN	DS	16766 13 2 40F1045035D7BA48D27A66442B2C71CA159D219756D3AD4D35CF1E80419228B5
-lipsy.			172800	IN	NS	a0.nic.lipsy.
-lipsy.			172800	IN	NS	a2.nic.lipsy.
-lipsy.			172800	IN	NS	b0.nic.lipsy.
-lipsy.			172800	IN	NS	c0.nic.lipsy.
-lipsy.			86400	IN	DS	14890 8 2 AF1FCD22DC45F40EE44921A2CDB562F28F3412B8E9FD8648DD393282C29DD449
-a0.nic.lipsy.		172800	IN	A	65.22.112.59
-a0.nic.lipsy.		172800	IN	AAAA	2a01:8840:6e:0:0:0:0:59
-a2.nic.lipsy.		172800	IN	A	65.22.115.59
-a2.nic.lipsy.		172800	IN	AAAA	2a01:8840:71:0:0:0:0:59
-b0.nic.lipsy.		172800	IN	A	65.22.113.59
-b0.nic.lipsy.		172800	IN	AAAA	2a01:8840:6f:0:0:0:0:59
-c0.nic.lipsy.		172800	IN	A	65.22.114.59
-c0.nic.lipsy.		172800	IN	AAAA	2a01:8840:70:0:0:0:0:59
 live.			172800	IN	NS	v0n0.nic.live.
 live.			172800	IN	NS	v0n1.nic.live.
 live.			172800	IN	NS	v0n2.nic.live.
