@@ -11094,14 +11094,12 @@ y.nic.merckmsd.		172800	IN	A	156.154.173.82
 y.nic.merckmsd.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.merckmsd.		172800	IN	A	156.154.174.82
 z.nic.merckmsd.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-mg.			172800	IN	NS	ns.dts.mg.
 mg.			172800	IN	NS	ns.nic.mg.
 mg.			172800	IN	NS	pch.nic.mg.
 mg.			172800	IN	NS	ns-mg.afrinic.net.
 mg.			172800	IN	NS	ns-mg.malagasy.com.
 mg.			172800	IN	NS	dns-tld.ird.fr.
 mg.			86400	IN	DS	31916 8 2 61C4C85F931E44175E37E585D4ECF728FE63587742D7335836E1E686AD44950E
-ns.dts.mg.		172800	IN	A	196.192.32.2
 ns.nic.mg.		172800	IN	A	196.192.42.153
 pch.nic.mg.		172800	IN	A	204.61.216.121
 pch.nic.mg.		172800	IN	AAAA	2001:500:14:6121:ad:0:0:1
