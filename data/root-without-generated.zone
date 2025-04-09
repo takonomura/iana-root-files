@@ -13238,11 +13238,13 @@ ns2.dns.nic.pfizer.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:86
 ns3.dns.nic.pfizer.	172800	IN	A	156.154.159.134
 ns3.dns.nic.pfizer.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:86
 pg.			172800	IN	NS	dns.pch.pg.
+pg.			172800	IN	NS	uot.nic.pg.
 pg.			172800	IN	NS	gransy1.nic.pg.
 pg.			172800	IN	NS	gransy2.nic.pg.
 gransy1.nic.pg.		172800	IN	A	185.28.194.194
 gransy1.nic.pg.		172800	IN	AAAA	2a00:fea0:dead:0:0:0:0:beef
 gransy2.nic.pg.		172800	IN	A	185.38.108.108
+uot.nic.pg.		172800	IN	A	202.1.32.125
 dns.pch.pg.		172800	IN	A	204.61.216.152
 dns.pch.pg.		172800	IN	AAAA	2001:500:14:6152:ad:0:0:1
 ph.			172800	IN	NS	1.ns.ph.
