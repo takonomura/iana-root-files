@@ -1806,31 +1806,6 @@ y.nic.beer.		172800	IN	A	156.154.173.82
 y.nic.beer.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.beer.		172800	IN	A	156.154.174.82
 z.nic.beer.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-bentley.		172800	IN	NS	dns1.nic.bentley.
-bentley.		172800	IN	NS	dns2.nic.bentley.
-bentley.		172800	IN	NS	dns3.nic.bentley.
-bentley.		172800	IN	NS	dns4.nic.bentley.
-bentley.		172800	IN	NS	dnsa.nic.bentley.
-bentley.		172800	IN	NS	dnsb.nic.bentley.
-bentley.		172800	IN	NS	dnsc.nic.bentley.
-bentley.		172800	IN	NS	dnsd.nic.bentley.
-bentley.		86400	IN	DS	56257 8 2 CF15159EC1841AE2CF91D95B5889EB14574EFBCFB069132903E025345A39AF7B
-dns1.nic.bentley.	172800	IN	A	213.248.219.5
-dns1.nic.bentley.	172800	IN	AAAA	2a01:618:403:0:0:0:0:5
-dns2.nic.bentley.	172800	IN	A	103.49.83.5
-dns2.nic.bentley.	172800	IN	AAAA	2401:fd80:403:0:0:0:0:5
-dns3.nic.bentley.	172800	IN	A	213.248.223.5
-dns3.nic.bentley.	172800	IN	AAAA	2a01:618:407:0:0:0:0:5
-dns4.nic.bentley.	172800	IN	A	43.230.51.5
-dns4.nic.bentley.	172800	IN	AAAA	2401:fd80:407:0:0:0:0:5
-dnsa.nic.bentley.	172800	IN	A	156.154.100.3
-dnsa.nic.bentley.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
-dnsb.nic.bentley.	172800	IN	A	156.154.101.3
-dnsb.nic.bentley.	172800	IN	AAAA	2001:502:2eda:0:0:0:0:3
-dnsc.nic.bentley.	172800	IN	A	156.154.102.3
-dnsc.nic.bentley.	172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
-dnsd.nic.bentley.	172800	IN	A	156.154.103.3
-dnsd.nic.bentley.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 berlin.			172800	IN	NS	a.dns.nic.berlin.
 berlin.			172800	IN	NS	m.dns.nic.berlin.
 berlin.			172800	IN	NS	n.dns.nic.berlin.
@@ -2132,22 +2107,10 @@ b0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5b:0:0:0:0:25
 c0.nic.blockbuster.	172800	IN	A	65.22.94.25
 c0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5c:0:0:0:0:25
 blog.			172800	IN	NS	a.ns.nic.blog.
-blog.			172800	IN	NS	a.nic.blog.
 blog.			172800	IN	NS	b.ns.nic.blog.
-blog.			172800	IN	NS	b.nic.blog.
-blog.			172800	IN	NS	c.nic.blog.
 blog.			172800	IN	NS	d.ns.nic.blog.
-blog.			172800	IN	NS	d.nic.blog.
 blog.			86400	IN	DS	6766 8 2 65581CC0C38868BB708CB1C981F61B8D332C201A9A25B71DCB91AE9959443C32
 blog.			86400	IN	DS	17455 8 2 C0D6CD12FCB746BB819DF417DFA43ED0D4227BD62195F749537AF85A939D2A21
-a.nic.blog.		172800	IN	A	194.169.218.94
-a.nic.blog.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:94
-b.nic.blog.		172800	IN	A	185.24.64.94
-b.nic.blog.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:94
-c.nic.blog.		172800	IN	A	212.18.248.94
-c.nic.blog.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:94
-d.nic.blog.		172800	IN	A	212.18.249.94
-d.nic.blog.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:94
 a.ns.nic.blog.		172800	IN	A	185.159.197.9
 a.ns.nic.blog.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:9
 b.ns.nic.blog.		172800	IN	A	185.159.198.9
@@ -3775,6 +3738,7 @@ cm.			172800	IN	NS	ns-cm.nic.fr.
 cm.			172800	IN	NS	ns-cm.afrinic.net.
 cm.			172800	IN	NS	auth02.ns.uu.net.
 cm.			172800	IN	NS	phloem.uoregon.edu.
+cm.			86400	IN	DS	45784 13 2 BC03884AE075280B78A03306EBCD816E29E014A74247C68887FF1B37D22F81F5
 ns1.nic.cm.		172800	IN	A	195.24.205.60
 ns2.nic.cm.		172800	IN	A	195.24.205.61
 cn.			172800	IN	NS	a.dns.cn.
