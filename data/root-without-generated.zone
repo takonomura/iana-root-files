@@ -6609,8 +6609,6 @@ f.ext.nic.fr.		172800	IN	A	194.146.106.46
 f.ext.nic.fr.		172800	IN	AAAA	2001:67c:1010:11:0:0:0:53
 g.ext.nic.fr.		172800	IN	A	194.0.36.1
 g.ext.nic.fr.		172800	IN	AAAA	2001:678:4c:0:0:0:0:1
-h.ext.nic.fr.		172800	IN	A	195.253.66.2
-h.ext.nic.fr.		172800	IN	AAAA	2a01:5b0:6:0:0:0:0:2
 ci.hosting.nic.fr.	172800	IN	A	192.134.0.49
 ci.hosting.nic.fr.	172800	IN	AAAA	2001:660:3006:1:0:0:1:1
 ns-bf.nic.fr.		172800	IN	A	194.0.9.1
@@ -9754,10 +9752,6 @@ b0.nic.lamer.		172800	IN	A	65.22.53.25
 b0.nic.lamer.		172800	IN	AAAA	2a01:8840:33:0:0:0:0:25
 c0.nic.lamer.		172800	IN	A	65.22.54.25
 c0.nic.lamer.		172800	IN	AAAA	2a01:8840:34:0:0:0:0:25
-lancaster.		172800	IN	NS	d.nic.fr.
-lancaster.		172800	IN	NS	f.ext.nic.fr.
-lancaster.		172800	IN	NS	g.ext.nic.fr.
-lancaster.		86400	IN	DS	13478 13 2 BFBD5142E935C01A65A186D56F01124D6832AC3CDC6EDE681F50A12FF9C73EAD
 land.			172800	IN	NS	v0n0.nic.land.
 land.			172800	IN	NS	v0n1.nic.land.
 land.			172800	IN	NS	v0n2.nic.land.
@@ -13054,7 +13048,6 @@ panasonic.		86400	IN	DS	45016 8 2 A4B88BFB2B883FDF8CA5630562061FD5D7979F203962D1
 paris.			172800	IN	NS	d.nic.fr.
 paris.			172800	IN	NS	f.ext.nic.fr.
 paris.			172800	IN	NS	g.ext.nic.fr.
-paris.			172800	IN	NS	h.ext.nic.fr.
 paris.			86400	IN	DS	29441 13 2 2A63E38EB019AD4300A2D9533FAE0DB139328CEFFD0861CD8DB1C401CA0258D9
 pars.			172800	IN	NS	dns1.emdns.uk.
 pars.			172800	IN	NS	dns2.emdns.uk.
