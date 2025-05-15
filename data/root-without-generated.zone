@@ -3748,6 +3748,7 @@ cn.			172800	IN	NS	c.dns.cn.
 cn.			172800	IN	NS	d.dns.cn.
 cn.			172800	IN	NS	e.dns.cn.
 cn.			172800	IN	NS	ns.cernet.net.
+cn.			86400	IN	DS	33094 8 2 CCCF13ED73A83244F7D2936F0B6C3507D85C3EBC5E1BE4FB644064BC5B5FE3B2
 cn.			86400	IN	DS	57724 8 2 5D0423633EB24A499BE78AA22D1C0C9BA36218FF49FD95A4CDF1A4AD97C67044
 ns1.conac.cn.		172800	IN	A	111.235.161.1
 ns1.conac.cn.		172800	IN	AAAA	2401:b400:1:0:0:0:0:1
@@ -8678,12 +8679,6 @@ a2.org.afilias-nst.info.	172800	IN	A	199.249.112.1
 a2.org.afilias-nst.info.	172800	IN	AAAA	2001:500:40:0:0:0:0:1
 c0.org.afilias-nst.info.	172800	IN	A	199.19.53.1
 c0.org.afilias-nst.info.	172800	IN	AAAA	2001:500:b:0:0:0:0:1
-a0.post.afilias-nst.info.	172800	IN	A	65.22.0.1
-a0.post.afilias-nst.info.	172800	IN	AAAA	2a01:8840:0:0:0:0:0:1
-a2.post.afilias-nst.info.	172800	IN	A	65.22.4.1
-a2.post.afilias-nst.info.	172800	IN	AAAA	2a01:8840:4:0:0:0:0:1
-c0.post.afilias-nst.info.	172800	IN	A	65.22.2.1
-c0.post.afilias-nst.info.	172800	IN	AAAA	2a01:8840:2:0:0:0:0:1
 a0.pr.afilias-nst.info.	172800	IN	A	199.254.59.17
 a0.pr.afilias-nst.info.	172800	IN	AAAA	2001:500:25:0:0:0:0:17
 a2.pr.afilias-nst.info.	172800	IN	A	199.249.116.17
@@ -12929,12 +12924,6 @@ b2.org.afilias-nst.org.	172800	IN	A	199.249.120.1
 b2.org.afilias-nst.org.	172800	IN	AAAA	2001:500:48:0:0:0:0:1
 d0.org.afilias-nst.org.	172800	IN	A	199.19.57.1
 d0.org.afilias-nst.org.	172800	IN	AAAA	2001:500:f:0:0:0:0:1
-b0.post.afilias-nst.org.	172800	IN	A	65.22.1.1
-b0.post.afilias-nst.org.	172800	IN	AAAA	2a01:8840:1:0:0:0:0:1
-b2.post.afilias-nst.org.	172800	IN	A	65.22.5.1
-b2.post.afilias-nst.org.	172800	IN	AAAA	2a01:8840:5:0:0:0:0:1
-d0.post.afilias-nst.org.	172800	IN	A	65.22.3.1
-d0.post.afilias-nst.org.	172800	IN	AAAA	2a01:8840:3:0:0:0:0:1
 b0.pr.afilias-nst.org.	172800	IN	A	199.254.60.17
 b0.pr.afilias-nst.org.	172800	IN	AAAA	2001:500:26:0:0:0:0:17
 b2.pr.afilias-nst.org.	172800	IN	A	199.249.124.17
@@ -13715,13 +13704,25 @@ y.nic.porn.		172800	IN	A	156.154.173.82
 y.nic.porn.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.porn.		172800	IN	A	156.154.174.82
 z.nic.porn.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-post.			172800	IN	NS	a0.post.afilias-nst.info.
-post.			172800	IN	NS	a2.post.afilias-nst.info.
-post.			172800	IN	NS	b0.post.afilias-nst.org.
-post.			172800	IN	NS	b2.post.afilias-nst.org.
-post.			172800	IN	NS	c0.post.afilias-nst.info.
-post.			172800	IN	NS	d0.post.afilias-nst.org.
+post.			172800	IN	NS	v0n0.nic.post.
+post.			172800	IN	NS	v0n1.nic.post.
+post.			172800	IN	NS	v0n2.nic.post.
+post.			172800	IN	NS	v0n3.nic.post.
+post.			172800	IN	NS	v2n0.nic.post.
+post.			172800	IN	NS	v2n1.nic.post.
 post.			86400	IN	DS	35725 8 2 5B8265DC3F1952980AB5369253C4A4ED9D674D91B8C39360B22A7DEAEF168FE0
+v0n0.nic.post.		172800	IN	A	65.22.0.1
+v0n0.nic.post.		172800	IN	AAAA	2a01:8840:0:0:0:0:0:1
+v0n1.nic.post.		172800	IN	A	65.22.1.1
+v0n1.nic.post.		172800	IN	AAAA	2a01:8840:1:0:0:0:0:1
+v0n2.nic.post.		172800	IN	A	65.22.2.1
+v0n2.nic.post.		172800	IN	AAAA	2a01:8840:2:0:0:0:0:1
+v0n3.nic.post.		172800	IN	A	65.22.3.1
+v0n3.nic.post.		172800	IN	AAAA	2a01:8840:3:0:0:0:0:1
+v2n0.nic.post.		172800	IN	A	65.22.4.1
+v2n0.nic.post.		172800	IN	AAAA	2a01:8840:4:0:0:0:0:1
+v2n1.nic.post.		172800	IN	A	65.22.5.1
+v2n1.nic.post.		172800	IN	AAAA	2a01:8840:5:0:0:0:0:1
 pr.			172800	IN	NS	a.lactld.org.
 pr.			172800	IN	NS	a0.pr.afilias-nst.info.
 pr.			172800	IN	NS	a2.pr.afilias-nst.info.
@@ -19250,6 +19251,7 @@ xn--4dbrk0ce.		172800	IN	NS	nse.ns.il.
 xn--4dbrk0ce.		172800	IN	NS	ilns.ilan.net.il.
 xn--4dbrk0ce.		172800	IN	NS	lookup.iucc.ac.il.
 xn--4dbrk0ce.		86400	IN	DS	5893 13 2 575289A1F1A3F38CAADE5B063D2977185D2CE1A573087D9B33AB2B6DBDE83F29
+xn--4dbrk0ce.		86400	IN	DS	9857 13 2 D97BEB0130A0F167C930B93F296A4A91FD98F2ED894E791EE42EF8E33BFDA81B
 xn--4gbrim.		172800	IN	NS	a.nic.xn--4gbrim.
 xn--4gbrim.		172800	IN	NS	b.nic.xn--4gbrim.
 xn--4gbrim.		172800	IN	NS	c.nic.xn--4gbrim.
@@ -19649,12 +19651,14 @@ xn--fiqs8s.		172800	IN	NS	i.dns.cn.
 xn--fiqs8s.		172800	IN	NS	j.dns.cn.
 xn--fiqs8s.		172800	IN	NS	k.dns.cn.
 xn--fiqs8s.		172800	IN	NS	l.dns.cn.
+xn--fiqs8s.		86400	IN	DS	3991 8 2 A0175C031FE463F873AC8C8E405525013326A688DBDA536EBBD06DBD4FC6EA63
 xn--fiqs8s.		86400	IN	DS	28162 8 2 9E1E18C1AEB006AD617593EC2D2971E33BB22048316D1BB9F67DDD5EB00708C3
 xn--fiqz9s.		172800	IN	NS	h.dns.cn.
 xn--fiqz9s.		172800	IN	NS	i.dns.cn.
 xn--fiqz9s.		172800	IN	NS	j.dns.cn.
 xn--fiqz9s.		172800	IN	NS	k.dns.cn.
 xn--fiqz9s.		172800	IN	NS	l.dns.cn.
+xn--fiqz9s.		86400	IN	DS	3991 8 2 B6E385DF94A43E489E596EF51D59AC0EF9B5544E42FB3267BB6494529C39EF31
 xn--fiqz9s.		86400	IN	DS	28162 8 2 30B55F108E07F9C2397F0D233324E02E667A137569FF91FC0311DCB73CEA1571
 xn--fjq720a.		172800	IN	NS	v0n0.nic.xn--fjq720a.
 xn--fjq720a.		172800	IN	NS	v0n1.nic.xn--fjq720a.
