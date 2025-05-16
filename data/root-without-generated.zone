@@ -13732,25 +13732,6 @@ pr.			172800	IN	NS	c0.pr.afilias-nst.info.
 pr.			172800	IN	NS	d0.pr.afilias-nst.org.
 pr.			172800	IN	NS	pr-dns.denic.de.
 pr.			86400	IN	DS	5134 8 2 2E7F12833596203DBEF32DBCEBC2CFD2F6D3AA4432A9BB39927394C6CF1A844A
-pramerica.		172800	IN	NS	a.nic.pramerica.
-pramerica.		172800	IN	NS	b.nic.pramerica.
-pramerica.		172800	IN	NS	c.nic.pramerica.
-pramerica.		172800	IN	NS	ns1.dns.nic.pramerica.
-pramerica.		172800	IN	NS	ns2.dns.nic.pramerica.
-pramerica.		172800	IN	NS	ns3.dns.nic.pramerica.
-pramerica.		86400	IN	DS	22411 8 2 55E42F1140C47CA9A71E1306D0487E31DCA919961409E9121765627E563FDB3C
-a.nic.pramerica.	172800	IN	A	37.209.192.9
-a.nic.pramerica.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
-b.nic.pramerica.	172800	IN	A	37.209.194.9
-b.nic.pramerica.	172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
-c.nic.pramerica.	172800	IN	A	37.209.196.9
-c.nic.pramerica.	172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-ns1.dns.nic.pramerica.	172800	IN	A	156.154.144.138
-ns1.dns.nic.pramerica.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:8a
-ns2.dns.nic.pramerica.	172800	IN	A	156.154.145.138
-ns2.dns.nic.pramerica.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:8a
-ns3.dns.nic.pramerica.	172800	IN	A	156.154.159.138
-ns3.dns.nic.pramerica.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:8a
 praxi.			172800	IN	NS	a.nic.praxi.
 praxi.			172800	IN	NS	b.nic.praxi.
 praxi.			172800	IN	NS	c.nic.praxi.
