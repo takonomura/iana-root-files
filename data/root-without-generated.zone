@@ -3956,8 +3956,6 @@ pebbles.iom.com.	172800	IN	A	83.218.14.53
 ns-mg.malagasy.com.	172800	IN	A	51.178.182.212
 ns1.neoip.com.		172800	IN	A	51.195.14.249
 ns2.neoip.com.		172800	IN	A	45.83.41.38
-ns1.nic-ge.com.		172800	IN	A	3.66.58.155
-ns2.nic-ge.com.		172800	IN	A	35.153.81.228
 ac1.nstld.com.		172800	IN	A	192.42.173.30
 ac1.nstld.com.		172800	IN	AAAA	2001:500:120:0:0:0:0:30
 ac2.nstld.com.		172800	IN	A	192.42.174.30
@@ -7008,11 +7006,13 @@ ns3.nic.gdn.		172800	IN	AAAA	2001:67c:10e0:0:0:0:0:11
 ns4.nic.gdn.		172800	IN	A	194.0.24.11
 ns4.nic.gdn.		172800	IN	AAAA	2001:678:24:0:0:0:0:11
 ge.			172800	IN	NS	ns1.nic.ge.
-ge.			172800	IN	NS	ns1.nic-ge.com.
 ge.			172800	IN	NS	ns2.nic.ge.
-ge.			172800	IN	NS	ns2.nic-ge.com.
+ge.			172800	IN	NS	ns3.nic.ge.
+ge.			172800	IN	NS	ns4.nic.ge.
 ns1.nic.ge.		172800	IN	A	185.19.99.30
 ns2.nic.ge.		172800	IN	A	185.19.98.98
+ns3.nic.ge.		172800	IN	A	3.66.58.155
+ns4.nic.ge.		172800	IN	A	35.153.81.228
 gea.			172800	IN	NS	a.dns.nic.gea.
 gea.			172800	IN	NS	m.dns.nic.gea.
 gea.			172800	IN	NS	n.dns.nic.gea.
