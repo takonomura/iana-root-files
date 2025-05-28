@@ -2111,12 +2111,15 @@ c0.nic.blockbuster.	172800	IN	A	65.22.94.25
 c0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5c:0:0:0:0:25
 blog.			172800	IN	NS	a.ns.nic.blog.
 blog.			172800	IN	NS	b.ns.nic.blog.
+blog.			172800	IN	NS	c.ns.nic.blog.
 blog.			172800	IN	NS	d.ns.nic.blog.
 blog.			86400	IN	DS	6766 8 2 65581CC0C38868BB708CB1C981F61B8D332C201A9A25B71DCB91AE9959443C32
 a.ns.nic.blog.		172800	IN	A	185.159.197.9
 a.ns.nic.blog.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:9
 b.ns.nic.blog.		172800	IN	A	185.159.198.9
 b.ns.nic.blog.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:9
+c.ns.nic.blog.		172800	IN	A	45.142.220.101
+c.ns.nic.blog.		172800	IN	AAAA	2a0e:dbc0:0:0:0:0:0:101
 d.ns.nic.blog.		172800	IN	A	185.159.199.9
 d.ns.nic.blog.		172800	IN	AAAA	2620:10a:80ac:0:0:0:0:9
 bloomberg.		172800	IN	NS	v0n0.nic.bloomberg.
