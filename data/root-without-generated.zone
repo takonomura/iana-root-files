@@ -19587,7 +19587,7 @@ xn--d1acj3b.		172800	IN	NS	b.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	d.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	e.dns.ripn.net.
 xn--d1acj3b.		172800	IN	NS	f.dns.ripn.net.
-xn--d1acj3b.		86400	IN	DS	7826 8 2 60026BABE0BFA28C5BDDCCAFFAECFEE3FCE23E8FFCF6B03E5CDCA6A620B75A0A
+xn--d1acj3b.		86400	IN	DS	24002 8 2 CDBCE25677FC3ABAAD70CDC646A936A1ABC71D375FCD05D0789BB164EB50C31E
 xn--d1alf.		172800	IN	NS	b.dns.si.
 xn--d1alf.		172800	IN	NS	mk-e.ns.nic.cz.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
