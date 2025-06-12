@@ -2095,24 +2095,12 @@ y.nic.blackfriday.	172800	IN	A	156.154.173.82
 y.nic.blackfriday.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.blackfriday.	172800	IN	A	156.154.174.82
 z.nic.blackfriday.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-blockbuster.		172800	IN	NS	a0.nic.blockbuster.
-blockbuster.		172800	IN	NS	a2.nic.blockbuster.
-blockbuster.		172800	IN	NS	b0.nic.blockbuster.
-blockbuster.		172800	IN	NS	c0.nic.blockbuster.
 blockbuster.		172800	IN	NS	ns01.trs-dns.com.
 blockbuster.		172800	IN	NS	ns01.trs-dns.net.
 blockbuster.		172800	IN	NS	ns01.trs-dns.org.
 blockbuster.		172800	IN	NS	ns01.trs-dns.info.
 blockbuster.		86400	IN	DS	20059 8 2 7CC46EE5DB147183B41BDA17AC3A5CE97963064F139E80A7C2B60AA8BD5200E7
 blockbuster.		86400	IN	DS	27901 8 2 6D3D995AE2008BAEE36910857E7DE15422EC34E56E004BAE5167ED8B0AD4F4AE
-a0.nic.blockbuster.	172800	IN	A	65.22.92.25
-a0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5a:0:0:0:0:25
-a2.nic.blockbuster.	172800	IN	A	65.22.95.25
-a2.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5d:0:0:0:0:25
-b0.nic.blockbuster.	172800	IN	A	65.22.93.25
-b0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5b:0:0:0:0:25
-c0.nic.blockbuster.	172800	IN	A	65.22.94.25
-c0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5c:0:0:0:0:25
 blog.			172800	IN	NS	a.ns.nic.blog.
 blog.			172800	IN	NS	b.ns.nic.blog.
 blog.			172800	IN	NS	c.ns.nic.blog.
@@ -9788,24 +9776,12 @@ c.nic.lat.		172800	IN	A	212.18.248.156
 c.nic.lat.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:156
 d.nic.lat.		172800	IN	A	212.18.249.156
 d.nic.lat.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:156
-latino.			172800	IN	NS	a0.nic.latino.
-latino.			172800	IN	NS	a2.nic.latino.
-latino.			172800	IN	NS	b0.nic.latino.
-latino.			172800	IN	NS	c0.nic.latino.
 latino.			172800	IN	NS	ns01.trs-dns.com.
 latino.			172800	IN	NS	ns01.trs-dns.net.
 latino.			172800	IN	NS	ns01.trs-dns.org.
 latino.			172800	IN	NS	ns01.trs-dns.info.
 latino.			86400	IN	DS	4019 8 2 290969823C216A34FE78BE351BAD859AFC8B86079500AD5E55ACAE2ABE4F9144
 latino.			86400	IN	DS	28831 8 2 38D9082C093D8C2E653B0C2BFA3EAA463FC401FE31ED28C62B0A2B506BCF9D24
-a0.nic.latino.		172800	IN	A	65.22.92.17
-a0.nic.latino.		172800	IN	AAAA	2a01:8840:5a:0:0:0:0:17
-a2.nic.latino.		172800	IN	A	65.22.95.17
-a2.nic.latino.		172800	IN	AAAA	2a01:8840:5d:0:0:0:0:17
-b0.nic.latino.		172800	IN	A	65.22.93.17
-b0.nic.latino.		172800	IN	AAAA	2a01:8840:5b:0:0:0:0:17
-c0.nic.latino.		172800	IN	A	65.22.94.17
-c0.nic.latino.		172800	IN	AAAA	2a01:8840:5c:0:0:0:0:17
 latrobe.		172800	IN	NS	a.nic.latrobe.
 latrobe.		172800	IN	NS	b.nic.latrobe.
 latrobe.		172800	IN	NS	c.nic.latrobe.
