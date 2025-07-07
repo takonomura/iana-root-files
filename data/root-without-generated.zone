@@ -11988,11 +11988,11 @@ ns15.rcode0.net.	172800	IN	AAAA	2001:678:20:0:0:0:0:15
 ns31.rcode0.net.	172800	IN	A	194.0.25.31
 ns31.rcode0.net.	172800	IN	AAAA	2001:678:20:0:0:0:0:31
 bi.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.62
-bi.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:62
+bi.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:62
 cu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:70
 cw.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.86
-cw.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:86
+cw.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:86
 er.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.72
 er.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:72
 gp.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.76
@@ -12019,7 +12019,7 @@ ps.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:105
 sd.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.109
 sd.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:109
 sm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.110
-sm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:110
+sm.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:110
 sn.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.111
 sn.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:111
 sy.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.113
@@ -17456,7 +17456,7 @@ tt.			86400	IN	DS	2539 8 2 B06DFA79674DF3EA8190E7616164414B01E9199B7C94EC1540378
 pch.nic.tt.		172800	IN	A	204.61.216.63
 pch.nic.tt.		172800	IN	AAAA	2001:500:14:6063:ad:0:0:1
 ripe.nic.tt.		172800	IN	A	193.0.9.50
-ripe.nic.tt.		172800	IN	AAAA	2001:67c:e0:0:0:0:0:50
+ripe.nic.tt.		172800	IN	AAAA	2a13:27c0:30:0:0:0:0:50
 tube.			172800	IN	NS	anycast9.irondns.net.
 tube.			172800	IN	NS	anycast10.irondns.net.
 tube.			172800	IN	NS	anycast23.irondns.net.
@@ -17894,7 +17894,6 @@ ve.			172800	IN	NS	ns5.nic.ve.
 ve.			172800	IN	NS	ns6.nic.ve.
 ve.			172800	IN	NS	ssdns-tld.nic.cl.
 ve.			86400	IN	DS	26677 8 2 D26B98C08BE23D276334CAE7B38284C835AEAA7865B873C854FF87958AAB05D4
-ve.			86400	IN	DS	53545 8 2 0BA030FB1720BB0263E2AE748C9CAA6FC7BEBF30F4E1271AF22554C6C43EF3FE
 ns3.nic.ve.		172800	IN	A	190.9.129.56
 ns4.nic.ve.		172800	IN	A	190.202.128.43
 ns5.nic.ve.		172800	IN	A	45.175.22.88
