@@ -11990,7 +11990,7 @@ ns31.rcode0.net.	172800	IN	AAAA	2001:678:20:0:0:0:0:31
 bi.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.62
 bi.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:62
 cu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.70
-cu.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:70
+cu.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:70
 cw.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.86
 cw.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:86
 er.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.72
