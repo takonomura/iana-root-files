@@ -2869,6 +2869,7 @@ capitalone.		172800	IN	NS	ac2.nstld.com.
 capitalone.		172800	IN	NS	ac3.nstld.com.
 capitalone.		172800	IN	NS	ac4.nstld.com.
 capitalone.		86400	IN	DS	16365 8 2 017564F7C0204B23E19605E08E5DCF57C286D6D5097B53440DE91D4F04D3ABAC
+capitalone.		86400	IN	DS	35674 8 2 18A369B6CA7ECD8C34858091E85C169D7D7DF070B019A714E8928F6489ED4985
 car.			172800	IN	NS	a.nic.car.
 car.			172800	IN	NS	b.nic.car.
 car.			172800	IN	NS	c.nic.car.
@@ -11993,12 +11994,12 @@ jm.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:82
 jo.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.83
 jo.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:83
 kg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.84
-kg.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:84
+kg.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:84
 mc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.92
 mw.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.99
 mw.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:99
 nc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.100
-nc.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:100
+nc.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:100
 ne.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.101
 ne.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:101
 np.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.102
