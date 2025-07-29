@@ -2864,12 +2864,26 @@ v2n0.nic.capital.	172800	IN	A	65.22.31.10
 v2n0.nic.capital.	172800	IN	AAAA	2a01:8840:21:0:0:0:0:10
 v2n1.nic.capital.	172800	IN	A	161.232.15.10
 v2n1.nic.capital.	172800	IN	AAAA	2a01:8840:f9:0:0:0:0:10
-capitalone.		172800	IN	NS	ac1.nstld.com.
-capitalone.		172800	IN	NS	ac2.nstld.com.
-capitalone.		172800	IN	NS	ac3.nstld.com.
-capitalone.		172800	IN	NS	ac4.nstld.com.
+capitalone.		172800	IN	NS	a.nic.capitalone.
+capitalone.		172800	IN	NS	b.nic.capitalone.
+capitalone.		172800	IN	NS	c.nic.capitalone.
+capitalone.		172800	IN	NS	x.nic.capitalone.
+capitalone.		172800	IN	NS	y.nic.capitalone.
+capitalone.		172800	IN	NS	z.nic.capitalone.
 capitalone.		86400	IN	DS	16365 8 2 017564F7C0204B23E19605E08E5DCF57C286D6D5097B53440DE91D4F04D3ABAC
 capitalone.		86400	IN	DS	35674 8 2 18A369B6CA7ECD8C34858091E85C169D7D7DF070B019A714E8928F6489ED4985
+a.nic.capitalone.	172800	IN	A	37.209.192.9
+a.nic.capitalone.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+b.nic.capitalone.	172800	IN	A	37.209.194.9
+b.nic.capitalone.	172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+c.nic.capitalone.	172800	IN	A	37.209.196.9
+c.nic.capitalone.	172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
+x.nic.capitalone.	172800	IN	A	156.154.172.82
+x.nic.capitalone.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:82
+y.nic.capitalone.	172800	IN	A	156.154.173.82
+y.nic.capitalone.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
+z.nic.capitalone.	172800	IN	A	156.154.174.82
+z.nic.capitalone.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 car.			172800	IN	NS	a.nic.car.
 car.			172800	IN	NS	b.nic.car.
 car.			172800	IN	NS	c.nic.car.
@@ -12385,12 +12399,26 @@ c.nic.nokia.		172800	IN	A	212.18.248.159
 c.nic.nokia.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:159
 d.nic.nokia.		172800	IN	A	212.18.249.159
 d.nic.nokia.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:159
-norton.			172800	IN	NS	ac1.nstld.com.
-norton.			172800	IN	NS	ac2.nstld.com.
-norton.			172800	IN	NS	ac3.nstld.com.
-norton.			172800	IN	NS	ac4.nstld.com.
+norton.			172800	IN	NS	a.nic.norton.
+norton.			172800	IN	NS	b.nic.norton.
+norton.			172800	IN	NS	c.nic.norton.
+norton.			172800	IN	NS	x.nic.norton.
+norton.			172800	IN	NS	y.nic.norton.
+norton.			172800	IN	NS	z.nic.norton.
 norton.			86400	IN	DS	13095 8 2 8A3E13067F0237E9F16D0C6D25C72B262AF2E49BBBA4345C70E1BA5FD19AC321
 norton.			86400	IN	DS	47347 8 2 119E98D6A7C8AD1C5199B2FBB3DE5B330021F366400D6B4B8409400A738E1D7A
+a.nic.norton.		172800	IN	A	37.209.192.9
+a.nic.norton.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+b.nic.norton.		172800	IN	A	37.209.194.9
+b.nic.norton.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+c.nic.norton.		172800	IN	A	37.209.196.9
+c.nic.norton.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
+x.nic.norton.		172800	IN	A	156.154.172.82
+x.nic.norton.		172800	IN	AAAA	2610:a1:1074:0:0:0:1:82
+y.nic.norton.		172800	IN	A	156.154.173.82
+y.nic.norton.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
+z.nic.norton.		172800	IN	A	156.154.174.82
+z.nic.norton.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 now.			172800	IN	NS	dns1.nic.now.
 now.			172800	IN	NS	dns2.nic.now.
 now.			172800	IN	NS	dns3.nic.now.
