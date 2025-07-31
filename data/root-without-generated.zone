@@ -6566,7 +6566,6 @@ ns3.dns.nic.fox.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:3f
 fr.			172800	IN	NS	d.nic.fr.
 fr.			172800	IN	NS	f.ext.nic.fr.
 fr.			172800	IN	NS	g.ext.nic.fr.
-fr.			86400	IN	DS	29133 13 2 1303E8DA8FB60DB500D5BEA1EE5DC9A2BCC93DFE2FC43D346576658FECCF5749
 fr.			86400	IN	DS	65381 13 2 8163ABF45792942CF4EE38CCA31F6A6832FCDC6D402338FC687827690C4132F6
 dns.inria.fr.		172800	IN	A	193.51.208.13
 dns-tld.ird.fr.		172800	IN	A	13.39.116.127
@@ -12010,6 +12009,7 @@ jo.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:83
 kg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.84
 kg.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:84
 mc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.92
+mc.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:92
 mw.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.99
 mw.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:99
 nc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.100
