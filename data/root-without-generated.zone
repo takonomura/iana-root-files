@@ -19869,6 +19869,7 @@ xn--mgbayh7gpa.		172800	IN	NS	petra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	cloudns.nic.net.jo.
 xn--mgbayh7gpa.		172800	IN	NS	jordan1st.nic.gov.jo.
 xn--mgbayh7gpa.		86400	IN	DS	31715 8 2 E7B5191787C7DB3C20BFCF917807791EB09917E887EBB7CBB3D11678E9767AD1
+xn--mgbayh7gpa.		86400	IN	DS	53426 8 2 2425C479903E0D9A22E49AEC321EB564BD808B96C5CE23E8685F4FB2832179DA
 xn--mgbbh1a.		172800	IN	NS	ns01.trs-dns.com.
 xn--mgbbh1a.		172800	IN	NS	ns01.trs-dns.net.
 xn--mgbbh1a.		172800	IN	NS	ns10.trs-dns.org.
