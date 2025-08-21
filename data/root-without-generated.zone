@@ -17529,7 +17529,9 @@ dnsd.nic.tushu.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 tv.			172800	IN	NS	a.nic.tv.
 tv.			172800	IN	NS	b.nic.tv.
 tv.			172800	IN	NS	c.nic.tv.
-tv.			172800	IN	NS	d.nic.tv.
+tv.			172800	IN	NS	x.nic.tv.
+tv.			172800	IN	NS	y.nic.tv.
+tv.			172800	IN	NS	z.nic.tv.
 tv.			86400	IN	DS	57277 8 2 CDF61FAF1EBC9D83D5BC3D9DE22E794AE8ACDB0475EA8CF27E92CC00F0C3F5F9
 a.nic.tv.		172800	IN	A	37.209.192.6
 a.nic.tv.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:6
@@ -17537,8 +17539,12 @@ b.nic.tv.		172800	IN	A	37.209.194.6
 b.nic.tv.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:6
 c.nic.tv.		172800	IN	A	37.209.196.6
 c.nic.tv.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:6
-d.nic.tv.		172800	IN	A	37.209.198.6
-d.nic.tv.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:6
+x.nic.tv.		172800	IN	A	156.154.103.22
+x.nic.tv.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:22
+y.nic.tv.		172800	IN	A	156.154.104.22
+y.nic.tv.		172800	IN	AAAA	2610:a1:1011:0:0:0:0:22
+z.nic.tv.		172800	IN	A	156.154.105.22
+z.nic.tv.		172800	IN	AAAA	2610:a1:1012:0:0:0:0:22
 tvs.			172800	IN	NS	a0.nic.tvs.
 tvs.			172800	IN	NS	a2.nic.tvs.
 tvs.			172800	IN	NS	b0.nic.tvs.
