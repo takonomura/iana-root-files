@@ -409,7 +409,6 @@ africa.			172800	IN	NS	ns.coza.net.za.
 africa.			172800	IN	NS	ns4.dns.net.za.
 africa.			172800	IN	NS	coza1.dnsnode.net.
 africa.			86400	IN	DS	51115 8 2 53248D4D36757A31135688EFA42C2C307591A7989523E6CD9CC2441414349481
-ans.dnsstudy.africa.	172800	IN	A	192.96.24.69
 ag.			172800	IN	NS	a0.cctld.afilias-nst.info.
 ag.			172800	IN	NS	a2.cctld.afilias-nst.info.
 ag.			172800	IN	NS	b0.cctld.afilias-nst.org.
@@ -11779,8 +11778,6 @@ ns-mz.afrinic.net.	172800	IN	A	196.216.168.40
 ns-mz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:40
 ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
 ns-ne.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:45
-ns-rw.afrinic.net.	172800	IN	A	196.216.168.28
-ns-rw.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:28
 ns-sd.afrinic.net.	172800	IN	A	196.216.168.26
 ns-sd.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:26
 ns-ss.afrinic.net.	172800	IN	A	196.216.168.27
@@ -14684,14 +14681,17 @@ v2n0.nic.run.		172800	IN	A	65.22.35.40
 v2n0.nic.run.		172800	IN	AAAA	2a01:8840:25:0:0:0:0:40
 v2n1.nic.run.		172800	IN	A	161.232.17.40
 v2n1.nic.run.		172800	IN	AAAA	2a01:8840:fb:0:0:0:0:40
-rw.			172800	IN	NS	ans.dnsstudy.africa.
 rw.			172800	IN	NS	ns1.ricta.org.rw.
 rw.			172800	IN	NS	ns2.ricta.org.rw.
 rw.			172800	IN	NS	ns3.ricta.org.rw.
 rw.			172800	IN	NS	pch.ricta.org.rw.
-rw.			172800	IN	NS	fork.sth.dnsnode.net.
-rw.			172800	IN	NS	ns-rw.afrinic.net.
+rw.			172800	IN	NS	dnsnode.ricta.org.rw.
+rw.			172800	IN	NS	ns-afrinic.ricta.org.rw.
 rw.			86400	IN	DS	39755 8 2 005F7A73F0609A69CA7736158490764E1A8DC0652AB1D0E327941AF0FE673111
+dnsnode.ricta.org.rw.	172800	IN	A	77.72.229.254
+dnsnode.ricta.org.rw.	172800	IN	AAAA	2a01:3f0:0:306:0:0:0:53
+ns-afrinic.ricta.org.rw.	172800	IN	A	196.216.168.28
+ns-afrinic.ricta.org.rw.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:28
 ns1.ricta.org.rw.	172800	IN	A	196.49.7.188
 ns1.ricta.org.rw.	172800	IN	AAAA	2001:43f8:151:2504:0:0:0:188
 ns2.ricta.org.rw.	172800	IN	A	196.49.7.186
