@@ -1906,6 +1906,7 @@ bi.			172800	IN	NS	ns.nic.bi.
 bi.			172800	IN	NS	ns1.nic.bi.
 bi.			172800	IN	NS	anyns.nic.bi.
 bi.			172800	IN	NS	ns-bi.afrinic.net.
+bi.			86400	IN	DS	11190 13 2 6159C2681DA8D601BFFAFD0AB4AFE89A1475E5CB709AD53DC40E787C3D426B48
 anyns.nic.bi.		172800	IN	A	204.61.216.61
 anyns.nic.bi.		172800	IN	AAAA	2001:500:14:6061:ad:0:0:1
 ns.nic.bi.		172800	IN	A	196.2.8.205
@@ -18338,19 +18339,25 @@ v2n0.nic.voyage.	172800	IN	A	65.22.35.28
 v2n0.nic.voyage.	172800	IN	AAAA	2a01:8840:25:0:0:0:0:28
 v2n1.nic.voyage.	172800	IN	A	161.232.17.28
 v2n1.nic.voyage.	172800	IN	AAAA	2a01:8840:fb:0:0:0:0:28
-vu.			172800	IN	NS	ns1.tldns.vu.
-vu.			172800	IN	NS	ns2.tldns.vu.
-vu.			172800	IN	NS	ns3.tldns.vu.
-vu.			172800	IN	NS	ns4.tldns.vu.
+vu.			172800	IN	NS	a.tldns.vu.
+vu.			172800	IN	NS	b.tldns.vu.
+vu.			172800	IN	NS	c.tldns.vu.
+vu.			172800	IN	NS	x.tldns.vu.
+vu.			172800	IN	NS	y.tldns.vu.
+vu.			172800	IN	NS	z.tldns.vu.
 vu.			86400	IN	DS	32778 10 2 E9A2E16E09E41F325DEB3B58A721D9980D0942E19E7C41B44FD4B2BFD8611E08
-ns1.tldns.vu.		172800	IN	A	37.209.192.6
-ns1.tldns.vu.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:6
-ns2.tldns.vu.		172800	IN	A	37.209.194.6
-ns2.tldns.vu.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:6
-ns3.tldns.vu.		172800	IN	A	37.209.196.6
-ns3.tldns.vu.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:6
-ns4.tldns.vu.		172800	IN	A	37.209.198.6
-ns4.tldns.vu.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:6
+a.tldns.vu.		172800	IN	A	37.209.192.6
+a.tldns.vu.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:6
+b.tldns.vu.		172800	IN	A	37.209.194.6
+b.tldns.vu.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:6
+c.tldns.vu.		172800	IN	A	37.209.196.6
+c.tldns.vu.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:6
+x.tldns.vu.		172800	IN	A	156.154.103.22
+x.tldns.vu.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:22
+y.tldns.vu.		172800	IN	A	156.154.104.22
+y.tldns.vu.		172800	IN	AAAA	2610:a1:1011:0:0:0:0:22
+z.tldns.vu.		172800	IN	A	156.154.105.22
+z.tldns.vu.		172800	IN	AAAA	2610:a1:1012:0:0:0:0:22
 wales.			172800	IN	NS	dns1.nic.wales.
 wales.			172800	IN	NS	dns2.nic.wales.
 wales.			172800	IN	NS	dns3.nic.wales.
