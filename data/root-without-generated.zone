@@ -9280,12 +9280,26 @@ tld4.nic.jprs.		172800	IN	A	103.198.210.1
 tld4.nic.jprs.		172800	IN	AAAA	2403:2880:0:0:0:0:0:1
 tld5.nic.jprs.		172800	IN	A	65.22.40.129
 tld5.nic.jprs.		172800	IN	AAAA	2a01:8840:1ba:0:0:0:0:129
-juegos.			172800	IN	NS	ns01.trs-dns.com.
-juegos.			172800	IN	NS	ns01.trs-dns.net.
-juegos.			172800	IN	NS	ns01.trs-dns.org.
-juegos.			172800	IN	NS	ns01.trs-dns.info.
+juegos.			172800	IN	NS	v0n0.nic.juegos.
+juegos.			172800	IN	NS	v0n1.nic.juegos.
+juegos.			172800	IN	NS	v0n2.nic.juegos.
+juegos.			172800	IN	NS	v0n3.nic.juegos.
+juegos.			172800	IN	NS	v2n0.nic.juegos.
+juegos.			172800	IN	NS	v2n1.nic.juegos.
 juegos.			86400	IN	DS	29108 13 2 A05CE9AC7DD78B8C400AEE67A0F85D3AA82B99C07745748021A53BC35E9FC0F3
 juegos.			86400	IN	DS	41009 13 2 328711FC334D2F50AF0E54CC25F153904D6644E6E1E9C571C26020F28A8552E7
+v0n0.nic.juegos.	172800	IN	A	65.22.36.1
+v0n0.nic.juegos.	172800	IN	AAAA	2a01:8840:26:0:0:0:0:1
+v0n1.nic.juegos.	172800	IN	A	65.22.37.1
+v0n1.nic.juegos.	172800	IN	AAAA	2a01:8840:27:0:0:0:0:1
+v0n2.nic.juegos.	172800	IN	A	65.22.38.1
+v0n2.nic.juegos.	172800	IN	AAAA	2a01:8840:28:0:0:0:0:1
+v0n3.nic.juegos.	172800	IN	A	161.232.18.1
+v0n3.nic.juegos.	172800	IN	AAAA	2a01:8840:10e:0:0:0:0:1
+v2n0.nic.juegos.	172800	IN	A	65.22.39.1
+v2n0.nic.juegos.	172800	IN	AAAA	2a01:8840:29:0:0:0:0:1
+v2n1.nic.juegos.	172800	IN	A	161.232.19.1
+v2n1.nic.juegos.	172800	IN	AAAA	2a01:8840:10f:0:0:0:0:1
 juniper.		172800	IN	NS	a0.nic.juniper.
 juniper.		172800	IN	NS	a2.nic.juniper.
 juniper.		172800	IN	NS	b0.nic.juniper.
