@@ -6050,6 +6050,7 @@ fi.			172800	IN	NS	b.fi.
 fi.			172800	IN	NS	c.fi.
 fi.			172800	IN	NS	d.fi.
 fi.			172800	IN	NS	e.fi.
+fi.			172800	IN	NS	f.fi.
 fi.			172800	IN	NS	g.fi.
 fi.			172800	IN	NS	i.fi.
 fi.			172800	IN	NS	j.fi.
@@ -6069,6 +6070,8 @@ d.fi.			172800	IN	A	77.72.229.253
 d.fi.			172800	IN	AAAA	2a01:3f0:0:302:0:0:0:53
 e.fi.			172800	IN	A	194.0.1.14
 e.fi.			172800	IN	AAAA	2001:678:4:0:0:0:0:e
+f.fi.			172800	IN	A	80.248.170.230
+f.fi.			172800	IN	AAAA	2a03:d640:100:1:0:0:0:6
 g.fi.			172800	IN	A	204.61.216.98
 g.fi.			172800	IN	AAAA	2001:500:14:6098:ad:0:0:1
 i.fi.			172800	IN	A	194.0.25.30
