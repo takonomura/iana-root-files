@@ -3810,24 +3810,18 @@ f.zdnscloud.cn.		172800	IN	A	116.169.54.111
 i.zdnscloud.cn.		172800	IN	AAAA	2401:8d00:1:0:0:0:0:1
 co.			172800	IN	NS	a.registrydns.co.
 co.			172800	IN	NS	b.registrydns.co.
-co.			172800	IN	NS	ns1.cctld.co.
-co.			172800	IN	NS	ns2.cctld.co.
-co.			172800	IN	NS	ns6.cctld.co.
-co.			172800	IN	NS	ns7.cctld.co.
+co.			172800	IN	NS	c.registrydns.co.
+co.			172800	IN	NS	d.registrydns.co.
 co.			86400	IN	DS	7786 8 2 EB84F864CBE86E913796D2C8DD81933AA2C94BBCFB73419A42250BC4650B081B
 co.			86400	IN	DS	62110 8 2 4857EE1A85E661C92156AD09B40139DAE7D5BE37D117A1223289F0E20CF9D654
-ns1.cctld.co.		172800	IN	A	37.209.192.14
-ns1.cctld.co.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:14
-ns2.cctld.co.		172800	IN	A	37.209.194.14
-ns2.cctld.co.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:14
-ns6.cctld.co.		172800	IN	A	156.154.105.25
-ns6.cctld.co.		172800	IN	AAAA	2610:a1:1012:0:0:0:0:21
-ns7.cctld.co.		172800	IN	A	204.74.105.1
-ns7.cctld.co.		172800	IN	AAAA	2610:a1:3180:0:0:0:0:53
 a.registrydns.co.	172800	IN	A	194.169.218.57
 a.registrydns.co.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:57
 b.registrydns.co.	172800	IN	A	185.24.64.57
 b.registrydns.co.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:57
+c.registrydns.co.	172800	IN	A	212.18.248.57
+c.registrydns.co.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:57
+d.registrydns.co.	172800	IN	A	212.18.249.57
+d.registrydns.co.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:57
 coach.			172800	IN	NS	v0n0.nic.coach.
 coach.			172800	IN	NS	v0n1.nic.coach.
 coach.			172800	IN	NS	v0n2.nic.coach.
@@ -9271,7 +9265,7 @@ jprs.			172800	IN	NS	tld2.nic.jprs.
 jprs.			172800	IN	NS	tld3.nic.jprs.
 jprs.			172800	IN	NS	tld4.nic.jprs.
 jprs.			172800	IN	NS	tld5.nic.jprs.
-jprs.			86400	IN	DS	14500 8 2 1E07F9BC32099270BD8B9B91452FFBD6C04E5D4BF7B002703110D5C091DF045D
+jprs.			86400	IN	DS	1915 8 2 D2D8B07B59B3127E2890A593A1424CBA519989A20D39A1809B860314A6BEC199
 tld1.nic.jprs.		172800	IN	A	103.47.2.1
 tld1.nic.jprs.		172800	IN	AAAA	2001:dda:0:0:0:0:0:1
 tld2.nic.jprs.		172800	IN	A	117.104.133.16
@@ -12043,7 +12037,7 @@ sz.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:114
 tj.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.117
 tj.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:117
 ug.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.52
-ug.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:52
+ug.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:52
 sec2.authdns.ripe.net.	172800	IN	A	193.0.9.4
 sec2.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:4
 a.dns.ripn.net.		172800	IN	A	193.232.128.6
@@ -17665,7 +17659,6 @@ ug.			172800	IN	NS	ns-ug.afrinic.net.
 ug.			172800	IN	NS	anycast.eahd.or.ug.
 ug.			86400	IN	DS	2767 8 2 4278D7C4B2B45738A39F310EAC36558411BD547812517BDF23F95FCBB4796B2E
 anycast.eahd.or.ug.	172800	IN	A	204.61.216.60
-anycast.eahd.or.ug.	172800	IN	AAAA	2001:500:14:6060:ad:0:0:1
 root.eahd.or.ug.	172800	IN	A	212.88.97.132
 uk.			172800	IN	NS	nsa.nic.uk.
 uk.			172800	IN	NS	nsb.nic.uk.
