@@ -13111,8 +13111,11 @@ c0.nic.pet.		172800	IN	A	65.22.18.17
 c0.nic.pet.		172800	IN	AAAA	2a01:8840:14:0:0:0:0:17
 pf.			172800	IN	NS	ns1.mana.pf.
 pf.			172800	IN	NS	ns2.mana.pf.
+pf.			172800	IN	NS	ns03.pf.
 ns1.mana.pf.		172800	IN	A	202.3.225.10
 ns2.mana.pf.		172800	IN	A	202.3.225.20
+ns03.pf.		172800	IN	A	103.254.227.99
+ns03.pf.		172800	IN	AAAA	2402:6d00:1000:0:0:0:0:5
 pfizer.			172800	IN	NS	a.nic.pfizer.
 pfizer.			172800	IN	NS	b.nic.pfizer.
 pfizer.			172800	IN	NS	c.nic.pfizer.
