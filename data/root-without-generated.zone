@@ -1044,9 +1044,6 @@ as.			172800	IN	NS	ns2.asnic.info.
 as.			172800	IN	NS	ns3.asnic.org.
 as.			172800	IN	NS	ns4.asnic.uk.
 as.			172800	IN	NS	ns5.asnic.us.
-as.			172800	IN	NS	pch.nic.as.
-pch.nic.as.		172800	IN	A	204.61.216.111
-pch.nic.as.		172800	IN	AAAA	2001:500:14:6111:ad:0:0:1
 asda.			172800	IN	NS	a0.nic.asda.
 asda.			172800	IN	NS	a2.nic.asda.
 asda.			172800	IN	NS	b0.nic.asda.
@@ -17817,8 +17814,8 @@ us.			172800	IN	NS	w.cctld.us.
 us.			172800	IN	NS	x.cctld.us.
 us.			172800	IN	NS	y.cctld.us.
 us.			86400	IN	DS	59017 8 2 7DAF469D42B5D8E5537FD4DD4B6057710E9A61F72C32EB7FB6526F52277EC2B0
-ns5.asnic.us.		172800	IN	A	194.146.106.86
-ns5.asnic.us.		172800	IN	AAAA	2001:67c:1010:22:0:0:0:53
+ns5.asnic.us.		172800	IN	A	23.128.97.53
+ns5.asnic.us.		172800	IN	AAAA	2607:7c80:53:0:0:0:0:53
 b.cctld.us.		172800	IN	A	156.154.125.70
 b.cctld.us.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:29
 f.cctld.us.		172800	IN	A	209.173.58.70
