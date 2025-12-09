@@ -3728,6 +3728,8 @@ cloud.			172800	IN	NS	ns01.trs-dns.com.
 cloud.			172800	IN	NS	ns01.trs-dns.net.
 cloud.			172800	IN	NS	ns01.trs-dns.org.
 cloud.			172800	IN	NS	ns01.trs-dns.info.
+cloud.			172800	IN	NS	ns10.trs-dns.org.
+cloud.			172800	IN	NS	ns10.trs-dns.info.
 cloud.			86400	IN	DS	7041 13 2 03E1B41319FDD3A14E27CE35FFBA8036DA51E328165CE102AE69A6C1203F64E4
 club.			172800	IN	NS	a.nic.club.
 club.			172800	IN	NS	b.nic.club.
@@ -4244,6 +4246,8 @@ coop.			172800	IN	NS	ns01.trs-dns.com.
 coop.			172800	IN	NS	ns01.trs-dns.net.
 coop.			172800	IN	NS	ns01.trs-dns.org.
 coop.			172800	IN	NS	ns01.trs-dns.info.
+coop.			172800	IN	NS	ns10.trs-dns.org.
+coop.			172800	IN	NS	ns10.trs-dns.info.
 coop.			86400	IN	DS	39183 13 2 FD71E26868BF7F277DFA0800AA6F51E12E00C8B61841B35DAAE12CD86A34606F
 corsica.		172800	IN	NS	d.nic.fr.
 corsica.		172800	IN	NS	f.ext.nic.fr.
@@ -6036,6 +6040,8 @@ feedback.		172800	IN	NS	ns01.trs-dns.com.
 feedback.		172800	IN	NS	ns01.trs-dns.net.
 feedback.		172800	IN	NS	ns01.trs-dns.org.
 feedback.		172800	IN	NS	ns01.trs-dns.info.
+feedback.		172800	IN	NS	ns10.trs-dns.org.
+feedback.		172800	IN	NS	ns10.trs-dns.info.
 feedback.		86400	IN	DS	8710 13 2 D28054E80046B19C06009C25B451836BEBE30A7516ED8C8E51B044E0D2144B64
 ferrari.		172800	IN	NS	a0.nic.ferrari.
 ferrari.		172800	IN	NS	a2.nic.ferrari.
@@ -6549,6 +6555,8 @@ forum.			172800	IN	NS	ns01.trs-dns.com.
 forum.			172800	IN	NS	ns01.trs-dns.net.
 forum.			172800	IN	NS	ns01.trs-dns.org.
 forum.			172800	IN	NS	ns01.trs-dns.info.
+forum.			172800	IN	NS	ns10.trs-dns.org.
+forum.			172800	IN	NS	ns10.trs-dns.info.
 forum.			86400	IN	DS	48583 13 2 DE6529EC2AC6952FE38E419097C4AED7DE20B78B91C88753F70B254CCDFCD543
 foundation.		172800	IN	NS	v0n0.nic.foundation.
 foundation.		172800	IN	NS	v0n1.nic.foundation.
@@ -7104,6 +7112,8 @@ gift.			172800	IN	NS	ns01.trs-dns.com.
 gift.			172800	IN	NS	ns01.trs-dns.net.
 gift.			172800	IN	NS	ns01.trs-dns.org.
 gift.			172800	IN	NS	ns01.trs-dns.info.
+gift.			172800	IN	NS	ns10.trs-dns.org.
+gift.			172800	IN	NS	ns10.trs-dns.info.
 gift.			86400	IN	DS	45508 13 2 EEA1DC9AE9E1BD91256962BFB0D639C8DF881E8C56981B667FFFC27DAF293A6B
 gifts.			172800	IN	NS	v0n0.nic.gifts.
 gifts.			172800	IN	NS	v0n1.nic.gifts.
@@ -12677,6 +12687,8 @@ observer.		172800	IN	NS	ns01.trs-dns.com.
 observer.		172800	IN	NS	ns01.trs-dns.net.
 observer.		172800	IN	NS	ns01.trs-dns.org.
 observer.		172800	IN	NS	ns01.trs-dns.info.
+observer.		172800	IN	NS	ns10.trs-dns.org.
+observer.		172800	IN	NS	ns10.trs-dns.info.
 observer.		86400	IN	DS	15964 13 2 406B287804778738DCF0B6D94BF410455D500E7A3DCEAF8D34C5AFA86C91A6E1
 office.			172800	IN	NS	dns1.nic.microsoft.
 office.			172800	IN	NS	dns2.nic.microsoft.
@@ -13415,6 +13427,8 @@ pid.			172800	IN	NS	ns01.trs-dns.com.
 pid.			172800	IN	NS	ns01.trs-dns.net.
 pid.			172800	IN	NS	ns01.trs-dns.org.
 pid.			172800	IN	NS	ns01.trs-dns.info.
+pid.			172800	IN	NS	ns10.trs-dns.org.
+pid.			172800	IN	NS	ns10.trs-dns.info.
 pid.			86400	IN	DS	43839 13 2 A8997EC116A3E8E9BEFF3C5170352C427956DDD9E3FBAA5166108D1A61574246
 pin.			172800	IN	NS	dns1.nic.pin.
 pin.			172800	IN	NS	dns2.nic.pin.
