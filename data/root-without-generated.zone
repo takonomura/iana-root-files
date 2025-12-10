@@ -7893,6 +7893,8 @@ hiphop.			172800	IN	NS	ns01.trs-dns.com.
 hiphop.			172800	IN	NS	ns01.trs-dns.net.
 hiphop.			172800	IN	NS	ns01.trs-dns.org.
 hiphop.			172800	IN	NS	ns01.trs-dns.info.
+hiphop.			172800	IN	NS	ns10.trs-dns.org.
+hiphop.			172800	IN	NS	ns10.trs-dns.info.
 hiphop.			86400	IN	DS	7668 13 2 DE0BDE4365798B5080D31D7A5A8E7182D4924938761BFD506AF371EA5CB36AB0
 hisamitsu.		172800	IN	NS	a.gmoregistry.net.
 hisamitsu.		172800	IN	NS	b.gmoregistry.net.
