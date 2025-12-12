@@ -1515,8 +1515,6 @@ y.nic.bank.		172800	IN	A	37.209.196.10
 y.nic.bank.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:10
 bar.			172800	IN	NS	ns01.trs-dns.com.
 bar.			172800	IN	NS	ns01.trs-dns.net.
-bar.			172800	IN	NS	ns01.trs-dns.org.
-bar.			172800	IN	NS	ns01.trs-dns.info.
 bar.			172800	IN	NS	ns10.trs-dns.org.
 bar.			172800	IN	NS	ns10.trs-dns.info.
 bar.			86400	IN	DS	4459 13 2 DF5FDDB23A4CD00805CB393C9BDF90E95B8E45917A0DEA9ACA1B1009455BBDBE
@@ -2116,8 +2114,6 @@ z.nic.blackfriday.	172800	IN	A	156.154.174.82
 z.nic.blackfriday.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 blockbuster.		172800	IN	NS	ns01.trs-dns.com.
 blockbuster.		172800	IN	NS	ns01.trs-dns.net.
-blockbuster.		172800	IN	NS	ns01.trs-dns.org.
-blockbuster.		172800	IN	NS	ns01.trs-dns.info.
 blockbuster.		172800	IN	NS	ns10.trs-dns.org.
 blockbuster.		172800	IN	NS	ns10.trs-dns.info.
 blockbuster.		86400	IN	DS	43849 13 2 3377EE6D719DB727964B7F664504BCD05FED3EEDE562ABACA432CAB8B403C78A
@@ -3210,9 +3206,12 @@ cc.			172800	IN	NS	ac2.nstld.com.
 cc.			172800	IN	NS	ac3.nstld.com.
 cc.			172800	IN	NS	ac4.nstld.com.
 cc.			86400	IN	DS	519 8 2 E1EC6495ABD34562E6F433DEE201E6C6A52CB10AF69C04D675DA692D2D566897
-cd.			172800	IN	NS	ns-root-21.scpt-network.net.
-cd.			172800	IN	NS	ns-root-22.scpt-network.net.
-cd.			172800	IN	NS	ns-root-23.scpt-network.net.
+cd.			172800	IN	NS	pch.nic.cd.
+cd.			172800	IN	NS	gransy-anycast1.nic.cd.
+cd.			172800	IN	NS	gransy-anycast2.nic.cd.
+gransy-anycast1.nic.cd.	172800	IN	A	185.38.108.108
+gransy-anycast2.nic.cd.	172800	IN	A	185.28.194.194
+pch.nic.cd.		172800	IN	A	204.61.216.139
 center.			172800	IN	NS	v0n0.nic.center.
 center.			172800	IN	NS	v0n1.nic.center.
 center.			172800	IN	NS	v0n2.nic.center.
@@ -3667,8 +3666,6 @@ v2n1.nic.cleaning.	172800	IN	A	161.232.11.27
 v2n1.nic.cleaning.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:27
 click.			172800	IN	NS	ns01.trs-dns.com.
 click.			172800	IN	NS	ns01.trs-dns.net.
-click.			172800	IN	NS	ns01.trs-dns.org.
-click.			172800	IN	NS	ns01.trs-dns.info.
 click.			172800	IN	NS	ns10.trs-dns.org.
 click.			172800	IN	NS	ns10.trs-dns.info.
 click.			86400	IN	DS	65517 13 2 D09A2C14C4382634EDCCF9634FB32E91511E1E642F3C38468BA2407F1D1BAD24
@@ -4243,8 +4240,6 @@ v2n1.nic.cool.		172800	IN	A	161.232.13.38
 v2n1.nic.cool.		172800	IN	AAAA	2a01:8840:f7:0:0:0:0:38
 coop.			172800	IN	NS	ns01.trs-dns.com.
 coop.			172800	IN	NS	ns01.trs-dns.net.
-coop.			172800	IN	NS	ns01.trs-dns.org.
-coop.			172800	IN	NS	ns01.trs-dns.info.
 coop.			172800	IN	NS	ns10.trs-dns.org.
 coop.			172800	IN	NS	ns10.trs-dns.info.
 coop.			86400	IN	DS	39183 13 2 FD71E26868BF7F277DFA0800AA6F51E12E00C8B61841B35DAAE12CD86A34606F
@@ -4254,8 +4249,6 @@ corsica.		172800	IN	NS	g.ext.nic.fr.
 corsica.		86400	IN	DS	21857 13 2 238B2BC116369BACAF90B7CC71B61A9765ABA03F6855DB89CEF0788193D99E20
 country.		172800	IN	NS	ns01.trs-dns.com.
 country.		172800	IN	NS	ns01.trs-dns.net.
-country.		172800	IN	NS	ns01.trs-dns.org.
-country.		172800	IN	NS	ns01.trs-dns.info.
 country.		172800	IN	NS	ns10.trs-dns.org.
 country.		172800	IN	NS	ns10.trs-dns.info.
 country.		86400	IN	DS	28436 13 2 94DD44E372B69204CB1FE63DDD1D7A831642D96D00E9DDA589DDAA02E0922CDD
@@ -4395,8 +4388,6 @@ v2n1.nic.creditcard.	172800	IN	A	161.232.11.65
 v2n1.nic.creditcard.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:65
 creditunion.		172800	IN	NS	ns01.trs-dns.com.
 creditunion.		172800	IN	NS	ns01.trs-dns.net.
-creditunion.		172800	IN	NS	ns01.trs-dns.org.
-creditunion.		172800	IN	NS	ns01.trs-dns.info.
 creditunion.		172800	IN	NS	ns10.trs-dns.org.
 creditunion.		172800	IN	NS	ns10.trs-dns.info.
 creditunion.		86400	IN	DS	11419 13 2 2393DDF8501D382CB4A700C85ABCC974A95AAD110898B8BECC4BDBA60B5E50F1
@@ -4639,8 +4630,6 @@ v2n1.nic.dance.		172800	IN	A	161.232.13.50
 v2n1.nic.dance.		172800	IN	AAAA	2a01:8840:f7:0:0:0:0:50
 data.			172800	IN	NS	ns01.trs-dns.com.
 data.			172800	IN	NS	ns01.trs-dns.net.
-data.			172800	IN	NS	ns01.trs-dns.org.
-data.			172800	IN	NS	ns01.trs-dns.info.
 data.			172800	IN	NS	ns10.trs-dns.org.
 data.			172800	IN	NS	ns10.trs-dns.info.
 data.			86400	IN	DS	49347 13 2 124E5E70C7C999A7C6D43B72EB49EB46AD56E097984695934540894C266D8619
@@ -5111,15 +5100,11 @@ v2n1.nic.discover.	172800	IN	A	161.232.33.30
 v2n1.nic.discover.	172800	IN	AAAA	2a01:8840:109:0:0:0:0:30
 dish.			172800	IN	NS	ns01.trs-dns.com.
 dish.			172800	IN	NS	ns01.trs-dns.net.
-dish.			172800	IN	NS	ns01.trs-dns.org.
-dish.			172800	IN	NS	ns01.trs-dns.info.
 dish.			172800	IN	NS	ns10.trs-dns.org.
 dish.			172800	IN	NS	ns10.trs-dns.info.
 dish.			86400	IN	DS	30108 13 2 729CB3745B5A6B6AAA6E6863E5EDE0A100EAC7DBED77F1FE7ADAA1EA25D54881
 diy.			172800	IN	NS	ns01.trs-dns.com.
 diy.			172800	IN	NS	ns01.trs-dns.net.
-diy.			172800	IN	NS	ns01.trs-dns.org.
-diy.			172800	IN	NS	ns01.trs-dns.info.
 diy.			172800	IN	NS	ns10.trs-dns.org.
 diy.			172800	IN	NS	ns10.trs-dns.info.
 diy.			86400	IN	DS	33264 13 2 24A91796A02821F094F089FB6001BAC99B9B0BD2A8B0B89E63231DA8F2C79788
@@ -5245,8 +5230,6 @@ v2n1.nic.domains.	172800	IN	A	161.232.17.51
 v2n1.nic.domains.	172800	IN	AAAA	2a01:8840:fb:0:0:0:0:51
 dot.			172800	IN	NS	ns01.trs-dns.com.
 dot.			172800	IN	NS	ns01.trs-dns.net.
-dot.			172800	IN	NS	ns01.trs-dns.org.
-dot.			172800	IN	NS	ns01.trs-dns.info.
 dot.			172800	IN	NS	ns10.trs-dns.org.
 dot.			172800	IN	NS	ns10.trs-dns.info.
 dot.			86400	IN	DS	47731 13 2 222050CE312688D9F94201575D50D014BD06B300CAFA3B4BC2138AC3F87B2015
@@ -5277,8 +5260,6 @@ drive.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 drive.			86400	IN	DS	32974 8 2 BE68DE85AD9A87657CEB1F620FA37FEBFC725180E40117914886CCBB6947D619
 dtv.			172800	IN	NS	ns01.trs-dns.com.
 dtv.			172800	IN	NS	ns01.trs-dns.net.
-dtv.			172800	IN	NS	ns01.trs-dns.org.
-dtv.			172800	IN	NS	ns01.trs-dns.info.
 dtv.			172800	IN	NS	ns10.trs-dns.org.
 dtv.			172800	IN	NS	ns10.trs-dns.info.
 dtv.			86400	IN	DS	17516 13 2 724B9539BB438938A5DF6194C1C8A0209DA81659832290175A506C07DD6757A0
@@ -5327,8 +5308,6 @@ d.nic.dvag.		172800	IN	A	212.18.249.84
 d.nic.dvag.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:84
 dvr.			172800	IN	NS	ns01.trs-dns.com.
 dvr.			172800	IN	NS	ns01.trs-dns.net.
-dvr.			172800	IN	NS	ns01.trs-dns.org.
-dvr.			172800	IN	NS	ns01.trs-dns.info.
 dvr.			172800	IN	NS	ns10.trs-dns.org.
 dvr.			172800	IN	NS	ns10.trs-dns.info.
 dvr.			86400	IN	DS	3820 13 2 85996930C5CE0DD657480B6B03EBA1B9D5D0BB4BB03A13F1DB0BB3D447477EF2
@@ -6469,8 +6448,6 @@ foo.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 foo.			86400	IN	DS	59840 8 2 CF97E293D4692C8085D5254B04C77780D1A217A692D5D0EEEFC7A8E282614F1C
 food.			172800	IN	NS	ns01.trs-dns.com.
 food.			172800	IN	NS	ns01.trs-dns.net.
-food.			172800	IN	NS	ns01.trs-dns.org.
-food.			172800	IN	NS	ns01.trs-dns.info.
 food.			172800	IN	NS	ns10.trs-dns.org.
 food.			172800	IN	NS	ns10.trs-dns.info.
 food.			86400	IN	DS	29023 13 2 5CFBA2BAAA02242B1A9B83677493F4205A70F202A7AE2AFCED9F907AF47B0EA1
@@ -7109,8 +7086,6 @@ gi.			172800	IN	NS	d0.cctld.afilias-nst.org.
 gi.			86400	IN	DS	33934 8 2 3DB5809DE2E1052B00E010F54B404BD59CB5CBA0C8306E1799623BDA45A1CFB7
 gift.			172800	IN	NS	ns01.trs-dns.com.
 gift.			172800	IN	NS	ns01.trs-dns.net.
-gift.			172800	IN	NS	ns01.trs-dns.org.
-gift.			172800	IN	NS	ns01.trs-dns.info.
 gift.			172800	IN	NS	ns10.trs-dns.org.
 gift.			172800	IN	NS	ns10.trs-dns.info.
 gift.			86400	IN	DS	45508 13 2 EEA1DC9AE9E1BD91256962BFB0D639C8DF881E8C56981B667FFFC27DAF293A6B
@@ -7907,8 +7882,6 @@ hitachi.		172800	IN	NS	l.gmoregistry.net.
 hitachi.		86400	IN	DS	14525 8 2 03EA91AC19AEB9FFA37874A5F0F27F2A04C6EEAE162FD7D9C87F083447D31E5F
 hiv.			172800	IN	NS	ns01.trs-dns.com.
 hiv.			172800	IN	NS	ns01.trs-dns.net.
-hiv.			172800	IN	NS	ns01.trs-dns.org.
-hiv.			172800	IN	NS	ns01.trs-dns.info.
 hiv.			172800	IN	NS	ns10.trs-dns.org.
 hiv.			172800	IN	NS	ns10.trs-dns.info.
 hiv.			86400	IN	DS	50937 13 2 139053A1DD36C05B171D5ADB695CEDCD3DB6EEA7B7A2B0700AADC4C8712B1344
@@ -8969,6 +8942,7 @@ it.			172800	IN	NS	v.dns.it.
 it.			172800	IN	NS	dns.nic.it.
 it.			172800	IN	NS	nameserver.cnr.it.
 it.			86400	IN	DS	41901 10 2 47F7F7BA21E48591F6172EED13E35B66B93AD9F2880FC9BADA64F68CE28EBB90
+it.			86400	IN	DS	51765 13 2 70A144E792F06E6B363BBFD66B6EFB6A45668810CAAE4A0EDA7D18D6529A9C6E
 nameserver.cnr.it.	172800	IN	A	194.119.192.34
 nameserver.cnr.it.	172800	IN	AAAA	2a00:1620:c0:220:194:119:192:34
 a.dns.it.		172800	IN	A	194.0.16.215
@@ -9837,8 +9811,6 @@ d.nic.lat.		172800	IN	A	212.18.249.156
 d.nic.lat.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:156
 latino.			172800	IN	NS	ns01.trs-dns.com.
 latino.			172800	IN	NS	ns01.trs-dns.net.
-latino.			172800	IN	NS	ns01.trs-dns.org.
-latino.			172800	IN	NS	ns01.trs-dns.info.
 latino.			172800	IN	NS	ns10.trs-dns.org.
 latino.			172800	IN	NS	ns10.trs-dns.info.
 latino.			86400	IN	DS	33323 13 2 A93FBF8BD33A6F3BC0E80BE68D72C104BFB5BE3B2601765F7AA95B847A191F8F
@@ -10109,8 +10081,6 @@ ns3.dns.nic.lifeinsurance.	172800	IN	A	156.154.159.102
 ns3.dns.nic.lifeinsurance.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:66
 lifestyle.		172800	IN	NS	ns01.trs-dns.com.
 lifestyle.		172800	IN	NS	ns01.trs-dns.net.
-lifestyle.		172800	IN	NS	ns01.trs-dns.org.
-lifestyle.		172800	IN	NS	ns01.trs-dns.info.
 lifestyle.		172800	IN	NS	ns10.trs-dns.org.
 lifestyle.		172800	IN	NS	ns10.trs-dns.info.
 lifestyle.		86400	IN	DS	49384 13 2 2FF50C386C9DE4489845F15C9269CD0757699B8E021CCBD0826312CDB18B2808
@@ -10262,8 +10232,6 @@ v2n1.nic.live.		172800	IN	A	161.232.11.1
 v2n1.nic.live.		172800	IN	AAAA	2a01:8840:f5:0:0:0:0:1
 living.			172800	IN	NS	ns01.trs-dns.com.
 living.			172800	IN	NS	ns01.trs-dns.net.
-living.			172800	IN	NS	ns01.trs-dns.org.
-living.			172800	IN	NS	ns01.trs-dns.info.
 living.			172800	IN	NS	ns10.trs-dns.org.
 living.			172800	IN	NS	ns10.trs-dns.info.
 living.			86400	IN	DS	5373 13 2 8AEFBB2D3A5149B5D4A165973063D733D3D18505BF6FFEEB3D319C6AC0F45A94
@@ -10439,8 +10407,6 @@ c0.nic.lotto.		172800	IN	A	65.22.30.25
 c0.nic.lotto.		172800	IN	AAAA	2a01:8840:20:0:0:0:0:25
 love.			172800	IN	NS	ns01.trs-dns.com.
 love.			172800	IN	NS	ns01.trs-dns.net.
-love.			172800	IN	NS	ns01.trs-dns.org.
-love.			172800	IN	NS	ns01.trs-dns.info.
 love.			172800	IN	NS	ns10.trs-dns.org.
 love.			172800	IN	NS	ns10.trs-dns.info.
 love.			86400	IN	DS	27205 13 2 099BAACEF86A52379CDC0F6756D1EADAA7963FF5C3A16CFE32340B109580B84B
@@ -11300,8 +11266,6 @@ mobi.			172800	IN	NS	d0.mobi.afilias-nst.org.
 mobi.			86400	IN	DS	56191 8 2 016C0D8022BEF2CABB827CE75DABD8FD24CD0160AC277A95ECD5E79B1A95592C
 mobile.			172800	IN	NS	ns01.trs-dns.com.
 mobile.			172800	IN	NS	ns01.trs-dns.net.
-mobile.			172800	IN	NS	ns01.trs-dns.org.
-mobile.			172800	IN	NS	ns01.trs-dns.info.
 mobile.			172800	IN	NS	ns10.trs-dns.org.
 mobile.			172800	IN	NS	ns10.trs-dns.info.
 mobile.			86400	IN	DS	14547 13 2 D413196F0DA2B7D77C5399821C018552366F012336C3AFF5D58ECEC2B4377002
@@ -11645,8 +11609,6 @@ museum.			172800	IN	NS	g.ext.nic.fr.
 museum.			86400	IN	DS	21025 13 2 9149A23C9151E0812505DF827E0AAA504A43B830A58100512E976EEAAF0FA8CF
 music.			172800	IN	NS	ns01.trs-dns.com.
 music.			172800	IN	NS	ns01.trs-dns.net.
-music.			172800	IN	NS	ns01.trs-dns.org.
-music.			172800	IN	NS	ns01.trs-dns.info.
 music.			172800	IN	NS	ns10.trs-dns.org.
 music.			172800	IN	NS	ns10.trs-dns.info.
 music.			86400	IN	DS	14632 13 2 68F411322E670C84337B2182422AF6E8F95C367C24E79CD4326B2276F52F4603
@@ -12145,9 +12107,6 @@ l.root-servers.net.	518400	IN	A	199.7.83.42
 l.root-servers.net.	518400	IN	AAAA	2001:500:9f:0:0:0:0:42
 m.root-servers.net.	518400	IN	A	202.12.27.33
 m.root-servers.net.	518400	IN	AAAA	2001:dc3:0:0:0:0:0:35
-ns-root-21.scpt-network.net.	172800	IN	A	102.68.62.15
-ns-root-22.scpt-network.net.	172800	IN	A	102.68.60.15
-ns-root-23.scpt-network.net.	172800	IN	A	161.97.87.130
 ns.thnic.net.		172800	IN	A	202.28.0.1
 ns01.trs-dns.net.	172800	IN	A	64.96.2.1
 ns01.trs-dns.net.	172800	IN	AAAA	2620:57:4002:0:0:0:0:1
@@ -12746,8 +12705,6 @@ z.nic.olayangroup.	172800	IN	A	156.154.174.82
 z.nic.olayangroup.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 ollo.			172800	IN	NS	ns01.trs-dns.com.
 ollo.			172800	IN	NS	ns01.trs-dns.net.
-ollo.			172800	IN	NS	ns01.trs-dns.org.
-ollo.			172800	IN	NS	ns01.trs-dns.info.
 ollo.			172800	IN	NS	ns10.trs-dns.org.
 ollo.			172800	IN	NS	ns10.trs-dns.info.
 ollo.			86400	IN	DS	47690 13 2 679092419CE976B9AAF2BA0675E0871B676C6D1FB0B1F4380F1727DBC369F3F4
@@ -13035,8 +12992,6 @@ otsuka.			172800	IN	NS	l.gmoregistry.net.
 otsuka.			86400	IN	DS	1147 8 2 99FA7BA5260C1C400FC5D65616FD3D796A6AB5AEA557314CAB10392DE8FC90B3
 ott.			172800	IN	NS	ns01.trs-dns.com.
 ott.			172800	IN	NS	ns01.trs-dns.net.
-ott.			172800	IN	NS	ns01.trs-dns.org.
-ott.			172800	IN	NS	ns01.trs-dns.info.
 ott.			172800	IN	NS	ns10.trs-dns.org.
 ott.			172800	IN	NS	ns10.trs-dns.info.
 ott.			86400	IN	DS	44759 13 2 8498F467BEA6CA4E2DA164CD6243D354129BBC51912A0634FAE05004618E7823
@@ -13292,8 +13247,6 @@ z.nic.philips.		172800	IN	A	156.154.174.82
 z.nic.philips.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 phone.			172800	IN	NS	ns01.trs-dns.com.
 phone.			172800	IN	NS	ns01.trs-dns.net.
-phone.			172800	IN	NS	ns01.trs-dns.org.
-phone.			172800	IN	NS	ns01.trs-dns.info.
 phone.			172800	IN	NS	ns10.trs-dns.org.
 phone.			172800	IN	NS	ns10.trs-dns.info.
 phone.			86400	IN	DS	62477 13 2 1C61D7A336D5345E623DCCFF81EF2FD0C2B7F2906606CCAD499CB9FF3D827CC2
@@ -13903,8 +13856,6 @@ v2n1.nic.properties.	172800	IN	A	161.232.11.46
 v2n1.nic.properties.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:46
 property.		172800	IN	NS	ns01.trs-dns.com.
 property.		172800	IN	NS	ns01.trs-dns.net.
-property.		172800	IN	NS	ns01.trs-dns.org.
-property.		172800	IN	NS	ns01.trs-dns.info.
 property.		172800	IN	NS	ns10.trs-dns.org.
 property.		172800	IN	NS	ns10.trs-dns.info.
 property.		86400	IN	DS	33049 13 2 6DFF521D658293FD458E615DEBB6CA0C76341775F72F340BCD3960851B4C536F
@@ -14225,8 +14176,6 @@ dnsd.nic.realtor.	172800	IN	A	156.154.103.3
 dnsd.nic.realtor.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 realty.			172800	IN	NS	ns01.trs-dns.com.
 realty.			172800	IN	NS	ns01.trs-dns.net.
-realty.			172800	IN	NS	ns01.trs-dns.org.
-realty.			172800	IN	NS	ns01.trs-dns.info.
 realty.			172800	IN	NS	ns10.trs-dns.org.
 realty.			172800	IN	NS	ns10.trs-dns.info.
 realty.			86400	IN	DS	12180 13 2 A7C0A9BBAD77A51BE0E829AFBFC839AA15AD00945BBC03E3ED719D0710023957
@@ -14460,8 +14409,6 @@ v2n1.nic.republican.	172800	IN	A	161.232.11.32
 v2n1.nic.republican.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:32
 rest.			172800	IN	NS	ns01.trs-dns.com.
 rest.			172800	IN	NS	ns01.trs-dns.net.
-rest.			172800	IN	NS	ns01.trs-dns.org.
-rest.			172800	IN	NS	ns01.trs-dns.info.
 rest.			172800	IN	NS	ns10.trs-dns.org.
 rest.			172800	IN	NS	ns10.trs-dns.info.
 rest.			86400	IN	DS	50905 13 2 A417BF8770704C9FE539AACD4C60D0D1F06B64E6367BA2130AF2B60C96508ADF
@@ -15531,8 +15478,6 @@ z.nic.sex.		172800	IN	A	156.154.174.82
 z.nic.sex.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
 sexy.			172800	IN	NS	ns01.trs-dns.com.
 sexy.			172800	IN	NS	ns01.trs-dns.net.
-sexy.			172800	IN	NS	ns01.trs-dns.org.
-sexy.			172800	IN	NS	ns01.trs-dns.info.
 sexy.			172800	IN	NS	ns10.trs-dns.org.
 sexy.			172800	IN	NS	ns10.trs-dns.info.
 sexy.			86400	IN	DS	42010 13 2 A0E135AC7E6FFB2CAD1574C08C837BB5D5A4E34C60356498389E69B55943D58C
@@ -15897,8 +15842,6 @@ sl.			172800	IN	NS	ns1.neoip.com.
 sl.			172800	IN	NS	ns2.neoip.com.
 sling.			172800	IN	NS	ns01.trs-dns.com.
 sling.			172800	IN	NS	ns01.trs-dns.net.
-sling.			172800	IN	NS	ns01.trs-dns.org.
-sling.			172800	IN	NS	ns01.trs-dns.info.
 sling.			172800	IN	NS	ns10.trs-dns.org.
 sling.			172800	IN	NS	ns10.trs-dns.info.
 sling.			86400	IN	DS	61126 13 2 F233AC2C14400B3CF810C8765A6D20583DC9C883DAE645E90B394FD44354F268
@@ -17540,8 +17483,6 @@ c0.nic.travelersinsurance.	172800	IN	A	65.22.202.17
 c0.nic.travelersinsurance.	172800	IN	AAAA	2a01:8840:c4:0:0:0:0:17
 trust.			172800	IN	NS	ns01.trs-dns.com.
 trust.			172800	IN	NS	ns01.trs-dns.net.
-trust.			172800	IN	NS	ns01.trs-dns.org.
-trust.			172800	IN	NS	ns01.trs-dns.info.
 trust.			172800	IN	NS	ns10.trs-dns.org.
 trust.			172800	IN	NS	ns10.trs-dns.info.
 trust.			86400	IN	DS	33872 13 2 D324A81281464251E04686F4E75D2978B119496FE596012A89647FF6AF0EEFC3
@@ -17980,8 +17921,6 @@ v2n1.nic.vacations.	172800	IN	A	161.232.11.58
 v2n1.nic.vacations.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:58
 vana.			172800	IN	NS	ns01.trs-dns.com.
 vana.			172800	IN	NS	ns01.trs-dns.net.
-vana.			172800	IN	NS	ns01.trs-dns.org.
-vana.			172800	IN	NS	ns01.trs-dns.info.
 vana.			172800	IN	NS	ns10.trs-dns.org.
 vana.			172800	IN	NS	ns10.trs-dns.info.
 vana.			86400	IN	DS	54748 13 2 0B9756A259636EB994A12D49A21D3B6BE0AD2E5CCB3462478284F6B27A02290B
@@ -18326,6 +18265,7 @@ vlaanderen.		172800	IN	NS	d.nsset.vlaanderen.
 vlaanderen.		172800	IN	NS	y.nsset.vlaanderen.
 vlaanderen.		172800	IN	NS	z.nsset.vlaanderen.
 vlaanderen.		86400	IN	DS	9286 8 2 F04E1190A18D3E63B8FD5261768EF06F8FA5F27F80F39C54AA81753B203E05E7
+vlaanderen.		86400	IN	DS	56582 13 2 92204FD4A032A675E9011C0340B3D49AC5D25361D0E25A5DC174B2C261415D3A
 a.nsset.vlaanderen.	172800	IN	A	194.0.6.1
 a.nsset.vlaanderen.	172800	IN	AAAA	2001:678:9:0:0:0:0:1
 b.nsset.vlaanderen.	172800	IN	A	194.0.37.1
@@ -20610,8 +20550,6 @@ dnsd.nic.yamaxun.	172800	IN	A	156.154.103.3
 dnsd.nic.yamaxun.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 yandex.			172800	IN	NS	ns01.trs-dns.com.
 yandex.			172800	IN	NS	ns01.trs-dns.net.
-yandex.			172800	IN	NS	ns01.trs-dns.org.
-yandex.			172800	IN	NS	ns01.trs-dns.info.
 yandex.			172800	IN	NS	ns10.trs-dns.org.
 yandex.			172800	IN	NS	ns10.trs-dns.info.
 yandex.			86400	IN	DS	50324 13 2 3F25B6EAF2B08861672673779CB294CE5154337B250DA78FB9ED949A997C38DF
