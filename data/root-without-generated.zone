@@ -3721,8 +3721,6 @@ v2n1.nic.clothing.	172800	IN	A	161.232.13.13
 v2n1.nic.clothing.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:13
 cloud.			172800	IN	NS	ns01.trs-dns.com.
 cloud.			172800	IN	NS	ns01.trs-dns.net.
-cloud.			172800	IN	NS	ns01.trs-dns.org.
-cloud.			172800	IN	NS	ns01.trs-dns.info.
 cloud.			172800	IN	NS	ns10.trs-dns.org.
 cloud.			172800	IN	NS	ns10.trs-dns.info.
 cloud.			86400	IN	DS	7041 13 2 03E1B41319FDD3A14E27CE35FFBA8036DA51E328165CE102AE69A6C1203F64E4
@@ -6015,8 +6013,6 @@ c0.nic.fedex.		172800	IN	A	65.22.230.33
 c0.nic.fedex.		172800	IN	AAAA	2a01:8840:e0:0:0:0:0:33
 feedback.		172800	IN	NS	ns01.trs-dns.com.
 feedback.		172800	IN	NS	ns01.trs-dns.net.
-feedback.		172800	IN	NS	ns01.trs-dns.org.
-feedback.		172800	IN	NS	ns01.trs-dns.info.
 feedback.		172800	IN	NS	ns10.trs-dns.org.
 feedback.		172800	IN	NS	ns10.trs-dns.info.
 feedback.		86400	IN	DS	8710 13 2 D28054E80046B19C06009C25B451836BEBE30A7516ED8C8E51B044E0D2144B64
@@ -6528,8 +6524,6 @@ v2n1.nic.forsale.	172800	IN	A	161.232.17.53
 v2n1.nic.forsale.	172800	IN	AAAA	2a01:8840:fb:0:0:0:0:53
 forum.			172800	IN	NS	ns01.trs-dns.com.
 forum.			172800	IN	NS	ns01.trs-dns.net.
-forum.			172800	IN	NS	ns01.trs-dns.org.
-forum.			172800	IN	NS	ns01.trs-dns.info.
 forum.			172800	IN	NS	ns10.trs-dns.org.
 forum.			172800	IN	NS	ns10.trs-dns.info.
 forum.			86400	IN	DS	48583 13 2 DE6529EC2AC6952FE38E419097C4AED7DE20B78B91C88753F70B254CCDFCD543
@@ -12638,8 +12632,6 @@ c0.nic.obi.		172800	IN	A	65.22.114.17
 c0.nic.obi.		172800	IN	AAAA	2a01:8840:70:0:0:0:0:17
 observer.		172800	IN	NS	ns01.trs-dns.com.
 observer.		172800	IN	NS	ns01.trs-dns.net.
-observer.		172800	IN	NS	ns01.trs-dns.org.
-observer.		172800	IN	NS	ns01.trs-dns.info.
 observer.		172800	IN	NS	ns10.trs-dns.org.
 observer.		172800	IN	NS	ns10.trs-dns.info.
 observer.		86400	IN	DS	15964 13 2 406B287804778738DCF0B6D94BF410455D500E7A3DCEAF8D34C5AFA86C91A6E1
@@ -13372,8 +13364,6 @@ v2n1.nic.pictures.	172800	IN	A	161.232.11.16
 v2n1.nic.pictures.	172800	IN	AAAA	2a01:8840:f5:0:0:0:0:16
 pid.			172800	IN	NS	ns01.trs-dns.com.
 pid.			172800	IN	NS	ns01.trs-dns.net.
-pid.			172800	IN	NS	ns01.trs-dns.org.
-pid.			172800	IN	NS	ns01.trs-dns.info.
 pid.			172800	IN	NS	ns10.trs-dns.org.
 pid.			172800	IN	NS	ns10.trs-dns.info.
 pid.			86400	IN	DS	43839 13 2 A8997EC116A3E8E9BEFF3C5170352C427956DDD9E3FBAA5166108D1A61574246
