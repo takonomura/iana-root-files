@@ -8648,8 +8648,6 @@ c0.pro.afilias-nst.info.	172800	IN	A	199.182.16.1
 c0.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:d0:0:0:0:0:1
 ns2.asnic.info.		172800	IN	A	103.49.83.254
 ns2.asnic.info.		172800	IN	AAAA	2401:fd80:403:0:0:0:0:254
-ns01.trs-dns.info.	172800	IN	A	185.159.198.3
-ns01.trs-dns.info.	172800	IN	AAAA	2620:10a:80ab:0:0:0:0:3
 ns10.trs-dns.info.	172800	IN	A	64.78.204.1
 ns10.trs-dns.info.	172800	IN	AAAA	2620:171:812:1534:8:0:0:1
 ing.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
@@ -9657,8 +9655,6 @@ pch.nic.kw.		172800	IN	A	204.61.216.118
 pch.nic.kw.		172800	IN	AAAA	2001:500:14:6118:ad:0:0:1
 ky.			172800	IN	NS	ns01.trs-dns.com.
 ky.			172800	IN	NS	ns01.trs-dns.net.
-ky.			172800	IN	NS	ns01.trs-dns.org.
-ky.			172800	IN	NS	ns01.trs-dns.info.
 ky.			172800	IN	NS	ns10.trs-dns.org.
 ky.			172800	IN	NS	ns10.trs-dns.info.
 ky.			86400	IN	DS	38821 13 2 7FC55D2CABBA85A2CA6831ACA0565A64D7AD91E4861B114F317392B680DC6CBC
@@ -12049,7 +12045,7 @@ sm.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:110
 sn.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.111
 sn.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:111
 sy.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.113
-sy.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:113
+sy.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:113
 sz.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.114
 sz.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:114
 tj.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.117
@@ -12920,8 +12916,6 @@ ns.icann.org.		172800	IN	A	199.4.138.53
 ns.icann.org.		172800	IN	AAAA	2001:500:89:0:0:0:0:53
 a.lactld.org.		172800	IN	A	200.0.68.10
 a.lactld.org.		172800	IN	AAAA	2801:14:a000:0:0:0:0:10
-ns01.trs-dns.org.	172800	IN	A	185.159.197.3
-ns01.trs-dns.org.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:3
 ns10.trs-dns.org.	172800	IN	A	64.78.205.1
 ns10.trs-dns.org.	172800	IN	AAAA	2620:171:813:1534:8:0:0:1
 organic.		172800	IN	NS	a0.nic.organic.
