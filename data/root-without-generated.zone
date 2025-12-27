@@ -11595,11 +11595,19 @@ music.			172800	IN	NS	ns01.trs-dns.net.
 music.			172800	IN	NS	ns10.trs-dns.org.
 music.			172800	IN	NS	ns10.trs-dns.info.
 music.			86400	IN	DS	14632 13 2 68F411322E670C84337B2182422AF6E8F95C367C24E79CD4326B2276F52F4603
+mv.			172800	IN	NS	ns.mv.
 mv.			172800	IN	NS	ns.dhivehinet.net.mv.
 mv.			172800	IN	NS	ns2.dhivehinet.net.mv.
+mv.			172800	IN	NS	boli.ns.mv.
 mv.			172800	IN	NS	mv-ns.anycast.pch.net.
+mv.			172800	IN	NS	sangu.ns.mv.
 ns.dhivehinet.net.mv.	172800	IN	A	202.1.192.196
 ns2.dhivehinet.net.mv.	172800	IN	A	202.1.201.201
+ns.mv.			172800	IN	A	202.1.192.196
+boli.ns.mv.		172800	IN	A	103.31.84.199
+boli.ns.mv.		172800	IN	AAAA	2406:e400:a:1:0:0:0:1
+sangu.ns.mv.		172800	IN	A	27.114.188.1
+sangu.ns.mv.		172800	IN	AAAA	2406:e400:1:1:0:0:0:1
 mw.			172800	IN	NS	mw.cctld.authdns.ripe.net.
 mw.			172800	IN	NS	ns4.apnic.net.
 mw.			172800	IN	NS	rip.psg.com.
@@ -11987,6 +11995,7 @@ ls-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6028:ad:0:0:1
 ms-ns.anycast.pch.net.	172800	IN	A	204.61.216.33
 ms-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6033:ad:0:0:1
 mv-ns.anycast.pch.net.	172800	IN	A	204.61.216.24
+mv-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6024:ad:0:0:1
 na-ns.anycast.pch.net.	172800	IN	A	204.61.216.35
 na-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6035:ad:0:0:1
 xn--node.ns.anycast.pch.net.	172800	IN	A	204.61.216.88
