@@ -1751,6 +1751,7 @@ be.			172800	IN	NS	c.nsset.be.
 be.			172800	IN	NS	d.nsset.be.
 be.			172800	IN	NS	y.nsset.be.
 be.			172800	IN	NS	z.nsset.be.
+be.			86400	IN	DS	45588 13 2 687575C3F0FA4570BE3AC23AF40FFAFC5E28A8DE69DE855A2DB1FB9B4D277319
 be.			86400	IN	DS	52756 8 2 5485AC33DD7C7ED237EA2A4BD269731C816960FE181042024484B5CECA6ECC9F
 a.nsset.be.		172800	IN	A	194.0.6.1
 a.nsset.be.		172800	IN	AAAA	2001:678:9:0:0:0:0:1
@@ -10420,6 +10421,7 @@ c.nic.lplfinancial.	172800	IN	A	212.18.248.93
 c.nic.lplfinancial.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:93
 d.nic.lplfinancial.	172800	IN	A	212.18.249.93
 d.nic.lplfinancial.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:93
+lr.			172800	IN	NS	ns1.rg.net.
 lr.			172800	IN	NS	rip.psg.com.
 lr.			172800	IN	NS	fork.sth.dnsnode.net.
 lr.			172800	IN	NS	ns-lr.afrinic.net.
@@ -12017,6 +12019,8 @@ ns15.rcode0.net.	172800	IN	A	194.0.25.15
 ns15.rcode0.net.	172800	IN	AAAA	2001:678:20:0:0:0:0:15
 ns31.rcode0.net.	172800	IN	A	194.0.25.31
 ns31.rcode0.net.	172800	IN	AAAA	2001:678:20:0:0:0:0:31
+ns1.rg.net.		172800	IN	A	46.224.94.61
+ns1.rg.net.		172800	IN	AAAA	2a01:4f8:1c1a:5360:0:0:0:1
 bi.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.62
 bi.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:62
 cu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.70
