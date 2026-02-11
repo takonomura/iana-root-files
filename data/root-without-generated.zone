@@ -12805,6 +12805,10 @@ online.			172800	IN	NS	a.nic.online.
 online.			172800	IN	NS	b.nic.online.
 online.			172800	IN	NS	e.nic.online.
 online.			172800	IN	NS	f.nic.online.
+online.			172800	IN	NS	ns01.trs-dns.com.
+online.			172800	IN	NS	ns01.trs-dns.net.
+online.			172800	IN	NS	ns10.trs-dns.org.
+online.			172800	IN	NS	ns10.trs-dns.info.
 online.			86400	IN	DS	19282 8 2 2706A216BD382A5823C746CE685CBC84CA12A9C227E47792ABD990FA7885DBB0
 online.			86400	IN	DS	65176 8 2 A7AE5FD8BCA808EDB6906AD3BB9AB506326907F1C41FA8404453E8C843F266EE
 a.nic.online.		172800	IN	A	194.169.218.54
@@ -13494,9 +13498,9 @@ pk.			172800	IN	NS	root-e.pknic.pk.
 pk.			172800	IN	NS	root-s.pknic.pk.
 pk.			172800	IN	NS	root-c1.pknic.pk.
 pk.			172800	IN	NS	root-c2.pknic.pk.
-ns.ntc.net.pk.		172800	IN	A	202.83.164.166
-ns1.ntc.net.pk.		172800	IN	A	202.83.164.167
-ns2.ntc.net.pk.		172800	IN	A	175.107.198.150
+ns1.ntc.org.pk.		172800	IN	A	43.250.84.53
+ns2.ntc.org.pk.		172800	IN	A	43.250.84.54
+ns3.ntc.org.pk.		172800	IN	A	36.50.76.15
 root-c1.pknic.pk.	172800	IN	A	185.159.197.160
 root-c1.pknic.pk.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:160
 root-c2.pknic.pk.	172800	IN	A	185.159.198.160
@@ -15741,6 +15745,10 @@ site.			172800	IN	NS	a.nic.site.
 site.			172800	IN	NS	b.nic.site.
 site.			172800	IN	NS	e.nic.site.
 site.			172800	IN	NS	f.nic.site.
+site.			172800	IN	NS	ns01.trs-dns.com.
+site.			172800	IN	NS	ns01.trs-dns.net.
+site.			172800	IN	NS	ns10.trs-dns.org.
+site.			172800	IN	NS	ns10.trs-dns.info.
 site.			86400	IN	DS	4241 8 2 B2F9F1BAAA93793437D7F16065A2075BBA7794160C1FEE25A7BB5A34164EC7D5
 site.			86400	IN	DS	51974 8 2 A06DC47457CC1185CF1B3A7CF6ECCB84978DE92939DD182BEED9521509D0DA7B
 a.nic.site.		172800	IN	A	194.169.218.61
@@ -16086,6 +16094,10 @@ space.			172800	IN	NS	a.nic.space.
 space.			172800	IN	NS	b.nic.space.
 space.			172800	IN	NS	e.nic.space.
 space.			172800	IN	NS	f.nic.space.
+space.			172800	IN	NS	ns01.trs-dns.com.
+space.			172800	IN	NS	ns01.trs-dns.net.
+space.			172800	IN	NS	ns10.trs-dns.org.
+space.			172800	IN	NS	ns10.trs-dns.info.
 space.			86400	IN	DS	33010 8 2 53E37640A028FA26A4ED6306AA07C506BF037FC414AF9CAF0E41ADFFF87CCB72
 space.			86400	IN	DS	63881 8 2 85EE1264739A00FB6139712C3D7227721D99654226B0140F14A3E3D1A63B315F
 a.nic.space.		172800	IN	A	194.169.218.51
@@ -17816,6 +17828,10 @@ uno.			172800	IN	NS	a.nic.uno.
 uno.			172800	IN	NS	b.nic.uno.
 uno.			172800	IN	NS	c.nic.uno.
 uno.			172800	IN	NS	d.nic.uno.
+uno.			172800	IN	NS	ns01.trs-dns.com.
+uno.			172800	IN	NS	ns01.trs-dns.net.
+uno.			172800	IN	NS	ns10.trs-dns.org.
+uno.			172800	IN	NS	ns10.trs-dns.info.
 uno.			86400	IN	DS	7286 8 2 D85EED6E94D62F2D9C4D8FF199A5CB355AD0E3B56BF845264AA9F38BFC6450B5
 uno.			86400	IN	DS	56080 8 2 73E7B1013FD902486A7942F93000536E49B6EA7C53BCAADBD2ACFF557B44A552
 a.nic.uno.		172800	IN	A	194.169.218.21
@@ -19955,11 +19971,10 @@ xn--mgbah1a3hjkrd.	172800	IN	NS	ns3.nic.mr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.nic.fr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.afrinic.net.
 xn--mgbah1a3hjkrd.	86400	IN	DS	19030 8 2 9C1324BBE5B1726510CA3EA47E2D42F7E6C6A09BAF424AC344F32DE5488AE5A9
-xn--mgbai9azgqp6j.	172800	IN	NS	ns.ntc.net.pk.
-xn--mgbai9azgqp6j.	172800	IN	NS	ns1.ntc.net.pk.
-xn--mgbai9azgqp6j.	172800	IN	NS	ns2.ntc.net.pk.
-xn--mgbai9azgqp6j.	86400	IN	DS	21720 7 1 9FC6318AA15A43B4CF11D3F64CD678935E40402F
-xn--mgbai9azgqp6j.	86400	IN	DS	21720 7 2 BB7D853DFDFD7A39574CE1B5D3009E5C813264E614430C1B29C894C090393DD1
+xn--mgbai9azgqp6j.	172800	IN	NS	ns1.ntc.org.pk.
+xn--mgbai9azgqp6j.	172800	IN	NS	ns2.ntc.org.pk.
+xn--mgbai9azgqp6j.	172800	IN	NS	ns3.ntc.org.pk.
+xn--mgbai9azgqp6j.	86400	IN	DS	23595 13 2 E46D0E529C6F1A41EC7DE4A184C062FFB2847D49618192FECB8D348818E576C6
 xn--mgbayh7gpa.		172800	IN	NS	a.cctld-servers.net.jo.
 xn--mgbayh7gpa.		172800	IN	NS	b.cctld-servers.net.jo.
 xn--mgbayh7gpa.		172800	IN	NS	c.cctld-servers.net.jo.
