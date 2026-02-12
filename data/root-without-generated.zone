@@ -6713,6 +6713,10 @@ fun.			172800	IN	NS	a.nic.fun.
 fun.			172800	IN	NS	b.nic.fun.
 fun.			172800	IN	NS	e.nic.fun.
 fun.			172800	IN	NS	f.nic.fun.
+fun.			172800	IN	NS	ns01.trs-dns.com.
+fun.			172800	IN	NS	ns01.trs-dns.net.
+fun.			172800	IN	NS	ns10.trs-dns.org.
+fun.			172800	IN	NS	ns10.trs-dns.info.
 fun.			86400	IN	DS	19375 8 2 191EF18CD05C7AF81D71C222E6BD5B657848E2C78C8087E4EA11DBB0BF791C33
 fun.			86400	IN	DS	45055 8 2 5E45D3230400B1E80E5E2011E4D03E969FA89254B8A2A483D6F366B17357F957
 a.nic.fun.		172800	IN	A	194.169.218.72
@@ -8096,6 +8100,10 @@ host.			172800	IN	NS	a.nic.host.
 host.			172800	IN	NS	b.nic.host.
 host.			172800	IN	NS	e.nic.host.
 host.			172800	IN	NS	f.nic.host.
+host.			172800	IN	NS	ns01.trs-dns.com.
+host.			172800	IN	NS	ns01.trs-dns.net.
+host.			172800	IN	NS	ns10.trs-dns.org.
+host.			172800	IN	NS	ns10.trs-dns.info.
 host.			86400	IN	DS	1897 8 2 726C3C1BAF1BA9853660E4D34270D42D1E8C50EC79A1843C7CB14FA1DC8F38F8
 host.			86400	IN	DS	54521 8 2 B01AC945154CA99256587FD429EA4160FCD531633A1C9BFDCB04C7F1A297200A
 a.nic.host.		172800	IN	A	194.169.218.53
@@ -11645,13 +11653,11 @@ my.			172800	IN	NS	a.mynic.centralnic-dns.com.
 my.			172800	IN	NS	b.mynic.centralnic-dns.com.
 my.			172800	IN	NS	c.mynic.centralnic-dns.com.
 my.			172800	IN	NS	d.mynic.centralnic-dns.com.
-my.			172800	IN	NS	a1.nic.my.
 my.			172800	IN	NS	ns01.trs-dns.com.
 my.			172800	IN	NS	ns01.trs-dns.net.
 my.			86400	IN	DS	47187 13 2 8B70CF4C48233D0624556523EA52C524F157800B97445C6A62A8C078337567AE
 a.nic.my.		172800	IN	A	103.44.108.53
 a.nic.my.		172800	IN	AAAA	2001:ddc:0:53:0:0:0:53
-a1.nic.my.		172800	IN	A	202.171.47.204
 mz.			172800	IN	NS	anyns.uem.mz.
 mz.			172800	IN	NS	dzowo.uem.mz.
 mz.			172800	IN	NS	ns-mz.afrinic.net.
@@ -13742,6 +13748,10 @@ press.			172800	IN	NS	a.nic.press.
 press.			172800	IN	NS	b.nic.press.
 press.			172800	IN	NS	e.nic.press.
 press.			172800	IN	NS	f.nic.press.
+press.			172800	IN	NS	ns01.trs-dns.com.
+press.			172800	IN	NS	ns01.trs-dns.net.
+press.			172800	IN	NS	ns10.trs-dns.org.
+press.			172800	IN	NS	ns10.trs-dns.info.
 press.			86400	IN	DS	11915 8 2 BF03D95EF84D1896E57E82D02F809E6415823176DEE48BF6B011720AE8CF7983
 press.			86400	IN	DS	56540 8 2 9E422A4E7BE0A741B0C7E5C5CA984AFA95B0C2F512F13BE981E47AECF87EA581
 a.nic.press.		172800	IN	A	194.169.218.34
@@ -16307,6 +16317,10 @@ store.			172800	IN	NS	a.nic.store.
 store.			172800	IN	NS	b.nic.store.
 store.			172800	IN	NS	e.nic.store.
 store.			172800	IN	NS	f.nic.store.
+store.			172800	IN	NS	ns01.trs-dns.com.
+store.			172800	IN	NS	ns01.trs-dns.net.
+store.			172800	IN	NS	ns10.trs-dns.org.
+store.			172800	IN	NS	ns10.trs-dns.info.
 store.			86400	IN	DS	38974 8 2 3D17E03A2E9DD75F65939B2CA470D85F03CE4CBEA32187D65EA1A610569E5F49
 store.			86400	IN	DS	45961 8 2 15C0AEDA3D208A2FDBA1DF9E5AFCD6628B162CEA740B4E7D4FEF1879092F6E25
 a.nic.store.		172800	IN	A	194.169.218.45
@@ -16875,6 +16889,10 @@ tech.			172800	IN	NS	a.nic.tech.
 tech.			172800	IN	NS	b.nic.tech.
 tech.			172800	IN	NS	e.nic.tech.
 tech.			172800	IN	NS	f.nic.tech.
+tech.			172800	IN	NS	ns01.trs-dns.com.
+tech.			172800	IN	NS	ns01.trs-dns.net.
+tech.			172800	IN	NS	ns10.trs-dns.org.
+tech.			172800	IN	NS	ns10.trs-dns.info.
 tech.			86400	IN	DS	28487 8 2 EA62FA86A9C863738597A42D28762B1F75D42F7D77AA6767425DE138F8B0E78C
 tech.			86400	IN	DS	44746 8 2 982F1EBBD8BDF753193C770FC19095F50678393951BC01357FFEA6A8E96EA3B1
 dns2.tld.becloudby.tech.	172800	IN	A	93.125.25.73
@@ -18666,6 +18684,10 @@ website.		172800	IN	NS	a.nic.website.
 website.		172800	IN	NS	b.nic.website.
 website.		172800	IN	NS	e.nic.website.
 website.		172800	IN	NS	f.nic.website.
+website.		172800	IN	NS	ns01.trs-dns.com.
+website.		172800	IN	NS	ns01.trs-dns.net.
+website.		172800	IN	NS	ns10.trs-dns.org.
+website.		172800	IN	NS	ns10.trs-dns.info.
 website.		86400	IN	DS	241 8 2 BB05372F77F6474787AEA2D8BD477386AF3B54CDDD199DDAE76A3FC00D1E7761
 website.		86400	IN	DS	58591 8 2 BAD631380E8E6F70CF21DEC0D8D8ABBE9DF00CD2F0F9376A33535A3FA6AB26E6
 a.nic.website.		172800	IN	A	194.169.218.52
@@ -20073,7 +20095,6 @@ xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	b.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	c.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	d.mynic.centralnic-dns.com.
-xn--mgbx4cd0ab.		172800	IN	NS	a1.nic.my.
 xn--mgbx4cd0ab.		86400	IN	DS	15766 13 2 E1B9DF06C9B2E9F67AA4F7AFE4A20D0CC055ABBAE1AE5C72E967F2F11D417B71
 xn--mix891f.		172800	IN	NS	a.monic.mo.
 xn--mix891f.		172800	IN	NS	b.monic.mo.
