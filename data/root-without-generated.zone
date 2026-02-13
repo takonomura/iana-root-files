@@ -6425,7 +6425,8 @@ fo.			172800	IN	NS	a.nic.fo.
 fo.			172800	IN	NS	b.nic.fo.
 fo.			172800	IN	NS	c.nic.fo.
 fo.			172800	IN	NS	d.nic.fo.
-fo.			86400	IN	DS	6691 8 2 A752CEAAE4E28B4232244E5486D55889F117A15B81D3128CE7E9359F1D47A445
+fo.			172800	IN	NS	mimi.nic.fo.
+fo.			172800	IN	NS	xn--gurun-jta.nic.fo.
 fo.			86400	IN	DS	14231 8 2 2828B71E13A64B57B7BB68C56519D583597BEC04EF2721D967622223F4CCF36B
 a.nic.fo.		172800	IN	A	194.169.218.27
 a.nic.fo.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:27
@@ -6435,6 +6436,10 @@ c.nic.fo.		172800	IN	A	212.18.248.27
 c.nic.fo.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:27
 d.nic.fo.		172800	IN	A	212.18.249.27
 d.nic.fo.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:27
+mimi.nic.fo.		172800	IN	A	77.72.229.243
+mimi.nic.fo.		172800	IN	AAAA	2a01:3f0:0:315:0:0:0:53
+xn--gurun-jta.nic.fo.	172800	IN	A	194.146.106.158
+xn--gurun-jta.nic.fo.	172800	IN	AAAA	2001:67c:1010:40:0:0:0:53
 foo.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 foo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -15303,10 +15308,10 @@ b.ns.se.		172800	IN	A	192.36.133.107
 b.ns.se.		172800	IN	AAAA	2001:67c:254c:301:0:0:0:53
 c.ns.se.		172800	IN	A	192.36.135.107
 c.ns.se.		172800	IN	AAAA	2001:67c:2554:301:0:0:0:53
-f.ns.se.		172800	IN	A	192.71.53.53
-f.ns.se.		172800	IN	AAAA	2a01:3f0:0:305:0:0:0:53
-g.ns.se.		172800	IN	A	130.239.5.114
-g.ns.se.		172800	IN	AAAA	2001:6b0:e:3:0:0:0:1
+f.ns.se.		172800	IN	A	192.36.134.97
+f.ns.se.		172800	IN	AAAA	2001:67c:2550:301:0:0:0:53
+g.ns.se.		172800	IN	A	194.68.134.97
+g.ns.se.		172800	IN	AAAA	2001:67c:2558:301:0:0:0:53
 i.ns.se.		172800	IN	A	194.146.106.22
 i.ns.se.		172800	IN	AAAA	2001:67c:1010:5:0:0:0:53
 m.ns.se.		172800	IN	A	194.0.11.112
@@ -18899,19 +18904,6 @@ c.nic.wme.		172800	IN	A	212.18.248.31
 c.nic.wme.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:31
 d.nic.wme.		172800	IN	A	212.18.249.31
 d.nic.wme.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:31
-wolterskluwer.		172800	IN	NS	a0.nic.wolterskluwer.
-wolterskluwer.		172800	IN	NS	a2.nic.wolterskluwer.
-wolterskluwer.		172800	IN	NS	b0.nic.wolterskluwer.
-wolterskluwer.		172800	IN	NS	c0.nic.wolterskluwer.
-wolterskluwer.		86400	IN	DS	58234 8 2 97DCE05D28C78AF0B76524DF031D5FAD0E1901B5AE12515BE48FC758AF56E473
-a0.nic.wolterskluwer.	172800	IN	A	65.22.204.25
-a0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c6:0:0:0:0:25
-a2.nic.wolterskluwer.	172800	IN	A	65.22.207.25
-a2.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c9:0:0:0:0:25
-b0.nic.wolterskluwer.	172800	IN	A	65.22.205.25
-b0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c7:0:0:0:0:25
-c0.nic.wolterskluwer.	172800	IN	A	65.22.206.25
-c0.nic.wolterskluwer.	172800	IN	AAAA	2a01:8840:c8:0:0:0:0:25
 woodside.		172800	IN	NS	a.nic.woodside.
 woodside.		172800	IN	NS	b.nic.woodside.
 woodside.		172800	IN	NS	c.nic.woodside.
