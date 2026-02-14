@@ -9142,14 +9142,12 @@ y.nic.jnj.		172800	IN	A	212.18.248.161
 y.nic.jnj.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:161
 z.nic.jnj.		172800	IN	A	212.18.249.161
 z.nic.jnj.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:161
+jo.			172800	IN	NS	b.cctld-servers.net.jo.
 jo.			172800	IN	NS	c.cctld-servers.net.jo.
 jo.			172800	IN	NS	d.cctld-servers.net.jo.
 jo.			172800	IN	NS	jo.cctld.authdns.ripe.net.
 jo.			172800	IN	NS	rip.psg.com.
-jo.			172800	IN	NS	amra.nic.gov.jo.
 jo.			172800	IN	NS	petra.nic.gov.jo.
-amra.nic.gov.jo.	172800	IN	A	193.188.66.103
-amra.nic.gov.jo.	172800	IN	AAAA	2a02:9c0:0:408:0:0:0:103
 petra.nic.gov.jo.	172800	IN	A	193.188.66.2
 petra.nic.gov.jo.	172800	IN	AAAA	2a02:9c0:0:407:0:0:0:2
 a.cctld-servers.net.jo.	172800	IN	A	193.188.66.2
@@ -12282,6 +12280,7 @@ ng.			172800	IN	NS	ns3.nic.net.ng.
 ng.			172800	IN	NS	ns4.nic.net.ng.
 ng.			172800	IN	NS	ns5.nic.net.ng.
 ng.			172800	IN	NS	nsa.nic.net.ng.
+ng.			86400	IN	DS	45566 13 2 746CD3CCEF614AD2A4B08F4E45CCD57DD935E37449E7C5DF07F35AD7C88FC361
 ns2.nic.net.ng.		172800	IN	A	204.61.216.40
 ns2.nic.net.ng.		172800	IN	AAAA	2001:500:14:6040:ad:0:0:1
 ns3.nic.net.ng.		172800	IN	A	185.38.108.108
