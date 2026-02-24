@@ -8432,7 +8432,6 @@ il.			172800	IN	NS	nse.ns.il.
 il.			172800	IN	NS	ilns.ilan.net.il.
 il.			172800	IN	NS	lookup.iucc.ac.il.
 il.			86400	IN	DS	35088 13 2 AC84D274E6BF42857B41DEF52D8E6A23853B00FE76B7FB70B97484ED49FEA182
-il.			86400	IN	DS	40239 13 2 687A4ABEB697C30E24277072E0380161B84A6B0759F4998C32602D464FEB0CA8
 lookup.iucc.ac.il.	172800	IN	A	128.139.34.240
 lookup.iucc.ac.il.	172800	IN	AAAA	2001:bf8:900:6:0:0:808b:22f0
 ilns.ilan.net.il.	172800	IN	A	128.139.35.5
@@ -9115,14 +9114,12 @@ y.nic.jnj.		172800	IN	A	212.18.248.161
 y.nic.jnj.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:161
 z.nic.jnj.		172800	IN	A	212.18.249.161
 z.nic.jnj.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:161
+jo.			172800	IN	NS	a.cctld-servers.net.jo.
 jo.			172800	IN	NS	b.cctld-servers.net.jo.
 jo.			172800	IN	NS	c.cctld-servers.net.jo.
 jo.			172800	IN	NS	d.cctld-servers.net.jo.
 jo.			172800	IN	NS	jo.cctld.authdns.ripe.net.
 jo.			172800	IN	NS	rip.psg.com.
-jo.			172800	IN	NS	petra.nic.gov.jo.
-petra.nic.gov.jo.	172800	IN	A	193.188.66.2
-petra.nic.gov.jo.	172800	IN	AAAA	2a02:9c0:0:407:0:0:0:2
 a.cctld-servers.net.jo.	172800	IN	A	193.188.66.2
 a.cctld-servers.net.jo.	172800	IN	AAAA	2a02:9c0:0:407:0:0:0:2
 b.cctld-servers.net.jo.	172800	IN	A	193.188.66.103
@@ -9362,24 +9359,12 @@ b0.nic.kerryproperties.	172800	IN	A	65.22.113.55
 b0.nic.kerryproperties.	172800	IN	AAAA	2a01:8840:6f:0:0:0:0:55
 c0.nic.kerryproperties.	172800	IN	A	65.22.114.55
 c0.nic.kerryproperties.	172800	IN	AAAA	2a01:8840:70:0:0:0:0:55
-kfh.			172800	IN	NS	a.nic.kfh.
-kfh.			172800	IN	NS	b.nic.kfh.
-kfh.			172800	IN	NS	c.nic.kfh.
-kfh.			172800	IN	NS	d.nic.kfh.
 kfh.			172800	IN	NS	ns01.trs-dns.com.
 kfh.			172800	IN	NS	ns01.trs-dns.net.
 kfh.			172800	IN	NS	ns10.trs-dns.org.
 kfh.			172800	IN	NS	ns10.trs-dns.info.
 kfh.			86400	IN	DS	19529 8 2 E6782B15580E48186716A8E819B8C8A382612E3518CDF0A40851543D3211EC4A
 kfh.			86400	IN	DS	23849 8 2 025679B3FA1C06955DC8722820DC339E4D419A6198F053F98843E40488BDB09C
-a.nic.kfh.		172800	IN	A	194.169.218.43
-a.nic.kfh.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:43
-b.nic.kfh.		172800	IN	A	185.24.64.43
-b.nic.kfh.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:43
-c.nic.kfh.		172800	IN	A	212.18.248.43
-c.nic.kfh.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:43
-d.nic.kfh.		172800	IN	A	212.18.249.43
-d.nic.kfh.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:43
 kg.			172800	IN	NS	kg.cctld.authdns.ripe.net.
 kg.			172800	IN	NS	ns.kg.
 kg.			172800	IN	NS	ns2.kg.
@@ -14751,7 +14736,7 @@ sa.			172800	IN	NS	p1.dns.sa.
 sa.			172800	IN	NS	s1.dns.sa.
 sa.			172800	IN	NS	s2.dns.sa.
 sa.			172800	IN	NS	sh1.dns.sa.
-sa.			86400	IN	DS	62932 8 2 2E80B1231D370F4933A26F19487946EACA1DB9D41A53831C2A9E73368BBBAAB5
+sa.			86400	IN	DS	2990 8 2 9F357B0A83134174B0E581C252AD172E9E5F750AB95A4C900C9655A919B560C0
 c1.dns.sa.		172800	IN	A	86.111.192.9
 c1.dns.sa.		172800	IN	AAAA	2001:67c:18c8:c0:0:0:0:c1
 c2.dns.sa.		172800	IN	A	86.111.196.9
@@ -20001,24 +19986,12 @@ y.nic.xn--ngbc5azd.	172800	IN	A	156.154.173.82
 y.nic.xn--ngbc5azd.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.xn--ngbc5azd.	172800	IN	A	156.154.174.82
 z.nic.xn--ngbc5azd.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-xn--ngbe9e0a.		172800	IN	NS	a.nic.xn--ngbe9e0a.
-xn--ngbe9e0a.		172800	IN	NS	b.nic.xn--ngbe9e0a.
-xn--ngbe9e0a.		172800	IN	NS	c.nic.xn--ngbe9e0a.
-xn--ngbe9e0a.		172800	IN	NS	d.nic.xn--ngbe9e0a.
 xn--ngbe9e0a.		172800	IN	NS	ns01.trs-dns.com.
 xn--ngbe9e0a.		172800	IN	NS	ns01.trs-dns.net.
 xn--ngbe9e0a.		172800	IN	NS	ns10.trs-dns.org.
 xn--ngbe9e0a.		172800	IN	NS	ns10.trs-dns.info.
 xn--ngbe9e0a.		86400	IN	DS	5347 8 2 6E02D3EE5A203293F8CBAF20686AECD516E1363E231EC6DB68E78E9F48090E47
 xn--ngbe9e0a.		86400	IN	DS	49747 8 2 6D343065191808281110ECE8C0A9CB89612B03355524A7CBBBF9DF0E95CFCDCB
-a.nic.xn--ngbe9e0a.	172800	IN	A	194.169.218.22
-a.nic.xn--ngbe9e0a.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:22
-b.nic.xn--ngbe9e0a.	172800	IN	A	185.24.64.22
-b.nic.xn--ngbe9e0a.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:22
-c.nic.xn--ngbe9e0a.	172800	IN	A	212.18.248.22
-c.nic.xn--ngbe9e0a.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:22
-d.nic.xn--ngbe9e0a.	172800	IN	A	212.18.249.22
-d.nic.xn--ngbe9e0a.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:22
 xn--ngbrx.		172800	IN	NS	gtld.beta.aridns.net.au.
 xn--ngbrx.		172800	IN	NS	gtld.alpha.aridns.net.au.
 xn--ngbrx.		172800	IN	NS	gtld.delta.aridns.net.au.
