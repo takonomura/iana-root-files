@@ -3826,6 +3826,8 @@ ns1.teleinfo.cn.	172800	IN	AAAA	2402:7d80:0:0:0:0:0:1
 ns3.teleinfo.cn.	172800	IN	A	103.61.62.1
 a.zdnscloud.cn.		172800	IN	A	203.99.24.1
 b.zdnscloud.cn.		172800	IN	A	203.99.25.1
+e.zdnscloud.cn.		172800	IN	A	203.119.82.1
+e.zdnscloud.cn.		172800	IN	AAAA	2401:8d00:15:0:0:0:0:1
 f.zdnscloud.cn.		172800	IN	A	116.169.54.111
 i.zdnscloud.cn.		172800	IN	AAAA	2401:8d00:1:0:0:0:0:1
 co.			172800	IN	NS	a.registrydns.co.
@@ -17207,8 +17209,8 @@ top.			172800	IN	NS	a.zdnscloud.cn.
 top.			172800	IN	NS	b.zdnscloud.cn.
 top.			172800	IN	NS	c.zdnscloud.com.
 top.			172800	IN	NS	d.zdnscloud.com.
+top.			172800	IN	NS	e.zdnscloud.cn.
 top.			172800	IN	NS	f.zdnscloud.cn.
-top.			172800	IN	NS	g.zdnscloud.com.
 top.			172800	IN	NS	i.zdnscloud.cn.
 top.			172800	IN	NS	j.zdnscloud.com.
 top.			86400	IN	DS	26780 8 2 5D6E7869EE8E3B536A617DE89482DDD1DCB9DB9DBB1AC33D6ED351E2CA095B1B
