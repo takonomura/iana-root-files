@@ -2604,6 +2604,8 @@ business.		172800	IN	NS	v2n1.nic.business.
 business.		86400	IN	DS	27997 8 2 7F17414B2EBDD17B8BF3F1205BC82E2EE158DF8DE4CF46DACEFF55447F0EE429
 ns1.dns.business.	172800	IN	A	157.90.205.138
 ns1.dns.business.	172800	IN	AAAA	2a01:4f8:252:4295:0:0:9d5a:cd8a
+ns2us.dns.business.	172800	IN	A	147.135.106.236
+ns2us.dns.business.	172800	IN	AAAA	2604:2dc0:200:2eb:0:0:0:2
 v0n0.nic.business.	172800	IN	A	65.22.32.38
 v0n0.nic.business.	172800	IN	AAAA	2a01:8840:22:0:0:0:0:38
 v0n1.nic.business.	172800	IN	A	65.22.33.38
@@ -10970,6 +10972,10 @@ y.nic.menu.		172800	IN	A	156.154.173.82
 y.nic.menu.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.menu.		172800	IN	A	156.154.174.82
 z.nic.menu.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
+merck.			172800	IN	NS	ns1.dns.business.
+merck.			172800	IN	NS	nsp.netnod.se.
+merck.			172800	IN	NS	ns2us.dns.business.
+merck.			86400	IN	DS	61224 13 2 E02519ADF0EF1076F54211757C4298F56FC1F53E781E6FA0FB730D4D0EE26A22
 merckmsd.		172800	IN	NS	a.nic.merckmsd.
 merckmsd.		172800	IN	NS	b.nic.merckmsd.
 merckmsd.		172800	IN	NS	c.nic.merckmsd.
@@ -15229,6 +15235,8 @@ se.			172800	IN	NS	x.ns.se.
 se.			172800	IN	NS	y.ns.se.
 se.			172800	IN	NS	z.ns.se.
 se.			86400	IN	DS	59407 8 2 67A8E06FCEFDD9397F77F26C41ADE4EC142F299BCFA1827F0EF8FD87F2F63022
+nsp.netnod.se.		172800	IN	A	194.58.198.33
+nsp.netnod.se.		172800	IN	AAAA	2a01:3f1:3033:0:0:0:0:53
 a.ns.se.		172800	IN	A	192.36.144.107
 a.ns.se.		172800	IN	AAAA	2a01:3f0:0:301:0:0:0:53
 b.ns.se.		172800	IN	A	192.36.133.107
@@ -15688,7 +15696,7 @@ site.			172800	IN	NS	ns01.trs-dns.net.
 site.			172800	IN	NS	ns10.trs-dns.org.
 site.			172800	IN	NS	ns10.trs-dns.info.
 site.			86400	IN	DS	4241 8 2 B2F9F1BAAA93793437D7F16065A2075BBA7794160C1FEE25A7BB5A34164EC7D5
-site.			86400	IN	DS	51974 8 2 A06DC47457CC1185CF1B3A7CF6ECCB84978DE92939DD182BEED9521509D0DA7B
+site.			86400	IN	DS	31826 13 2 E054E10B0036A0F449CC3A7D539A919EF9F18C9F256B2BB51526CF6FD7D33B6B
 sj.			172800	IN	NS	x.nic.no.
 sj.			172800	IN	NS	y.nic.no.
 sj.			172800	IN	NS	z.nic.no.
@@ -16016,7 +16024,7 @@ space.			172800	IN	NS	ns01.trs-dns.net.
 space.			172800	IN	NS	ns10.trs-dns.org.
 space.			172800	IN	NS	ns10.trs-dns.info.
 space.			86400	IN	DS	33010 8 2 53E37640A028FA26A4ED6306AA07C506BF037FC414AF9CAF0E41ADFFF87CCB72
-space.			86400	IN	DS	63881 8 2 85EE1264739A00FB6139712C3D7227721D99654226B0140F14A3E3D1A63B315F
+space.			86400	IN	DS	51168 13 2 6B303EDA0AE6E8206B2A20A62600E663C30B4D59408C62E461EBC5179F0D1F78
 sport.			172800	IN	NS	anycast9.irondns.net.
 sport.			172800	IN	NS	anycast10.irondns.net.
 sport.			172800	IN	NS	anycast23.irondns.net.
@@ -16049,11 +16057,14 @@ dnsd.nic.spot.		172800	IN	A	156.154.103.3
 dnsd.nic.spot.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
 sr.			172800	IN	NS	ns1.nic.sr.
 sr.			172800	IN	NS	ns2.nic.sr.
+sr.			172800	IN	NS	ns3.nic.sr.
 sr.			86400	IN	DS	46104 13 2 967A6B8F3C9C7FD0F981EA3EEF1B8A6FE2C4043FBB1518D171D80E83CE4A84EE
 ns1.nic.sr.		172800	IN	A	168.195.219.210
 ns1.nic.sr.		172800	IN	AAAA	2803:ff40:a251:0:168:195:219:2
 ns2.nic.sr.		172800	IN	A	168.195.216.214
 ns2.nic.sr.		172800	IN	AAAA	2803:ff40:a000:2501:168:195:216:2
+ns3.nic.sr.		172800	IN	A	45.83.205.134
+ns3.nic.sr.		172800	IN	AAAA	2a0f:ff40:100:3112:2d53:cd87:0:0
 srl.			172800	IN	NS	a0.nic.srl.
 srl.			172800	IN	NS	a2.nic.srl.
 srl.			172800	IN	NS	b0.nic.srl.
@@ -19927,7 +19938,6 @@ xn--mgbtx2b.		172800	IN	NS	ns.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	ns01.trs-dns.com.
 xn--mgbtx2b.		172800	IN	NS	ns01.trs-dns.net.
 xn--mgbtx2b.		172800	IN	NS	nsp-anycast.cmc.iq.
-xn--mgbx4cd0ab.		172800	IN	NS	a.nic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	b.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	c.mynic.centralnic-dns.com.
