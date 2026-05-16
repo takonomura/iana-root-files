@@ -562,20 +562,20 @@ al.			172800	IN	NS	munnari.oz.au.
 ns1.nic.al.		172800	IN	A	194.1.149.230
 nsx.nic.al.		172800	IN	A	194.0.11.108
 nsx.nic.al.		172800	IN	AAAA	2001:678:e:108:0:0:0:53
-alibaba.		172800	IN	NS	a0.nic.alibaba.
-alibaba.		172800	IN	NS	a2.nic.alibaba.
-alibaba.		172800	IN	NS	b0.nic.alibaba.
-alibaba.		172800	IN	NS	c0.nic.alibaba.
+alibaba.		172800	IN	NS	ns1.nic.alibaba.
+alibaba.		172800	IN	NS	ns2.nic.alibaba.
+alibaba.		172800	IN	NS	ns3.nic.alibaba.
+alibaba.		172800	IN	NS	ns4.nic.alibaba.
 alibaba.		86400	IN	DS	7516 8 2 9BB7AC1C7877373106E72E767EF0A772F43682D030AD67B2C7E3E473A9B7B69F
 alibaba.		86400	IN	DS	36130 8 2 6F6A5DE93C24EED7E0ED4006C65795D4B0689DFE5FCE1FA784D0D9F8A105C5C8
-a0.nic.alibaba.		172800	IN	A	65.22.132.9
-a0.nic.alibaba.		172800	IN	AAAA	2a01:8840:82:0:0:0:0:9
-a2.nic.alibaba.		172800	IN	A	65.22.135.9
-a2.nic.alibaba.		172800	IN	AAAA	2a01:8840:85:0:0:0:0:9
-b0.nic.alibaba.		172800	IN	A	65.22.133.9
-b0.nic.alibaba.		172800	IN	AAAA	2a01:8840:83:0:0:0:0:9
-c0.nic.alibaba.		172800	IN	A	65.22.134.9
-c0.nic.alibaba.		172800	IN	AAAA	2a01:8840:84:0:0:0:0:9
+ns1.nic.alibaba.	172800	IN	A	203.107.2.1
+ns1.nic.alibaba.	172800	IN	AAAA	2408:4000:101:0:0:0:0:1
+ns2.nic.alibaba.	172800	IN	A	203.107.2.2
+ns2.nic.alibaba.	172800	IN	AAAA	2408:4000:101:0:0:0:0:2
+ns3.nic.alibaba.	172800	IN	A	203.107.3.1
+ns3.nic.alibaba.	172800	IN	AAAA	2408:4000:102:0:0:0:0:1
+ns4.nic.alibaba.	172800	IN	A	203.107.3.2
+ns4.nic.alibaba.	172800	IN	AAAA	2408:4000:102:0:0:0:0:2
 alipay.			172800	IN	NS	a0.nic.alipay.
 alipay.			172800	IN	NS	a2.nic.alipay.
 alipay.			172800	IN	NS	b0.nic.alipay.
