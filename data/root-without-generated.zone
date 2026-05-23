@@ -1637,16 +1637,14 @@ bb.			172800	IN	NS	ns1.nic.bb.
 bb.			172800	IN	NS	ns2.nic.bb.
 bb.			172800	IN	NS	ns3.nic.bb.
 bb.			172800	IN	NS	ns4.nic.bb.
-bb.			172800	IN	NS	ns5.nic.bb.
 ns1.nic.bb.		172800	IN	A	64.68.192.10
-ns1.nic.bb.		172800	IN	AAAA	2400:cb00:2049:1:0:0:a29f:1835
-ns2.nic.bb.		172800	IN	A	198.41.222.254
-ns2.nic.bb.		172800	IN	AAAA	2400:cb00:2049:1:0:0:c629:defe
+ns1.nic.bb.		172800	IN	AAAA	2620:49:1:0:0:0:0:10
+ns2.nic.bb.		172800	IN	A	64.68.193.10
+ns2.nic.bb.		172800	IN	AAAA	2620:49:2:0:0:0:0:10
 ns3.nic.bb.		172800	IN	A	64.68.196.10
 ns3.nic.bb.		172800	IN	AAAA	2620:49:3:0:0:0:0:10
 ns4.nic.bb.		172800	IN	A	64.68.197.10
 ns4.nic.bb.		172800	IN	AAAA	2620:49:4:0:0:0:0:10
-ns5.nic.bb.		172800	IN	A	200.50.92.195
 bbc.			172800	IN	NS	dns1.nic.bbc.
 bbc.			172800	IN	NS	dns2.nic.bbc.
 bbc.			172800	IN	NS	dns3.nic.bbc.
@@ -2663,6 +2661,7 @@ ns2.dns.nic.buzz.	172800	IN	A	156.154.145.29
 ns2.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:1d
 ns3.dns.nic.buzz.	172800	IN	A	156.154.159.29
 ns3.dns.nic.buzz.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:1d
+bv.			172800	IN	NS	a.nic.bv.
 bv.			172800	IN	NS	x.nic.no.
 bv.			172800	IN	NS	y.nic.no.
 bv.			172800	IN	NS	z.nic.no.
@@ -2670,6 +2669,8 @@ bv.			172800	IN	NS	nn.uninett.no.
 bv.			172800	IN	NS	nac.no.
 bv.			172800	IN	NS	server.nordu.net.
 bv.			86400	IN	DS	33800 13 2 5FA7FB1C36C810CBBEEA4557CE1B96175FB14B5E5F400A9D7AA36BA6B60FBD0E
+a.nic.bv.		172800	IN	A	158.38.61.97
+a.nic.bv.		172800	IN	AAAA	2001:700:4603:0:0:0:0:1
 bw.			172800	IN	NS	pch.nic.net.bw.
 bw.			172800	IN	NS	dns1.nic.net.bw.
 bw.			172800	IN	NS	ns-bw.afrinic.net.
