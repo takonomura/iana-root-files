@@ -9012,22 +9012,25 @@ je.			172800	IN	NS	dns2.nominetdns.uk.
 je.			172800	IN	NS	dns3.nominetdns.uk.
 je.			172800	IN	NS	dns4.nominetdns.uk.
 je.			86400	IN	DS	19054 8 2 051F21016E36C0DC46DA9437C9F5975A95BF6B0B85E9E8BF53F49930EB65E90D
-jeep.			172800	IN	NS	a2.nic.jeep.
-jeep.			172800	IN	NS	c0.nic.jeep.
 jeep.			172800	IN	NS	v0n0.nic.jeep.
 jeep.			172800	IN	NS	v0n1.nic.jeep.
 jeep.			172800	IN	NS	v0n2.nic.jeep.
+jeep.			172800	IN	NS	v0n3.nic.jeep.
+jeep.			172800	IN	NS	v2n0.nic.jeep.
+jeep.			172800	IN	NS	v2n1.nic.jeep.
 jeep.			86400	IN	DS	49999 8 2 F00A0B4B65ADAC570C2DBC81483367392EA9A86FFD17E4B3F042D446ACD1EA4B
-a2.nic.jeep.		172800	IN	A	65.22.79.41
-a2.nic.jeep.		172800	IN	AAAA	2a01:8840:4d:0:0:0:0:41
-c0.nic.jeep.		172800	IN	A	65.22.78.41
-c0.nic.jeep.		172800	IN	AAAA	2a01:8840:4c:0:0:0:0:41
 v0n0.nic.jeep.		172800	IN	A	65.22.104.29
 v0n0.nic.jeep.		172800	IN	AAAA	2a01:8840:66:0:0:0:0:29
 v0n1.nic.jeep.		172800	IN	A	65.22.105.29
 v0n1.nic.jeep.		172800	IN	AAAA	2a01:8840:67:0:0:0:0:29
 v0n2.nic.jeep.		172800	IN	A	65.22.106.29
 v0n2.nic.jeep.		172800	IN	AAAA	2a01:8840:68:0:0:0:0:29
+v0n3.nic.jeep.		172800	IN	A	161.232.30.29
+v0n3.nic.jeep.		172800	IN	AAAA	2a01:8840:106:0:0:0:0:29
+v2n0.nic.jeep.		172800	IN	A	65.22.107.29
+v2n0.nic.jeep.		172800	IN	AAAA	2a01:8840:69:0:0:0:0:29
+v2n1.nic.jeep.		172800	IN	A	161.232.31.29
+v2n1.nic.jeep.		172800	IN	AAAA	2a01:8840:107:0:0:0:0:29
 jetzt.			172800	IN	NS	v0n0.nic.jetzt.
 jetzt.			172800	IN	NS	v0n1.nic.jetzt.
 jetzt.			172800	IN	NS	v0n2.nic.jetzt.
