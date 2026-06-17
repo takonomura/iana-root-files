@@ -10472,6 +10472,7 @@ b0.nic.ltda.		172800	IN	A	65.22.117.17
 b0.nic.ltda.		172800	IN	AAAA	2a01:8840:73:0:0:0:0:17
 c0.nic.ltda.		172800	IN	A	65.22.118.17
 c0.nic.ltda.		172800	IN	AAAA	2a01:8840:74:0:0:0:0:17
+lu.			172800	IN	NS	1.ns.lu.
 lu.			172800	IN	NS	g.dns.lu.
 lu.			172800	IN	NS	i.dns.lu.
 lu.			172800	IN	NS	j.dns.lu.
@@ -10491,6 +10492,8 @@ ns1.dns.lu.		172800	IN	A	158.64.229.18
 ns1.dns.lu.		172800	IN	AAAA	2001:a18:4:1:0:0:0:18
 p.dns.lu.		172800	IN	A	194.0.42.42
 p.dns.lu.		172800	IN	AAAA	2001:678:60:0:0:0:42:42
+1.ns.lu.		172800	IN	A	158.64.229.18
+1.ns.lu.		172800	IN	AAAA	2001:a18:4:1:0:0:0:18
 lundbeck.		172800	IN	NS	a0.nic.lundbeck.
 lundbeck.		172800	IN	NS	a2.nic.lundbeck.
 lundbeck.		172800	IN	NS	b0.nic.lundbeck.
@@ -14282,6 +14285,7 @@ ren.			172800	IN	NS	g.zdnscloud.com.
 ren.			172800	IN	NS	i.zdnscloud.cn.
 ren.			172800	IN	NS	j.zdnscloud.com.
 ren.			86400	IN	DS	6712 8 2 06090FB53AE539CE051D9236A0C6B5FD58361167BC0D7F5E8E9EAB4F62D4FFFB
+ren.			86400	IN	DS	16939 13 2 0D92A314BA5FEE31419E629A7EBD53350B79E887F79721A615EC7FA03331C81F
 rent.			172800	IN	NS	a.nic.rent.
 rent.			172800	IN	NS	b.nic.rent.
 rent.			172800	IN	NS	c.nic.rent.
