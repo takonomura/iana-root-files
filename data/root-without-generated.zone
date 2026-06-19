@@ -10478,7 +10478,7 @@ lu.			172800	IN	NS	i.dns.lu.
 lu.			172800	IN	NS	j.dns.lu.
 lu.			172800	IN	NS	k.dns.lu.
 lu.			172800	IN	NS	p.dns.lu.
-lu.			172800	IN	NS	ns1.dns.lu.
+lu.			172800	IN	NS	r.ns.lu.
 lu.			86400	IN	DS	20752 8 2 2BBE0B0C438F336CA96F655DCCB9A72D7359064225D9E38A0A09804F9BE20415
 g.dns.lu.		172800	IN	A	194.0.23.5
 g.dns.lu.		172800	IN	AAAA	2001:678:1b:5:0:0:0:5
@@ -10488,12 +10488,12 @@ j.dns.lu.		172800	IN	A	77.72.229.247
 j.dns.lu.		172800	IN	AAAA	2a01:3f0:0:307:0:0:0:53
 k.dns.lu.		172800	IN	A	194.0.1.13
 k.dns.lu.		172800	IN	AAAA	2001:678:4:0:0:0:0:d
-ns1.dns.lu.		172800	IN	A	158.64.229.18
-ns1.dns.lu.		172800	IN	AAAA	2001:a18:4:1:0:0:0:18
 p.dns.lu.		172800	IN	A	194.0.42.42
 p.dns.lu.		172800	IN	AAAA	2001:678:60:0:0:0:42:42
 1.ns.lu.		172800	IN	A	158.64.229.18
 1.ns.lu.		172800	IN	AAAA	2001:a18:4:1:0:0:0:18
+r.ns.lu.		172800	IN	A	194.0.25.47
+r.ns.lu.		172800	IN	AAAA	2001:678:20:0:0:0:0:47
 lundbeck.		172800	IN	NS	a0.nic.lundbeck.
 lundbeck.		172800	IN	NS	a2.nic.lundbeck.
 lundbeck.		172800	IN	NS	b0.nic.lundbeck.
