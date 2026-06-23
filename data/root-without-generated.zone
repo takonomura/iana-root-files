@@ -15676,6 +15676,11 @@ sina.			172800	IN	NS	a0.nic.sina.
 sina.			172800	IN	NS	a2.nic.sina.
 sina.			172800	IN	NS	b0.nic.sina.
 sina.			172800	IN	NS	c0.nic.sina.
+sina.			172800	IN	NS	ta.ngtld.cn.
+sina.			172800	IN	NS	tb.ngtld.cn.
+sina.			172800	IN	NS	tc.ngtld.cn.
+sina.			172800	IN	NS	td.ngtld.cn.
+sina.			172800	IN	NS	te.ngtld.cn.
 sina.			86400	IN	DS	39217 8 2 B177DAEF81C0EBD0C85DBA9092550EB8D14333806E1DB4C2C44AC9ECE76432A5
 a0.nic.sina.		172800	IN	A	65.22.140.33
 a0.nic.sina.		172800	IN	AAAA	2a01:8840:8a:0:0:0:0:33
@@ -18603,6 +18608,11 @@ weibo.			172800	IN	NS	a0.nic.weibo.
 weibo.			172800	IN	NS	a2.nic.weibo.
 weibo.			172800	IN	NS	b0.nic.weibo.
 weibo.			172800	IN	NS	c0.nic.weibo.
+weibo.			172800	IN	NS	ta.ngtld.cn.
+weibo.			172800	IN	NS	tb.ngtld.cn.
+weibo.			172800	IN	NS	tc.ngtld.cn.
+weibo.			172800	IN	NS	td.ngtld.cn.
+weibo.			172800	IN	NS	te.ngtld.cn.
 weibo.			86400	IN	DS	40642 8 2 930EDCD3B0036BCDEBF43862AD49F6B7486DFECFC2E42F769AB66F21938CF112
 a0.nic.weibo.		172800	IN	A	65.22.56.41
 a0.nic.weibo.		172800	IN	AAAA	2a01:8840:36:0:0:0:0:41
@@ -19269,6 +19279,11 @@ xn--9krt00a.		172800	IN	NS	a0.nic.xn--9krt00a.
 xn--9krt00a.		172800	IN	NS	a2.nic.xn--9krt00a.
 xn--9krt00a.		172800	IN	NS	b0.nic.xn--9krt00a.
 xn--9krt00a.		172800	IN	NS	c0.nic.xn--9krt00a.
+xn--9krt00a.		172800	IN	NS	ta.ngtld.cn.
+xn--9krt00a.		172800	IN	NS	tb.ngtld.cn.
+xn--9krt00a.		172800	IN	NS	tc.ngtld.cn.
+xn--9krt00a.		172800	IN	NS	td.ngtld.cn.
+xn--9krt00a.		172800	IN	NS	te.ngtld.cn.
 xn--9krt00a.		86400	IN	DS	6052 8 2 E5AEA197B5FB7F042833684BBF64FD1F9341BAA2007B2DB2958C9DFAA5884B78
 a0.nic.xn--9krt00a.	172800	IN	A	65.22.112.1
 a0.nic.xn--9krt00a.	172800	IN	AAAA	2a01:8840:6e:0:0:0:0:1
