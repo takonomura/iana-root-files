@@ -557,10 +557,12 @@ b0.nic.akdn.		172800	IN	AAAA	2a01:8840:2b:0:0:0:0:17
 c0.nic.akdn.		172800	IN	A	65.22.46.17
 c0.nic.akdn.		172800	IN	AAAA	2a01:8840:2c:0:0:0:0:17
 al.			172800	IN	NS	ns1.nic.al.
+al.			172800	IN	NS	ns2.nic.al.
 al.			172800	IN	NS	nsx.nic.al.
 al.			172800	IN	NS	rip.psg.com.
 al.			172800	IN	NS	munnari.oz.au.
 ns1.nic.al.		172800	IN	A	194.1.149.230
+ns2.nic.al.		172800	IN	A	194.1.149.229
 nsx.nic.al.		172800	IN	A	194.0.11.108
 nsx.nic.al.		172800	IN	AAAA	2001:678:e:108:0:0:0:53
 alibaba.		172800	IN	NS	ns1.nic.alibaba.
@@ -8540,11 +8542,15 @@ v2n0.nic.immobilien.	172800	IN	A	65.22.27.19
 v2n0.nic.immobilien.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:19
 v2n1.nic.immobilien.	172800	IN	A	161.232.13.19
 v2n1.nic.immobilien.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:19
-in.			172800	IN	NS	ns01.trs-dns.com.
+in.			172800	IN	NS	ns1.registry.in.
+in.			172800	IN	NS	ns3.registry.in.
 in.			172800	IN	NS	ns01.trs-dns.net.
 in.			172800	IN	NS	ns10.trs-dns.org.
-in.			172800	IN	NS	ns10.trs-dns.info.
 in.			86400	IN	DS	10094 13 2 5824EE9A55ED72F0D46D2C3A511F393F05EFC27E73CBD1005BEBBC73402B6186
+ns1.registry.in.	172800	IN	A	64.96.1.1
+ns1.registry.in.	172800	IN	AAAA	2620:57:4001:0:0:0:0:1
+ns3.registry.in.	172800	IN	A	64.78.204.1
+ns3.registry.in.	172800	IN	AAAA	2620:171:812:1534:8:0:0:1
 inc.			172800	IN	NS	a.nic.inc.
 inc.			172800	IN	NS	b.nic.inc.
 inc.			172800	IN	NS	c.nic.inc.
@@ -19126,13 +19132,18 @@ xn--54b7fta0cc.		172800	IN	NS	bayanno.btcl.net.bd.
 xn--54b7fta0cc.		172800	IN	NS	ekushey.btcl.net.bd.
 xn--54b7fta0cc.		86400	IN	DS	63049 8 1 91E8936DFE81E7350DAF041BD12B77F29643A13D
 xn--54b7fta0cc.		86400	IN	DS	63049 8 2 DCDD04C4493E029DEE060D18A91E87BE930B9CE4C54FC7921F51F27455843DCB
+xn--55qw42g.		172800	IN	NS	ta.ngtld.cn.
+xn--55qw42g.		172800	IN	NS	tb.ngtld.cn.
+xn--55qw42g.		172800	IN	NS	tc.ngtld.cn.
+xn--55qw42g.		172800	IN	NS	td.ngtld.cn.
+xn--55qw42g.		172800	IN	NS	te.ngtld.cn.
 xn--55qw42g.		172800	IN	NS	ns1.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns2.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns3.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns4.conac.cn.
 xn--55qw42g.		172800	IN	NS	ns5.conac.cn.
 xn--55qw42g.		86400	IN	DS	21055 8 2 0D6F3AA00BB63F959E87931FEA3F5D6E18A7C0F9F1408BFDF34113D88B191D37
-xn--55qw42g.		86400	IN	DS	48226 8 2 A16754C480E58C0D17126B3BAF93F32BAC39A916CF9D1F6F3A1F5C33687BE80F
+xn--55qw42g.		86400	IN	DS	44374 8 2 7A835652C46DE71FC431DAD529ADB5722F1DB5239D8A83308B91BCAD79328467
 xn--55qx5d.		172800	IN	NS	a.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	b.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	c.ngtld.cn.
@@ -20368,13 +20379,18 @@ xn--ygbi2ammx.		172800	IN	NS	dns1.gov.ps.
 xn--ygbi2ammx.		172800	IN	NS	dns3.gov.ps.
 xn--ygbi2ammx.		172800	IN	NS	fork.sth.dnsnode.net.
 xn--ygbi2ammx.		172800	IN	NS	ps-ns.anycast.pch.net.
+xn--zfr164b.		172800	IN	NS	ta.ngtld.cn.
+xn--zfr164b.		172800	IN	NS	tb.ngtld.cn.
+xn--zfr164b.		172800	IN	NS	tc.ngtld.cn.
+xn--zfr164b.		172800	IN	NS	td.ngtld.cn.
+xn--zfr164b.		172800	IN	NS	te.ngtld.cn.
 xn--zfr164b.		172800	IN	NS	ns1.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns2.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns3.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns4.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns5.conac.cn.
 xn--zfr164b.		86400	IN	DS	8245 8 2 EE6F394BD32D4BB28D43D2F2172121C90941E133D5B5BDBDCB72F86765BB95EB
-xn--zfr164b.		86400	IN	DS	51421 8 2 9D673623E84D7E10B2AA5B376A3F617665F8B38EF442E8A7E86F0F18161C7801
+xn--zfr164b.		86400	IN	DS	44374 8 2 93A7EE3E59E1CD78E9F4F677B14FC0449623AE5F27ACD7C0760CCE3FF0B8581C
 xxx.			172800	IN	NS	a.nic.xxx.
 xxx.			172800	IN	NS	b.nic.xxx.
 xxx.			172800	IN	NS	c.nic.xxx.
