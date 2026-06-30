@@ -3520,6 +3520,7 @@ circle.			172800	IN	NS	dnsa.nic.circle.
 circle.			172800	IN	NS	dnsb.nic.circle.
 circle.			172800	IN	NS	dnsc.nic.circle.
 circle.			172800	IN	NS	dnsd.nic.circle.
+circle.			86400	IN	DS	10075 8 2 61C05F1DB1341492824A03DCF98A62A6F641E1202A8E207FFC05ACC617226B3D
 circle.			86400	IN	DS	37745 8 2 89E27D8EFD40F6E9A05D3A8A4AE933A41056E574008D30B20C8AD9A7D07785DB
 dns1.nic.circle.	172800	IN	A	213.248.218.64
 dns1.nic.circle.	172800	IN	AAAA	2a01:618:402:0:0:0:0:64
@@ -7382,6 +7383,7 @@ got.			172800	IN	NS	dnsb.nic.got.
 got.			172800	IN	NS	dnsc.nic.got.
 got.			172800	IN	NS	dnsd.nic.got.
 got.			86400	IN	DS	4355 8 2 8B11D5875A3202ED7FAAE05A5EAB67057ECA0D5BDB62875C5203B6CBB011C50A
+got.			86400	IN	DS	12529 8 2 D88CEB7699002D534FCF0499DE71B904AB195CE5BAFC7D563178E993670A6A14
 dns1.nic.got.		172800	IN	A	213.248.218.68
 dns1.nic.got.		172800	IN	AAAA	2a01:618:402:0:0:0:0:68
 dns2.nic.got.		172800	IN	A	103.49.82.68
@@ -8544,14 +8546,18 @@ v2n0.nic.immobilien.	172800	IN	AAAA	2a01:8840:1d:0:0:0:0:19
 v2n1.nic.immobilien.	172800	IN	A	161.232.13.19
 v2n1.nic.immobilien.	172800	IN	AAAA	2a01:8840:f7:0:0:0:0:19
 in.			172800	IN	NS	ns1.registry.in.
+in.			172800	IN	NS	ns2.registry.in.
 in.			172800	IN	NS	ns3.registry.in.
-in.			172800	IN	NS	ns01.trs-dns.net.
-in.			172800	IN	NS	ns10.trs-dns.org.
+in.			172800	IN	NS	ns4.registry.in.
 in.			86400	IN	DS	10094 13 2 5824EE9A55ED72F0D46D2C3A511F393F05EFC27E73CBD1005BEBBC73402B6186
 ns1.registry.in.	172800	IN	A	64.96.1.1
 ns1.registry.in.	172800	IN	AAAA	2620:57:4001:0:0:0:0:1
+ns2.registry.in.	172800	IN	A	64.96.2.1
+ns2.registry.in.	172800	IN	AAAA	2620:57:4002:0:0:0:0:1
 ns3.registry.in.	172800	IN	A	64.78.204.1
 ns3.registry.in.	172800	IN	AAAA	2620:171:812:1534:8:0:0:1
+ns4.registry.in.	172800	IN	A	64.78.205.1
+ns4.registry.in.	172800	IN	AAAA	2620:171:813:1534:8:0:0:1
 inc.			172800	IN	NS	a.nic.inc.
 inc.			172800	IN	NS	b.nic.inc.
 inc.			172800	IN	NS	c.nic.inc.
@@ -9192,6 +9198,7 @@ jot.			172800	IN	NS	dnsa.nic.jot.
 jot.			172800	IN	NS	dnsb.nic.jot.
 jot.			172800	IN	NS	dnsc.nic.jot.
 jot.			172800	IN	NS	dnsd.nic.jot.
+jot.			86400	IN	DS	21967 8 2 D68BEB3FFE524F947633EE4F6ED10FBC44A38BE4494BF1D2C5D777C92D4BEF14
 jot.			86400	IN	DS	60425 8 2 E6238D8E60F3D9967690F2D435F35503CA777FC828B7DEBA61A1E4CC7E97BFCC
 dns1.nic.jot.		172800	IN	A	213.248.218.70
 dns1.nic.jot.		172800	IN	AAAA	2a01:618:402:0:0:0:0:70
@@ -15676,25 +15683,12 @@ dnsc.nic.silk.		172800	IN	A	156.154.102.3
 dnsc.nic.silk.		172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
 dnsd.nic.silk.		172800	IN	A	156.154.103.3
 dnsd.nic.silk.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
-sina.			172800	IN	NS	a0.nic.sina.
-sina.			172800	IN	NS	a2.nic.sina.
-sina.			172800	IN	NS	b0.nic.sina.
-sina.			172800	IN	NS	c0.nic.sina.
 sina.			172800	IN	NS	ta.ngtld.cn.
 sina.			172800	IN	NS	tb.ngtld.cn.
 sina.			172800	IN	NS	tc.ngtld.cn.
 sina.			172800	IN	NS	td.ngtld.cn.
 sina.			172800	IN	NS	te.ngtld.cn.
-sina.			86400	IN	DS	39217 8 2 B177DAEF81C0EBD0C85DBA9092550EB8D14333806E1DB4C2C44AC9ECE76432A5
 sina.			86400	IN	DS	44374 8 2 41197C4708B05D84C21D70C26297443CF86F656178106A5D7D08A3D687E3988A
-a0.nic.sina.		172800	IN	A	65.22.140.33
-a0.nic.sina.		172800	IN	AAAA	2a01:8840:8a:0:0:0:0:33
-a2.nic.sina.		172800	IN	A	65.22.143.33
-a2.nic.sina.		172800	IN	AAAA	2a01:8840:8d:0:0:0:0:33
-b0.nic.sina.		172800	IN	A	65.22.141.33
-b0.nic.sina.		172800	IN	AAAA	2a01:8840:8b:0:0:0:0:33
-c0.nic.sina.		172800	IN	A	65.22.142.33
-c0.nic.sina.		172800	IN	AAAA	2a01:8840:8c:0:0:0:0:33
 singles.		172800	IN	NS	v0n0.nic.singles.
 singles.		172800	IN	NS	v0n1.nic.singles.
 singles.		172800	IN	NS	v0n2.nic.singles.
@@ -18609,25 +18603,12 @@ y.nic.wedding.		172800	IN	A	156.154.173.82
 y.nic.wedding.		172800	IN	AAAA	2610:a1:1075:0:0:0:1:82
 z.nic.wedding.		172800	IN	A	156.154.174.82
 z.nic.wedding.		172800	IN	AAAA	2610:a1:1076:0:0:0:1:82
-weibo.			172800	IN	NS	a0.nic.weibo.
-weibo.			172800	IN	NS	a2.nic.weibo.
-weibo.			172800	IN	NS	b0.nic.weibo.
-weibo.			172800	IN	NS	c0.nic.weibo.
 weibo.			172800	IN	NS	ta.ngtld.cn.
 weibo.			172800	IN	NS	tb.ngtld.cn.
 weibo.			172800	IN	NS	tc.ngtld.cn.
 weibo.			172800	IN	NS	td.ngtld.cn.
 weibo.			172800	IN	NS	te.ngtld.cn.
-weibo.			86400	IN	DS	40642 8 2 930EDCD3B0036BCDEBF43862AD49F6B7486DFECFC2E42F769AB66F21938CF112
 weibo.			86400	IN	DS	44374 8 2 FC7C7EEE0C220B160A81C97FCA3A33AB46AF1ED113A689B6308F6C4D3FCB6DBE
-a0.nic.weibo.		172800	IN	A	65.22.56.41
-a0.nic.weibo.		172800	IN	AAAA	2a01:8840:36:0:0:0:0:41
-a2.nic.weibo.		172800	IN	A	65.22.59.41
-a2.nic.weibo.		172800	IN	AAAA	2a01:8840:39:0:0:0:0:41
-b0.nic.weibo.		172800	IN	A	65.22.57.41
-b0.nic.weibo.		172800	IN	AAAA	2a01:8840:37:0:0:0:0:41
-c0.nic.weibo.		172800	IN	A	65.22.58.41
-c0.nic.weibo.		172800	IN	AAAA	2a01:8840:38:0:0:0:0:41
 weir.			172800	IN	NS	a0.nic.weir.
 weir.			172800	IN	NS	a2.nic.weir.
 weir.			172800	IN	NS	b0.nic.weir.
@@ -19286,25 +19267,12 @@ xn--9et52u.		172800	IN	NS	g.zdnscloud.com.
 xn--9et52u.		172800	IN	NS	i.zdnscloud.cn.
 xn--9et52u.		172800	IN	NS	j.zdnscloud.com.
 xn--9et52u.		86400	IN	DS	46544 8 2 0310CAD1673A9AECA7A4EB6C955EA0BEBEFD87C77C702772E94AA0EB31CB82D3
-xn--9krt00a.		172800	IN	NS	a0.nic.xn--9krt00a.
-xn--9krt00a.		172800	IN	NS	a2.nic.xn--9krt00a.
-xn--9krt00a.		172800	IN	NS	b0.nic.xn--9krt00a.
-xn--9krt00a.		172800	IN	NS	c0.nic.xn--9krt00a.
 xn--9krt00a.		172800	IN	NS	ta.ngtld.cn.
 xn--9krt00a.		172800	IN	NS	tb.ngtld.cn.
 xn--9krt00a.		172800	IN	NS	tc.ngtld.cn.
 xn--9krt00a.		172800	IN	NS	td.ngtld.cn.
 xn--9krt00a.		172800	IN	NS	te.ngtld.cn.
-xn--9krt00a.		86400	IN	DS	6052 8 2 E5AEA197B5FB7F042833684BBF64FD1F9341BAA2007B2DB2958C9DFAA5884B78
 xn--9krt00a.		86400	IN	DS	44374 8 2 0B082C464CCBD87DCF4D8C2E49C50F7CAA6D96477C31082CA8998019672D85CA
-a0.nic.xn--9krt00a.	172800	IN	A	65.22.112.1
-a0.nic.xn--9krt00a.	172800	IN	AAAA	2a01:8840:6e:0:0:0:0:1
-a2.nic.xn--9krt00a.	172800	IN	A	65.22.115.1
-a2.nic.xn--9krt00a.	172800	IN	AAAA	2a01:8840:71:0:0:0:0:1
-b0.nic.xn--9krt00a.	172800	IN	A	65.22.113.1
-b0.nic.xn--9krt00a.	172800	IN	AAAA	2a01:8840:6f:0:0:0:0:1
-c0.nic.xn--9krt00a.	172800	IN	A	65.22.114.1
-c0.nic.xn--9krt00a.	172800	IN	AAAA	2a01:8840:70:0:0:0:0:1
 xn--b4w605ferd.		172800	IN	NS	a0.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	a2.nic.xn--b4w605ferd.
 xn--b4w605ferd.		172800	IN	NS	b0.nic.xn--b4w605ferd.
