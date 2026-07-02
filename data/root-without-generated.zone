@@ -1181,6 +1181,7 @@ cctld.gamma.aridns.net.au.	172800	IN	AAAA	2001:dcd:3:0:0:0:0:6
 gtld.gamma.aridns.net.au.	172800	IN	A	37.209.196.10
 gtld.gamma.aridns.net.au.	172800	IN	AAAA	2001:dcd:3:0:0:0:0:10
 munnari.oz.au.		172800	IN	A	202.29.151.3
+munnari.oz.au.		172800	IN	AAAA	2001:3c8:9009:181:0:0:0:2
 q.au.			172800	IN	A	65.22.196.1
 q.au.			172800	IN	AAAA	2a01:8840:be:0:0:0:0:1
 r.au.			172800	IN	A	65.22.197.1
@@ -3793,14 +3794,6 @@ cn.			172800	IN	NS	d.dns.cn.
 cn.			172800	IN	NS	e.dns.cn.
 cn.			172800	IN	NS	ns.cernet.net.
 cn.			86400	IN	DS	33094 8 2 CCCF13ED73A83244F7D2936F0B6C3507D85C3EBC5E1BE4FB644064BC5B5FE3B2
-ns1.conac.cn.		172800	IN	A	111.235.161.1
-ns1.conac.cn.		172800	IN	AAAA	2401:b400:1:0:0:0:0:1
-ns2.conac.cn.		172800	IN	A	111.235.162.1
-ns2.conac.cn.		172800	IN	AAAA	2401:b400:8:0:0:0:0:1
-ns3.conac.cn.		172800	IN	A	111.235.163.1
-ns3.conac.cn.		172800	IN	AAAA	2401:b400:9:0:0:0:0:1
-ns4.conac.cn.		172800	IN	A	111.235.164.1
-ns5.conac.cn.		172800	IN	A	111.235.165.1
 a.dns.cn.		172800	IN	A	203.119.25.1
 a.dns.cn.		172800	IN	AAAA	2001:dc7:0:0:0:0:0:1
 b.dns.cn.		172800	IN	A	203.119.26.1
@@ -19119,12 +19112,6 @@ xn--55qw42g.		172800	IN	NS	tb.ngtld.cn.
 xn--55qw42g.		172800	IN	NS	tc.ngtld.cn.
 xn--55qw42g.		172800	IN	NS	td.ngtld.cn.
 xn--55qw42g.		172800	IN	NS	te.ngtld.cn.
-xn--55qw42g.		172800	IN	NS	ns1.conac.cn.
-xn--55qw42g.		172800	IN	NS	ns2.conac.cn.
-xn--55qw42g.		172800	IN	NS	ns3.conac.cn.
-xn--55qw42g.		172800	IN	NS	ns4.conac.cn.
-xn--55qw42g.		172800	IN	NS	ns5.conac.cn.
-xn--55qw42g.		86400	IN	DS	21055 8 2 0D6F3AA00BB63F959E87931FEA3F5D6E18A7C0F9F1408BFDF34113D88B191D37
 xn--55qw42g.		86400	IN	DS	44374 8 2 7A835652C46DE71FC431DAD529ADB5722F1DB5239D8A83308B91BCAD79328467
 xn--55qx5d.		172800	IN	NS	a.ngtld.cn.
 xn--55qx5d.		172800	IN	NS	b.ngtld.cn.
@@ -20353,12 +20340,6 @@ xn--zfr164b.		172800	IN	NS	tb.ngtld.cn.
 xn--zfr164b.		172800	IN	NS	tc.ngtld.cn.
 xn--zfr164b.		172800	IN	NS	td.ngtld.cn.
 xn--zfr164b.		172800	IN	NS	te.ngtld.cn.
-xn--zfr164b.		172800	IN	NS	ns1.conac.cn.
-xn--zfr164b.		172800	IN	NS	ns2.conac.cn.
-xn--zfr164b.		172800	IN	NS	ns3.conac.cn.
-xn--zfr164b.		172800	IN	NS	ns4.conac.cn.
-xn--zfr164b.		172800	IN	NS	ns5.conac.cn.
-xn--zfr164b.		86400	IN	DS	8245 8 2 EE6F394BD32D4BB28D43D2F2172121C90941E133D5B5BDBDCB72F86765BB95EB
 xn--zfr164b.		86400	IN	DS	44374 8 2 93A7EE3E59E1CD78E9F4F677B14FC0449623AE5F27ACD7C0760CCE3FF0B8581C
 xxx.			172800	IN	NS	a.nic.xxx.
 xxx.			172800	IN	NS	b.nic.xxx.
