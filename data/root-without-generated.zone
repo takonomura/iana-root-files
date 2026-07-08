@@ -3512,32 +3512,26 @@ b0.nic.cipriani.	172800	IN	A	65.22.237.41
 b0.nic.cipriani.	172800	IN	AAAA	2a01:8840:e7:0:0:0:0:41
 c0.nic.cipriani.	172800	IN	A	65.22.238.41
 c0.nic.cipriani.	172800	IN	AAAA	2a01:8840:e8:0:0:0:0:41
-circle.			172800	IN	NS	dns1.nic.circle.
-circle.			172800	IN	NS	dns2.nic.circle.
-circle.			172800	IN	NS	dns3.nic.circle.
-circle.			172800	IN	NS	dns4.nic.circle.
-circle.			172800	IN	NS	dnsa.nic.circle.
-circle.			172800	IN	NS	dnsb.nic.circle.
-circle.			172800	IN	NS	dnsc.nic.circle.
-circle.			172800	IN	NS	dnsd.nic.circle.
+circle.			172800	IN	NS	v0n0.nic.circle.
+circle.			172800	IN	NS	v0n1.nic.circle.
+circle.			172800	IN	NS	v0n2.nic.circle.
+circle.			172800	IN	NS	v0n3.nic.circle.
+circle.			172800	IN	NS	v2n0.nic.circle.
+circle.			172800	IN	NS	v2n1.nic.circle.
 circle.			86400	IN	DS	10075 8 2 61C05F1DB1341492824A03DCF98A62A6F641E1202A8E207FFC05ACC617226B3D
 circle.			86400	IN	DS	37745 8 2 89E27D8EFD40F6E9A05D3A8A4AE933A41056E574008D30B20C8AD9A7D07785DB
-dns1.nic.circle.	172800	IN	A	213.248.218.64
-dns1.nic.circle.	172800	IN	AAAA	2a01:618:402:0:0:0:0:64
-dns2.nic.circle.	172800	IN	A	103.49.82.64
-dns2.nic.circle.	172800	IN	AAAA	2401:fd80:402:0:0:0:0:64
-dns3.nic.circle.	172800	IN	A	213.248.222.64
-dns3.nic.circle.	172800	IN	AAAA	2a01:618:406:0:0:0:0:64
-dns4.nic.circle.	172800	IN	A	43.230.50.64
-dns4.nic.circle.	172800	IN	AAAA	2401:fd80:406:0:0:0:0:64
-dnsa.nic.circle.	172800	IN	A	156.154.100.3
-dnsa.nic.circle.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
-dnsb.nic.circle.	172800	IN	A	156.154.101.3
-dnsb.nic.circle.	172800	IN	AAAA	2001:502:2eda:0:0:0:0:3
-dnsc.nic.circle.	172800	IN	A	156.154.102.3
-dnsc.nic.circle.	172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
-dnsd.nic.circle.	172800	IN	A	156.154.103.3
-dnsd.nic.circle.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
+v0n0.nic.circle.	172800	IN	A	65.22.36.49
+v0n0.nic.circle.	172800	IN	AAAA	2a01:8840:26:0:0:0:0:49
+v0n1.nic.circle.	172800	IN	A	65.22.37.49
+v0n1.nic.circle.	172800	IN	AAAA	2a01:8840:27:0:0:0:0:49
+v0n2.nic.circle.	172800	IN	A	65.22.38.49
+v0n2.nic.circle.	172800	IN	AAAA	2a01:8840:28:0:0:0:0:49
+v0n3.nic.circle.	172800	IN	A	161.232.18.49
+v0n3.nic.circle.	172800	IN	AAAA	2a01:8840:10e:0:0:0:0:49
+v2n0.nic.circle.	172800	IN	A	65.22.39.49
+v2n0.nic.circle.	172800	IN	AAAA	2a01:8840:29:0:0:0:0:49
+v2n1.nic.circle.	172800	IN	A	161.232.19.49
+v2n1.nic.circle.	172800	IN	AAAA	2a01:8840:10f:0:0:0:0:49
 cisco.			172800	IN	NS	a.nic.cisco.
 cisco.			172800	IN	NS	b.nic.cisco.
 cisco.			172800	IN	NS	c.nic.cisco.
@@ -7366,32 +7360,26 @@ dnsc.nic.gop.		172800	IN	A	156.154.102.3
 dnsc.nic.gop.		172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
 dnsd.nic.gop.		172800	IN	A	156.154.103.3
 dnsd.nic.gop.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
-got.			172800	IN	NS	dns1.nic.got.
-got.			172800	IN	NS	dns2.nic.got.
-got.			172800	IN	NS	dns3.nic.got.
-got.			172800	IN	NS	dns4.nic.got.
-got.			172800	IN	NS	dnsa.nic.got.
-got.			172800	IN	NS	dnsb.nic.got.
-got.			172800	IN	NS	dnsc.nic.got.
-got.			172800	IN	NS	dnsd.nic.got.
+got.			172800	IN	NS	v0n0.nic.got.
+got.			172800	IN	NS	v0n1.nic.got.
+got.			172800	IN	NS	v0n2.nic.got.
+got.			172800	IN	NS	v0n3.nic.got.
+got.			172800	IN	NS	v2n0.nic.got.
+got.			172800	IN	NS	v2n1.nic.got.
 got.			86400	IN	DS	4355 8 2 8B11D5875A3202ED7FAAE05A5EAB67057ECA0D5BDB62875C5203B6CBB011C50A
 got.			86400	IN	DS	12529 8 2 D88CEB7699002D534FCF0499DE71B904AB195CE5BAFC7D563178E993670A6A14
-dns1.nic.got.		172800	IN	A	213.248.218.68
-dns1.nic.got.		172800	IN	AAAA	2a01:618:402:0:0:0:0:68
-dns2.nic.got.		172800	IN	A	103.49.82.68
-dns2.nic.got.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:68
-dns3.nic.got.		172800	IN	A	213.248.222.68
-dns3.nic.got.		172800	IN	AAAA	2a01:618:406:0:0:0:0:68
-dns4.nic.got.		172800	IN	A	43.230.50.68
-dns4.nic.got.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:68
-dnsa.nic.got.		172800	IN	A	156.154.100.3
-dnsa.nic.got.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
-dnsb.nic.got.		172800	IN	A	156.154.101.3
-dnsb.nic.got.		172800	IN	AAAA	2001:502:2eda:0:0:0:0:3
-dnsc.nic.got.		172800	IN	A	156.154.102.3
-dnsc.nic.got.		172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
-dnsd.nic.got.		172800	IN	A	156.154.103.3
-dnsd.nic.got.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
+v0n0.nic.got.		172800	IN	A	65.22.36.57
+v0n0.nic.got.		172800	IN	AAAA	2a01:8840:26:0:0:0:0:57
+v0n1.nic.got.		172800	IN	A	65.22.37.57
+v0n1.nic.got.		172800	IN	AAAA	2a01:8840:27:0:0:0:0:57
+v0n2.nic.got.		172800	IN	A	65.22.38.57
+v0n2.nic.got.		172800	IN	AAAA	2a01:8840:28:0:0:0:0:57
+v0n3.nic.got.		172800	IN	A	161.232.18.57
+v0n3.nic.got.		172800	IN	AAAA	2a01:8840:10e:0:0:0:0:57
+v2n0.nic.got.		172800	IN	A	65.22.39.57
+v2n0.nic.got.		172800	IN	AAAA	2a01:8840:29:0:0:0:0:57
+v2n1.nic.got.		172800	IN	A	161.232.19.57
+v2n1.nic.got.		172800	IN	AAAA	2a01:8840:10f:0:0:0:0:57
 gov.			172800	IN	NS	a.ns.gov.
 gov.			172800	IN	NS	b.ns.gov.
 gov.			172800	IN	NS	c.ns.gov.
@@ -7424,7 +7412,7 @@ c.ns.gq.		172800	IN	A	185.21.170.65
 c.ns.gq.		172800	IN	AAAA	2a04:1b00:12:0:0:0:0:1
 d.ns.gq.		172800	IN	A	185.21.171.65
 d.ns.gq.		172800	IN	AAAA	2a04:1b00:13:0:0:0:0:1
-gr.			172800	IN	NS	gr-c.ics.forth.gr.
+gr.			172800	IN	NS	gr-a.ics.forth.gr.
 gr.			172800	IN	NS	gr-d.ics.forth.gr.
 gr.			172800	IN	NS	gr-m.ics.forth.gr.
 gr.			172800	IN	NS	estia.ics.forth.gr.
@@ -7433,6 +7421,8 @@ gr.			172800	IN	NS	grdns.ics.forth.gr.
 gr.			86400	IN	DS	13987 8 2 FF87E9205F88E1D32C67A65BD61C68C56689C607D7684D12C867DC933D546EC8
 estia.ics.forth.gr.	172800	IN	A	139.91.191.3
 estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30:0:0:0:191:3
+gr-a.ics.forth.gr.	172800	IN	A	194.0.25.48
+gr-a.ics.forth.gr.	172800	IN	AAAA	2001:678:20:0:0:0:0:48
 gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
 gr-c.ics.forth.gr.	172800	IN	A	194.0.1.25
 gr-c.ics.forth.gr.	172800	IN	AAAA	2001:678:4:0:0:0:0:19
@@ -7922,8 +7912,8 @@ c0.nic.hkt.		172800	IN	AAAA	2a01:8840:74:0:0:0:0:33
 hm.			172800	IN	NS	ns1.registry.hm.
 hm.			172800	IN	NS	ns2.registry.hm.
 hm.			172800	IN	NS	ns3.registry.hm.
-ns1.registry.hm.	172800	IN	A	142.171.40.232
-ns2.registry.hm.	172800	IN	A	142.171.40.234
+ns1.registry.hm.	172800	IN	A	223.252.41.82
+ns2.registry.hm.	172800	IN	A	223.252.41.83
 ns3.registry.hm.	172800	IN	A	128.199.180.188
 hn.			172800	IN	NS	a.lactld.org.
 hn.			172800	IN	NS	ns1.anycastdns.cz.
@@ -9182,32 +9172,26 @@ joburg.			172800	IN	NS	ns2.dns.net.za.
 joburg.			172800	IN	NS	ns4.dns.net.za.
 joburg.			172800	IN	NS	coza1.dnsnode.net.
 joburg.			86400	IN	DS	2855 8 2 D027F109B59BAEB30BC000DC1F2D34B57D9BA404923F899BB07E4BADD0DC2136
-jot.			172800	IN	NS	dns1.nic.jot.
-jot.			172800	IN	NS	dns2.nic.jot.
-jot.			172800	IN	NS	dns3.nic.jot.
-jot.			172800	IN	NS	dns4.nic.jot.
-jot.			172800	IN	NS	dnsa.nic.jot.
-jot.			172800	IN	NS	dnsb.nic.jot.
-jot.			172800	IN	NS	dnsc.nic.jot.
-jot.			172800	IN	NS	dnsd.nic.jot.
+jot.			172800	IN	NS	v0n0.nic.jot.
+jot.			172800	IN	NS	v0n1.nic.jot.
+jot.			172800	IN	NS	v0n2.nic.jot.
+jot.			172800	IN	NS	v0n3.nic.jot.
+jot.			172800	IN	NS	v2n0.nic.jot.
+jot.			172800	IN	NS	v2n1.nic.jot.
 jot.			86400	IN	DS	21967 8 2 D68BEB3FFE524F947633EE4F6ED10FBC44A38BE4494BF1D2C5D777C92D4BEF14
 jot.			86400	IN	DS	60425 8 2 E6238D8E60F3D9967690F2D435F35503CA777FC828B7DEBA61A1E4CC7E97BFCC
-dns1.nic.jot.		172800	IN	A	213.248.218.70
-dns1.nic.jot.		172800	IN	AAAA	2a01:618:402:0:0:0:0:70
-dns2.nic.jot.		172800	IN	A	103.49.82.70
-dns2.nic.jot.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:70
-dns3.nic.jot.		172800	IN	A	213.248.222.70
-dns3.nic.jot.		172800	IN	AAAA	2a01:618:406:0:0:0:0:70
-dns4.nic.jot.		172800	IN	A	43.230.50.70
-dns4.nic.jot.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:70
-dnsa.nic.jot.		172800	IN	A	156.154.100.3
-dnsa.nic.jot.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
-dnsb.nic.jot.		172800	IN	A	156.154.101.3
-dnsb.nic.jot.		172800	IN	AAAA	2001:502:2eda:0:0:0:0:3
-dnsc.nic.jot.		172800	IN	A	156.154.102.3
-dnsc.nic.jot.		172800	IN	AAAA	2610:a1:1009:0:0:0:0:3
-dnsd.nic.jot.		172800	IN	A	156.154.103.3
-dnsd.nic.jot.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:3
+v0n0.nic.jot.		172800	IN	A	65.22.36.65
+v0n0.nic.jot.		172800	IN	AAAA	2a01:8840:26:0:0:0:0:65
+v0n1.nic.jot.		172800	IN	A	65.22.37.65
+v0n1.nic.jot.		172800	IN	AAAA	2a01:8840:27:0:0:0:0:65
+v0n2.nic.jot.		172800	IN	A	65.22.38.65
+v0n2.nic.jot.		172800	IN	AAAA	2a01:8840:28:0:0:0:0:65
+v0n3.nic.jot.		172800	IN	A	161.232.18.65
+v0n3.nic.jot.		172800	IN	AAAA	2a01:8840:10e:0:0:0:0:65
+v2n0.nic.jot.		172800	IN	A	65.22.39.65
+v2n0.nic.jot.		172800	IN	AAAA	2a01:8840:29:0:0:0:0:65
+v2n1.nic.jot.		172800	IN	A	161.232.19.65
+v2n1.nic.jot.		172800	IN	AAAA	2a01:8840:10f:0:0:0:0:65
 joy.			172800	IN	NS	dns1.nic.joy.
 joy.			172800	IN	NS	dns2.nic.joy.
 joy.			172800	IN	NS	dns3.nic.joy.
@@ -14677,7 +14661,7 @@ ruhr.			172800	IN	NS	a.nic.ruhr.
 ruhr.			172800	IN	NS	b.nic.ruhr.
 ruhr.			172800	IN	NS	c.nic.ruhr.
 ruhr.			172800	IN	NS	d.nic.ruhr.
-ruhr.			86400	IN	DS	40422 10 2 74FB0B871ADF46AAB5D49A1EB3B8B0B7DDA42C023DD045EC0282B6187B3B4CF7
+ruhr.			86400	IN	DS	35633 13 2 470D5916105A40ECC204FD025AAD5E43E44C82747C6C3C5130462F9B7396E9A5
 ruhr.			86400	IN	DS	46252 10 2 3DB9DB25D3B8E13FBCB4EBA53F61C7CE156831DCE66D4A19747D17F8AB278FDB
 a.nic.ruhr.		172800	IN	A	194.169.218.155
 a.nic.ruhr.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:155
@@ -20103,6 +20087,7 @@ xn--qxa6a.		172800	IN	NS	si.dns.eu.
 xn--qxa6a.		86400	IN	DS	28624 8 2 248CB7496D7D6C9A4C0F2BC97187E1EA7A4F9F1ACEFDC745680875E8A009B793
 xn--qxam.		172800	IN	NS	gr-c.ics.forth.gr.
 xn--qxam.		172800	IN	NS	gr-d.ics.forth.gr.
+xn--qxam.		172800	IN	NS	gr-m.ics.forth.gr.
 xn--qxam.		172800	IN	NS	estia.ics.forth.gr.
 xn--qxam.		172800	IN	NS	gr-at.ics.forth.gr.
 xn--qxam.		172800	IN	NS	grdns.ics.forth.gr.
