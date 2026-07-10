@@ -7424,8 +7424,6 @@ estia.ics.forth.gr.	172800	IN	AAAA	2001:648:2c30:0:0:0:191:3
 gr-a.ics.forth.gr.	172800	IN	A	194.0.25.48
 gr-a.ics.forth.gr.	172800	IN	AAAA	2001:678:20:0:0:0:0:48
 gr-at.ics.forth.gr.	172800	IN	A	78.104.145.227
-gr-c.ics.forth.gr.	172800	IN	A	194.0.1.25
-gr-c.ics.forth.gr.	172800	IN	AAAA	2001:678:4:0:0:0:0:19
 gr-d.ics.forth.gr.	172800	IN	A	194.0.11.102
 gr-d.ics.forth.gr.	172800	IN	AAAA	2001:678:e:102:0:0:0:53
 gr-m.ics.forth.gr.	172800	IN	A	194.0.4.10
@@ -20084,7 +20082,7 @@ xn--qxa6a.		172800	IN	NS	y.dns.eu.
 xn--qxa6a.		172800	IN	NS	be.dns.eu.
 xn--qxa6a.		172800	IN	NS	si.dns.eu.
 xn--qxa6a.		86400	IN	DS	28624 8 2 248CB7496D7D6C9A4C0F2BC97187E1EA7A4F9F1ACEFDC745680875E8A009B793
-xn--qxam.		172800	IN	NS	gr-c.ics.forth.gr.
+xn--qxam.		172800	IN	NS	gr-a.ics.forth.gr.
 xn--qxam.		172800	IN	NS	gr-d.ics.forth.gr.
 xn--qxam.		172800	IN	NS	gr-m.ics.forth.gr.
 xn--qxam.		172800	IN	NS	estia.ics.forth.gr.
