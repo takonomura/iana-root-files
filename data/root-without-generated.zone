@@ -1892,6 +1892,10 @@ bh.			172800	IN	NS	a.nic.bh.
 bh.			172800	IN	NS	b.nic.bh.
 bh.			172800	IN	NS	c.nic.bh.
 bh.			172800	IN	NS	d.nic.bh.
+bh.			172800	IN	NS	ns01.trs-dns.com.
+bh.			172800	IN	NS	ns01.trs-dns.net.
+bh.			172800	IN	NS	ns10.trs-dns.org.
+bh.			172800	IN	NS	ns10.trs-dns.info.
 bh.			86400	IN	DS	17411 8 2 5585896549A2954516768F776E8A9E2610CBF5CBD7165389C0A5448435C71185
 bh.			86400	IN	DS	62264 8 2 C4078EB7E70029E2BBED8F7271D9F7636C133746C0E3DC22EA7F1BFDA231B246
 a.nic.bh.		172800	IN	A	194.169.218.115
@@ -3519,7 +3523,6 @@ circle.			172800	IN	NS	v0n3.nic.circle.
 circle.			172800	IN	NS	v2n0.nic.circle.
 circle.			172800	IN	NS	v2n1.nic.circle.
 circle.			86400	IN	DS	10075 8 2 61C05F1DB1341492824A03DCF98A62A6F641E1202A8E207FFC05ACC617226B3D
-circle.			86400	IN	DS	37745 8 2 89E27D8EFD40F6E9A05D3A8A4AE933A41056E574008D30B20C8AD9A7D07785DB
 v0n0.nic.circle.	172800	IN	A	65.22.36.49
 v0n0.nic.circle.	172800	IN	AAAA	2a01:8840:26:0:0:0:0:49
 v0n1.nic.circle.	172800	IN	A	65.22.37.49
@@ -4344,6 +4347,8 @@ dns.nic.cr.		172800	IN	A	200.107.82.100
 dns.nic.cr.		172800	IN	AAAA	2001:13c7:7004:1:0:0:0:d100
 dns-ext.nic.cr.		172800	IN	A	200.107.82.219
 dns-ext.nic.cr.		172800	IN	AAAA	2001:13c7:7004:110:0:0:0:219
+nsca.nic.cr.		172800	IN	A	200.107.82.38
+nsca.nic.cr.		172800	IN	AAAA	2001:13c7:7004:1:0:0:0:38
 p.nic.cr.		172800	IN	A	204.61.216.89
 p.nic.cr.		172800	IN	AAAA	2001:500:14:6089:ad:0:0:1
 credit.			172800	IN	NS	v0n0.nic.credit.
@@ -7366,7 +7371,6 @@ got.			172800	IN	NS	v0n2.nic.got.
 got.			172800	IN	NS	v0n3.nic.got.
 got.			172800	IN	NS	v2n0.nic.got.
 got.			172800	IN	NS	v2n1.nic.got.
-got.			86400	IN	DS	4355 8 2 8B11D5875A3202ED7FAAE05A5EAB67057ECA0D5BDB62875C5203B6CBB011C50A
 got.			86400	IN	DS	12529 8 2 D88CEB7699002D534FCF0499DE71B904AB195CE5BAFC7D563178E993670A6A14
 v0n0.nic.got.		172800	IN	A	65.22.36.57
 v0n0.nic.got.		172800	IN	AAAA	2a01:8840:26:0:0:0:0:57
@@ -9177,7 +9181,6 @@ jot.			172800	IN	NS	v0n3.nic.jot.
 jot.			172800	IN	NS	v2n0.nic.jot.
 jot.			172800	IN	NS	v2n1.nic.jot.
 jot.			86400	IN	DS	21967 8 2 D68BEB3FFE524F947633EE4F6ED10FBC44A38BE4494BF1D2C5D777C92D4BEF14
-jot.			86400	IN	DS	60425 8 2 E6238D8E60F3D9967690F2D435F35503CA777FC828B7DEBA61A1E4CC7E97BFCC
 v0n0.nic.jot.		172800	IN	A	65.22.36.65
 v0n0.nic.jot.		172800	IN	AAAA	2a01:8840:26:0:0:0:0:65
 v0n1.nic.jot.		172800	IN	A	65.22.37.65
@@ -14048,11 +14051,17 @@ ns2.dns.nic.racing.	172800	IN	A	156.154.170.33
 ns2.dns.nic.racing.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:21
 ns3.dns.nic.racing.	172800	IN	A	156.154.171.33
 ns3.dns.nic.racing.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:21
+radio.			172800	IN	NS	a.nic.radio.
+radio.			172800	IN	NS	b.nic.radio.
 radio.			172800	IN	NS	anycast9.irondns.net.
 radio.			172800	IN	NS	anycast10.irondns.net.
 radio.			172800	IN	NS	anycast23.irondns.net.
 radio.			172800	IN	NS	anycast24.irondns.net.
 radio.			86400	IN	DS	62727 10 2 3863E4A0C36A262785C1703B5CFF54CDBD56CD40BB414B45599848CE972E26B9
+a.nic.radio.		172800	IN	A	194.169.218.21
+a.nic.radio.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:21
+b.nic.radio.		172800	IN	A	185.24.64.21
+b.nic.radio.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:21
 re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	f.ext.nic.fr.
 re.			172800	IN	NS	g.ext.nic.fr.
@@ -14630,12 +14639,15 @@ rsvp.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 rsvp.			86400	IN	DS	7067 8 2 A34484076595033B18742005866B79F5C56FECEC5A667494E3B179621B44EE4A
 ru.			172800	IN	NS	a.dns.ripn.net.
 ru.			172800	IN	NS	b.dns.ripn.net.
+ru.			172800	IN	NS	c.tld-servers.ru.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
 ru.			86400	IN	DS	51575 8 2 34CF735353060D9BD6347FF81ECFAAC24EC8F11971DC800249C64A21BC062775
 a.dns.flexireg.ru.	172800	IN	A	31.177.70.1
 a.dns.flexireg.ru.	172800	IN	AAAA	2a02:2090:6800:0:0:0:0:1
+c.tld-servers.ru.	172800	IN	A	194.190.122.17
+c.tld-servers.ru.	172800	IN	AAAA	2a09:bd00:1:0:194:190:122:17
 rugby.			172800	IN	NS	a.nic.rugby.
 rugby.			172800	IN	NS	b.nic.rugby.
 rugby.			172800	IN	NS	c.nic.rugby.
@@ -16425,6 +16437,7 @@ sv.			172800	IN	NS	p.ns.sv.
 sv.			172800	IN	NS	ix.red.sv.
 sv.			172800	IN	NS	ns.dns.br.
 sv.			172800	IN	NS	sir.red.sv.
+sv.			172800	IN	NS	nsca.nic.cr.
 sv.			172800	IN	NS	dns-ext.nic.cr.
 p.ns.sv.		172800	IN	A	204.61.216.112
 p.ns.sv.		172800	IN	AAAA	2001:500:14:6112:ad:0:0:1
@@ -20043,6 +20056,7 @@ ns2.nic.xn--p1acf.	172800	IN	A	72.0.49.2
 ns2.nic.xn--p1acf.	172800	IN	AAAA	2620:171:a01:ad:0:0:0:2
 xn--p1ai.		172800	IN	NS	a.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	b.dns.ripn.net.
+xn--p1ai.		172800	IN	NS	c.tld-servers.ru.
 xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
