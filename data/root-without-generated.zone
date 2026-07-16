@@ -19872,6 +19872,10 @@ xn--mgbcpq6gpa1a.	172800	IN	NS	a.nic.xn--mgbcpq6gpa1a.
 xn--mgbcpq6gpa1a.	172800	IN	NS	b.nic.xn--mgbcpq6gpa1a.
 xn--mgbcpq6gpa1a.	172800	IN	NS	c.nic.xn--mgbcpq6gpa1a.
 xn--mgbcpq6gpa1a.	172800	IN	NS	d.nic.xn--mgbcpq6gpa1a.
+xn--mgbcpq6gpa1a.	172800	IN	NS	ns01.trs-dns.com.
+xn--mgbcpq6gpa1a.	172800	IN	NS	ns01.trs-dns.net.
+xn--mgbcpq6gpa1a.	172800	IN	NS	ns10.trs-dns.org.
+xn--mgbcpq6gpa1a.	172800	IN	NS	ns10.trs-dns.info.
 xn--mgbcpq6gpa1a.	86400	IN	DS	18404 8 2 1DBC70CB85267DA1054F652AC0B4AEEB76F17FB9648A490F4A0BB0D934BF6AC3
 xn--mgbcpq6gpa1a.	86400	IN	DS	43307 8 2 F81DACC26855561EC37FFD774F722C2C5F07A181C611114AE28724460001FD39
 a.nic.xn--mgbcpq6gpa1a.	172800	IN	A	194.169.218.115
