@@ -1888,24 +1888,12 @@ e.nic.bg.		172800	IN	A	185.143.80.1
 e.nic.bg.		172800	IN	AAAA	2a02:6a80:530e:0:0:0:0:1
 p.nic.bg.		172800	IN	A	204.61.216.110
 p.nic.bg.		172800	IN	AAAA	2001:500:14:6110:ad:0:0:1
-bh.			172800	IN	NS	a.nic.bh.
-bh.			172800	IN	NS	b.nic.bh.
-bh.			172800	IN	NS	c.nic.bh.
-bh.			172800	IN	NS	d.nic.bh.
 bh.			172800	IN	NS	ns01.trs-dns.com.
 bh.			172800	IN	NS	ns01.trs-dns.net.
 bh.			172800	IN	NS	ns10.trs-dns.org.
 bh.			172800	IN	NS	ns10.trs-dns.info.
 bh.			86400	IN	DS	17411 8 2 5585896549A2954516768F776E8A9E2610CBF5CBD7165389C0A5448435C71185
 bh.			86400	IN	DS	62264 8 2 C4078EB7E70029E2BBED8F7271D9F7636C133746C0E3DC22EA7F1BFDA231B246
-a.nic.bh.		172800	IN	A	194.169.218.115
-a.nic.bh.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:115
-b.nic.bh.		172800	IN	A	185.24.64.115
-b.nic.bh.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:115
-c.nic.bh.		172800	IN	A	212.18.248.115
-c.nic.bh.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:115
-d.nic.bh.		172800	IN	A	212.18.249.115
-d.nic.bh.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:115
 bharti.			172800	IN	NS	a.nic.bharti.
 bharti.			172800	IN	NS	b.nic.bharti.
 bharti.			172800	IN	NS	c.nic.bharti.
@@ -5408,6 +5396,7 @@ edu.			172800	IN	NS	m.edu-servers.net.
 edu.			86400	IN	DS	35663 13 2 A2E1614291831A4746B5AC52B4B345357687271E85353082741F1CF3D06A4C1D
 pendragon.cs.purdue.edu.	172800	IN	A	128.10.2.5
 gold.uog.edu.		172800	IN	A	168.123.250.66
+gold-test.uog.edu.	172800	IN	A	168.123.250.70
 green.uog.edu.		172800	IN	A	168.123.250.56
 phloem.uoregon.edu.	172800	IN	A	128.223.32.35
 phloem.uoregon.edu.	172800	IN	AAAA	2001:468:d01:20:0:0:80df:2023
@@ -7579,6 +7568,7 @@ gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
 gu.			172800	IN	NS	gold.uog.edu.
 gu.			172800	IN	NS	green.uog.edu.
 gu.			172800	IN	NS	phloem.uoregon.edu.
+gu.			172800	IN	NS	gold-test.uog.edu.
 gucci.			172800	IN	NS	dns1.nic.gucci.
 gucci.			172800	IN	NS	dns2.nic.gucci.
 gucci.			172800	IN	NS	dns3.nic.gucci.
@@ -14672,7 +14662,6 @@ ruhr.			172800	IN	NS	b.nic.ruhr.
 ruhr.			172800	IN	NS	c.nic.ruhr.
 ruhr.			172800	IN	NS	d.nic.ruhr.
 ruhr.			86400	IN	DS	35633 13 2 470D5916105A40ECC204FD025AAD5E43E44C82747C6C3C5130462F9B7396E9A5
-ruhr.			86400	IN	DS	46252 10 2 3DB9DB25D3B8E13FBCB4EBA53F61C7CE156831DCE66D4A19747D17F8AB278FDB
 a.nic.ruhr.		172800	IN	A	194.169.218.155
 a.nic.ruhr.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:155
 b.nic.ruhr.		172800	IN	A	185.24.64.155
@@ -18525,6 +18514,11 @@ ns5.dns.nic.weatherchannel.	172800	IN	A	156.154.157.179
 ns5.dns.nic.weatherchannel.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:b3
 ns6.dns.nic.weatherchannel.	172800	IN	A	156.154.158.179
 ns6.dns.nic.weatherchannel.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:b3
+web.			172800	IN	NS	ac1.nstld.com.
+web.			172800	IN	NS	ac2.nstld.com.
+web.			172800	IN	NS	ac3.nstld.com.
+web.			172800	IN	NS	ac4.nstld.com.
+web.			86400	IN	DS	17965 13 2 FFBC80B0436C15FCAA63C8F60A89349351D09F3A79CAB6352681E567D178E827
 webcam.			172800	IN	NS	a.nic.webcam.
 webcam.			172800	IN	NS	b.nic.webcam.
 webcam.			172800	IN	NS	c.nic.webcam.
@@ -19868,24 +19862,12 @@ xn--mgbca7dzdo.		172800	IN	NS	gtld.delta.aridns.net.au.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.gamma.aridns.net.au.
 xn--mgbca7dzdo.		86400	IN	DS	1909 8 1 D5A6F96664AE0D000A01B196C4348E7E231D95F8
 xn--mgbca7dzdo.		86400	IN	DS	1909 8 2 F62B4E977CBA32CEF37856A9F919CE405EB998F04D4ABB309F1F9B86C105CA72
-xn--mgbcpq6gpa1a.	172800	IN	NS	a.nic.xn--mgbcpq6gpa1a.
-xn--mgbcpq6gpa1a.	172800	IN	NS	b.nic.xn--mgbcpq6gpa1a.
-xn--mgbcpq6gpa1a.	172800	IN	NS	c.nic.xn--mgbcpq6gpa1a.
-xn--mgbcpq6gpa1a.	172800	IN	NS	d.nic.xn--mgbcpq6gpa1a.
 xn--mgbcpq6gpa1a.	172800	IN	NS	ns01.trs-dns.com.
 xn--mgbcpq6gpa1a.	172800	IN	NS	ns01.trs-dns.net.
 xn--mgbcpq6gpa1a.	172800	IN	NS	ns10.trs-dns.org.
 xn--mgbcpq6gpa1a.	172800	IN	NS	ns10.trs-dns.info.
 xn--mgbcpq6gpa1a.	86400	IN	DS	18404 8 2 1DBC70CB85267DA1054F652AC0B4AEEB76F17FB9648A490F4A0BB0D934BF6AC3
 xn--mgbcpq6gpa1a.	86400	IN	DS	43307 8 2 F81DACC26855561EC37FFD774F722C2C5F07A181C611114AE28724460001FD39
-a.nic.xn--mgbcpq6gpa1a.	172800	IN	A	194.169.218.115
-a.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:115
-b.nic.xn--mgbcpq6gpa1a.	172800	IN	A	185.24.64.115
-b.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:115
-c.nic.xn--mgbcpq6gpa1a.	172800	IN	A	212.18.248.115
-c.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:115
-d.nic.xn--mgbcpq6gpa1a.	172800	IN	A	212.18.249.115
-d.nic.xn--mgbcpq6gpa1a.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:115
 xn--mgberp4a5d4ar.	172800	IN	NS	c1.dns.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	c2.dns.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	i1.dns.sa.
