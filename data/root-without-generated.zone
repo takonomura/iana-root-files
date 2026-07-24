@@ -12027,8 +12027,6 @@ sm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.110
 sm.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:110
 sn.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.111
 sn.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:111
-sy.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.113
-sy.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:113
 sz.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.114
 sz.cctld.authdns.ripe.net.	172800	IN	AAAA	2a13:27c0:30:0:0:0:0:114
 tj.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.117
@@ -16482,7 +16480,6 @@ ns3.ns.sx.		172800	IN	A	185.159.199.10
 ns3.ns.sx.		172800	IN	AAAA	2620:10a:80ac:0:0:0:0:10
 ns4.ns.sx.		172800	IN	A	45.142.220.101
 ns4.ns.sx.		172800	IN	AAAA	2a0e:dbc0:0:0:0:0:0:101
-sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
 sy.			172800	IN	NS	pch.anycast.tld.sy.
 pch.anycast.tld.sy.	172800	IN	A	204.61.216.71
@@ -20019,7 +20016,6 @@ xn--o3cw4h.		172800	IN	NS	p.thains.co.th.
 xn--o3cw4h.		172800	IN	NS	ns.thnic.net.
 xn--o3cw4h.		172800	IN	NS	nn1.thains.co.th.
 xn--o3cw4h.		86400	IN	DS	27061 8 2 53856679AC45EA6562EF4ECD2DE7AEA57D786870979F09C4BC1D5244C2E2A9C9
-xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
 xn--otu796d.		172800	IN	NS	a.zdnscloud.cn.
