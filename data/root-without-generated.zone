@@ -12975,7 +12975,7 @@ pa.			172800	IN	NS	ns1.nic.pa.
 pa.			172800	IN	NS	ns1.anycastdns.cz.
 pa.			172800	IN	NS	ns2.nic.pa.
 pa.			172800	IN	NS	ns2.anycastdns.cz.
-pa.			172800	IN	NS	dns-ext.nic.cr.
+pa.			172800	IN	NS	nsca.nic.cr.
 pa.			172800	IN	NS	ssdns-tld.nic.cl.
 ns.nic.pa.		172800	IN	A	168.77.9.6
 ns1.nic.pa.		172800	IN	A	168.77.9.7
