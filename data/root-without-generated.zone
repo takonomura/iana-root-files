@@ -2692,6 +2692,7 @@ bzh.			172800	IN	NS	d.nic.fr.
 bzh.			172800	IN	NS	f.ext.nic.fr.
 bzh.			172800	IN	NS	g.ext.nic.fr.
 bzh.			86400	IN	DS	51731 13 2 D250D39D26A0438E9BF413CD47C06F61FFC1B50A0B163E27978BC4D25703D74D
+bzh.			86400	IN	DS	54187 13 2 482A5773D7A8C267394416EBE3D39EB178B393DCBCE62BAD0872E87161F64F08
 ca.			172800	IN	NS	c.ca-servers.ca.
 ca.			172800	IN	NS	d.ca-servers.ca.
 ca.			172800	IN	NS	j.ca-servers.ca.
@@ -4592,6 +4593,8 @@ mk-e.ns.nic.cz.		172800	IN	A	185.43.134.12
 mk-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:12
 mw-e.ns.nic.cz.		172800	IN	A	185.43.134.10
 mw-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:10
+na-e.ns.nic.cz.		172800	IN	A	185.43.134.17
+na-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:17
 tz-e.ns.nic.cz.		172800	IN	A	185.43.134.11
 tz-e.ns.nic.cz.		172800	IN	AAAA	2001:148f:fffd:0:0:0:0:11
 dad.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
@@ -11641,6 +11644,7 @@ dzowo.uem.mz.		172800	IN	A	196.3.96.66
 oceano.uem.mz.		172800	IN	A	196.3.96.69
 zebra.uem.mz.		172800	IN	A	196.3.96.67
 na.			172800	IN	NS	na.anycastdns.cz.
+na.			172800	IN	NS	na-e.ns.nic.cz.
 na.			172800	IN	NS	anyc2.irondns.net.
 na.			172800	IN	NS	na-ns.anycast.pch.net.
 na.			172800	IN	NS	etld-1.anycast.net.
@@ -12968,6 +12972,7 @@ ovh.			172800	IN	NS	d.nic.fr.
 ovh.			172800	IN	NS	f.ext.nic.fr.
 ovh.			172800	IN	NS	g.ext.nic.fr.
 ovh.			86400	IN	DS	2779 13 2 E6B3F359C1980DE521369BE4BD61FC91B9E311AA79221705D248925ADD22F1D1
+ovh.			86400	IN	DS	51966 13 2 CA942C4051CFFD445F83DEE1AC0A94E67C0A59E549F2981D4A243D16F2C98F2B
 pa.			172800	IN	NS	a.lactld.org.
 pa.			172800	IN	NS	ns.dns.br.
 pa.			172800	IN	NS	ns.nic.pa.
@@ -15850,6 +15855,7 @@ sn.			172800	IN	NS	ns1.sonatel.sn.
 sn.			172800	IN	NS	ns-sn.nic.fr.
 sn.			172800	IN	NS	dns-tld.ird.fr.
 sn.			86400	IN	DS	17591 13 2 B6DD49F142B2B79E8581DB8AB1A9DF7E9289BBDD06BE3DDBAE21673407E60287
+sn.			86400	IN	DS	33941 13 2 9F261CA2165A435C823413E5893EEB8BBD926647411AE8F4FD1BC916F18740BD
 ns1.sonatel.sn.		172800	IN	A	213.154.64.11
 ns.ucad.sn.		172800	IN	A	196.1.95.1
 sncf.			172800	IN	NS	d.nic.fr.
@@ -16430,7 +16436,6 @@ sv.			172800	IN	NS	ix.red.sv.
 sv.			172800	IN	NS	ns.dns.br.
 sv.			172800	IN	NS	sir.red.sv.
 sv.			172800	IN	NS	nsca.nic.cr.
-sv.			172800	IN	NS	dns-ext.nic.cr.
 p.ns.sv.		172800	IN	A	204.61.216.112
 p.ns.sv.		172800	IN	AAAA	2001:500:14:6112:ad:0:0:1
 ix.red.sv.		172800	IN	A	168.243.17.2
@@ -17235,6 +17240,7 @@ total.			172800	IN	NS	d.nic.fr.
 total.			172800	IN	NS	f.ext.nic.fr.
 total.			172800	IN	NS	g.ext.nic.fr.
 total.			86400	IN	DS	2568 13 2 9AC9895253012C60A05E701FE237F2C356BA4A446F5F1669557FC11C7E029549
+total.			86400	IN	DS	20138 13 2 D9AC633814C2C07883182C76F21DAD8BEC3FAE2B1CCBC02D872700487EF38317
 tours.			172800	IN	NS	v0n0.nic.tours.
 tours.			172800	IN	NS	v0n1.nic.tours.
 tours.			172800	IN	NS	v0n2.nic.tours.
