@@ -2353,6 +2353,7 @@ c0.nic.bosch.		172800	IN	AAAA	2a01:8840:70:0:0:0:0:46
 bostik.			172800	IN	NS	d.nic.fr.
 bostik.			172800	IN	NS	f.ext.nic.fr.
 bostik.			172800	IN	NS	g.ext.nic.fr.
+bostik.			86400	IN	DS	15906 13 2 716BFD888F02F8FC2C568F20B530A836D82476E9E6E56C6DB1BB0F1E98767B68
 bostik.			86400	IN	DS	18147 13 2 E570BFF87AF9244279302E8AC77932222143C62AD60D6065B3BF6D691EF141FF
 boston.			172800	IN	NS	a.nic.boston.
 boston.			172800	IN	NS	b.nic.boston.
@@ -9904,7 +9905,6 @@ v2n1.nic.lease.		172800	IN	AAAA	2a01:8840:f7:0:0:0:0:62
 leclerc.		172800	IN	NS	d.nic.fr.
 leclerc.		172800	IN	NS	f.ext.nic.fr.
 leclerc.		172800	IN	NS	g.ext.nic.fr.
-leclerc.		86400	IN	DS	56243 13 2 E6CD61FE33323D5B27B16BCB952512801AE7E4F4C860D733EB9148E409811A37
 leclerc.		86400	IN	DS	65159 13 2 F29CB282BE2C2750719574BA14A6FAB762E2DDCA5FB7D3D6C582C43B5DA78DCB
 lefrak.			172800	IN	NS	a0.nic.lefrak.
 lefrak.			172800	IN	NS	a2.nic.lefrak.
@@ -11632,11 +11632,14 @@ my.			172800	IN	NS	b.mynic.centralnic-dns.com.
 my.			172800	IN	NS	c.mynic.centralnic-dns.com.
 my.			172800	IN	NS	d.mynic.centralnic-dns.com.
 my.			172800	IN	NS	e.nic.my.
+my.			172800	IN	NS	g.nic.my.
 my.			172800	IN	NS	ns01.trs-dns.com.
 my.			172800	IN	NS	ns01.trs-dns.net.
 my.			86400	IN	DS	47187 13 2 8B70CF4C48233D0624556523EA52C524F157800B97445C6A62A8C078337567AE
 e.nic.my.		172800	IN	A	152.69.217.125
 e.nic.my.		172800	IN	AAAA	2603:c024:4518:ad60:242:0:0:2
+g.nic.my.		172800	IN	A	15.197.189.233
+g.nic.my.		172800	IN	AAAA	2600:9000:a61a:e65b:b532:3115:4619:6578
 mz.			172800	IN	NS	anyns.uem.mz.
 mz.			172800	IN	NS	dzowo.uem.mz.
 mz.			172800	IN	NS	ns-mz.afrinic.net.
@@ -14642,7 +14645,7 @@ ru.			172800	IN	NS	c.tld-servers.ru.
 ru.			172800	IN	NS	d.dns.ripn.net.
 ru.			172800	IN	NS	e.dns.ripn.net.
 ru.			172800	IN	NS	f.dns.ripn.net.
-ru.			86400	IN	DS	51575 8 2 34CF735353060D9BD6347FF81ECFAAC24EC8F11971DC800249C64A21BC062775
+ru.			86400	IN	DS	26734 8 2 C48BE23D7998AFA2EF0993609413E58BC7EE9E356642A7182F2C3EA321FA9911
 a.dns.flexireg.ru.	172800	IN	A	31.177.70.1
 a.dns.flexireg.ru.	172800	IN	AAAA	2a02:2090:6800:0:0:0:0:1
 c.tld-servers.ru.	172800	IN	A	194.190.122.17
@@ -16655,7 +16658,7 @@ tatar.			172800	IN	NS	c.tld-servers.ru.
 tatar.			172800	IN	NS	d.dns.ripn.net.
 tatar.			172800	IN	NS	e.dns.ripn.net.
 tatar.			172800	IN	NS	f.dns.ripn.net.
-tatar.			86400	IN	DS	62327 8 2 D396BFD2DAA1C18EE0C05A112A18BC830BFD929BD8C278C1C7DC2D08EA42B110
+tatar.			86400	IN	DS	64610 8 2 15B841D7055112380DB88D9BD6B0B6C0D3B5D5CA091F4FECEED2FD6EB1B2C203
 tattoo.			172800	IN	NS	a.nic.tattoo.
 tattoo.			172800	IN	NS	b.nic.tattoo.
 tattoo.			172800	IN	NS	c.nic.tattoo.
@@ -19936,6 +19939,7 @@ xn--mgbx4cd0ab.		172800	IN	NS	b.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	c.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	d.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	e.nic.my.
+xn--mgbx4cd0ab.		172800	IN	NS	g.nic.my.
 xn--mgbx4cd0ab.		86400	IN	DS	15766 13 2 E1B9DF06C9B2E9F67AA4F7AFE4A20D0CC055ABBAE1AE5C72E967F2F11D417B71
 xn--mix891f.		172800	IN	NS	a.monic.mo.
 xn--mix891f.		172800	IN	NS	b.monic.mo.
@@ -20058,7 +20062,7 @@ xn--p1ai.		172800	IN	NS	c.tld-servers.ru.
 xn--p1ai.		172800	IN	NS	d.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	e.dns.ripn.net.
 xn--p1ai.		172800	IN	NS	f.dns.ripn.net.
-xn--p1ai.		86400	IN	DS	3769 8 2 FE4BB838E51156D5886E9ECF3AF43F7E2D181FBFF1C94A12C7E742743FD6A82D
+xn--p1ai.		86400	IN	DS	60491 8 2 87F1F8C82EC00047C43AC499A73CC9BEB4FC1503E8558F086DCFB614405F7F21
 xn--pgbs0dh.		172800	IN	NS	ns1.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.ati.tn.
 xn--pgbs0dh.		172800	IN	NS	ns2.nic.fr.
