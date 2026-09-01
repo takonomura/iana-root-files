@@ -11578,16 +11578,10 @@ music.			172800	IN	NS	ns01.trs-dns.net.
 music.			172800	IN	NS	ns10.trs-dns.org.
 music.			172800	IN	NS	ns10.trs-dns.info.
 music.			86400	IN	DS	14632 13 2 68F411322E670C84337B2182422AF6E8F95C367C24E79CD4326B2276F52F4603
-mv.			172800	IN	NS	ns.mv.
-mv.			172800	IN	NS	ns.dhivehinet.net.mv.
-mv.			172800	IN	NS	ns2.dhivehinet.net.mv.
 mv.			172800	IN	NS	boli.ns.mv.
 mv.			172800	IN	NS	mv-ns.anycast.pch.net.
 mv.			172800	IN	NS	sangu.ns.mv.
 mv.			172800	IN	NS	baraveli.ns.mv.
-ns.dhivehinet.net.mv.	172800	IN	A	202.1.192.196
-ns2.dhivehinet.net.mv.	172800	IN	A	202.1.201.201
-ns.mv.			172800	IN	A	202.1.192.196
 baraveli.ns.mv.		172800	IN	A	188.166.71.229
 baraveli.ns.mv.		172800	IN	AAAA	2a03:b0c0:2:f0:0:1:46a5:8001
 boli.ns.mv.		172800	IN	A	103.31.84.199
@@ -15098,7 +15092,7 @@ ns1.nic.sc.		172800	IN	A	41.86.57.54
 scb.			172800	IN	NS	c.nic.scb.
 scb.			172800	IN	NS	rz.nic.scb.
 scb.			172800	IN	NS	nn1.nic.scb.
-scb.			86400	IN	DS	3706 8 2 4468BA63991268D9C1916A569DC1608B39413749679313161165C84B24016160
+scb.			86400	IN	DS	15730 8 2 030197041A720720E81E5FE9A4EA656A210B1614785AAED72CF0BDDB27887CE1
 c.nic.scb.		172800	IN	A	194.0.1.35
 c.nic.scb.		172800	IN	AAAA	2001:678:4:0:0:0:0:23
 nn1.nic.scb.		172800	IN	A	194.58.198.136
@@ -20152,6 +20146,7 @@ xn--qxam.		172800	IN	NS	estia.ics.forth.gr.
 xn--qxam.		172800	IN	NS	gr-at.ics.forth.gr.
 xn--qxam.		172800	IN	NS	grdns.ics.forth.gr.
 xn--qxam.		86400	IN	DS	10384 8 2 10A432DBF0112CE38A83CED26F36CE36AAC7A3D37CEC8D07583C01A5E9FD8ED1
+xn--qxam.		86400	IN	DS	57157 13 2 346E2D93A22F864AEFC2B7350F4469AF3887183BDE885F8CC3B807477150E37E
 xn--rhqv96g.		172800	IN	NS	ns1.teleinfo.cn.
 xn--rhqv96g.		172800	IN	NS	ns2.teleinfoo.com.
 xn--rhqv96g.		172800	IN	NS	ns3.teleinfo.cn.
