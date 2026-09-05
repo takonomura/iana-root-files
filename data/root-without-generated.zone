@@ -4498,12 +4498,8 @@ cw.			172800	IN	NS	ns0.ja.net.
 cw.			172800	IN	NS	ns1.bna.cw.
 cw.			172800	IN	NS	ns1.dns.cw.
 cw.			172800	IN	NS	ns2.bna.cw.
-cw.			172800	IN	NS	kadushi.curinfo.cw.
-cw.			172800	IN	NS	ns01-server.curinfo.cw.
 ns1.bna.cw.		172800	IN	A	216.122.189.85
 ns2.bna.cw.		172800	IN	A	216.122.189.86
-kadushi.curinfo.cw.	172800	IN	A	65.208.122.63
-ns01-server.curinfo.cw.	172800	IN	A	65.208.122.36
 ns1.dns.cw.		172800	IN	A	194.0.28.6
 ns1.dns.cw.		172800	IN	AAAA	2001:678:2c:0:194:0:28:6
 cx.			172800	IN	NS	ns.anycast.nic.cx.
@@ -19046,6 +19042,7 @@ xn--3e0b707e.		172800	IN	NS	d.dns.kr.
 xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
+xn--3e0b707e.		86400	IN	DS	13541 13 2 CAC673C4F8B94CA8A18E39A0E4A0A516C10F8A63657673D1A610AFBFDAF1A91A
 xn--3e0b707e.		86400	IN	DS	48379 8 2 88372B74ADB821C79FAC26E1883CC6BD96FF6EB97AAA1A9486BB4B3B26076D02
 xn--3hcrj9c.		172800	IN	NS	ns1.registry.in.
 xn--3hcrj9c.		172800	IN	NS	ns2.registry.in.
