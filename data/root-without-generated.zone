@@ -1088,6 +1088,7 @@ asia.			172800	IN	NS	b2.asia.afilias-nst.org.
 asia.			172800	IN	NS	c0.asia.afilias-nst.info.
 asia.			172800	IN	NS	d0.asia.afilias-nst.asia.
 asia.			86400	IN	DS	23407 8 2 0F51A4E5EF96B66C2078F7735B41860C83DA0746DDDA1A1B2B893AB056B3058C
+asia.			86400	IN	DS	26329 8 2 AAA6D02A319A94FC6AA902C3C2A91CB4AD8AFFD5AEB0EE7C328D9F1ED970645B
 b0.asia.afilias-nst.asia.	172800	IN	A	199.254.28.1
 b0.asia.afilias-nst.asia.	172800	IN	AAAA	2001:500:16:0:0:0:0:1
 d0.asia.afilias-nst.asia.	172800	IN	A	199.254.30.1
@@ -8664,7 +8665,6 @@ info.			172800	IN	NS	b0.info.afilias-nst.org.
 info.			172800	IN	NS	b2.info.afilias-nst.org.
 info.			172800	IN	NS	c0.info.afilias-nst.info.
 info.			172800	IN	NS	d0.info.afilias-nst.org.
-info.			86400	IN	DS	5104 8 2 1AF7548A8D3E2950C20303757DF9390C26CFA39E26C8B6A8F6C8B1E72DD8F744
 info.			86400	IN	DS	9986 8 2 8D61A24555B582725E925161677B74D76A164EE760D507F49308F3187068CB3C
 a0.asia.afilias-nst.info.	172800	IN	A	199.19.55.1
 a0.asia.afilias-nst.info.	172800	IN	AAAA	2001:500:d:0:0:0:0:1
@@ -9722,6 +9722,11 @@ la.			172800	IN	NS	ns1.nic.la.
 la.			172800	IN	NS	ns2.nic.la.
 la.			172800	IN	NS	ns3.nic.la.
 la.			172800	IN	NS	ns4.nic.la.
+la.			172800	IN	NS	ns01.trs-dns.com.
+la.			172800	IN	NS	ns01.trs-dns.net.
+la.			172800	IN	NS	ns10.trs-dns.org.
+la.			172800	IN	NS	ns10.trs-dns.info.
+la.			86400	IN	DS	25164 7 2 1217C71860E555F30E3F6E241E613F1CCA5543DD54BF097DCC0B4A9D6429D24E
 la.			86400	IN	DS	42973 7 1 1F0CEFA420E9101BB5791F3AB93E85917A72978B
 la.			86400	IN	DS	42973 7 2 E7D0C3BCDF60E8D842E882D90B4EC263C8889B760098492C798841C13B4EA13F
 ns1.nic.la.		172800	IN	A	185.24.64.15
@@ -20155,7 +20160,12 @@ xn--q7ce6a.		172800	IN	NS	a.xn--q7ce6a.centralnic-dns.com.
 xn--q7ce6a.		172800	IN	NS	b.xn--q7ce6a.centralnic-dns.com.
 xn--q7ce6a.		172800	IN	NS	c.xn--q7ce6a.centralnic-dns.com.
 xn--q7ce6a.		172800	IN	NS	d.xn--q7ce6a.centralnic-dns.com.
+xn--q7ce6a.		172800	IN	NS	ns01.trs-dns.com.
+xn--q7ce6a.		172800	IN	NS	ns01.trs-dns.net.
+xn--q7ce6a.		172800	IN	NS	ns10.trs-dns.org.
+xn--q7ce6a.		172800	IN	NS	ns10.trs-dns.info.
 xn--q7ce6a.		86400	IN	DS	10705 7 2 0ABE3FC3E0D788CC7EDA69271C7ACB9ED5D23460D381B86253B44C57716A89E9
+xn--q7ce6a.		86400	IN	DS	21009 7 2 5D45D5B0F0AA3370F70D0B12844BE89FBF9BC630DDC634EA51EBA8E159B43D41
 xn--q9jyb4c.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 xn--q9jyb4c.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
