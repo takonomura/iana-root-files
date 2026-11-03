@@ -3952,14 +3952,6 @@ c.mynic.centralnic-dns.com.	172800	IN	A	212.18.248.114
 c.mynic.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:114
 d.mynic.centralnic-dns.com.	172800	IN	A	212.18.249.114
 d.mynic.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:114
-a.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	194.169.218.17
-a.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:17
-b.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	185.24.64.17
-b.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:17
-c.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	212.18.248.17
-c.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:17
-d.xn--q7ce6a.centralnic-dns.com.	172800	IN	A	212.18.249.17
-d.xn--q7ce6a.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:17
 ns-tld1.charlestonroadregistry.com.	172800	IN	A	216.239.32.105
 ns-tld1.charlestonroadregistry.com.	172800	IN	AAAA	2001:4860:4802:32:0:0:0:69
 ns-tld2.charlestonroadregistry.com.	172800	IN	A	216.239.34.105
@@ -9746,10 +9738,6 @@ ns1.nic.kz.		172800	IN	A	185.79.212.7
 ns1.nic.kz.		172800	IN	AAAA	2a01:7640:9000:0:0:0:0:7
 ns2.nic.kz.		172800	IN	A	204.61.216.143
 ns2.nic.kz.		172800	IN	AAAA	2001:500:14:6143:ad:0:0:1
-la.			172800	IN	NS	ns1.nic.la.
-la.			172800	IN	NS	ns2.nic.la.
-la.			172800	IN	NS	ns3.nic.la.
-la.			172800	IN	NS	ns4.nic.la.
 la.			172800	IN	NS	ns01.trs-dns.com.
 la.			172800	IN	NS	ns01.trs-dns.net.
 la.			172800	IN	NS	ns10.trs-dns.org.
@@ -9757,14 +9745,6 @@ la.			172800	IN	NS	ns10.trs-dns.info.
 la.			86400	IN	DS	25164 7 2 1217C71860E555F30E3F6E241E613F1CCA5543DD54BF097DCC0B4A9D6429D24E
 la.			86400	IN	DS	42973 7 1 1F0CEFA420E9101BB5791F3AB93E85917A72978B
 la.			86400	IN	DS	42973 7 2 E7D0C3BCDF60E8D842E882D90B4EC263C8889B760098492C798841C13B4EA13F
-ns1.nic.la.		172800	IN	A	185.24.64.15
-ns1.nic.la.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:15
-ns2.nic.la.		172800	IN	A	194.169.218.14
-ns2.nic.la.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:14
-ns3.nic.la.		172800	IN	A	185.24.64.14
-ns3.nic.la.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:14
-ns4.nic.la.		172800	IN	A	194.169.218.15
-ns4.nic.la.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:15
 lacaixa.		172800	IN	NS	anycast9.irondns.net.
 lacaixa.		172800	IN	NS	anycast10.irondns.net.
 lacaixa.		172800	IN	NS	anycast23.irondns.net.
@@ -20226,10 +20206,6 @@ xn--pssy2u.		172800	IN	NS	ac2.nstld.com.
 xn--pssy2u.		172800	IN	NS	ac3.nstld.com.
 xn--pssy2u.		172800	IN	NS	ac4.nstld.com.
 xn--pssy2u.		86400	IN	DS	6014 13 2 29CD1B30D078FB49171FCB0D6CE2C4C612A9F948891DE03C0382ABDE173C00AC
-xn--q7ce6a.		172800	IN	NS	a.xn--q7ce6a.centralnic-dns.com.
-xn--q7ce6a.		172800	IN	NS	b.xn--q7ce6a.centralnic-dns.com.
-xn--q7ce6a.		172800	IN	NS	c.xn--q7ce6a.centralnic-dns.com.
-xn--q7ce6a.		172800	IN	NS	d.xn--q7ce6a.centralnic-dns.com.
 xn--q7ce6a.		172800	IN	NS	ns01.trs-dns.com.
 xn--q7ce6a.		172800	IN	NS	ns01.trs-dns.net.
 xn--q7ce6a.		172800	IN	NS	ns10.trs-dns.org.
